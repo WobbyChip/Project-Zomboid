@@ -4,3 +4,4 @@
 !/mods/
 /mods/*
 !/mods/Respawn/
+mods/Respawn/media/lua/client/onKeyPress.lua
