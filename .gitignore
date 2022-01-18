@@ -1,0 +1,6 @@
+/*
+!/.gitignore
+
+!/mods/
+/mods/*
+!/mods/Respawn/
