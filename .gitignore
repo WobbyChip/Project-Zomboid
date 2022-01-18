@@ -2,7 +2,8 @@
 !/.gitignore
 
 !/mods/
-!/mods/*
+!/zombie/
+
 mods/Respawn/media/lua/client/onKeyPress.lua
 mods/reset-mods-41_51.txt
 mods/default.txt
