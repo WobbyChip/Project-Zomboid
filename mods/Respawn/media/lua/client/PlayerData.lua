@@ -254,10 +254,6 @@ function loadPlayerInventory(player)
     player:update();
 
 	if isClient() then
-		getPlayerData(player:getPlayerNum()).playerInventory:refreshBackpacks();
-	end
-
-	if isClient() then
 		triggerEvent("OnClothingUpdated", player);
 	end
 end
@@ -321,10 +317,6 @@ function clearInventory(player)
 
 	if isClient() then
 		triggerEvent("OnClothingUpdated", player);
-	end
-
-	if isClient() then
-		getPlayerData(player:getPlayerNum()).playerInventory:refreshBackpacks();
 	end
 end
 

@@ -14,7 +14,7 @@ function onSetRespawn(object, playerId, addRemove)
 		return
 	end
 
-    ISTimedActionQueue.add(SpawnpointAction:new(player, object, addRemove, SandboxVars.spawnpointTimer));
+    ISTimedActionQueue.add(SpawnpointAction:new(player, addRemove, SandboxVars.spawnpointTimer));
 end
 
 Events.OnFillWorldObjectContextMenu.Add(onFillWorldObjectContextMenu)

@@ -1,11 +1,11 @@
 SpawnpointAction = ISBaseTimedAction:derive("SpawnpointAction")
 
 function SpawnpointAction:isValid()
-	return true
+    return true
 end
 
 function SpawnpointAction:stop()
-	ISBaseTimedAction.stop(self);
+    ISBaseTimedAction.stop(self);
 end
 
 function SpawnpointAction:perform()
@@ -17,18 +17,17 @@ function SpawnpointAction:perform()
         self.character:Say("Respawn Point Removed");
     end
 
-	ISBaseTimedAction.perform(self);
+    ISBaseTimedAction.perform(self);
 end
 
-function SpawnpointAction:new(character, object, addRemove, time)	
-	local o = {};
-	setmetatable(o, self);
-	self.__index = self;
-	o.character = character;
-	o.stopOnWalk = true;
-	o.stopOnRun = true;
-	o.maxTime = time;
-	o.object = object;
+function SpawnpointAction:new(character, addRemove, time)	
+    local o = {};
+    setmetatable(o, self);
+    self.__index = self;
+    o.character = character;
+    o.stopOnWalk = true;
+    o.stopOnRun = true;
+    o.maxTime = time;
     o.addRemove = addRemove;
-	return o
+    return o
 end
