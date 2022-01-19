@@ -333,3 +333,12 @@ function removePlayerRespawn(player)
 	pModData.RespawnY = nil;
 	pModData.RespawnZ = nil;
 end
+
+--Going bellow 80 will kill you.
+function setHealth(player, health)
+    local parts = player:getBodyDamage():getBodyParts();
+
+    for i = 0, parts:size()-1 do
+        parts:get(i):SetHealth(health);
+    end
+end

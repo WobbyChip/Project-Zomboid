@@ -61,10 +61,8 @@ function onRespawn(target)
     setPlayerMouse(nil); --This spawns new player
     loadPlayer(getPlayer());
 
-    --Fix this, for some reason not updating and working
-    local health =  getPlayer():getBodyDamage():getOverallBodyHealth();
-    health = health*((100-SandboxVars.healthPenaltyPercentage)/100);
-    getPlayer():getBodyDamage():setOverallBodyHealth(health);
+    local health = 100-(20*SandboxVars.healthPenaltyPercentage/100);
+    setHealth(getPlayer(), health);
 
     if ISPostDeathUI.instance[o.playerNum] then
         ISPostDeathUI.instance[o.playerNum]:removeFromUIManager();
