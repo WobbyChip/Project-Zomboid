@@ -1,0 +1,9 @@
+ContextMenu_NL = {
+	ContextMenu_LightCigaretteWithOven = "Steek een sigaret aan met vuur"
+	ContextMenu_LightCigaretteWithFireplace = "Steek een sigaret op met de kachel"
+	ContextMenu_LightCigaretteWithBarbecue = "Steek een sigaret op bij de barbecue"
+	ContextMenu_LightCigaretteWithCampFire = "Steek een sigaret op bij het kampvuur"
+	ContextMenu_LightCigaretteWithFire = "Steek een sigaret aan met vuur"
+	ContextMenu_StartCarSmoking = "Gebruik de sigarettenaansteker"
+	ContextMenu_Smoke = "Roken"
+	}

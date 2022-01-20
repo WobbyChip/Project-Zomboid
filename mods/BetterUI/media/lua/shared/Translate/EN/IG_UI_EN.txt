@@ -1,0 +1,134 @@
+IG_UI_EN = {
+-- Common words
+-- Common words
+    IGUI_ESQ_COMMON_UI_ON = "On",
+    IGUI_ESQ_COMMON_UI_OFF = "Off",
+    IGUI_ESQ_COMMON_UI_MAKE = "Make",
+    IGUI_ESQ_COMMON_UI_FROM = "From",
+    IGUI_ESQ_COMMON_UI_USE = "Use",
+    IGUI_ESQ_COMMON_UI_SELECTED = "Selected",
+    IGUI_ESQ_COMMON_UI_CRITICAL = "Critical Chance",
+
+    -- extra info
+    IGUI_mo_esqInfoName = "esq Information",
+    IGUI_mo_esqInfo_TT_E = "Info East of Tooltip",
+    IGUI_mo_esqInfo_TT_S = "Info South of Tooltip",
+    IGUI_mo_esqInfo_TT_O = "Info Replaces Tooltip",
+
+    IGUI_mo_esqHealthInfo = "Health Info",
+    IGUI_mo_esqHealthInfo_TT = "Displays the injury under a bandage.",
+    IGUI_mo_esqClothingInfo = "Clothing Info",
+    IGUI_mo_esqClothingInfo_TT = "Numerical Clothing Info and Compare.",
+    IGUI_mo_esqDrainableInfo = "Drainable Info",
+    IGUI_mo_esqDrainableInfo_TT = "Shows the Units for Drainables, like water bottles.",
+    IGUI_mo_esqWeaponInfoMelee = "Melee Weapons Info",
+    IGUI_mo_esqWeaponInfoMelee_TT = "Numerical Melee Weapons Info.",
+    IGUI_mo_esqWeaponInfoRanged = "Ranged Weapons Info",
+    IGUI_mo_esqWeaponInfoRanged_TT = "Numerical Ranged Weapons Info.",
+    IGUI_mo_esqWeaponInfoParts = "Ranged Weapons Parts Info",
+    IGUI_mo_esqWeaponInfoParts_TT = "Rearranged Weapons Parts Info.",
+
+    IGUI_tt_esqWeaponInfo_Durability = "Durability",
+    IGUI_tt_esqWeaponInfo_SwingTime = "Attack Speed",
+    IGUI_tt_esqWeaponInfo_MaxRange = "MaxRange",
+    IGUI_tt_esqWeaponInfo_Accuracy = "Accuracy",
+    IGUI_tt_esqWeaponInfo_AimingSpeed = "AimingSpeed",
+    IGUI_tt_esqWeaponInfo_Sound = "Sound",
+    IGUI_tt_esqWeaponInfo_Weight = "Weight",
+    IGUI_tt_esqWeaponInfo_Recoil = "Recoil",
+    IGUI_tt_esqWeaponInfo_ReloadSpeed = "ReloadSpeed",
+
+    -- imported
+    IGUI_mo_esqImportTweaksName = "esq Imported",
+
+    -- Tweaks
+    IGUI_mo_esqTweaksName = "esq Tweaks",
+    IGUI_mo_esqDrier = "Drier",
+    IGUI_mo_esqDrier_TT = "Use stacks of towel to dry self, until dried.",
+    IGUI_esqDrier_UntilDried = "Until Dried",
+    IGUI_mo_esqDieter = "Dieter",
+    IGUI_mo_esqDieter_TT = "Eats just the right portion of food.",
+    IGUI_mo_esqVitaMax = "VitaMax",
+    IGUI_mo_esqVitaMax_TT = "Eats a stack of vitamin bottles, until fatigue is no more.",
+    IGUI_mo_esqVitaMaxPills30 = "5 minute per bottle",
+    IGUI_mo_esqVitaMaxPills15 = "2.5 minute per bottle",
+    IGUI_mo_esqCarHood = "Easy MechanicUI",
+    IGUI_mo_esqCarHood_TT = "Open car hood anywhere near car, and quicker the more often you open.",
+    IGUI_mo_esqInstantConsolidate = "Instant Consolidation",
+    IGUI_mo_esqInstantConsolidate_TT = "Merge stacks of drainables, or all drainables. Keep empty option for mod compatibility.",
+    IGUI_mo_icKeepEmpty = "Keep empty item",
+    IGUI_menu_esqIC_MERGE_THIS = "Merge this stack of",
+    IGUI_menu_esqIC_MERGE_ALL = "Merge",
+    IGUI_mo_esdSortLoot = "Corpse Merge",
+    IGUI_mo_esdSortLoot_TT = "Move loot from nearby corpse into one corpse",
+    IGUI_mo_esdSortLootA1 = "with arrows, 10 tiles",
+    IGUI_mo_esdSortLootA2 = "with arrows, 20 tiles",
+    IGUI_mo_esdSortLootA3 = "with arrows, 30 tiles",
+    IGUI_mo_esdMetals = "Scrap Metals",
+    IGUI_mo_esdMetals_tt = "Attempt to get metal scraps, from certain items.",
+    IGUI_mo_esdGunPowders = "Scrap Ammo",
+    IGUI_mo_esdGunPowders_tt = "Make gunpowder from stacks of bullets, instead of all.",
+    IGUI_mo_esdTrashCars = "Scrap Cars",
+    IGUI_mo_esdTrashCars_tt = "Dismantle cars with engine condition less than 11.",
+
+    -- sorter
+    IGUI_ESS_MENU = "Sorter",
+    IGUI_ESS_MENU_TT = "Tag and Sort items quickly; Auto sorts inventory, after certain actions like crafting, dismantling.",
+
+    IGUI_ESS_TAG_THIS = "Tag this ",
+    IGUI_ESS_TAG_THESE = "Tag these items",
+    IGUI_ESS_TAG_THIS_TYPE = "Tag any ",
+    IGUI_ESS_TAG_THESE_TYPE = "Tag any of these items",
+
+    IGUI_ESS_CLEAR = "Clear all tags from ",
+    IGUI_ESS_UNTAG_THIS = "Untag this ",
+    IGUI_ESS_UNTAG_THIS_TYPE = "Untag any ",
+    IGUI_ESS_UNTAG_THESE = "Untag these items",
+    IGUI_ESS_UNTAG_THESE_TYPE = "Untag any of these items",
+
+    IGUI_ESS_SORT_THIS = "Sort here",
+    IGUI_ESS_SORT_PLAYA = "Sort all 'player containers'",
+    IGUI_ESS_SORT_LOOTS = "Sort all 'loot containers'",
+    IGUI_ESS_FROM = " From here",
+    IGUI_ESS_TO = " To here",
+
+    -- sac
+    IGUI_mo_esqSac = "Sac",
+    IGUI_mo_esqSac_TT = "Allow easy access to bags.",
+    IGUI_mo_esqSacToggle = "Toggle shortcut for",
+    IGUI_mo_esqSacRespect = "Ignore parent capacity",
+
+    -- AmmoCheck
+    IGUI_mo_ammoCheckName = "esqAmmoCheck",
+    IGUI_mo_ammoCheck = "AmmoCheck",
+    IGUI_mo_ammoCheck_TT = "Simple ammo HUD",
+    IGUI_mo_ammoCheckAmmoF1 = "[<GunAmmo>] @<BagAmmo>",
+    IGUI_mo_ammoCheckAmmoF2 = "<GunName> [<GunAmmo>] @<BagAmmo>",
+    IGUI_mo_ammoCheckAmmoF3 = "<GunName> [<GunAmmo>] #[<MagAmmo>] @<BagAmmo>",
+
+    -- AutoEquip
+    IGUI_mo_esqAutoEquip = "AutoEquip",
+    IGUI_mo_esqAutoEquip_TT = "Auto Equip the next worst weapon.",
+    IGUI_mo_aeSameWeapon = "Replace Same Weapon",
+    IGUI_mo_aeSameType = "Replace Same Weapon Type",
+    IGUI_mo_aeDropOnBreak = "AutoDrop",
+    IGUI_mo_aeDropOnBreak_TT = "Drop Broken Weapons",
+
+    -- fixer
+    IGUI_mo_fixer = "Melee Weapons Fixer",
+    IGUI_mo_fixer_TT = "Transfers condition of the same weapon to another; searches same container only.",
+    IGUI_mo_fixer_menu = "Fixer",
+    IGUI_mo_fixerRanged = "Ranged Weapons Fixer",
+    IGUI_mo_fixerRanged_TT = "Transfers condition of a ranged weapon to another; searches same container only.",
+    IGUI_mo_fixerAmmo = "Ammo Fixer",
+    IGUI_mo_fixerAmmo_TT = "Make more ammo from scrap metals and gunpowder.",
+
+    IGUI_mo_book = "Book Skills",
+    IGUI_mo_book_TT = "Shows your current skill level for skill books",
+
+    IGUI_mo_carSpace = "Car Parts Capacity",
+    IGUI_mo_carSpace_TT = "Shows the max capacity for car parts.",
+
+    IGUI_mo_esqForceEquip = "Force Equip",
+    IGUI_mo_esqForceEquip_TT = "Force Equip items with extreme weight.",
+}

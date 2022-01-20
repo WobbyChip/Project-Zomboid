@@ -1,0 +1,3 @@
+IGUI_RU = {
+    IGUI_TheStar_Notification_ItemFall = "Выронил %1",
+}

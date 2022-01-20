@@ -1,0 +1,10 @@
+name=Weapon Condition Indicator [41.60+]
+description=Shows condition (durability) of a weapon attached to the hotbar (back, belt, holster, etc.) or equipped in the primary hand. And other features.
+id=TheStar
+poster=logo.png
+icon=logo_mini.png
+require=modoptions
+versionMin=41.60
+modVersion=1.8.2
+authors=NoctisFalco
+tags=Interface,Weapons

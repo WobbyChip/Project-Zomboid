@@ -1,0 +1,9 @@
+ContextMenu_IT = {
+	ContextMenu_LightCigaretteWithOven = "Allumer une cigarette avec la gaziniere"
+	ContextMenu_LightCigaretteWithFireplace = "Allumer une cigarette avec le poele"
+	ContextMenu_LightCigaretteWithBarbecue = "Allumer une cigarette avec le barbecue"
+	ContextMenu_LightCigaretteWithCampFire = "Allumer une cigarette avec le feu de camp"
+	ContextMenu_LightCigaretteWithFire = "Allumer une cigarette avec le feu"
+	ContextMenu_StartCarSmoking = "Utiliser l'allume-cigare "
+	ContextMenu_Smoke = "Fumare"
+	}

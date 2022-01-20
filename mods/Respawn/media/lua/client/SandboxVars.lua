@@ -27,5 +27,5 @@ if SandboxVars.respawnCooldown == nil then
 end
 
 if SandboxVars.healthPenaltyPercentage == nil then
-    SandboxVars.healthPenaltyPercentage = 80;
+    SandboxVars.healthPenaltyPercentage = 50;
 end

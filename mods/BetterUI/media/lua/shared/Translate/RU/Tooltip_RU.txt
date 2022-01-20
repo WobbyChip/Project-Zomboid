@@ -1,0 +1,6 @@
+Tooltip_RU = {
+    Tooltip_TheStar_AmmoCount_Bullets = "Боезапас в инвентаре<br><br>Патроны: %1",
+    Tooltip_TheStar_AmmoCount_Boxes = "<br>В коробках: %1",
+    Tooltip_TheStar_AmmoCount_Magazines = "<br>В магазинах: %1",
+    Tooltip_TheStar_BatteryCharge = "Оставшийся заряд: ~ %1 ч %2 мин",
+}
