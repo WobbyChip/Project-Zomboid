@@ -136,10 +136,6 @@ function loadPlayer(player)
         loadPlayerInventory(player);
     end
 
-    if SandboxVars.allowSpawnpoint then
-        loadRespawnLocation(player);
-    end
-
     if SandboxVars.keepLevels then
         loadPlayerLevels(player);
     end
@@ -332,6 +328,25 @@ function removePlayerRespawn(player)
 	pModData.RespawnX = nil;
 	pModData.RespawnY = nil;
 	pModData.RespawnZ = nil;
+end
+
+function getPlayerRespawn(player)
+    local pModData = player:getModData();
+    return {x=pModData.RespawnX, y=pModData.RespawnY, z=pModData.RespawnZ};
+end
+
+function setRespawnRegion(player, region)
+    local spawn = region.points[player:getDescriptor():getProfession()];
+    if not spawn then spawn = region.points["unemployed"] end
+
+    if spawn then
+        local randSpawnPoint = spawn[(ZombRand(#spawn) + 1)];
+        getWorld():setLuaSpawnCellX(randSpawnPoint.worldX);
+        getWorld():setLuaSpawnCellY(randSpawnPoint.worldY);
+        getWorld():setLuaPosX(randSpawnPoint.posX);
+        getWorld():setLuaPosY(randSpawnPoint.posY);
+        getWorld():setLuaPosZ(randSpawnPoint.posZ or 0);
+    end
 end
 
 --Going bellow 80 will kill you.

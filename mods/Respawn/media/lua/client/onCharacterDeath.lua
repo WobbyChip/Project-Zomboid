@@ -1,6 +1,6 @@
-function onCharacterDeath(chacrter)
-    if SandboxVars.keepInventory and instanceof(chacrter, "IsoPlayer") then
-        saveEquipItems(chacrter);
+function onCharacterDeath(character)
+    if SandboxVars.keepInventory and instanceof(character, "IsoPlayer") then
+        saveEquipItems(character);
     end
 end
 

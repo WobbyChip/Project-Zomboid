@@ -37,7 +37,7 @@ function inject_render()
     else
         if ISPostDeathUI.instance[o.playerNum] then
             ISPostDeathUI.instance[o.playerNum].buttonQuit:setTitle("RESPAWN");
-            ISPostDeathUI.instance[o.playerNum].buttonQuit:setOnClick(onRespawn);
+            ISPostDeathUI.instance[o.playerNum].buttonQuit:setOnClick(onRespawnMenu);
             ISPostDeathUI.instance[o.playerNum].render = ISPostDeathUI.instance[o.playerNum].saved_render;
         end
     end
@@ -54,15 +54,55 @@ function onPlayerDeath(player)
     end
 end
 
-function onRespawn(target)
+function onRespawnMenu(target)
     if MainScreen.instance:isReallyVisible() then return end
     target:setVisible(false);
+	local joypadData = JoypadState.players[o.playerNum];
+
+	if joypadData then
+		CoopCharacterCreation.newPlayer(joypadData.id, joypadData);
+	else
+		CoopCharacterCreation:newPlayerMouse();
+	end
+
+    local CCC = CoopCharacterCreation.instance;
+    CCC.mapSpawnSelect.nextButton:setTitle("RESPAWN");
+    CCC.mapSpawnSelect.nextButton:setOnClick(onRespawn);
+    local coords = getPlayerRespawn(getPlayer());
+
+    if SandboxVars.allowSpawnpoint and coords.x and coords.y and coords.z then
+        local item = {
+            name = "Respawn",
+            region = nil,
+            dir = "",
+            desc = "Respawn at X: "..math.floor(coords.x)..", Y: "..math.floor(coords.y)..", Z: "..math.floor(coords.z),
+            worldimage = nil
+        }
+        CCC.mapSpawnSelect.listbox:insertItem(0, item.name, item);
+    end
+end
+
+function onRespawn(target)
+    local CCC = CoopCharacterCreation.instance;
+    local selected = CCC.mapSpawnSelect.listbox.items[CCC.mapSpawnSelect.listbox.selected].item;
+
+    if selected.name ~= "Respawn" then
+        removePlayerRespawn(getPlayer());
+        setRespawnRegion(getPlayer(), selected.region);
+    end
 
     setPlayerMouse(nil); --This spawns new player
     loadPlayer(getPlayer());
 
+    if selected.name == "Respawn" then
+        loadRespawnLocation(getPlayer());
+    end
+
     local health = 100-(20*SandboxVars.healthPenaltyPercentage/100);
     setHealth(getPlayer(), health);
+
+    CCC:setVisible(false);
+    CCC:cancel();
 
     if ISPostDeathUI.instance[o.playerNum] then
         ISPostDeathUI.instance[o.playerNum]:removeFromUIManager();
