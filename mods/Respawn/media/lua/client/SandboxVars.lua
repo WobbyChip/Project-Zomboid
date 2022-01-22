@@ -23,7 +23,7 @@ if SandboxVars.spawnpointTimer == nil then
 end
 
 if SandboxVars.respawnCooldown == nil then
-    SandboxVars.respawnCooldown = 60;
+    SandboxVars.respawnCooldown = 5;
 end
 
 if SandboxVars.healthPenaltyPercentage == nil then
