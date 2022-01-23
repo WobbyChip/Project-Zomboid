@@ -94,12 +94,13 @@ function saveRespawnLocation(player)
     Respawn.Z = pModData.RespawnZ;
 end
 
-function saveEquipItems(character)
-    Respawn.PrimaryHandItem = character:getPrimaryHandItem();
-    character:setPrimaryHandItem(nil);
+function saveEquipItems(player)
+    Respawn.PrimaryHandItem = player:getPrimaryHandItem();
+    player:setPrimaryHandItem(nil);
 
-    Respawn.SecondaryHandItem = character:getSecondaryHandItem();
-    character:setSecondaryHandItem(nil);
+    Respawn.SecondaryHandItem = player:getSecondaryHandItem();
+    player:setSecondaryHandItem(nil);
+    player:update();
 end
 
 function savePlayerModel(player)
