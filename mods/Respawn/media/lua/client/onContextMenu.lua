@@ -1,8 +1,8 @@
 function onFillWorldObjectContextMenu(playerId, context, worldobjects, test)
 	for _, object in ipairs(worldobjects) do
         if SandboxVars.allowSpawnpoint and instanceof(object, "IsoTelevision") then
-            context:addOption("Set Respawn", object, onSetRespawn, playerId, true);
-            context:addOption("Remove Respawn", object, onSetRespawn, playerId, false);
+            context:addOption(getText("ContextMenu_SetRespawn"), object, onSetRespawn, playerId, true);
+            context:addOption(getText("ContextMenu_RemoveRespawn"), object, onSetRespawn, playerId, false);
         end;
 	end
 end

@@ -1,3 +1,0 @@
-Tooltip_EN = {
-    Tooltip_Antibodies = "Removes zombification and one bitten, but costs 90% health.",
-}

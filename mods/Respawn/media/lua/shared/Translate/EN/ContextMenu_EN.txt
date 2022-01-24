@@ -1,0 +1,4 @@
+ContextMenu_EN = {
+	ContextMenu_SetRespawn = "Set Respawn",
+    ContextMenu_RemoveRespawn = "Remove Respawn",
+}

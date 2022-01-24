@@ -11,10 +11,10 @@ end
 function SpawnpointAction:perform()
     if self.addRemove then
         setPlayerRespawn(self.character);
-        self.character:Say("Respawn Point Set");
+        self.character:Say(getText("IGUI_SayRespawn"));
     else
         removePlayerRespawn(self.character);
-        self.character:Say("Respawn Point Removed");
+        self.character:Say(getText("IGUI_SayRespawn"));
     end
 
     ISBaseTimedAction.perform(self);
