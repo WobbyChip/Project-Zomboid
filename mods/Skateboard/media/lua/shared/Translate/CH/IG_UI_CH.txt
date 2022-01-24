@@ -1,3 +1,0 @@
-IG_UI_CH = {
-	IGUI_PlayerText_NoSkateOnHouse = "我不能在室內溜滑板 很危險捏"
-}

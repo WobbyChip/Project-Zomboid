@@ -1,3 +1,0 @@
-ContextMenu_CN = {
-	ContextMenu_Grab_Skateboard = "拿起滑板",
-}

@@ -1,3 +1,0 @@
-IG_UI_PL = {
-	IGUI_PlayerText_NoSkateOnHouse = "Nie moge jezdzic w domu"
-}

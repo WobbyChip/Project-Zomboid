@@ -1,3 +1,0 @@
-ContextMenu_PL = {
-	ContextMenu_Grab_Skateboard = "Podnies Deskorolke"
-}

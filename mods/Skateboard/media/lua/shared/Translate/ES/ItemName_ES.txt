@@ -1,3 +1,0 @@
-ItemName_ES = {
-    ItemName_Dislaik.Skateboard = "Patineta"
-}

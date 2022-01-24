@@ -6,14 +6,19 @@ function OnEat_Antibodies(food, player, percent)
 	local parts = player:getBodyDamage():getBodyParts();
 
     for i = 0, parts:size()-1 do
-        if parts:get(i):bitten() then
+        if parts:get(i):bitten() or (parts:get(i):getBiteTime() > 0) then
             parts:get(i):setBiteTime(0);
             parts:get(i):SetBitten(false);
             parts:get(i):SetInfected(false);
-            setHealth_Antibodies(player, 5);
+            local health = getHealth_Antibodies(player)-90;
+            setHealth_Antibodies(player, health);
             break;
         end
     end
+end
+
+function getHealth_Antibodies(player)
+    return player:getBodyDamage():getOverallBodyHealth();
 end
 
 function setHealth_Antibodies(player, health)
