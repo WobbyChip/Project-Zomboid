@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Zomboid Server</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <textarea cols="50" id="s-console" readonly></textarea>
+        <br>
+        <textarea autocomplete="off" id="s-input" placeholder="Enter command" style="height: 15px;"></textarea>
+        <br>
+        <button type="button" id="shutdown-button">Shutdown Server</button>
+        <button type="button" id="restart-button">Restart Server</button>
+        <button type="button" id="clipboard-button">Clipboard</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io.connect();
+        var AutoOffline = true;
+        setInterval(function () { socket.emit("update") }, 500);
+
+        socket.on("buffer", function(data) {
+            var sconsole = $("#s-console")[0];
+            var doScroll = (sconsole.scrollTop + sconsole.offsetHeight) >= sconsole.scrollHeight;
+            sconsole.value = data;
+            if (doScroll) { sconsole.scrollTop = sconsole.scrollHeight; }
+        });
+
+        socket.on("clipboard", function(data) {
+            const copy = document.createElement("textArea");
+            copy.value = data;
+            document.body.appendChild(copy);
+            copy.select();
+            document.execCommand("copy");
+            document.body.removeChild(copy);
+            $("#clipboard-button")[0].disabled = false;
+        });
+
+        $("#s-input")[0].addEventListener("input", function () {
+            this.style.height = (15*this.value.split("\n").length) + "px";
+        }, false);
+
+        $("#s-input")[0].addEventListener("keyup", function(event) {
+            if (event.keyCode == 13 && !event.shiftKey) {
+                this.value.split("\n").forEach(function(msg) {
+                    if (msg != "") { socket.emit("sendtext", msg) }
+                });
+                this.value = "";
+                this.style.height = "15px";
+            }
+        });
+
+        $("#s-input")[0].addEventListener("keydown", function(event) {
+            if (event.keyCode == 13 && !event.shiftKey) {
+                event.preventDefault();
+            }
+        });
+
+        $("#shutdown-button").click(function() {
+            socket.emit("shutdown");
+        });
+
+        $("#restart-button").click(function() {
+            socket.emit("restart");
+        });
+
+        $("#clipboard-button").click(function() {
+            $("#clipboard-button")[0].disabled = true;
+            socket.emit("clipboard");
+        });
+    </script>
+</body>
+</html>

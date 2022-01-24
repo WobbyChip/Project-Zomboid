@@ -5,5 +5,9 @@
 !/dev/
 !/Server/
 
+!/runtime/
+/runtime/node_modules/
+/runtime/package-lock.json
+
 mods/reset-mods-41_51.txt
 mods/default.txt

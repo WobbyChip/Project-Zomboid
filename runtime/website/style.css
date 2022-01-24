@@ -1,0 +1,102 @@
+body {
+    background: #36393F;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#s-console {
+    width: 800px;
+    height: 400px;
+    resize: none;
+    margin-top: 5px;
+    margin-right: 15px;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 3px;
+    background-color: #303339;
+    border: 1px solid rgba(0,0,0,0.3);
+    color: rgb(220, 221, 222);
+}
+
+#s-console:focus {
+    outline: none !important;
+    border: 1px solid rgb(114,137,218);
+    transition: border .17s ease, color .17s ease;
+}
+
+#s-console::-webkit-scrollbar {
+    width: 10px;
+}
+
+#s-console::-webkit-scrollbar-track {
+    background: #303339;
+}
+ 
+#s-console::-webkit-scrollbar-thumb {
+    background: #202225;
+    border-radius: 5px;
+}
+
+#s-console::-webkit-scrollbar-thumb:hover {
+    cursor: default;
+}
+
+#s-input {
+    width: 800px;
+    margin-top: 5px;
+    margin-right: 15px;
+    padding: 10px;
+    resize: none;
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: #303339;
+    color: rgb(220, 221, 222);
+    border: 1px solid rgba(0,0,0,0.3);
+    white-space: pre;
+    overflow-x: hidden;
+}
+
+#s-input:focus {
+    outline: none !important;
+    border: 1px solid rgb(114,137,218);
+    transition: border .17s ease, color .17s ease;
+}
+
+button {
+    background-color: #7289DA;
+    height: 35px;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 0px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-right: 5px;
+    transition: background-color .17s ease, color .17s ease;
+}
+
+button:hover {
+    background-color: #677BC4;
+}
+
+button:active {
+    background-color: #5B6EAE;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+button:disabled, button[disabled] {
+    background-color: #747F8D;
+}
