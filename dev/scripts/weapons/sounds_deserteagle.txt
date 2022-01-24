@@ -1,0 +1,128 @@
+module Base
+{
+	sound DesertEagleShoot
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/Shoot,
+		}
+	}
+
+	sound DesertEagleInsertAmmo
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/InsertAmmo,
+		}
+	}
+
+	sound DesertEagleEjectAmmo
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/EjectAmmo,
+		}
+	}
+
+	sound DesertEagleInsertAmmoStart
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/InsertAmmoStart,
+		}
+	}
+
+	sound DesertEagleInsertAmmoStop
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/InsertAmmoStop,
+		}
+	}
+
+	sound DesertEagleEjectAmmoStart
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/EjectAmmoStart,
+		}
+	}
+
+	sound DesertEagleEjectAmmoStop
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/EjectAmmoStop,
+		}
+	}
+
+	sound DesertEagleRack
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/Rack,
+		}
+	}
+
+	sound DesertEagleJam
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/Jam,
+		}
+	}
+    
+	sound DesertEagleBringToBear
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/BringToBear,
+		}
+	}
+    
+	sound DesertEagleEquip
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/Equip,
+		}
+	}
+        
+	sound DesertEagleUnEquip
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/UnEquip,
+		}
+	}
+            
+	sound DesertEagleBreak
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/Break,
+		}
+	}
+
+	sound DesertEagleCartridgeFall
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/DesertEagle/CartridgeFall,
+		}
+	}
+}

@@ -1,0 +1,424 @@
+module Base
+{
+	item Bag_JanitorToolbox
+	{
+	    DisplayCategory = Bag,
+		WeightReduction	=	15,
+		Weight	=	2,
+		Type	=	Container,
+		Capacity	=	8,
+		DisplayName	=	Toolbox,
+		Icon	=	Toolbox,
+		OpenSound   =   OpenBag,
+		CloseSound   =   CloseBag,
+		PutInSound   =   PutItemInBag,
+		ReplaceInSecondHand = Bag_Toolbox_LHand holdingbagleft,
+		ReplaceInPrimaryHand = Bag_Toolbox_RHand holdingbagright,
+		WorldStaticModel = ToolBox_Ground,
+	}
+    item Bag_ShotgunBag
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Duffel Bag,
+        ClothingItem = Bag_ShotgunBag,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	18,
+        Icon	=	Duffelbag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_DuffelBag_LHandTINT holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelBag_RHandTINT holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }
+    item Bag_ShotgunSawnoffBag
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Duffel Bag,
+        ClothingItem = Bag_ShotgunSawnoffBag,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	18,
+        Icon	=	Duffelbag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_DuffelBag_LHandTINT holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelBag_RHandTINT holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }
+    item Bag_ShotgunDblBag
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Duffel Bag,
+        ClothingItem = Bag_ShotgunDblBag,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	18,
+        Icon	=	Duffelbag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_DuffelBag_LHandTINT holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelBag_RHandTINT holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }
+    item Bag_ShotgunDblSawnoffBag
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Duffel Bag,
+        ClothingItem = Bag_ShotgunDblSawnoffBag,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	18,
+        Icon	=	Duffelbag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_DuffelBag_LHandTINT holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelBag_RHandTINT holdingbagright,
+    }
+item GroceryBag1
+    {
+        WeightReduction	=	30,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	8,
+        DisplayName	=	Plastic Bag,
+        Icon	=	Plasticbag,
+        ReplaceInSecondHand = Bag_Plasticbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Plasticbag_RHand holdingbagright,
+        WorldStaticModel = PlasticBag_Ground,
+    }
+    item GroceryBag2
+    {
+        WeightReduction	=	30,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	8,
+        DisplayName	=	Plastic Bag,
+        Icon	=	Plasticbag,
+        ReplaceInSecondHand = Bag_Plasticbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Plasticbag_RHand holdingbagright,
+        WorldStaticModel = PlasticBag_Ground,
+    }
+    item GroceryBag3
+    {
+        WeightReduction	=	30,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	8,
+        DisplayName	=	Plastic Bag,
+        Icon	=	Plasticbag,
+        ReplaceInSecondHand = Bag_Plasticbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Plasticbag_RHand holdingbagright,
+        WorldStaticModel = PlasticBag_Ground,
+    }
+    item GroceryBag4
+    {
+        WeightReduction	=	30,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	8,
+        DisplayName	=	Plastic Bag,
+        Icon	=	Plasticbag,
+        ReplaceInSecondHand = Bag_Plasticbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Plasticbag_RHand holdingbagright,
+        WorldStaticModel = PlasticBag_Ground,
+    }
+    item RifleCase1
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+    item RifleCase2
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+    item RifleCase3
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+    item ShotgunCase1
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+    item ShotgunCase2
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+item GroceryBag1
+    {
+        WeightReduction	=	30,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	8,
+        DisplayName	=	Plastic Bag,
+        Icon	=	Plasticbag,
+        ReplaceInSecondHand = Bag_Plasticbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Plasticbag_RHand holdingbagright,
+        WorldStaticModel = PlasticBag_Ground,
+    }
+    item GroceryBag2
+    {
+        WeightReduction	=	30,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	8,
+        DisplayName	=	Plastic Bag,
+        Icon	=	Plasticbag,
+        ReplaceInSecondHand = Bag_Plasticbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Plasticbag_RHand holdingbagright,
+        WorldStaticModel = PlasticBag_Ground,
+    }
+    item GroceryBag3
+    {
+        WeightReduction	=	30,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	8,
+        DisplayName	=	Plastic Bag,
+        Icon	=	Plasticbag,
+        ReplaceInSecondHand = Bag_Plasticbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Plasticbag_RHand holdingbagright,
+        WorldStaticModel = PlasticBag_Ground,
+    }
+    item GroceryBag4
+    {
+        WeightReduction	=	30,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	8,
+        DisplayName	=	Plastic Bag,
+        Icon	=	Plasticbag,
+        ReplaceInSecondHand = Bag_Plasticbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Plasticbag_RHand holdingbagright,
+        WorldStaticModel = PlasticBag_Ground,
+    }
+    item RifleCase1
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+    item RifleCase2
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+    item RifleCase3
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+    item ShotgunCase1
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+    item ShotgunCase2
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+	item SackCabbages
+    {
+        DisplayCategory = Container,
+        Weight	=	0.1,
+        Type	=	Container,
+        WeightReduction	=	10,
+        Capacity	=	15,
+        DisplayName	=	Sack,
+        Icon	=	SandbagEmpty,
+        RunSpeedModifier = 0.99,
+        ReplaceInSecondHand = Bag_Sandbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Sandbag_RHand holdingbagright,
+        WorldStaticModel = SandBag_Ground,
+        Tooltip = Tooltip_item_empty_sack_container,
+    }
+	item SackCarrots
+    {
+        DisplayCategory = Container,
+        Weight	=	0.1,
+        Type	=	Container,
+        WeightReduction	=	10,
+        Capacity	=	15,
+        DisplayName	=	Sack,
+        Icon	=	SandbagEmpty,
+        RunSpeedModifier = 0.99,
+        ReplaceInSecondHand = Bag_Sandbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Sandbag_RHand holdingbagright,
+        WorldStaticModel = SandBag_Ground,
+        Tooltip = Tooltip_item_empty_sack_container,
+    }
+	item SackPotatoes
+    {
+        DisplayCategory = Container,
+        Weight	=	0.1,
+        Type	=	Container,
+        WeightReduction	=	10,
+        Capacity	=	15,
+        DisplayName	=	Sack,
+        Icon	=	SandbagEmpty,
+        RunSpeedModifier = 0.99,
+        ReplaceInSecondHand = Bag_Sandbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Sandbag_RHand holdingbagright,
+        WorldStaticModel = SandBag_Ground,
+        Tooltip = Tooltip_item_empty_sack_container,
+    }
+	item SackOnions
+    {
+        DisplayCategory = Container,
+        Weight	=	0.1,
+        Type	=	Container,
+        WeightReduction	=	10,
+        Capacity	=	15,
+        DisplayName	=	Sack,
+        Icon	=	SandbagEmpty,
+        RunSpeedModifier = 0.99,
+        ReplaceInSecondHand = Bag_Sandbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Sandbag_RHand holdingbagright,
+        WorldStaticModel = SandBag_Ground,
+        Tooltip = Tooltip_item_empty_sack_container,
+    }
+}

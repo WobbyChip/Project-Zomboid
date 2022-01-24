@@ -1,0 +1,15 @@
+﻿ContextMenu_JP = {
+	ContextMenu_HealthBars_BarType_food				= "満腹度",
+	ContextMenu_HealthBars_BarType_water			= "水分",
+	ContextMenu_HealthBars_BarType_endurance		= "持久力",
+	ContextMenu_HealthBars_BarType_health			= "HP",
+	ContextMenu_HealthBars_BarType_coreTemperature	= "体温",
+	ContextMenu_HealthBars_BarType_heatGeneration	= "発熱量",
+
+	ContextMenu_HealthBars_Toggle_Movable				= "移動可否切替",
+	ContextMenu_HealthBars_Toggle_Resizable				= "サイズ変更可否切替",
+	ContextMenu_HealthBars_Toggle_Visible				= "可視状態切替",
+	ContextMenu_HealthBars_Toggle_Visible_Other_Bars	= "他のバーの可視状態切替",
+	ContextMenu_HealthBars_Change_Color					= "色変更",
+	ContextMenu_HealthBars_Save_Settings				= "すべての設定を保存",
+}

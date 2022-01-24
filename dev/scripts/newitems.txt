@@ -1,0 +1,4837 @@
+module Base
+{
+    /************************Normal************************/
+
+    item Money
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.01,
+        Type	=	Normal,
+        DisplayName	=	Money,
+        Icon	=	Money,
+        WorldStaticModel = Money,
+    }
+
+    item Aluminum
+    {
+        DisplayCategory = Material,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Aluminum,
+        Icon	=	Aluminum,
+        MetalValue = 5,
+        WorldStaticModel = Aluminum,
+    }
+
+    item CordlessPhone
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Cordless Phone,
+        Icon	=	CordlessPhone,
+        WorldStaticModel = CordlessPhone,
+    }
+
+    item VideoGame
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Video Game,
+        Icon	=	VideoGame,
+        MetalValue = 7,
+        WorldStaticModel = VideoGame,
+    }
+
+	item EmptyPetrolCan
+	{
+	    DisplayCategory = VehicleMaintenance,
+		Weight	=	1.6,
+		Type	=	Normal,
+		DisplayName	=	Empty Gas Can,
+		Icon	=	Petrol,
+		StaticModel = GasCan,
+		SurvivalGear = TRUE,
+		ReplaceInSecondHand = Bag_GasCan_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_GasCan_RHand holdingbagright,
+        WorldStaticModel = GasCan_Ground,
+	}
+
+    item Generator
+    {
+        DisplayCategory = Electronics,
+        Weight	=	40,
+        Type	=	Normal,
+        DisplayName	=	Generator,
+        Icon	=	Generator,
+        Tooltip = Tooltip_Generator,
+		RequiresEquippedBothHands = true,
+		MetalValue = 500,
+        ConditionMax = 100,
+    }
+
+    item UnusableWood
+    {
+        DisplayCategory = Material,
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Unusable Wood,
+        Icon	=	UnsableWood,
+        WorldStaticModel = UnusableWood,
+    }
+
+    item UnusableMetal
+    {
+        DisplayCategory = Material,
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Unusable Metal,
+        Icon	=	UnsableMetal,
+        WorldStaticModel = UnusableMetal,
+    }
+
+    item Coldpack
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Cold Pack,
+        Icon	=	Coldpack,
+        Tooltip = Tooltip_ItemTraps,
+        WorldStaticModel = ColdPack,
+    }
+
+    item ElectronicsScrap
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Electronics Scrap,
+        Icon	=	ElectronicsScrap,
+        MetalValue = 5,
+        WorldStaticModel = ElectronicsScrap,
+    }
+
+    item Hairspray
+    {
+        DisplayCategory = Appearance,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Hairspray,
+        Icon	=	Hairspray,
+        Tooltip = Tooltip_ItemTraps,
+        WorldStaticModel = HairSpray,
+    }
+
+    item HomeAlarm
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Home Alarm,
+        Icon	=	HomeAlarm,
+        WorldStaticModel = HomeAlarm,
+    }
+
+    item MotionSensor
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Motion Sensor,
+        Icon	=	MotionSensor,
+        MetalValue = 7,
+        Tooltip = Tooltip_MotionSensor,
+        WorldStaticModel = MotionSensor,
+    }
+
+    item Receiver
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Receiver,
+        Icon	=	Receiver,
+        MetalValue = 7,
+        Tooltip = Tooltip_Receiver,
+        WorldStaticModel = Receiver,
+    }
+
+    item GunPowder
+    {
+        DisplayCategory = Material,
+        Weight	=	0.1,
+        Type	=	Drainable,
+        UseDelta = 0.1,
+        UseWhileEquipped = FALSE,
+        DisplayName	=	Gunpowder,
+        Icon	=	GunpowderJar,
+        WeightEmpty = 0.01,
+        WorldStaticModel = GunpowderJar,
+    }
+
+    item WaterDrop
+    {
+        DisplayCategory = Hidden,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	WaterDrop,
+        Icon	=	WaterDrop,
+    }
+
+    item TriggerCrafted
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Crafted Trigger,
+        Icon	=	TriggerCrafted,
+        MetalValue = 7,
+        WorldStaticModel = CraftedTrigger,
+    }
+
+    item Sparklers
+    {
+        DisplayCategory = Material,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Box of Sparklers,
+        Icon	=	Sparklers,
+        WorldStaticModel = BoxOfSparklers,
+    }
+
+    item BoxOfJars
+    {
+        DisplayCategory = Material,
+        DisplayCategory = Cooking,
+        Weight	=	1.8,
+        Type	=	Normal,
+        DisplayName	=	Box of Jars,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,
+    }
+
+    item Speaker
+    {
+        DisplayCategory = Electronics,
+        Weight	=	1.5,
+        Type	=	Normal,
+        DisplayName	=	Speaker,
+        Icon	=	Speaker,
+        MetalValue = 20,
+        Tooltip = Tooltip_ItemTraps,
+        WorldStaticModel = Speaker,
+    }
+
+    item Amplifier
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Amplifier,
+        Icon	=	Amplifier,
+        MetalValue = 8,
+        WorldStaticModel = Amplifier,
+    }
+
+    item Timer
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Timer,
+        Icon	=	Timer,
+        MetalValue = 7,
+        WorldStaticModel = Timer,
+    }
+
+    item TimerCrafted
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=	Crafted Timer,
+        Icon	=	TimerCrafted,
+        MetalValue = 10,
+        Tooltip = Tooltip_CraftedTimer,
+        WorldStaticModel = CraftedTimer,
+    }
+
+    item Baseball
+    {
+        DisplayCategory = Sports,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Baseball,
+        Icon	=	Baseball,
+        WorldStaticModel = BaseBall,
+    }
+
+    item Basketball
+    {
+        DisplayCategory = Sports,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Basketball,
+        Icon	=	Basketball,
+        WorldStaticModel = BasketBall,
+    }
+
+    item Bell
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Bell,
+        Icon	=	Bell,
+        MetalValue = 50,
+        WorldStaticModel = Bell,
+    }
+
+    item Button
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Button,
+        Icon	=	Button,
+        WorldStaticModel = Button,
+    }
+
+    item CatToy
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Cat Toy,
+        Icon	=	CatToy,
+        WorldStaticModel = CatToy,
+    }
+
+    item ChessBlack
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Black Chess Pieces,
+        Icon	=	ChessBlack,
+        WorldStaticModel = BlackChessPieces,
+    }
+
+    item ChessWhite
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	White Chess Pieces,
+        Icon	=	ChessWhite,
+        WorldStaticModel = WhiteChessPieces,
+    }
+
+    item CleaningLiquid2
+    {
+        DisplayCategory = Household,
+        Type	            =	        Drainable,
+        UseDelta	        =	        0.02,
+        UseWhileEquipped	=           FALSE,
+        DisplayName			=		    Cleaning Liquid,
+        Icon				=			CleaningLiquid,
+        Weight				=			1.0,
+        WeightEmpty         =           0.3,
+        WorldStaticModel = CleaningLiquid,
+    }
+
+    item CleaningLiquid
+    {
+        DisplayCategory = Household,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Cleaning Liquid,
+        Icon	=	CleaningLiquid,
+        OBSOLETE = TRUE,
+    }
+
+    item Cologne
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Cologne,
+        Icon	=	Cologne,
+        WorldStaticModel = Cologne,
+    }
+
+    item Crayons
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Crayons,
+        Icon	=	Crayons,
+        WorldStaticModel = Crayons,
+    }
+
+    item CreditCard
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	CreditCard,
+        Icon	=	CreditCard,
+        WorldStaticModel = CreditCard,
+    }
+
+    item Dart
+    {
+        DisplayCategory = Sports,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Dart,
+        Icon	=	Dart,
+        MetalValue = 3,
+        WorldStaticModel = Dart,
+    }
+
+    item DogChew
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Dog Chew Toy,
+        Icon	=	DogChew,
+        WorldStaticModel = DogChewToy,
+    }
+
+    item Eraser
+    {
+        DisplayCategory = Household,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Eraser,
+        Icon	=	Eraser,
+        WorldStaticModel = Eraser,
+    }
+
+    item Football
+    {
+        DisplayCategory = Sports,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Football,
+        Icon	=	Football,
+        WorldStaticModel = Football,
+    }
+
+    item GolfBall
+    {
+        DisplayCategory = Sports,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Golf Ball,
+        Icon	=	GolfBall,
+        WorldStaticModel = GolfBall,
+    }
+
+    item KnittingNeedles
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Knitting Needles,
+        Icon	=	KnittingNeedles,
+        MetalValue = 13,
+        WorldStaticModel = KnittingNeedles,
+    }
+
+    item Leash
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Leash,
+        Icon	=	Leash,
+        WorldStaticModel = Leash,
+    }
+
+    item LightBulb
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Light Bulb,
+        Icon	=	LightBulb,
+        ConditionMax = 100,
+        WorldStaticModel = LightBulb,
+    }
+
+    item LightBulbRed
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Red Light Bulb,
+        Icon	=	LightBulb,
+        ColorRed = 255,
+        ColorGreen = 0,
+        ColorBlue = 0,
+        WorldStaticModel = LightBulbRed,
+    }
+    item LightBulbGreen
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Green Light Bulb,
+        Icon	=	LightBulb,
+        ColorRed = 0,
+        ColorGreen = 255,
+        ColorBlue = 0,
+        WorldStaticModel = LightBulbGreen,
+    }
+    item LightBulbBlue
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Blue Light Bulb,
+        Icon	= LightBulb,
+        ColorRed = 0,
+        ColorGreen = 0,
+        ColorBlue = 255,
+        WorldStaticModel = LightBulbBlue,
+    }
+    item LightBulbYellow
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Yellow Light Bulb,
+        Icon	= LightBulb,
+        ColorRed = 255,
+        ColorGreen = 255,
+        ColorBlue = 0,
+        WorldStaticModel = LightBulbYellow,
+    }
+    item LightBulbCyan
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Cyan Light Bulb,
+        Icon	= LightBulb,
+        ColorRed = 0,
+        ColorGreen = 255,
+        ColorBlue = 255,
+        WorldStaticModel = LightBulbCyan,
+    }
+    item LightBulbMagenta
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Magenta Light Bulb,
+        Icon	= LightBulb,
+        ColorRed = 255,
+        ColorGreen = 0,
+        ColorBlue = 255,
+        WorldStaticModel = LightBulbMagenta,
+    }
+    item LightBulbOrange
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Orange Light Bulb,
+        Icon	= LightBulb,
+        ColorRed = 255,
+        ColorGreen = 128,
+        ColorBlue = 0,
+        WorldStaticModel = LightBulbOrange,
+    }
+    item LightBulbPurple
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Purple Light Bulb,
+        Icon	= LightBulb,
+        ColorRed = 128,
+        ColorGreen = 0,
+        ColorBlue = 255,
+        WorldStaticModel = LightBulbPurple,
+    }
+    item LightBulbPink
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Pink Light Bulb,
+        Icon	= LightBulb,
+        ColorRed = 255,
+        ColorGreen = 20,
+        ColorBlue = 147,
+        WorldStaticModel = LightBulbPink,
+    }
+
+    item MakeupEyeshadow
+    {
+        DisplayCategory = Appearance,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Eyes Makeup,
+        Icon	=	MakeupEyeshadow,
+        MakeUpType = Eyes,
+        WorldStaticModel = EyesMakeup,
+    }
+
+    item MakeupFoundation
+    {
+        DisplayCategory = Appearance,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Foundation Makeup,
+        Icon	=	MakeupFoundation,
+        MakeUpType = Foundation,
+        WorldStaticModel = FoundationMakeup,
+    }
+
+    item Mop
+    {
+        DisplayCategory = Household,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Mop,
+        Icon	=	Mop,
+        WorldStaticModel = Mop,
+    }
+
+    item Perfume
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Perfume,
+        Icon	=	Perfume1,
+        WorldStaticModel = Perfume,
+    }
+
+    item Pinecone
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Pine Cone,
+        Icon	=	Pinecone,
+        WorldStaticModel = PineCone,
+    }
+
+    item Pipe
+    {
+        DisplayCategory = Material,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Plastic Pipe,
+        Icon	=	Pipe,
+        WorldStaticModel = PlasticPipe,
+    }
+
+    item RemoteCraftedV1
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	V1 Remote Controller,
+        Icon	=	RemoteCrafted,
+        RemoteController    =   TRUE,
+        RemoteRange =   7,
+        MetalValue = 15,
+        Tooltip = Tooltip_RemoteController,
+        WorldStaticModel = RemoteController,
+    }
+
+    item RemoteCraftedV2
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	V2 Remote Controller,
+        Icon	=	RemoteCrafted,
+        RemoteController    =   TRUE,
+        RemoteRange =   11,
+        MetalValue = 15,
+        Tooltip = Tooltip_RemoteController,
+        WorldStaticModel = RemoteController,
+    }
+
+    item RemoteCraftedV3
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	V3 Remote Controller,
+        Icon	=	RemoteCrafted,
+        RemoteController    =   TRUE,
+        RemoteRange =   15,
+        MetalValue = 15,
+        Tooltip = Tooltip_RemoteController,
+        WorldStaticModel = RemoteController,
+    }
+
+    item RubberBand
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Rubber Band,
+        Icon	=	RubberBand,
+        WorldStaticModel = RubberBand,
+    }
+
+    item ScrapMetal
+    {
+        DisplayCategory = Material,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Scrap Metal,
+        Icon	=	ScrapMetal,
+        MetalValue = 30,
+        SurvivalGear = TRUE,
+        WorldStaticModel = ScrapMetal,
+    }
+
+    item SheetMetal
+    {
+        DisplayCategory = Material,
+        Weight	=	1.5,
+        Type	=	Normal,
+        DisplayName	=	Metal Sheet,
+        Icon	=	SheetMetal,
+        MetalValue = 80,
+        SurvivalGear = TRUE,
+        WorldStaticModel = MetalSheet,
+    }
+
+    item SoccerBall
+    {
+        DisplayCategory = Sports,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	SoccerBall,
+        Icon	=	SoccerBall,
+        WorldStaticModel = SoccerBall,
+    }
+
+    item Sponge
+    {
+        DisplayCategory = Household,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Sponge,
+        Icon	=	Sponge,
+        WorldStaticModel = Sponge,
+    }
+
+    item TennisBall
+    {
+        DisplayCategory = Sports,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Tennis Ball,
+        Icon	=	TennisBall,
+        WorldStaticModel = TennisBall,
+    }
+
+    item ToiletPaper
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.2,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	Toilet Paper,
+        Icon	=	ToiletPaper,
+        Tooltip = Tooltip_tissue_tooltip,
+        WorldStaticModel = ToiletPaper,
+    }
+
+    item BakingSoda
+    {
+        Type				= Drainable,
+        DisplayName			= Baking Soda,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.1,
+        Icon				= BakingSoda,
+        Weight				= 0.3,
+        WorldStaticModel = BakingSoda_Ground,
+    }
+
+    item ToyCar
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Toy Car,
+        Icon	=	ToyCar,
+        WorldStaticModel = ToyCar,
+    }
+
+    item Underwear1
+    {
+        DisplayCategory = Household,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Underwear,
+        Icon	=	Underwear1,
+        OBSOLETE = TRUE,
+    }
+
+    item Underwear2
+    {
+        DisplayCategory = Household,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Underwear,
+        Icon	=	Underwear2,
+        OBSOLETE = TRUE,
+    }
+
+    item WaterDish
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Water Dish,
+        Icon	=	WaterDish,
+        MetalValue = 20,
+        WorldStaticModel = WaterDish,
+    }
+
+    item Yarn
+    {
+        DisplayCategory = Material,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Yarn,
+        Icon	=	Yarn,
+        WorldStaticModel = Yarn,
+    }
+
+    item Frog
+    {
+        DisplayCategory = Food,
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Frog,
+        Icon	=	Frog,
+        WorldStaticModel = Frog_Ground,
+    }
+
+    item LogStacks2
+	{
+	    DisplayCategory = Material,
+		Weight	=	6,
+		Type	=	Normal,
+		DisplayName	=	Two Logs Stack,
+		Icon	=	Logs2,
+		WorldStaticModel = TwoLogsStack,
+	}
+
+	item LogStacks3
+    {
+        DisplayCategory = Material,
+        Weight	=	9,
+        Type	=	Normal,
+        DisplayName	=	Three Logs Stack,
+        Icon	=	Logs3,
+        WorldStaticModel = ThreeLogsStack,
+    }
+
+    item LogStacks4
+    {
+        DisplayCategory = Material,
+        Weight	=	12,
+        Type	=	Normal,
+        DisplayName	=	Four Logs Stack,
+        Icon	=	Logs4,
+        WorldStaticModel = FourLogsStack,
+    }
+
+    item SutureNeedle
+	{
+	    DisplayCategory = FirstAid,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	Suture Needle,
+		Icon	=	SutureNeedle,
+		MetalValue = 5,
+		Tooltip = Tooltip_SutureNeedle,
+		Medical = TRUE,
+		WorldStaticModel = SutureNeedle,
+	}
+
+    item SutureNeedleHolder
+	{
+	    DisplayCategory = FirstAid,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	Suture Needle Holder,
+		Icon	=	SutureNeedleHolder,
+		MetalValue = 9,
+		Tooltip = Tooltip_SutureNeedleHolder,
+		Medical = TRUE,
+		WorldStaticModel = SutureNeedleHolder,
+	}
+
+    item Twigs
+	{
+	    DisplayCategory = Material,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	Twigs,
+		Icon	=	Twigs,
+		WorldStaticModel = Twigs,
+	}
+
+    item TreeBranch
+	{
+	    DisplayCategory = Material,
+		Weight	=	1,
+		Type	=	Normal,
+		DisplayName	=	Tree Branch,
+		Icon	=	Branch,
+		WorldStaticModel = TreeBranch,
+	}
+
+	item Stone
+    {
+        DisplayCategory = Material,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Stone,
+        Icon	=	Rock,
+        WorldStaticModel = Stone,
+    }
+
+    item SharpedStone
+    {
+        DisplayCategory = Material,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Chipped Stone,
+        Icon	=	RockSharpened,
+        WorldStaticModel = ChippedStone,
+    }
+
+    item Tarp
+	{
+	    DisplayCategory = Material,
+		Weight	=	1,
+		Type	=	Normal,
+		DisplayName	=	Tarp,
+		Icon	=	TentMaterial,
+		WorldStaticModel = Tarp,
+	}
+
+    item Mattress
+	{
+	    DisplayCategory = Furniture,
+		Weight	=	8,
+		Type	=	Moveable,
+		DisplayName	=	Mattress,
+		Icon	=	Mattress,
+		WorldObjectSprite	= carpentry_02_76,
+		/*WorldStaticObject = Mattress,*/
+	}
+
+    item Bricktoys
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	Bricktoys,
+		Icon	=	Bricktoys,
+		WorldStaticModel = BrickToys,
+	}
+
+    item Earbuds
+	{
+	    DisplayCategory = Electronics,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	Earbuds,
+		Icon	=	Earbuds,
+		WorldStaticModel = EarBuds,
+	}
+
+    item Earrings
+	{
+	    DisplayCategory = Accessory,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	Earrings,
+		Icon	=	Earrings,
+		MetalValue = 25,
+		OBSOLETE = TRUE,
+	}
+
+    item Frame
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	Frame,
+		Icon	=	Frame,
+		WorldStaticModel = Frame,
+	}
+
+    item Headphones
+	{
+	    DisplayCategory = Electronics,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Headphones,
+		Icon	=	Headphones,
+		WorldStaticModel = HeadPhones,
+	}
+
+    item Necklacepearl
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Pearl Necklace,
+        Icon	=	Necklacepearl,
+        MetalValue = 35,
+        OBSOLETE = TRUE,
+    }
+
+    item Remote
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	TV Remote,
+        Icon	=	Remote,
+        MetalValue = 8,
+        WorldStaticModel = Remote,
+    }
+
+    item Ring
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Ring,
+        Icon	=	Ring,
+        MetalValue = 15,
+        OBSOLETE = TRUE,
+    }
+
+    item Rubberducky
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Rubber Duck,
+        Icon	=	Rubberducky,
+        WorldStaticModel = Rubberducky,
+    }
+
+    item Rubberducky2
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Drainable,
+        UseDelta	=	0.003,
+        DisplayName	=	Rubber Duck,
+        Icon	=	Rubberducky,
+        WorldStaticModel = Rubberducky,
+    }
+
+    item Soap
+    {
+        DisplayCategory = Household,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Soap,
+        Icon	=	Soap,
+        OBSOLETE = true,
+    }
+
+    item CorpseMale
+	{
+	    DisplayCategory = Corpse,
+		Weight	=	20.0,
+		Type	=	Normal,
+		DisplayName	=	Corpse,
+		Icon = DeadPerson_MaleZombie,
+		RequiresEquippedBothHands = true
+	}
+
+    item CorpseFemale
+	{
+	    DisplayCategory = Corpse,
+		Weight	=	20.0,
+		Type	=	Normal,
+		DisplayName	=	Corpse,
+		Icon = DeadPerson_FemaleZombie,
+		RequiresEquippedBothHands = true
+	}
+
+    item Map
+    {
+        Type				=			Map,
+        DisplayName			=		    Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        WorldStaticModel = Map,
+    }
+
+    item MarchRidgeMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    March Ridge Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           MarchRidgeMap,
+        WorldStaticModel = Map,
+    }
+
+    item MuldraughMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    Muldraugh Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           MuldraughMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
+
+    item WestpointMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    Westpoint Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           WestpointMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
+
+    item RosewoodMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    Rosewood Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           RosewoodMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
+
+    item RiversideMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    Riverside Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           RiversideMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
+
+    item Umbrella
+    {
+        DisplayCategory = Household,
+        Type				=			Normal,
+        DisplayName			=		    Umbrella,
+        Icon				=			Umbrella,
+        Weight				=			1.5,
+        OBSOLETE = TRUE,
+    }
+
+    item UmbrellaBlack
+    {
+        DisplayCategory = Household,
+        Type				=			Normal,
+        DisplayName			=		    Umbrella,
+        Icon				=			UmbrellaBlack,
+        Weight				=			1.5,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+        StaticModel = UmbrellaBlack,
+        MetalValue = 9,
+        ProtectFromRainWhenEquipped = TRUE,
+        EquippedNoSprint = TRUE,
+        WorldStaticModel = Umbrella_Closed_Black,
+    }
+
+    item UmbrellaWhite
+    {
+        DisplayCategory = Household,
+        Type				=			Normal,
+        DisplayName			=		    Umbrella,
+        Icon				=			UmbrellaWhite,
+        Weight				=			1.5,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+        StaticModel = UmbrellaWhite,
+        MetalValue = 9,
+        ProtectFromRainWhenEquipped = TRUE,
+        EquippedNoSprint = TRUE,
+        WorldStaticModel = Umbrella_Closed_White,
+    }
+
+    item UmbrellaBlue
+    {
+        DisplayCategory = Household,
+        Type				=			Normal,
+        DisplayName			=		    Umbrella,
+        Icon				=			UmbrellaBlue,
+        Weight				=			1.5,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+        StaticModel = UmbrellaBlue,
+        MetalValue = 9,
+        ProtectFromRainWhenEquipped = TRUE,
+        EquippedNoSprint = TRUE,
+        WorldStaticModel = Umbrella_Closed_Blue,
+    }
+
+    item UmbrellaRed
+    {
+        DisplayCategory = Household,
+        Type				=			Normal,
+        DisplayName			=		    Umbrella,
+        Icon				=			UmbrellaRed,
+        Weight				=			1.5,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+        StaticModel = UmbrellaRed,
+        MetalValue = 9,
+        ProtectFromRainWhenEquipped = TRUE,
+        EquippedNoSprint = TRUE,
+        WorldStaticModel = Umbrella_Closed_Red,
+    }
+
+    item Paperclip
+    {
+        DisplayCategory = Material,
+        Type				=			Normal,
+        DisplayName			=		    Paperclip,
+        Icon				=			Paperclip,
+        Weight				=			0.01,
+        MetalValue = 1,
+        WorldStaticModel = Paperclip,
+    }
+
+    item Doll
+    {
+        DisplayCategory = Junk,
+        Type				=			Normal,
+        DisplayName			=		    Doll,
+        Icon				=			Doll,
+        Weight				=			0.1,
+        WorldStaticModel = Doll,
+    }
+
+    item Disc
+    {
+        DisplayCategory = Junk,
+        Type				=			Normal,
+        DisplayName			=		    CD,
+        Icon				=			Disc,
+        Weight				=			0.1,
+        WorldStaticModel = Disk,
+    }
+
+	item Cornflour
+	{
+	    DisplayCategory = Cooking,
+		Weight	=	1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Corn Flour,
+		Icon	=	Cornflour,
+		WorldStaticModel = Cornflour_Ground,
+	}
+
+    item Cork
+    {
+        DisplayCategory = Junk,
+        Type				=			Normal,
+        DisplayName			=		    Cork,
+        Icon				=			Cork,
+        Weight				=			0.1,
+        WorldStaticModel = Cork,
+    }
+
+    item Corkscrew
+	{
+	    DisplayCategory = Junk,
+		Type				=			Normal,
+		DisplayName			=		    Corkscrew,
+		Icon				=			Corkscrew,
+		Weight				=			0.1,
+		MetalValue = 5,
+		WorldStaticModel = Corkscrew,
+	}
+
+    item CakeBatter
+	{
+	    DisplayCategory = Cooking,
+		Type				=			Normal,
+		DisplayName			=		    Cake Batter,
+		Icon				=			CakeBatter,
+		Weight				=			0.3,
+        Carbohydrates = 50,
+        Proteins = 8,
+        Lipids = 48,
+        Calories = 800,
+        WorldStaticModel = CakeBatter,
+	}
+
+	item PieDough
+    {
+        DisplayCategory = Cooking,
+        Type				=			Normal,
+        DisplayName			=		    Pie Dough,
+        Icon				=			Dough,
+        Weight				=			0.3,
+        Carbohydrates = 50,
+        Proteins = 8,
+        Lipids = 48,
+        Calories = 800,
+        WorldStaticModel = Dough,
+    }
+
+    item BakingPan
+	{
+	    DisplayCategory = Cooking,
+		Type				=			Normal,
+		DisplayName			=		    Baking Pan,
+		Icon				=			BakingPan,
+		Weight				=			0.1,
+		MetalValue = 60,
+		WorldStaticModel = BakingPan,
+	}
+
+    item DigitalWatch
+	{
+	    DisplayCategory = Accessory,
+		Type				=			Normal,
+		DisplayName			=		    Digital Watch,
+		Icon				=			DigitalWatch,
+		Weight				=			0.0,
+		MetalValue = 3,
+		Obsolete = TRUE,
+	}
+
+    item DigitalWatch2
+    {
+        DisplayCategory = Accessory,
+        Type				=			AlarmClock,
+        DisplayName			=		    Digital Watch,
+        Icon				=			DigitalWatch,
+        Weight				=			0.0,
+        AlarmSound = WatchAlarmLoop,
+        SoundRadius = 7,
+        MetalValue = 3,
+        Obsolete = TRUE,
+    }
+
+	item Scotchtape
+    {
+        DisplayCategory = Material,
+        Type				=			Normal,
+        DisplayName			=		    Adhesive Tape,
+        Icon				=			Scotchtape,
+        Weight				=			0.1,
+        Tooltip = Tooltip_FixItems,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Scotchtape,
+    }
+
+    item Toothbrush
+    {
+        DisplayCategory = Junk,
+        Type				=			Normal,
+        DisplayName			=		    Toothbrush,
+        Icon				=			Toothbrush,
+        Weight				=			0.1,
+        WorldStaticModel = Toothbrush,
+    }
+
+    item Toothpaste
+    {
+        DisplayCategory = Junk,
+        Type				=			Normal,
+        DisplayName			=		    Toothpaste,
+        Icon				=			Toothpaste,
+        Weight				=			0.1,
+        WorldStaticModel = Toothpaste,
+    }
+
+    item Soap2
+    {
+        DisplayCategory = Household,
+        Type	            =	        Drainable,
+        UseDelta	        =	        0.05,
+        UseWhileEquipped	=           FALSE,
+        DisplayName			=		    Soap,
+        Icon				=			Soap,
+        Weight				=			0.1,
+        cantBeConsolided    =           TRUE,
+        WorldStaticModel = Soap,
+    }
+
+    item Twine
+    {
+        DisplayCategory = Material,
+        Type	            =	        Drainable,
+        UseDelta	        =	        0.2,
+        UseWhileEquipped	=           FALSE,
+        DisplayName			=		    Twine,
+        Icon				=			Twine,
+        Weight				=			0.1,
+        SurvivalGear = TRUE,
+        ConsolidateOption = ContextMenu_Merge,
+        WorldStaticModel = Twine,
+    }
+
+    item Wire
+    {
+        DisplayCategory = Material,
+        Weight	            =	        0.2,
+        Type	            =	        Drainable,
+        DisplayName	        =	        Wire,
+        Icon	            =	        Wire,
+        UseWhileEquipped	=           FALSE,
+        UseDelta	        =	        0.2,
+        MetalValue = 20,
+        SurvivalGear = TRUE,
+        ConsolidateOption = ContextMenu_Merge,
+        WorldStaticModel = Wire,
+    }
+
+    item Yeast
+    {
+        DisplayCategory = Cooking,
+        Type	            =	        Drainable,
+        UseDelta	        =	        0.2,
+        UseWhileEquipped	=	        FALSE,
+        DisplayName			=		    Yeast,
+        Icon				=			Yeast,
+        Weight				=			0.1,
+        WorldStaticModel = Yeast,
+    }
+
+    item Woodglue
+    {
+        DisplayCategory = Material,
+        Type	            =	        Drainable,
+        UseDelta	        =	        0.2,
+        UseWhileEquipped	=	        FALSE,
+        DisplayName			=		    Wood Glue,
+        Icon				=			Woodglue,
+        Weight				=			0.1,
+        Tooltip = Tooltip_FixItems,
+        SurvivalGear = TRUE,
+        WorldStaticModel = WoodGlue,
+    }
+
+    item BathTowelWet
+	{
+	    DisplayCategory = Household,
+		Type				=			Normal,
+		DisplayName			=		    Wet Bath Towel,
+		Icon				=			Bathtowel,
+		Weight				=			0.5,
+		Wet                 =           TRUE,
+        WetCooldown         =           10000,
+        ItemWhenDry         =           Base.BathTowel,
+        WorldStaticModel = BathTowel,
+	}
+  
+    item BathTowel
+	{
+	    DisplayCategory = Household,
+		Weight	=	0.3,
+		Type	=	Drainable,
+		DisplayName	=	Bath Towel,
+        UseWhileEquipped	=	FALSE,
+		Icon	=	Bathtowel,
+        UseDelta	=	0.1,
+		ReplaceOnDeplete	=	BathTowelWet,
+		Tooltip = Tooltip_Bathtowel,
+		WorldStaticModel = BathTowel,
+	}
+	
+	item Bandaid
+	{
+	    DisplayCategory = FirstAid,
+		Type				=			Normal,
+		DisplayName			=			Adhesive Bandages,
+		Icon				=			Bandaid,
+		Weight				=			0.1,
+        CanBandage	=	true,
+        BandagePower    =   1.5,
+        Tooltip = Tooltip_UseOnHealthPanel,
+        Medical = TRUE,
+        WorldStaticModel = BandAid,
+	}
+
+	item Bandage
+	{
+	    DisplayCategory = FirstAid,
+		Count	=	1,
+		Weight	=	0.1,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Normal,
+		DisplayName	=	Bandage,
+		ReplaceOnUse    =   BandageDirty,
+		Icon	=	Bandage,
+		CanBandage	=	true,
+		BandagePower    =   4,
+		Tooltip = Tooltip_UseOnHealthPanel,
+		Medical = TRUE,
+		WorldStaticModel = Bandage,
+	}
+
+	item BandageDirty
+    {
+        DisplayCategory = FirstAid,
+        Count	=	1,
+        Weight	=	0.1,
+        AlwaysWelcomeGift	=	true,
+        Type	=	Normal,
+        DisplayName	=	Dirty Bandage,
+        Icon	=	BandageDirty,
+        CanBandage	=	true,
+        BandagePower    =   0.5,
+        Medical = TRUE,
+        WorldStaticModel = BandageDirty,
+    }
+
+    item AlcoholBandage
+    {
+        DisplayCategory = FirstAid,
+        Count	=	1,
+        Weight	=	0.1,
+        AlwaysWelcomeGift	=	true,
+        Type	=	Normal,
+        DisplayName	=	Sterilized Bandage,
+        ReplaceOnUse    =   BandageDirty,
+        Alcoholic	=	TRUE,
+        Icon	=	Bandage,
+        CanBandage	=	true,
+        BandagePower    =   4,
+        Tooltip = Tooltip_AlcoholBandage,
+        Medical = TRUE,
+        WorldStaticModel = Bandage,
+    }
+
+	item NailsBox
+    {
+        DisplayCategory = Material,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Box of Nails,
+        Icon	=	NailsBox,
+        MetalValue = 100,
+        SurvivalGear = TRUE,
+        WorldStaticModel = NailsBox,
+    }
+
+    item PaperclipBox
+    {
+        DisplayCategory = Material,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Box of Paperclips,
+        Icon	=	PaperclipBox,
+        MetalValue = 40,
+        WorldStaticModel = PaperclipBox,
+    }
+
+    item ScrewsBox
+    {
+        DisplayCategory = Material,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Box of Screws,
+        Icon	=	ScrewsBox,
+        MetalValue = 100,
+        WorldStaticModel = ScrewsBox,
+    }
+
+    item Screws
+    {
+        DisplayCategory = Material,
+        Count	=	5,
+        Weight	=	0.003,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Screws,
+        Icon	=	Screws,
+        MetalValue = 1,
+        WorldStaticModel = Screws,
+    }
+
+    item Glue
+    {
+        DisplayCategory = Material,
+        Weight	=	0.1,
+        Type	=	Drainable,
+        UseDelta	=	0.2,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	Glue,
+        Icon	=	Glue,
+        Tooltip = Tooltip_FixItems,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Glue,
+    }
+
+    item Rope
+    {
+        DisplayCategory = Material,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Rope,
+        Icon	=	Rope,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Rope,
+    }
+
+    item DuctTape
+    {
+        DisplayCategory = Material,
+        Weight	=	0.3,
+        Type	=	Drainable,
+        UseDelta	=	0.25,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	Duct Tape,
+        Icon	=	DuctTape,
+        Tooltip = Tooltip_FixItems,
+        SurvivalGear = TRUE,
+        WorldStaticModel = DuctTape,
+    }
+
+	item CardDeck
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Playing Cards,
+		Icon	=	CardDeck,
+		WorldStaticModel = CardDeck,
+	}
+
+	item Comb
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Comb,
+		Icon	=	Comb,
+		WorldStaticModel = Comb,
+	}
+
+	item Dice
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Dice,
+		Icon	=	Dice,
+		WorldStaticModel = Dice,
+	}
+
+	item Lipstick
+	{
+	    DisplayCategory = Appearance,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Lipstick,
+		Icon	=	Lipstick,
+		MetalValue = 1,
+		MakeUpType = Lips,
+		WorldStaticModel = Lipstick,
+	}
+  
+    item Cube
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Cube,
+		Icon	=	Cube,
+		StaticModel = CubePuzzle,
+		WorldStaticModel = Cube_Ground,
+	}
+
+	item Locket
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Locket,
+		Icon	=	Locket,
+		MetalValue = 10,
+		WorldStaticModel = Locket,
+	}
+
+	item Mirror
+	{
+	    DisplayCategory = Appearance,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Mirror,
+		Icon	=	Mirror,
+		MetalValue = 2,
+		WorldStaticModel = Mirror,
+	}
+
+	item Radio
+	{
+	    DisplayCategory = Communications,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Radio,
+		Icon	=	Radio,
+		MetalValue = 10,
+		OBSOLETE = TRUE,
+	}
+
+	item Razor
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Razor,
+		Icon	=	Razor,
+		MetalValue = 5,
+		StaticModel = DisposableRazor,
+		WorldStaticModel = Razor_Ground,
+	}
+
+	item String
+	{
+	    DisplayCategory = Material,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	String,
+		Icon	=	String,
+		WorldStaticModel = String,
+	}
+
+	item ToyBear
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Toy Bear,
+		Icon	=	ToyBear,
+		WorldStaticModel = ToyBear,
+	}
+
+	item PillsVitamins
+	{
+	    DisplayCategory = FirstAid,
+        FatigueChange	=	-2,
+		Weight	=	0.2,
+        UseDelta	=	0.1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Vitamins,
+		Icon	=	Vitamins,
+		Tooltip = Tooltip_Vitamins,
+		StaticModel = PillBottle,
+		WorldStaticModel = Vitamins_Ground,
+		Medical = TRUE,
+	}
+
+	item Wallet
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Wallet,
+		Icon	=	Wallet_01,
+		WorldStaticModel = Wallet,
+	}
+
+	item Wallet2
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Wallet,
+		Icon	=	Wallet_02,
+		WorldStaticModel = Wallet2,
+	}
+
+	item Wallet3
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Wallet,
+		Icon	=	Wallet_03,
+		WorldStaticModel = Wallet3,
+	}
+
+	item Wallet4
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Wallet,
+		Icon	=	Wallet_04,
+		WorldStaticModel = Wallet4,
+	}
+
+	item WeddingRing_Man
+	{
+	    DisplayCategory = Accessory,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Wedding Ring,
+		Icon	=	WeddingRing_Man,
+		MetalValue = 15,
+		OBSOLETE = TRUE,
+	}
+
+	item WeddingRing_Woman
+	{
+	    DisplayCategory = Accessory,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Wedding Ring,
+		Icon	=	WeddingRing_Woman,
+		MetalValue = 15,
+		OBSOLETE = TRUE,
+	}
+
+	item Yoyo
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Yoyo,
+		Icon	=	Yoyo,
+		WorldStaticModel = Yoyo,
+	}
+  
+    item Spiffo
+	{
+	    DisplayCategory = Raccoon,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Spiffo,
+		Icon	=	PlushSpiffo,
+		WorldStaticModel = SpiffoPlushie,
+	}
+    item SpiffoBig
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=	Big Spiffo,
+		Icon	=	SpiffoXL,
+		WorldStaticModel = SpiffoPlushieBig,
+	}
+    item Extinguisher
+	{
+	    DisplayCategory = Household,
+		Weight	=	0.4,
+		Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.1,
+		DisplayName	=	Extinguisher,
+		Icon	=	Extinguisher,
+		MetalValue = 25,
+		Tooltip = Tooltip_Extinguisher,
+		WorldStaticModel = Extinguisher,
+	}
+
+	item Lamp
+	{
+	    DisplayCategory = Household,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Lamp,
+        Icon	=	Lamp,
+        MetalValue = 12,
+        OBSOLETE = TRUE,
+    }
+
+/************************Food************************/
+
+    item BleachEmpty
+    {
+        DisplayCategory = WaterContainer,
+        Weight	=	0.2,
+        CanStoreWater	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Empty Bleach Bottle,
+        Icon	=	Bleach,
+        ReplaceOnUseOn	=	WaterSource-WaterBleachBottle,
+        StaticModel = BleachBottle,
+        WorldStaticModel = BleachBottle,
+    }
+
+    item MortarPestle
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Mortar and Pestle,
+        Icon	=	MortarPestle,
+        StaticModel = Mortar,
+        WorldStaticModel = Mortar_Ground,
+    }
+
+    item Plantain
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Plantain,
+        Icon	=	PlantainPlantago,
+        Tooltip = Tooltip_Plantain,
+        WorldStaticModel = MedicinalHerbsLeafBundle,
+    }
+
+     item PlantainCataplasm
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Plantain Poultice,
+        Icon	=	MashedHerbs,
+        Tooltip = Tooltip_Plantain,
+        WorldStaticModel = Poultice,
+    }
+
+    item Comfrey
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Comfrey,
+        Icon	=	Comfrey,
+        Tooltip = Tooltip_Comfrey,
+        WorldStaticModel = MedicinalHerbsLeafBundle,
+    }
+
+    item ComfreyCataplasm
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Comfrey Poultice,
+        Icon	=	MashedHerbs,
+        Tooltip = Tooltip_Comfrey,
+        WorldStaticModel = Poultice,
+    }
+
+    item WildGarlic
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Wild Garlic,
+        Icon	=	WildGarlic,
+        Tooltip = Tooltip_Garlic,
+        WorldStaticModel = MedicinalHerbsLeafBundle,
+    }
+
+    item WildGarlicCataplasm
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Wild Garlic Poultice,
+        Icon	=	MashedHerbs,
+        Tooltip = Tooltip_Garlic,
+        WorldStaticModel = Poultice,
+    }
+
+/************************Container************************/
+
+    item Paperbag_Spiffos
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	10,
+		Weight	=	0.1,
+		Type	=	Container,
+		Capacity	=	5,
+		DisplayName	=	Paper Bag,
+		Icon	=	Paperbag_Spiffos,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+	}
+
+    item Paperbag_Jays
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	10,
+		Weight	=	0.1,
+		Type	=	Container,
+		Capacity	=	5,
+		DisplayName	=	Paper Bag,
+		Icon	=	Paperbag_Jays,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+	}
+
+    item PaperBag
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	10,
+		Weight	=	0.1,
+		Type	=	Container,
+		Capacity	=	5,
+		DisplayName	=	Paper Bag,
+		Icon	=	PaperBag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+	}
+
+    item SeedBag
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	30,
+		Weight	=	0.1,
+		Type	=	Container,
+		Capacity	=	5,
+		DisplayName	=	Seed Bag,
+		Icon	=	DrawstringBag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+		SurvivalGear = TRUE,
+		WorldStaticModel = SeedBag,
+	}
+
+    item SewingKit
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	30,
+		Weight	=	0.1,
+		Type	=	Container,
+		Capacity	=	5,
+		DisplayName	=	Sewing Kit,
+		Icon	=	SewingBox,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+		SurvivalGear = TRUE,
+		WorldStaticModel = SewingKit,
+	}
+
+    item CompostBag
+    {
+        DisplayCategory = Gardening,
+        Type				=		Drainable,
+        DisplayName			=		Compost Bag,
+        Icon				=		Compost,
+        Weight				=		2.0,
+        UseDelta			=		0.25,
+        UseWhileEquipped	=	    false,
+        ReplaceOnDeplete	=	EmptySandbag,
+        Tooltip = Tooltip_Fertilizer,
+        SurvivalGear = TRUE,
+        ReplaceInSecondHand = Bag_Sandbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Sandbag_RHand holdingbagright,
+        WorldStaticModel = CompostBag,
+    }
+
+    item Disinfectant
+    {
+        DisplayCategory = FirstAid,
+        Type	            =	        Drainable,
+        UseDelta	        =	        0.1,
+        UseWhileEquipped	=           FALSE,
+        DisplayName			=		    Bottle of Disinfectant,
+        Icon				=			Alcohol,
+        Weight				=			0.3,
+        AlcoholPower        =           3,
+        Tooltip = Tooltip_Disinfectant,
+        Medical = TRUE,
+        WorldStaticModel = Disinfectant,
+    }
+
+    item AlcoholWipes
+    {
+        DisplayCategory = FirstAid,
+        Type	            =	        Drainable,
+        UseDelta	        =	        0.2,
+        UseWhileEquipped	=           FALSE,
+        DisplayName			=		    Alcohol Wipes,
+        Icon				=			AlcoholWipes,
+        Weight				=			0.3,
+        AlcoholPower        =           4,
+        Tooltip = Tooltip_AlcoholBandage,
+        Medical = TRUE,
+        WorldStaticModel = AlcoholWipes,
+    }
+
+    item CottonBalls
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Cotton Balls,
+        Icon	=	CottonBalls,
+        Medical = TRUE,
+        WorldStaticModel = CottonBalls,
+    }
+
+    item Splint
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Splint,
+        Icon	=	Splint,
+        Tooltip = Tooltip_Splint,
+        MetalValue = 1,
+        Medical = TRUE,
+        WorldStaticModel = Splint,
+    }
+
+    item Antibiotics
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	0.1,
+        Type	=	Food,
+        DisplayName	=	Antibiotics,
+        Icon	=	Antibiotics,
+        ReduceInfectionPower     =   50,
+        CustomContextMenu   =   Take,
+        CantBeFrozen = TRUE,
+        Tooltip = Tooltip_Antibiotics,
+        Medical = TRUE,
+        WorldStaticModel = Antibiotics,
+    }
+
+    item AlcoholedCottonBalls
+    {
+        DisplayCategory = FirstAid,
+        Type	            =	        Drainable,
+        UseDelta	        =	        1,
+        UseWhileEquipped	=           FALSE,
+        DisplayName			=		    Cotton Balls Doused in Alcohol,
+        Icon				=			CottonBalls,
+        Weight				=			0.1,
+        AlcoholPower        =           4,
+        Tooltip = Tooltip_AlcoholBandage,
+        Medical = TRUE,
+        WorldStaticModel = CottonBalls,
+    }
+
+    item Tweezers
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Tweezers,
+        Icon	=	Tweezers,
+        Tooltip = Tooltip_Tweezers,
+        MetalValue = 1,
+        Medical = TRUE,
+        WorldStaticModel = Tweezers,
+    }
+
+    /************************Traps************************/
+    item TrapSnare
+    {
+        DisplayCategory = Trapping,
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=	Snare Trap,
+        Icon	=	TrapSnare,
+        Trap    =   true,
+    }
+
+    item TrapCage
+    {
+        DisplayCategory = Trapping,
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Cage Trap,
+        Icon	=	TrapCage,
+        Trap    =   true,
+        MetalValue = 10,
+    }
+
+    item TrapMouse
+    {
+        DisplayCategory = Trapping,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Mouse Trap,
+        Icon	=	Mousetrap,
+        Trap    =   true,
+        MetalValue = 2,
+    }
+
+    item TrapBox
+    {
+        DisplayCategory = Trapping,
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Trap Box,
+        Icon	=	TrapBox,
+        Trap    =   true,
+    }
+
+    item TrapCrate
+    {
+        DisplayCategory = Trapping,
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Trap Crate,
+        Icon	=	TrapCrate,
+        Trap    =   true,
+    }
+
+    item TrapStick
+    {
+        DisplayCategory = Trapping,
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=	Stick Trap,
+        Icon	=	TrapStick,
+        Trap    =   true,
+    }
+    /************************ Fishing ************************/
+    item FishingTackle
+    {
+        DisplayCategory = Fishing,
+        Type				=			Normal,
+        DisplayName			=		    Fishing Tackle,
+        Icon				=			FishingTackle,
+        Weight				=			0.1,
+        FishingLure         =           true,
+        Tooltip = Tooltip_FishingTackle,
+        SurvivalGear = TRUE,
+        WorldStaticModel = FishingTackle,
+    }
+
+    item FishingTackle2
+    {
+        DisplayCategory = Fishing,
+        Type				=			Normal,
+        DisplayName			=		    Fishing Tackle,
+        Icon				=			FishingTackle2,
+        Weight				=			0.1,
+        FishingLure         =           true,
+        Tooltip = Tooltip_FishingTackle,
+        SurvivalGear = TRUE,
+        WorldStaticModel = FishingTackle2,
+    }
+
+    item WoodenStick
+    {
+        DisplayCategory = Material,
+        Type = Normal,
+        DisplayName = Sturdy Stick,
+        Icon = TZ_WoodenStick,
+        Weight = 0.1,
+        WorldStaticModel = WoodenStick,
+    }
+
+    item FireWoodKit
+    {
+        DisplayCategory = Camping,
+        Type = Normal,
+        DisplayName = Kindling,
+        Icon = TZ_AntiquatedLighter,
+        Weight = 0.5,
+		OBSOLETE = true
+    }
+
+    item PercedWood
+    {
+        DisplayCategory = Camping,
+        Type = Normal,
+        DisplayName = Notched Wooden Plank,
+        Icon = TZ_PerforatedWoodenPlank,
+        Weight = 0.5,
+        WorldStaticModel = PercedWood,
+    }
+
+    item FishingLine
+    {
+        DisplayCategory = Fishing,
+        Type	            =	        Drainable,
+        UseDelta	        =	        0.1,
+        UseWhileEquipped	=           FALSE,
+        DisplayName			=		    Fishing Line,
+        Icon				=			FishingLine,
+        Weight				=			0.1,
+        SurvivalGear = TRUE,
+        WorldStaticModel = FishingLine,
+    }
+
+    item FishingNet
+    {
+        DisplayCategory = Fishing,
+        Type = Normal,
+        DisplayName = Fishing Net Trap,
+        Icon = FishTrap,
+        Weight = 0.5,
+        SurvivalGear = TRUE,
+        WorldStaticModel = FishingNet,
+    }
+
+    item BrokenFishingNet
+    {
+        DisplayCategory = Fishing,
+        Type = Normal,
+        DisplayName = Broken Fishing Net Trap,
+        Icon = FishTrapBroken,
+        Weight = 0.4,
+        WorldStaticModel = BrokenFishingNet,
+    }
+
+    /************************ Weapon Upgrades ************************/
+
+    item IronSight
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Iron Sight,
+        Icon = ScopeIronSight,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        MaxRangeModifier = 3,
+        MountOn = HuntingRifle; VarmintRifle; Pistol; Pistol2; Pistol3; Revolver; Revolver_Long; AssaultRifle; AssaultRifle2,
+        PartType = Scope,
+        Tooltip = Tooltip_IronSight,
+        MetalValue = 15,
+        WorldStaticModel = Rifle_IronSights_Ground,
+    }
+
+    item x2Scope
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = x2 Scope,
+        Icon = Scope2x,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        MaxRangeModifier = 7,
+        MinRangeModifier = 6,
+        MountOn = HuntingRifle; VarmintRifle; AssaultRifle; AssaultRifle2,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+        WorldStaticModel = Rifle_2XScope_Ground,
+    }
+
+    item x4Scope
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = x4 Scope,
+        Icon = Scope4x,
+        Weight = 0.4,
+        WeightModifier = 0.4,
+        MaxRangeModifier = 13,
+        MinRangeModifier = 8,
+        MountOn = HuntingRifle; VarmintRifle; AssaultRifle; AssaultRifle2,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+        WorldStaticModel = Rifle_4XScope_Ground,
+    }
+
+    item x8Scope
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = x8 Scope,
+        Icon = Scope8x,
+        Weight = 0.8,
+        WeightModifier = 0.8,
+        MaxRangeModifier = 20,
+        MinRangeModifier = 10,
+        MountOn = HuntingRifle; VarmintRifle; AssaultRifle; AssaultRifle2,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+        WorldStaticModel = Rifle_8XScope_Ground,
+    }
+
+    item AmmoStraps
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Ammo Straps,
+        Icon = AmmoStrap,
+        Weight = 0.5,
+        WeightModifier = 0.5,
+        ReloadTimeModifier = -5,
+        MountOn = HuntingRifle; VarmintRifle; Shotgun,
+        PartType = Sling,
+        Tooltip = Tooltip_AmmoStrap,
+        WorldStaticModel = AmmoStrap_Ground,
+    }
+
+    item Sling
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Sling,
+        Icon = GunSling,
+        Weight = 0.5,
+        WeightModifier = -0.3,
+        MountOn = HuntingRifle; VarmintRifle; Shotgun,
+        PartType = Sling,
+        Tooltip = Tooltip_Sling,
+    }
+
+    item FiberglassStock
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Fiberglass Stock,
+        Icon = RifleFibreglassStock,
+        Weight = 1,
+        WeightModifier = -0.5,
+        HitChanceModifier = 8,
+        MountOn = HuntingRifle; VarmintRifle,
+        PartType = Stock,
+        Tooltip = Tooltip_FiberglassStock,
+    }
+
+    item RecoilPad
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Recoil Pad,
+        Icon = RifleRecoilPad,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        RecoilDelayModifier = -10.0,
+        MountOn = HuntingRifle; VarmintRifle; AssaultRifle; AssaultRifle2,
+        PartType = RecoilPad,
+        Tooltip = Tooltip_RecoilPad,
+        WorldStaticModel = Rifle_RecoilPad_Ground,
+    }
+
+    item Laser
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Laser,
+        Icon = HandgunLaser,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        HitChanceModifier = 5,
+        MountOn = Pistol; Pistol2; Pistol3; AssaultRifle; AssaultRifle2,
+        PartType = Canon,
+        Tooltip = Tooltip_Laser,
+        MetalValue = 15,
+        WorldStaticModel = Handgun_Laser_Ground,
+    }
+
+    item RedDot
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Red Dot,
+        Icon = RedDot,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        AimingTimeModifier = 5,
+        MountOn = Pistol; Pistol2; Pistol3; Revolver; Revolver_Long; AssaultRifle; AssaultRifle2; HuntingRifle; VarmintRifle,
+        PartType = Scope,
+        Tooltip = Tooltip_RedDot,
+        StaticModel = RedDot,
+        MetalValue = 15,
+        WorldStaticModel = Handgun_RedDotScope_Ground,
+    }
+
+    item GunLight
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Gun Light,
+        Icon = RedDot,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        AimingTimeModifier = 5,
+        MountOn = Pistol; Pistol2; Pistol3,
+        PartType = Canon,
+        StaticModel = GunLight,
+        MetalValue = 15,
+        WorldStaticModel = Handgun_Light_Ground,
+    }
+
+    item Bayonnet
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Bayonnet,
+        Icon = HuntingKnife,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        AimingTimeModifier = 5,
+        MountOn = VarmintRifle; HuntingRifle,
+        PartType = Canon,
+        StaticModel = Bayonnet,
+        MetalValue = 15,
+        WorldStaticModel = Rifle_Bayonet_Ground,
+    }
+
+    item ChokeTubeFull
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Choke Tube Full,
+        Icon = ShotgunChoke,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        AngleModifier = 0.05,
+        DamageModifier = 0.5,
+        MountOn = Shotgun,
+        PartType = Canon,
+        Tooltip = Tooltip_ChokeTubeFull,
+        MetalValue = 12,
+        WorldStaticModel = Shotgun_Choke_Ground,
+    }
+
+    item ChokeTubeImproved
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Choke Tube Improved,
+        Icon = ShotgunChoke,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        AngleModifier = -0.1,
+        DamageModifier = -0.5,
+        MountOn = Shotgun,
+        PartType = Canon,
+        Tooltip = Tooltip_ChokeTubeImproved,
+        MetalValue = 12,
+        WorldStaticModel = Shotgun_Choke_Ground,
+    }
+
+    /************************ Canning food ************************/
+
+    item EmptyJar
+	{
+	    DisplayCategory = Cooking,
+		Type				=		Normal,
+		DisplayName			=		Empty Jar,
+		Icon				=		JarEmpty2,
+		Weight				=		0.2,
+		Tooltip = Tooltip_Jar,
+		SurvivalGear = TRUE,
+		WorldStaticModel = EmptyJar,
+	}
+
+	item JarLid
+    {
+        DisplayCategory = Cooking,
+        Type				=		Normal,
+        DisplayName			=		Jar Lid,
+        Icon				=		JarLid,
+        Weight				=		0.1,
+        MetalValue = 10,
+        SurvivalGear = TRUE,
+        WorldStaticModel = LidJar,
+    }
+
+	item Vinegar
+    {
+        DisplayCategory = Cooking,
+        Type	            =	        Drainable,
+        UseDelta	        =	        0.1,
+        UseWhileEquipped	=           FALSE,
+        DisplayName			=		    Vinegar,
+        Icon				=			Vinegar,
+        Weight				=			0.3,
+        WorldStaticModel = Vinegar,
+    }
+
+    item CannedTomato
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Jar of Tomatoes,
+		Icon				=		JarBrown,
+		Weight				=		0.5,
+		DaysFresh 			=		60,
+		DaysTotallyRotten 	=	 	90,
+		OnCooked            =       CannedFood_OnCooked,
+		IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    120,
+        MinutesToCook	    =	    60,
+        StaticModel = CanClosed,
+        WorldStaticModel = JarFoodTomatoes_Ground,
+	}
+
+	item CannedCarrots
+    {
+        DisplayCategory = Food,
+        Type				=		Food,
+        DisplayName			=		Jar of Carrots,
+        Icon				=		JarBrown,
+        Weight				=		0.5,
+        DaysFresh 			=		60,
+        DaysTotallyRotten 	=	 	90,
+        OnCooked            =       CannedFood_OnCooked,
+        IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    120,
+        MinutesToCook	    =	    60,
+        StaticModel = CanClosed,
+        WorldStaticModel = JarFoodCarrots_Ground,
+    }
+
+	item CannedPotato
+    {
+        DisplayCategory = Food,
+        Type				=		Food,
+        DisplayName			=		Jar of Potatoes,
+        Icon				=		JarWhite,
+        Weight				=		0.5,
+        DaysFresh 			=		60,
+        DaysTotallyRotten 	=	 	90,
+        OnCooked            =       CannedFood_OnCooked,
+		IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    120,
+        MinutesToCook	    =	    60,
+        StaticModel = CanClosed,
+        WorldStaticModel = JarFoodPotatoes_Ground,
+    }
+
+	item CannedEggplant
+    {
+        DisplayCategory = Food,
+        Type				=		Food,
+        DisplayName			=		Jar of Eggplants,
+        Icon				=		JamPurple,
+        Weight				=		0.5,
+        DaysFresh 			=		60,
+        DaysTotallyRotten 	=	 	90,
+        OnCooked            =       CannedFood_OnCooked,
+		IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    120,
+        MinutesToCook	    =	    60,
+        StaticModel = CanClosed,
+        WorldStaticModel = JarFoodEggplants_Ground,
+    }
+
+	item CannedLeek
+    {
+        DisplayCategory = Food,
+        Type				=		Food,
+        DisplayName			=		Jar of Leeks,
+        Icon				=		JarWhite,
+        Weight				=		0.5,
+        DaysFresh 			=		60,
+        DaysTotallyRotten 	=	 	90,
+        OnCooked            =       CannedFood_OnCooked,
+		IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    120,
+        MinutesToCook	    =	    60,
+        StaticModel = CanClosed,
+        WorldStaticModel = JarFoodLeeks_Ground,
+    }
+
+	item CannedRedRadish
+    {
+        DisplayCategory = Food,
+        Type				=		Food,
+        DisplayName			=		Jar of Red Radishes,
+        Icon				=		JarBrown,
+        Weight				=		0.5,
+        DaysFresh 			=		60,
+        DaysTotallyRotten 	=	 	90,
+        OnCooked            =       CannedFood_OnCooked,
+		IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    120,
+        MinutesToCook	    =	    60,
+        StaticModel = CanClosed,
+        WorldStaticModel = JarFoodRadish_Ground,
+    }
+
+	item CannedBellPepper
+    {
+        DisplayCategory = Food,
+        Type				=		Food,
+        DisplayName			=		Jar of Bell Peppers,
+        Icon				=		JarBrown,
+        Weight				=		0.5,
+        DaysFresh 			=		60,
+        DaysTotallyRotten 	=	 	90,
+        OnCooked            =       CannedFood_OnCooked,
+		IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    120,
+        MinutesToCook	    =	    60,
+        StaticModel = CanClosed,
+        WorldStaticModel = JarFoodBellPeppers_Ground,
+    }
+
+	item CannedCabbage
+    {
+        DisplayCategory = Food,
+        Type				=		Food,
+        DisplayName			=		Jar of Cabbage,
+        Icon				=		JarGreen,
+        Weight				=		0.5,
+        DaysFresh 			=		60,
+        DaysTotallyRotten 	=	 	90,
+        OnCooked            =       CannedFood_OnCooked,
+		IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    120,
+        MinutesToCook	    =	    60,
+        StaticModel = CanClosed,
+        WorldStaticModel = JarFoodCabbage_Ground,
+    }
+
+    item CannedBroccoli
+    {
+        DisplayCategory = Food,
+        Type				=		Food,
+        DisplayName			=		Jar of Broccoli,
+        Icon				=		JarGreen,
+        Weight				=		0.5,
+        DaysFresh 			=		60,
+        DaysTotallyRotten 	=	 	90,
+        OnCooked            =       CannedFood_OnCooked,
+		IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    120,
+        MinutesToCook	    =	    60,
+        StaticModel = CanClosed,
+        WorldStaticModel = JarFoodBroccoli_Ground,
+    }
+
+    /************************ Keys ************************/
+
+    item Key1
+	{
+	    DisplayCategory = Security,
+		Weight	=	0,
+		Type	=	Key,
+		DisplayName	=	House Key,
+		Icon	=	Key1,
+		MetalValue = 5,
+		WorldStaticModel = Key,
+	}
+
+	item Key2
+    {
+        DisplayCategory = Security,
+        Weight	=	0,
+        Type	=	Key,
+        DisplayName	=	House Key,
+        Icon	=	Key2,
+        MetalValue = 5,
+        WorldStaticModel = Key2,
+    }
+
+    item Key3
+	{
+	    DisplayCategory = Security,
+		Weight	=	0,
+		Type	=	Key,
+		DisplayName	=	House Key,
+		Icon	=	Key3,
+		MetalValue = 5,
+		WorldStaticModel = Key3,
+	}
+
+    item Key4
+	{
+	    DisplayCategory = Security,
+		Weight	=	0,
+		Type	=	Key,
+		DisplayName	=	House Key,
+		Icon	=	Key4,
+		MetalValue = 5,
+		WorldStaticModel = Key3,
+	}
+
+    item Key5
+	{
+	    DisplayCategory = Security,
+		Weight	=	0,
+		Type	=	Key,
+		DisplayName	=	House Key,
+		Icon	=	Key5,
+		MetalValue = 5,
+		WorldStaticModel = Key2,
+	}
+
+    item CombinationPadlock
+	{
+	    DisplayCategory = Security,
+		Weight	=	0.2,
+		Type	=	Key,
+		DisplayName	=	Combination Padlock,
+		Icon	=	PadlockDigital,
+        DigitalPadlock =   TRUE,
+        MetalValue = 15,
+        Tooltip = Tooltip_Padlock,
+        WorldStaticModel = CombinationPadlock,
+	}
+
+    item Padlock
+	{
+	    DisplayCategory = Security,
+		Weight	=	0.2,
+		Type	=	Key,
+		DisplayName	=	Padlock,
+		Icon	=	Padlock,
+        Padlock =   TRUE,
+        MetalValue = 15,
+        Tooltip = Tooltip_Padlock,
+        WorldStaticModel = Padlock,
+	}
+
+    item KeyPadlock
+	{
+	    DisplayCategory = Security,
+		Weight	=	0,
+		Type	=	Key,
+		DisplayName	=	Key,
+		Icon	=	KeyPadlock1,
+		MetalValue = 5,
+		WorldStaticModel = KeyPadlock,
+	}
+
+	item KeyRing
+    {
+        DisplayCategory = Container,
+        Weight	=	0,
+        Type	=	Container,
+        DisplayName	=	Key Ring,
+        Icon	=	KeyRing,
+        Capacity	=	1,
+        OnlyAcceptCategory = Key,
+        MetalValue = 5,
+        WorldStaticModel = KeyRing_Ground,
+    }
+
+    /************************ Traps ************************/
+
+    item Aerosolbomb
+	{
+	    DisplayCategory = Devices,
+		MaxRange	=	10,
+		KnockdownMod	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+		UseSelf	=	TRUE,
+		DisplayName	=	Aerosol Bomb,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	Aerosolbomb,
+		MinDamage	=	0,
+		Weight	=	1.5,
+		MaxDamage	=	0,
+		MaxHitCount	=	0,
+		Icon	=	Aerosolbomb,
+		ExplosionPower  =   70,
+		ExplosionRange  =   6,
+		triggerExplosionTimer   =   50,
+		ExplosionSound  =   AerosolBombExplode,
+		SwingSound = AerosolBombThrow,
+		PlacedSprite = constructedobjects_01_32,
+		Tooltip = Tooltip_Trap,
+		WorldStaticModel = AerosolBomb,
+	}
+
+    item AerosolbombTriggered
+	{
+	    DisplayCategory = Devices,
+		MaxRange	=	10,
+		KnockdownMod	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+		UseSelf	=	TRUE,
+		DisplayName	=	Aerosol Bomb with Timer,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	Aerosolbomb,
+		MinDamage	=	0,
+		Weight	=	1.5,
+		MaxDamage	=	0,
+		MaxHitCount	=	0,
+		Icon	=	AerosolbombTimer,
+		ExplosionPower  =   70,
+		ExplosionRange  =   6,
+		ExplosionTimer = 10,
+		CanBePlaced = TRUE,
+		ExplosionSound  =   AerosolBombExplode,
+		SwingSound = AerosolBombThrow,
+		PlacedSprite = constructedobjects_01_32,
+		WorldStaticModel = AerosolBombSensor,
+	}
+
+    item AerosolbombSensorV1
+	{
+	    DisplayCategory = Devices,
+		MaxRange	=	10,
+		KnockdownMod	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+		UseSelf	=	TRUE,
+		DisplayName	=	Aerosol Bomb with Sensor,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	Aerosolbomb,
+		MinDamage	=	0,
+		Weight	=	1.5,
+		MaxDamage	=	0,
+		MaxHitCount	=	0,
+		Icon	=	AerosolbombTimer,
+		ExplosionPower  =   70,
+		ExplosionRange  =   6,
+		ExplosionTimer = 5,
+		SensorRange =   3,
+		CanBePlaced = TRUE,
+		ExplosionSound  =   AerosolBombExplode,
+		SwingSound = AerosolBombThrow,
+		PlacedSprite = constructedobjects_01_32,
+		WorldStaticModel = AerosolBombSensor,
+	}
+
+    item AerosolbombSensorV2
+	{
+	    DisplayCategory = Devices,
+		MaxRange	=	10,
+		KnockdownMod	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+		UseSelf	=	TRUE,
+		DisplayName	=	Aerosol Bomb with Sensor,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	Aerosolbomb,
+		MinDamage	=	0,
+		Weight	=	1.5,
+		MaxDamage	=	0,
+		MaxHitCount	=	0,
+		Icon	=	AerosolbombTimer,
+		ExplosionPower  =   70,
+		ExplosionRange  =   6,
+		ExplosionTimer = 5,
+		SensorRange =   4,
+		CanBePlaced = TRUE,
+		ExplosionSound  =   AerosolBombExplode,
+		SwingSound = AerosolBombThrow,
+		PlacedSprite = constructedobjects_01_32,
+		WorldStaticModel = AerosolBombSensor,
+	}
+
+    item AerosolbombSensorV3
+	{
+	    DisplayCategory = Devices,
+		MaxRange	=	10,
+		KnockdownMod	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+		UseSelf	=	TRUE,
+		DisplayName	=	Aerosol Bomb with Sensor,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	Aerosolbomb,
+		MinDamage	=	0,
+		Weight	=	1.5,
+		MaxDamage	=	0,
+		MaxHitCount	=	0,
+		Icon	=	AerosolbombTimer,
+		ExplosionPower  =   70,
+		ExplosionRange  =   6,
+		ExplosionTimer = 5,
+		SensorRange =   6,
+		CanBePlaced = TRUE,
+		ExplosionSound  =   AerosolBombExplode,
+		SwingSound = AerosolBombThrow,
+		PlacedSprite = constructedobjects_01_32,
+		WorldStaticModel = AerosolBombSensor,
+	}
+
+    item AerosolbombRemote
+	{
+	    DisplayCategory = Devices,
+		MaxRange	=	10,
+		KnockdownMod	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+		UseSelf	=	TRUE,
+		DisplayName	=	Remote Aerosol Bomb,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	Aerosolbomb,
+		MinDamage	=	0,
+		Weight	=	1.5,
+		MaxDamage	=	0,
+		MaxHitCount	=	0,
+		Icon	=	AerosolbombTimer,
+		ExplosionPower  =   70,
+		ExplosionRange  =   6,
+		CanBePlaced = TRUE,
+		CanBeRemote = TRUE,
+        ExplosionSound  =   AerosolBombExplode,
+		SwingSound = AerosolBombThrow,
+        PlacedSprite = constructedobjects_01_32,
+        WorldStaticModel = AerosolBombSensor,
+	}
+
+	item FlameTrap
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Flame Trap,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	Molotov,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	BottleWithGas,
+        FirePower  =   97,
+        FireRange  =   6,
+        ExplosionSound  =   FlameTrapExplode,
+        SwingSound = FlameTrapThrow,
+        Tooltip = Tooltip_Trap,
+        WorldStaticModel = FlameTrap,
+    }
+
+    item FlameTrapTriggered
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	3,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Flame Trap with Timer,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	constructedobjects_01_32,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	FireBomb,
+        ExplosionTimer = 10,
+        PlacedSprite = constructedobjects_01_32,
+        FirePower  =   97,
+        FireRange  =   6,
+        CanBePlaced = TRUE,
+        ExplosionSound  =   FlameTrapExplode,
+        SwingSound = FlameTrapThrow,
+        WorldStaticModel = FlameTrapSensor,
+    }
+
+    item FlameTrapSensorV1
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Flame Trap with Sensor,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	Molotov,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	FireBomb,
+        SensorRange =   3,
+        PlacedSprite = constructedobjects_01_32,
+        ExplosionTimer  =   5,
+        FirePower  =   97,
+        FireRange  =   6,
+        CanBePlaced = TRUE,
+        ExplosionSound  =   FlameTrapExplode,
+        SwingSound = FlameTrapThrow,
+        WorldStaticModel = FlameTrapSensor,
+    }
+
+    item FlameTrapSensorV2
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Flame Trap with Sensor,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	Molotov,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	FireBomb,
+        SensorRange =   4,
+        PlacedSprite = constructedobjects_01_32,
+        ExplosionTimer  =   5,
+        FirePower  =   97,
+        FireRange  =   6,
+        CanBePlaced = TRUE,
+        ExplosionSound  =   FlameTrapExplode,
+        SwingSound = FlameTrapThrow,
+        WorldStaticModel = FlameTrapSensor,
+    }
+
+    item FlameTrapSensorV3
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Flame Trap with Sensor,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	Molotov,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	FireBomb,
+        SensorRange =   5,
+        PlacedSprite = constructedobjects_01_32,
+        ExplosionTimer  =   5,
+        FirePower  =   97,
+        FireRange  =   6,
+        CanBePlaced = TRUE,
+        ExplosionSound  =   FlameTrapExplode,
+        SwingSound = FlameTrapThrow,
+        WorldStaticModel = FlameTrapSensor,
+    }
+
+    item FlameTrapRemote
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Remote Flame Trap,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	Molotov,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	FireBomb,
+        PlacedSprite = constructedobjects_01_32,
+        FirePower  =   97,
+        FireRange  =   6,
+        CanBePlaced = TRUE,
+        CanBeRemote = TRUE,
+        ExplosionSound  =   FlameTrapExplode,
+        SwingSound = FlameTrapThrow,
+        WorldStaticModel = FlameTrapSensor,
+    }
+
+	item SmokeBomb
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Smoke Bomb,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	ExplosiveTrap,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	Smokebomb,
+        TriggerExplosionTimer   =   50,
+        SmokeRange  =   5,
+        CanBePlaced = TRUE,
+        PlacedSprite = constructedobjects_01_36,
+        Tooltip = Tooltip_Trap,
+        WorldStaticModel = SmokeBomb,
+        ExplosionSound = SmokeBombExplode,
+        SwingSound = SmokeBombThrow,
+    }
+
+	item SmokeBombRemote
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Remote Smoke Bomb,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	ExplosiveTrap,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	SmokebombTimer,
+        SmokeRange  =   5,
+        CanBePlaced = TRUE,
+        CanBeRemote = TRUE,
+        PlacedSprite = constructedobjects_01_36,
+        WorldStaticModel = SmokeBombSensor,
+        ExplosionSound = SmokeBombExplode,
+        SwingSound = SmokeBombThrow,
+    }
+
+	item SmokeBombSensorV1
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Smoke Bomb with Sensor,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	ExplosiveTrap,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        SensorRange =   3,
+        Icon	=	SmokebombTimer,
+        SmokeRange  =   5,
+        ExplosionTimer  =   5,
+        CanBePlaced = TRUE,
+        PlacedSprite = constructedobjects_01_36,
+        WorldStaticModel = SmokeBombSensor,
+        ExplosionSound = SmokeBombExplode,
+        SwingSound = SmokeBombThrow,
+    }
+
+	item SmokeBombSensorV2
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Smoke Bomb with Sensor,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	ExplosiveTrap,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        SensorRange =   4,
+        Icon	=	SmokebombTimer,
+        SmokeRange  =   5,
+        ExplosionTimer  =   5,
+        CanBePlaced = TRUE,
+        PlacedSprite = constructedobjects_01_36,
+        WorldStaticModel = SmokeBombSensor,
+        ExplosionSound = SmokeBombExplode,
+        SwingSound = SmokeBombThrow,
+    }
+
+	item SmokeBombSensorV3
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Smoke Bomb with Sensor,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	ExplosiveTrap,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        SensorRange =   5,
+        Icon	=	SmokebombTimer,
+        SmokeRange  =   5,
+        ExplosionTimer  =   5,
+        CanBePlaced = TRUE,
+        PlacedSprite = constructedobjects_01_36,
+        WorldStaticModel = SmokeBombSensor,
+        ExplosionSound = SmokeBombExplode,
+        SwingSound = SmokeBombThrow,
+    }
+
+	item SmokeBombTriggered
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Smoke Bomb with Timer,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	ExplosiveTrap,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	SmokebombTimer,
+        ExplosionTimer  =   10,
+        SmokeRange  =   5,
+        CanBePlaced = TRUE,
+        PlacedSprite = constructedobjects_01_36,
+        WorldStaticModel = SmokeBombSensor,
+        ExplosionSound = SmokeBombExplode,
+        SwingSound = SmokeBombThrow,
+    }
+
+    item NoiseTrap
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Noise Maker,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	NoiseMaker,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	NoiseMaker,
+        NoiseRange  =   17,
+        NoiseDuration = 30,
+        triggerExplosionTimer   =   50,
+        CanBePlaced = TRUE,
+        CanBeReused =   TRUE,
+        ExplosionSound  =   NoiseMakerActivate,
+        Tooltip = Tooltip_Trap,
+        WorldStaticModel = NoiseMaker,
+    }
+
+    item NoiseTrapTriggered
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Noise Generator with Timer,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	NoiseGenerator,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	NoiseMaker,
+        NoiseRange  =   17,
+        NoiseDuration = 30,
+        ExplosionTimer  =   10,
+        CanBePlaced = TRUE,
+        CanBeReused =   TRUE,
+        ExplosionSound  =   NoiseMakerActivate,
+        WorldStaticModel = NoiseMakerSensor,
+    }
+
+    item NoiseTrapSensorV1
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Noise Generator with Sensor,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	NoiseGenerator,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	NoiseMaker,
+        NoiseRange  =   17,
+        NoiseDuration = 30,
+        ExplosionTimer  =   10,
+        SensorRange =   3,
+        CanBePlaced = TRUE,
+        CanBeReused =   TRUE,
+        ExplosionSound  =   NoiseMakerActivate,
+        WorldStaticModel = NoiseMakerSensor,
+    }
+
+    item NoiseTrapSensorV2
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Noise Generator with Sensor,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	NoiseGenerator,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	NoiseMaker,
+        NoiseRange  =   17,
+        NoiseDuration = 30,
+        ExplosionTimer  =   10,
+        SensorRange =   4,
+        CanBePlaced = TRUE,
+        CanBeReused =   TRUE,
+        ExplosionSound  =   NoiseMakerActivate,
+        WorldStaticModel = NoiseMakerSensor,
+    }
+
+    item NoiseTrapSensorV3
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Noise Generator with Sensor,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	NoiseGenerator,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	NoiseMaker,
+        NoiseRange  =   17,
+        NoiseDuration = 30,
+        ExplosionTimer  =   10,
+        SensorRange =   6,
+        CanBePlaced = TRUE,
+        CanBeReused =   TRUE,
+        ExplosionSound  =   NoiseMakerActivate,
+        WorldStaticModel = NoiseMakerSensor,
+    }
+
+    item NoiseTrapRemote
+    {
+        DisplayCategory = Devices,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Remote Noise Generator,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	NoiseGenerator,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	NoiseMaker,
+        NoiseRange  =   17,
+        NoiseDuration = 30,
+        CanBePlaced = TRUE,
+        CanBeReused =   TRUE,
+        CanBeRemote = TRUE,
+        ExplosionSound  =   NoiseMakerActivate,
+        WorldStaticModel = NoiseMakerSensor,
+    }
+
+    item Football2
+    {
+        DisplayCategory = Sports,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Football,
+        UseSelf	=	TRUE,
+        DisplayName	=	Football,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	Ball,
+        MinDamage	=	0,
+        Weight	=	0.425,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	Football,
+        TriggerExplosionTimer   =   40,
+        ExtraDamage  =   0.001,
+        ExplosionRange  =   2,
+        WorldStaticModel = Football,
+    }
+
+    item AlarmClock2
+    {
+        DisplayCategory = Household,
+        Type	=	AlarmClock,
+        DisplayName	=	Alarm Clock,
+        Weight	=	0.5,
+        Icon	=	AlarmClock,
+        AlarmSound = AlarmClockRingingLoop,
+        SoundRadius = 15,
+        MetalValue = 25,
+        WorldStaticModel = AlarmClock,
+    }
+
+    item AlarmClock
+    {
+        DisplayCategory = Household,
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Alarm Clock,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	NoiseGenerator,
+        MinDamage	=	0,
+        Weight	=	0.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	AlarmClock,
+        NoiseRange  =   10,
+        ExplosionTimer  =   10,
+        CanBePlaced = TRUE,
+        CanBeReused =   TRUE,
+        CountDownSound = ticking,
+        ExplosionSound  =   alarmClockNoTicking,
+        Tooltip = Tooltip_Trap,
+        MetalValue = 25,
+        OBSOLETE = true
+    }
+
+    item PipeBomb
+	{
+	    DisplayCategory = Devices,
+		MaxRange	=	10,
+		Type	=	Weapon,
+		MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+		WeaponSprite = Molotov,
+		UseSelf	=	TRUE,
+		DisplayName	=	Pipe Bomb,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	PipeBomb,
+		MinDamage	=	0,
+		Weight	=	1.5,
+		MaxDamage	=	0,
+		MaxHitCount	=	0,
+		Icon	=	PipeBomb,
+		ExplosionPower  =   90,
+		ExplosionRange  =   7,
+		ExplosionSound = PipeBombExplode,
+		SwingSound = PipeBombThrow,
+		PlacedSprite = constructedobjects_01_32,
+		Tooltip = Tooltip_Trap,
+		WorldStaticModel = PipeBomb,
+	}
+
+    item PipeBombTriggered
+	{
+	    DisplayCategory = Devices,
+		MaxRange	=	10,
+		Type	=	Weapon,
+		MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+		UseSelf	=	TRUE,
+		DisplayName	=	Pipe Bomb with Timer,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	PipeBomb,
+		MinDamage	=	0,
+		Weight	=	1.5,
+		MaxDamage	=	0,
+		MaxHitCount	=	0,
+		Icon	=	PipeBombTimer,
+		ExplosionPower  =   90,
+		ExplosionRange  =   7,
+		ExplosionTimer = 10,
+		CanBePlaced = TRUE,
+		ExplosionSound = PipeBombExplode,
+		SwingSound = PipeBombThrow,
+		PlacedSprite = constructedobjects_01_32,
+		WorldStaticModel = PipeBombSensor,
+	}
+
+    item PipeBombSensorV1
+	{
+	    DisplayCategory = Devices,
+		MaxRange	=	10,
+		Type	=	Weapon,
+		MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+		UseSelf	=	TRUE,
+		DisplayName	=	Pipe Bomb with Sensor,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	PipeBomb,
+		MinDamage	=	0,
+		Weight	=	1.5,
+		MaxDamage	=	0,
+		MaxHitCount	=	0,
+		Icon	=	PipeBombTimer,
+		ExplosionPower  =   90,
+		ExplosionRange  =   7,
+		ExplosionTimer = 5,
+		SensorRange =   3,
+		CanBePlaced = TRUE,
+		ExplosionSound = PipeBombExplode,
+		SwingSound = PipeBombThrow,
+		PlacedSprite = constructedobjects_01_32,
+		WorldStaticModel = PipeBombSensor,
+	}
+
+    item PipeBombSensorV2
+	{
+	    DisplayCategory = Devices,
+		MaxRange	=	10,
+		Type	=	Weapon,
+		MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+		UseSelf	=	TRUE,
+		DisplayName	=	Pipe Bomb with Sensor,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	PipeBomb,
+		MinDamage	=	0,
+		Weight	=	1.5,
+		MaxDamage	=	0,
+		MaxHitCount	=	0,
+		Icon	=	PipeBombTimer,
+		ExplosionPower  =   90,
+		ExplosionRange  =   7,
+		ExplosionTimer = 5,
+		SensorRange =   4,
+		CanBePlaced = TRUE,
+		ExplosionSound = PipeBombExplode,
+		SwingSound = PipeBombThrow,
+		PlacedSprite = constructedobjects_01_32,
+		WorldStaticModel = PipeBombSensor,
+	}
+
+    item PipeBombSensorV3
+	{
+	    DisplayCategory = Devices,
+		MaxRange	=	10,
+		Type	=	Weapon,
+		MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+		UseSelf	=	TRUE,
+		DisplayName	=	Pipe Bomb with Sensor,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	PipeBomb,
+		MinDamage	=	0,
+		Weight	=	1.5,
+		MaxDamage	=	0,
+		MaxHitCount	=	0,
+		Icon	=	PipeBombTimer,
+		ExplosionPower  =   90,
+		ExplosionRange  =   7,
+		ExplosionTimer = 5,
+		SensorRange =   6,
+		CanBePlaced = TRUE,
+		ExplosionSound = PipeBombExplode,
+		SwingSound = PipeBombThrow,
+		PlacedSprite = constructedobjects_01_32,
+		WorldStaticModel = PipeBombSensor,
+	}
+
+    item PipeBombRemote
+	{
+	    DisplayCategory = Devices,
+		MaxRange	=	10,
+		Type	=	Weapon,
+		MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+		UseSelf	=	TRUE,
+		DisplayName	=	Remote Pipe Bomb,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	PipeBomb,
+		MinDamage	=	0,
+		Weight	=	1.5,
+		MaxDamage	=	0,
+		MaxHitCount	=	0,
+		Icon	=	PipeBombTimer,
+		ExplosionPower  =   90,
+		ExplosionRange  =   7,
+		CanBePlaced = TRUE,
+		CanBeRemote = TRUE,
+		ExplosionSound = PipeBombExplode,
+		SwingSound = PipeBombThrow,
+        PlacedSprite = constructedobjects_01_32,
+        WorldStaticModel = PipeBombSensor,
+	}
+
+    /************************ Blacksmith ************************/
+
+    item IronIngot
+    {
+        DisplayCategory = Material,
+        Weight = 5,
+        Type = Drainable,
+        DisplayName	= Workable Iron,
+        Icon = MetalBits,
+        UseDelta = 0.01,
+        UseWhileEquipped = FALSE,
+    }
+
+    item SmallSheetMetal
+    {
+        DisplayCategory = Material,
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Small Metal Sheet,
+        Icon	=	MetalSheetSmall,
+        MetalValue = 20,
+        WorldStaticModel = MetalSheetSmall,
+    }
+
+    item TinCanEmpty
+    {
+        DisplayCategory = Material,
+        Weight = 0.2,
+        Type = Normal,
+        DisplayName	= Empty Tin Can,
+        Icon = TinCanEmpty,
+        MetalValue = 20,
+        StaticModel = CanOpen,
+        WorldStaticModel = TinCanEmpty_Ground,
+    }
+
+    item Tongs
+    {
+        DisplayCategory = Tool,
+        Weight = 0.5,
+        Type = Normal,
+        DisplayName	= Tongs,
+        Icon = BlacksmithTongs,
+        MetalValue = 15,
+        WorldStaticModel = Tongs,
+    }
+
+    item 9mmBulletsMold
+    {
+        DisplayCategory = Ammo,
+        Weight = 0.5,
+        Type = Normal,
+        DisplayName	= 9mm Bullets Mold,
+        Icon = BulletMold,
+        MetalValue = 15,
+    }
+
+    item ShotgunShellsMold
+    {
+        DisplayCategory = Ammo,
+        Weight = 0.5,
+        Type = Normal,
+        DisplayName	= Shotgun Shells Mold,
+        Icon = BulletMold,
+        MetalValue = 15,
+    }
+
+    item 308BulletsMold
+    {
+        DisplayCategory = Ammo,
+        Weight = 0.5,
+        Type = Normal,
+        DisplayName	= 308 Bullets Mold,
+        Icon = BulletMold,
+        MetalValue = 15,
+    }
+
+    item 223BulletsMold
+    {
+        DisplayCategory = Ammo,
+        Weight = 0.5,
+        Type = Normal,
+        DisplayName	= 223 Bullets Mold,
+        Icon = BulletMold,
+        MetalValue = 15,
+    }
+
+    item BlowTorch
+    {
+        DisplayCategory = Tool,
+        Weight	=	1.0,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.01,
+        DisplayName	=	Propane Torch,
+        Icon	=	BlowTorch,
+        MetalValue = 20,
+        KeepOnDeplete = true,
+        StaticModel = BlowTorch,
+        WeightEmpty = 0.3,
+        WorldStaticModel = BlowtorchGround,
+    }
+
+    item WeldingRods
+    {
+        DisplayCategory = Material,
+        Weight	=	1.5,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.05,
+        DisplayName	=	Welding Rods,
+        Icon	=	WeldingRods,
+        MetalValue = 20,
+        WeightEmpty = 0.2,
+        WorldStaticModel = WeldingRods,
+    }
+
+    item Bellows
+    {
+        DisplayCategory = Tool,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Bellows,
+        Icon	=	Bellows,
+        Tooltip = Tooltip_Bellows,
+    }
+
+    item Handle
+    {
+        DisplayCategory = Material,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Handle,
+        Icon	=	WoodHandle,
+        WorldStaticModel = Handle,
+    }
+
+    item MetalDrum
+    {
+        DisplayCategory = Hidden,
+        Weight	=	2,
+        Type	=	Normal,
+        DisplayName	=	Metal Drum,
+        Icon	=	BarrellDrum,
+        MetalValue = 40,
+    }
+
+    item PaintbucketEmpty
+    {
+        DisplayCategory = Material,
+        Weight	=	1.0,
+        Type	=	Normal,
+        DisplayName	=	Empty Paint Bucket,
+        Icon	=	PaintbucketEmpty,
+        MetalValue = 20,
+        StaticModel = Bucket,
+        CanStoreWater	=	TRUE,
+        ReplaceOnUseOn	=	WaterSource-WaterPaintbucket,
+        RainFactor = 1,
+        Tooltip = Tooltip_item_RainFromGround,
+        EatType = Bucket,
+        WorldStaticModel = PaintTinEmpty_Ground,
+    }
+
+    item WaterPaintbucket
+    {
+        DisplayCategory = Water,
+        Type = Drainable,
+        DisplayName = Paint Bucket With Water,
+        Icon = PaintbucketEmpty,
+        Weight = 4.0,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta = 0.04,
+        ReplaceOnUseOn = WaterSource-WaterPaintbucket,
+        IsWaterSource = TRUE,
+        CanStoreWater = TRUE,
+        RainFactor = 1,
+        EatType = Bucket,
+        WorldStaticModel = PaintTinEmpty_Ground,
+    }
+
+    item BeerCanEmpty
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Empty Beer Can,
+        Icon	=	BeerCan,
+        MetalValue = 10,
+        WorldStaticModel = BeerCanEmptyWorld,
+    }
+    item PopEmpty
+    {
+        DisplayCategory = Material,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Empty Pop Can,
+        Icon	=	PopEmpty,
+        MetalValue = 10,
+        WorldStaticModel = PopCanDietWorld,
+    }
+    item Pop2Empty
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Empty Pop Can,
+        Icon	=	PopEmpty,
+        MetalValue = 10,
+        WorldStaticModel = PopCanRedWorld,
+    }
+    item Pop3Empty
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Empty Pop Can,
+        Icon	=	PopEmpty,
+        MetalValue = 10,
+        WorldStaticModel = PopCanFizzWorld,
+    }
+    item HairDyeBlonde
+    {
+        DisplayCategory = Appearance,
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Blonde Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 212,
+        ColorGreen = 171,
+        ColorBlue = 69,
+        WorldStaticModel = HairDyeBlond,
+    }
+
+    item HairDyeBlack
+    {
+        DisplayCategory = Appearance,
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Black Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 27,
+        ColorGreen = 23,
+        ColorBlue = 22,
+        WorldStaticModel = HairDyeBlackDarkBrown,
+    }
+
+    item HairDyeWhite
+    {
+        DisplayCategory = Appearance,
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	White Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 202,
+        ColorGreen = 200,
+        ColorBlue = 192,
+        WorldStaticModel = HairDyeBlackWhite,
+    }
+
+    item HairDyePink
+    {
+        DisplayCategory = Appearance,
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Pink Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 246,
+        ColorGreen = 83,
+        ColorBlue = 150,
+        WorldStaticModel = HairDyePink,
+    }
+
+    item HairDyeYellow
+    {
+        DisplayCategory = Appearance,
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Yellow Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 252,
+        ColorGreen = 223,
+        ColorBlue = 0,
+        WorldStaticModel = HairDyeYellowBlond,
+    }
+
+    item HairDyeRed
+    {
+        DisplayCategory = Appearance,
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Red Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 210,
+        ColorGreen = 38,
+        ColorBlue = 18,
+        WorldStaticModel = HairDyeRedStrawberryBlond,
+    }
+
+    item HairDyeGinger
+    {
+        DisplayCategory = Appearance,
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Strawberry Blonde Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 190,
+        ColorGreen = 89,
+        ColorBlue = 34,
+        WorldStaticModel = HairDyeRedStrawberryBlond,
+    }
+
+    item HairDyeLightBrown
+    {
+        DisplayCategory = Appearance,
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Light Brown Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 159,
+        ColorGreen = 108,
+        ColorBlue = 43,
+        WorldStaticModel = HairDyeBrown,
+    }
+
+    item HairDyeGreen
+    {
+        DisplayCategory = Appearance,
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Green Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 55,
+        ColorGreen = 152,
+        ColorBlue = 77,
+        WorldStaticModel = HairDyeGreen,
+    }
+
+    item HairDyeBlue
+    {
+        DisplayCategory = Appearance,
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Blue Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 66,
+        ColorGreen = 155,
+        ColorBlue = 207,
+        WorldStaticModel = HairDyeBlue,
+    }
+
+    item DenimStrips
+    {
+        DisplayCategory = Material,
+        CanBandage	=	TRUE,
+        Weight	=	0.05,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Denim Strips,
+        ReplaceOnUse    =   DenimStripsDirty,
+        Icon	=	DenimStrips,
+        BandagePower    =   2,
+        Tooltip = Tooltip_RippedSheets,
+        FabricType = Denim,
+        WorldStaticModel = DenimStrips,
+    }
+
+    item DenimStripsDirty
+    {
+        DisplayCategory = Material,
+        CanBandage	=	TRUE,
+        Weight	=	0.05,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Dirty Denim Strips,
+        Icon	=	DenimStrips,
+        BandagePower    =   0.5,
+        CanBandage	=	TRUE,
+        WorldStaticModel = DenimStripsDirty,
+    }
+
+    item LeatherStrips
+    {
+        DisplayCategory = Material,
+        CanBandage	=	TRUE,
+        Weight	=	0.05,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Leather Strips,
+        ReplaceOnUse    =   LeatherStripsDirty,
+        Icon	=	LeatherStrips,
+        BandagePower    =   2,
+        Tooltip = Tooltip_RippedSheets,
+        FabricType = Leather,
+        WorldStaticModel = LeatherStrips,
+    }
+
+    item LeatherStripsDirty
+    {
+        DisplayCategory = Material,
+        CanBandage	=	TRUE,
+        Weight	=	0.05,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Dirty Leather Strips,
+        Icon	=	LeatherStrips,
+        BandagePower    =   0.5,
+        CanBandage	=	TRUE,
+        WorldStaticModel = LeatherStripsDirty,
+    }
+
+    item HandTorch
+    {
+        DisplayCategory = LightSource,
+        LightDistance	=	15,
+        Weight	=	0.5,
+        DisappearOnUse	=	FALSE,
+        Type	=	Drainable,
+        TorchCone	=	TRUE,
+        UseDelta	=	0.0004,
+        LightStrength	=	0.9,
+        DisplayName	=	Hand Torch,
+        ActivatedItem	=	TRUE,
+        Icon	=	Flashlight2,
+        MetalValue = 10,
+        cantBeConsolided = TRUE,
+        StaticModel = HandTorch,
+        primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,
+        WorldStaticModel = HandTorchGround,
+    }
+
+    item Hairgel
+    {
+        DisplayCategory = Appearance,
+        Type	=	Drainable,
+        Weight	=	0.1,
+        UseDelta	=	0.05,
+        DisplayName	=	Hair gel,
+        Icon	=	HairGel,
+        WorldStaticModel = HairGel_Ground,
+    }
+
+    item Mov_AntiqueStove
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= appliances_cooking_01_16,
+    }
+
+    item Mov_Lamp1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= lighting_indoor_01_8,
+    }
+
+    item Mov_Lamp2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= lighting_indoor_01_9,
+    }
+
+    item Mov_Lamp3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= lighting_indoor_01_10,
+    }
+
+    item Mov_Lamp4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= lighting_indoor_01_11,
+    }
+
+    item Mov_Lamp5
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= lighting_indoor_01_12,
+    }
+
+    item Mov_Lamp6
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= lighting_indoor_01_13,
+    }
+
+    item Mov_Microwave
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= appliances_cooking_01_24,
+    }
+
+    item Mov_Microwave2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= appliances_cooking_01_28,
+    }
+
+    item Mov_Toaster
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= appliances_cooking_01_32,
+    }
+
+    item Disc_Retail
+    {
+        Type				= Normal,
+        DisplayName			= CD,
+        Icon				= Disc,
+        Weight				= 0.1,
+        WorldStaticModel    = Disk,
+        MediaCategory       = CDs,
+    }
+
+    item VHS
+    {
+        Type				= Normal,
+        DisplayName			= VHS,
+        Icon				= Cassette3,
+        Weight				= 0.1,
+        WorldStaticModel = VHSBox,
+    }
+
+    item VHS_Retail
+    {
+        Type				= Normal,
+        DisplayName			= VHS-Retail,
+        Icon				= Cassette3,
+        Weight				= 0.1,
+        MediaCategory       = Retail-VHS,
+        WorldStaticModel = VHSBox2,
+    }
+
+    item VHS_Home
+    {
+        Type				= Normal,
+        DisplayName			= VHS-Home,
+        Icon				= Cassette3,
+        Weight				= 0.1,
+        MediaCategory       = Home-VHS,
+        WorldStaticModel = VHSBox3,
+    }
+
+    item PlasticCup
+    {
+        Type				= Normal,
+        DisplayName			= Plastic Cup,
+        Icon				= PlasticCup,
+        Weight				= 0.1,
+        WorldStaticModel = PlasticCup_Ground,
+    }
+
+    item Camera
+    {
+        Type				= Normal,
+        DisplayName			= Camera,
+        Icon				= Camera,
+        Weight				= 0.2,
+        WorldStaticModel = Camera_Ground,
+    }
+
+    item CameraDisposable
+    {
+        Type				= Normal,
+        DisplayName			= Disposable Camera,
+        Icon				= CameraDisposable,
+        Weight				= 0.2,
+        WorldStaticModel = CameraDisposable_Ground,
+    }
+
+    item CameraExpensive
+    {
+        Type				= Normal,
+        DisplayName			= High-end Camera,
+        Icon				= CameraExpensive,
+        Weight				= 0.3,
+        WorldStaticModel = CameraExpensive_Ground,
+    }
+
+    item CameraFilm
+    {
+        Type				= Normal,
+        DisplayName			= Film Camera,
+        Icon				= CameraFilm,
+        Weight				= 0.3,
+        WorldStaticModel = CameraFilm_Ground,
+    }
+
+    item Chopsticks
+    {
+        Type				= Normal,
+        DisplayName			= Chopsticks,
+        Icon				= Chopsticks,
+        Weight				= 0.1,
+        WorldStaticModel = Chopsticks_Ground,
+    }
+
+    item GlassTumbler
+    {
+        Type				= Normal,
+        DisplayName			= Tumbler,
+        Icon				= GlassTumbler,
+        Weight				= 0.1,
+        WorldStaticModel = GlassTumbler_Ground,
+    }
+
+    item GlassWine
+    {
+        Type				= Normal,
+        DisplayName			= Wine Glass,
+        Icon				= GlassWine,
+        Weight				= 0.1,
+        WorldStaticModel = GlassWine_Ground,
+    }
+
+    item Plate
+    {
+        Type				= Normal,
+        DisplayName			= Plate,
+        Icon				= Plate,
+        Weight				= 0.2,
+        WorldStaticModel = Plate_Ground,
+    }
+
+    item PlateBlue
+    {
+        Type				= Normal,
+        DisplayName			= Blue Plate,
+        Icon				= Plate,
+        Weight				= 0.2,
+        WorldStaticModel = Plate_Blue_Ground,
+    }
+
+    item PlateOrange
+    {
+        Type				= Normal,
+        DisplayName			= Orange Plate,
+        Icon				= Plate,
+        Weight				= 0.2,
+        WorldStaticModel = Plate_Orange_Ground,
+    }
+
+    item PlateFancy
+    {
+        Type				= Normal,
+        DisplayName			= Fancy Plate,
+        Icon				= Plate,
+        Weight				= 0.2,
+        WorldStaticModel = Plate_Fancy_Ground,
+    }
+
+    item Teacup
+    {
+        Type				= Normal,
+        DisplayCategory = Cooking,
+        CanStoreWater	=	TRUE,
+        ReplaceOnUseOn	=	WaterSource-WaterTeacup,
+        RainFactor = 0.1,
+        Tooltip = Tooltip_item_RainFromGround,
+        DisplayName			= Teacup,
+        Icon				= Teacup,
+        Weight				= 0.1,
+    }
+
+    item GravyMix
+    {
+        Type				= Drainable,
+        DisplayCategory = Cooking,
+        DisplayName			= Gravy Mix,
+        Icon				= GravyMix,
+        Weight				= 0.1,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+    }
+
+    item PancakeMix
+    {
+        Type				= Drainable,
+        DisplayCategory = Cooking,
+        DisplayName			= Pancake Mix,
+        Icon				= PancakeMix,
+        Weight				= 0.1,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.25,
+        WorldStaticModel = PancakeMix_Ground,
+    }
+    item MuffinTray
+    {
+        DisplayCategory = Cooking,
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=   Muffin Tray,
+        Icon	=	Muffintray,
+        MetalValue = 60,
+    }
+
+    item OvenMitt
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Oven Mitt,
+        Icon	=	OvenMitt,
+    }
+
+    item GrillBrush
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Grill Brush,
+        Icon	=	GrillBrush,
+        MetalValue = 20,
+    }
+
+    item CarvingFork
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Carving Fork,
+        Icon	=	CarvingFork,
+        MetalValue = 20,
+    }
+
+    item CarvingFork
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Carving Fork,
+        Icon	=	CarvingFork,
+        MetalValue = 20,
+    }
+
+    item CarvingFork
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Carving Fork,
+        Icon	=	CarvingFork,
+        MetalValue = 20,
+    }
+
+    item PaperNapkins
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Paper Napkins,
+        Icon	=	PaperNapkins,
+    }
+
+    item Tongs
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Tongs,
+        Icon	=	Tongs,
+    }
+
+    item Straw
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Straw,
+        Icon	=	Straw,
+    }
+
+    item Spatula
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Spatula,
+        Icon	=	Spatula,
+    }
+
+    item Spatula
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Spatula,
+        Icon	=	Spatula,
+    }
+
+    item Spatula
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Spatula,
+        Icon	=	Spatula,
+    }
+
+    item PlasticTray
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Plastic Tray,
+        Icon	=	PlasticTray,
+    }
+
+    item FountainCup
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Fountain Cup,
+        Icon	=	FountainCup,
+    }
+
+item SackProduce_Apple
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Apples,
+        Icon    =   Sandbag,
+        DaysFresh           =       5,
+        DaysTotallyRotten   =       8,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_BellPepper
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Bell Peppers,
+        Icon    =   Sandbag,
+        DaysFresh           =       5,
+        DaysTotallyRotten   =       8,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Broccoli
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Broccoli,
+        Icon    =   Sandbag,
+        DaysFresh           =       4,
+        DaysTotallyRotten   =       6,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Cabbage
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Cabbages,
+        Icon    =   Sandbag,
+        DaysFresh           =       2,
+        DaysTotallyRotten   =       4,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Carrot
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Carrots,
+        Icon    =   Sandbag,
+        DaysFresh           =       6,
+        DaysTotallyRotten   =       8,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Cherry
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Cherries,
+        Icon    =   Sandbag,
+        DaysFresh           =       4,
+        DaysTotallyRotten   =       9,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Corn
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Corn,
+        Icon    =   Sandbag,
+        DaysFresh           =       5,
+        DaysTotallyRotten   =       8,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Eggplant
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Eggplants,
+        Icon    =   Sandbag,
+        DaysFresh           =       5,
+        DaysTotallyRotten   =       8,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Grapes
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Grapes,
+        Icon    =   Sandbag,
+        DaysFresh           =       5,
+        DaysTotallyRotten   =       8,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Leek
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Leeks,
+        Icon    =   Sandbag,
+        DaysFresh           =       5,
+        DaysTotallyRotten   =       8,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Lettuce
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Lettuce,
+        Icon    =   Sandbag,
+        DaysFresh           =       3,
+        DaysTotallyRotten   =       5,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Onion
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Onions,
+        Icon    =   Sandbag,
+        DaysFresh           =       7,
+        DaysTotallyRotten   =       9,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Peach
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Peaches,
+        Icon    =   Sandbag,
+        DaysFresh           =       5,
+        DaysTotallyRotten   =       8,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Pear
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Pears,
+        Icon    =   Sandbag,
+        DaysFresh           =       5,
+        DaysTotallyRotten   =       8,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Potato
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Potatoes,
+        Icon    =   Sandbag,
+        DaysFresh           =       14,
+        DaysTotallyRotten   =       28,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_RedRadish
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Radishes,
+        Icon    =   Sandbag,
+        DaysFresh           =       3,
+        DaysTotallyRotten   =       6,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Strawberry
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Strawberries,
+        Icon    =   Sandbag,
+        DaysFresh           =       2,
+        DaysTotallyRotten   =       5,
+        WorldStaticModel = SandBag,
+    }
+
+    item SackProduce_Tomato
+    {
+        DisplayCategory = Food,
+        Weight = 2,
+        Type    =   Food,
+        DisplayName =   Sack of Tomatoes,
+        Icon    =   Sandbag,
+        DaysFresh           =       4,
+        DaysTotallyRotten   =       12,
+        WorldStaticModel = SandBag,
+    }
+}
+

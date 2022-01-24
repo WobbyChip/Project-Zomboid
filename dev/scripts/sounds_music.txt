@@ -1,0 +1,1012 @@
+module Base
+{
+	sound MusicCombined
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = Music/Main,
+		}
+	}
+
+	sound NewMusic_WWL_Solo
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/WWL_Solo,
+        }
+    }
+	sound NewMusic_32
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/32,
+        }
+    }
+
+	sound NewMusic_33
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/33,
+        }
+    }
+
+	sound NewMusic_34
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/34,
+        }
+    }
+
+	sound NewMusic_35
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/35,
+        }
+    }
+
+	sound NewMusic_36
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/36,
+        }
+    }
+
+	sound NewMusic_Travelling
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/Travelling,
+        }
+    }
+
+	sound NewMusic_TakeStock
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/TakeStock,
+        }
+    }
+
+	sound NewMusic_PassingTime
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/PassingTime,
+        }
+    }
+
+	sound NewMusic_NoTime
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/NoTime,
+        }
+    }
+
+	sound NewMusic_MoreAreComing
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/MoreAreComing,
+        }
+    }
+
+	sound NewMusic_OnlyOneWay
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/OnlyOneWay,
+        }
+    }
+
+	sound NewMusic_KeepMoving
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/KeepMoving,
+		}
+	}
+
+	sound NewMusic_GoItAlone
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/GoItAlone,
+        }
+    }
+
+	sound NewMusic_Sunrise
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/Sunrise,
+        }
+    }
+
+	sound NewMusic_HoldingOutHope
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/HoldingOutHope,
+        }
+    }
+
+	sound NewMusic_Working
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/Working,
+        }
+    }
+
+	sound NewMusic_Sunset
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/Sunset,
+        }
+    }
+
+	sound NewMusic_Mourning
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/Mourning,
+        }
+    }
+
+	sound NewMusic_LookingAround
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/LookingAround,
+        }
+    }
+
+	sound NewMusic_Waiting
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/Waiting,
+        }
+    }
+
+	sound NewMusic_Overrun
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/Overrun,
+        }
+    }
+
+	sound NewMusic_Rest
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/Rest,
+        }
+    }
+
+	sound NewMusic_PressOn
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/PressOn,
+        }
+    }
+
+	sound NewMusic_CalmBeforeTheStorm
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/CalmBeforeTheStorm,
+        }
+    }
+
+	sound NewMusic_GetReady
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/GetReady,
+        }
+    }
+
+	sound NewMusic_EchoesFromBefore
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/EchoesFromBefore,
+        }
+    }
+
+	sound NewMusic_Surrounded
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/Surrounded,
+        }
+    }
+
+	sound NewMusic_ThePlan
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/ThePlan,
+        }
+    }
+
+	sound NewMusic_GearUp
+	{
+		category = Music,
+		master = Music,
+		clip
+        {
+            event = NewMusic/Gear_Up,
+        }
+    }
+
+    sound NewMusic_FinallyCalm
+    {
+        category = Music,
+        master = Music,
+        clip
+        {
+            event = NewMusic/Finally_Calm,
+        }
+    }
+
+    sound NewMusic_PatchUp
+    {
+          category = Music,
+          master = Music,
+          clip
+          {
+              event = NewMusic/PatchUp,
+          }
+     }
+
+    sound NewMusic_TheyreClose
+    {
+         category = Music,
+         master = Music,
+         clip
+         {
+             event = NewMusic/TheyreClose,
+         }
+    }
+
+    sound NewMusic_ThinkingOfThePast
+    {
+        category = Music,
+        master = Music,
+        clip
+        {
+            event = NewMusic/ThinkingOfThePast,
+        }
+    }
+
+
+    sound NewMusic_TouchAndGo
+    {
+       category = Music,
+       master = Music,
+       clip
+       {
+           event = NewMusic/TouchAndGo,
+       }
+    }
+
+    sound NewMusic_Tread_Carefully
+    {
+         category = Music,
+         master = Music,
+         clip
+         {
+             event = NewMusic/Tread_Carefully,
+         }
+    }
+
+   sound NewMusic_Everythings_Gone
+    {
+        category = Music,
+        master = Music,
+        clip
+        {
+            event = NewMusic/Everythings_Gone,
+        }
+    }
+
+
+	sound AmbientMusic_BrassAmbient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = AmbientMusic/BrassAmbient,
+		}
+	}
+
+	sound AmbientMusic_CreepyAmbient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = AmbientMusic/CreepyAmbient,
+		}
+	}
+
+	sound AmbientMusic_IntenseAmbient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = AmbientMusic/IntenseAmbient,
+		}
+	}
+
+	sound AmbientMusic_PercussiveAmbient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = AmbientMusic/PercussiveAmbient,
+		}
+	}
+
+	sound AmbientMusic_RhythmicAmbient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = AmbientMusic/RhythmicAmbient,
+		}
+	}
+
+	sound AmbientMusic_VoiceAmbient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = AmbientMusic/VoiceAmbient,
+		}
+	}
+
+	sound AmbientMusic_ZombieAmbient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = AmbientMusic/ZombieAmbient,
+		}
+	}
+
+	sound NewMusic_Alone
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Alone,
+		}
+	}
+
+	sound NewMusic_Barricading
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Barricading,
+		}
+	}
+
+	sound NewMusic_Chase
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Chase,
+		}
+	}
+
+	sound NewMusic_DesperateEscape
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Desperate Escape,
+		}
+	}
+
+	sound NewMusic_FightOrFlight
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Fight or Flight,
+		}
+	}
+
+	sound NewMusic_Introduction
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Introduction,
+		}
+	}
+
+	sound NewMusic_MainTheme
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Main Theme,
+		}
+	}
+
+	sound NewMusic_MaybeNot
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Maybe Not,
+		}
+	}
+
+	sound NewMusic_MaybeWeCanWinThis
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Maybe We Can Win This,
+		}
+	}
+
+	sound NewMusic_Run
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Run,
+		}
+	}
+
+	sound NewMusic_SlowSad
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Slow Sad,
+		}
+	}
+
+	sound NewMusic_TheyWereOnceHere
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/They Were Once Here,
+		}
+	}
+
+	sound NewMusic_SayingGoodbye
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Saying Goodbye,
+		}
+	}
+
+	sound NewMusic_TheHorde
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/The Horde,
+		}
+	}
+
+    sound NewMusic_Death
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Death,
+		}
+	}
+	sound NewMusic_TheInevitable
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/The Inevitable,
+		}
+	}
+
+	sound NewMusic_TheZombieThreat
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/The Zombie Threat,
+		}
+	}
+
+	sound NewMusic_WhatWasLost
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/What Was Lost,
+		}
+	}
+
+	sound NewMusic_WhatWasLostActive
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/What Was Lost Active,
+		}
+	}
+
+	sound NewMusic_WhatWasLostActive2
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/What Was Lost Active 2,
+		}
+	}
+
+	sound NewMusic_WhereIsEveryone
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Where is Everyone,
+		}
+	}
+
+	sound NewMusic_WorkFast
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Work Fast,
+		}
+	}
+
+	sound NewMusic_Ambient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Ambient,
+		}
+	}
+
+	sound NewMusic_AmbientGuitar
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Ambient Guitar,
+		}
+	}
+
+	sound NewMusic_AmbientLow
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Ambient Low,
+		}
+	}
+
+	sound NewMusic_AmbientPiano
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/NoGoingBack,
+		}
+	}
+
+	sound NewMusic_AmbientRaider
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = NewMusic/Ambient Raider,
+		}
+	}
+
+	sound OldMusic_alone
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/alone,
+		}
+	}
+
+	sound OldMusic_barricading
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/barricading,
+		}
+	}
+
+	sound OldMusic_chase
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/chase,
+		}
+	}
+
+	sound OldMusic_desperate_escape
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/desperate_escape,
+		}
+	}
+
+	sound OldMusic_fight_or_flight
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/fight_or_flight,
+		}
+	}
+
+	sound OldMusic_maybe_not
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/maybe_not,
+		}
+	}
+
+	sound OldMusic_maybe_we_can_win_this
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/maybe_we_can_win_this,
+		}
+	}
+
+	sound OldMusic_preface
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/preface,
+		}
+	}
+
+	sound OldMusic_PZ
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/PZ,
+		}
+	}
+
+	sound OldMusic_run
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/run,
+		}
+	}
+
+	sound OldMusic_saying_goodbye
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/saying_goodbye,
+		}
+	}
+
+	sound OldMusic_the_horde
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/the_horde,
+		}
+	}
+
+	sound OldMusic_the_inevitable
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/the_inevitable,
+		}
+	}
+
+	sound OldMusic_theme2
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/theme2,
+		}
+	}
+
+	sound OldMusic_they_were_once_here
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/they_were_once_here,
+		}
+	}
+
+	sound OldMusic_the_zombie_threat
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/the_zombie_threat,
+		}
+	}
+
+	sound OldMusic_tunedeath
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/tunedeath,
+		}
+	}
+
+	sound OldMusic_what_was_lost
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/what_was_lost,
+		}
+	}
+
+	sound OldMusic_wwl_active
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/wwl_active,
+		}
+	}
+
+	sound OldMusic_wwl_tense
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/wwl_tense,
+		}
+	}
+
+	sound OldMusic_where_is_everyone
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/where_is_everyone,
+		}
+	}
+
+	sound OldMusic_work_fast
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/work_fast,
+		}
+	}
+
+	sound OldMusic_ambient1
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/ambient1,
+		}
+	}
+
+	sound OldMusic_ambient2
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/ambient2,
+		}
+	}
+
+	sound OldMusic_guitar
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/guitar,
+		}
+	}
+
+	sound OldMusic_low
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/low,
+		}
+	}
+
+	sound OldMusic_long_ambient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/long_ambient,
+		}
+	}
+
+	sound OldMusic_piano
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/piano,
+		}
+	}
+
+	sound OldMusic_raider
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			event = OldMusic/raider,
+		}
+	}
+}

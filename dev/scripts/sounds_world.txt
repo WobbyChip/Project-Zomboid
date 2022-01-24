@@ -1,0 +1,135 @@
+module Base
+{
+
+	sound WorldAmbiance
+	{
+		category = World,
+		master = Ambient,
+		loop = true,
+		clip
+		{
+			event = World/Ambiance,
+		}
+	}
+
+	sound TreeAmbiance 
+	{
+		category = World,
+		master = Ambient,
+		loop = true,
+		clip
+		{
+			event = World/Object/Tree,
+		}
+	}
+
+	sound VehicleAmbiance 
+	{
+		category = World,
+		master = Ambient,
+		loop = true,
+		clip
+		{
+			event = World/Object/Vehicle,
+		}
+	}
+
+	sound StrikeWithFishingSpear
+	{
+		category = World,
+		clip
+		{
+			event = Character/Survival/Fishing/SpearStrike,
+		}
+	}
+
+	sound LureHitWater
+	{
+		category = World,
+		clip
+		{
+			event = Character/Survival/Fishing/LureHitWater,
+		}
+	}
+
+	sound CatchFish
+	{
+		category = World,
+		clip
+		{
+			event = Character/Survival/Fishing/CatchFish,
+		}
+	}
+
+	sound CatchTrashWithRod
+	{
+		category = World,
+		clip
+		{
+			event = Character/Survival/Fishing/CatchTrash,
+		}
+	}
+
+	sound CheckFishingNet
+	{
+		category = World,
+		clip
+		{
+			event = Character/Survival/Fishing/CheckFishingNet,
+		}
+	}
+
+	sound PlaceFishingNet
+	{
+		category = World,
+		clip
+		{
+			event = Character/Survival/Fishing/CheckFishingNet,
+		}
+	}
+
+	sound RemoveFishingNet
+	{
+		category = World,
+		clip
+		{
+			event = Character/Survival/Fishing/CheckFishingNet,
+		}
+	}
+
+	sound HouseAlarm
+	{
+		category = World,
+		clip
+		{
+			event = Meta/HouseAlarm,
+		}
+	}
+
+	sound CorpseFlies
+	{
+		category = World,
+		clip
+		{
+			event = Meta/Flies,
+		}
+	}
+	
+	sound Thunder
+	{
+		category = World,
+		clip
+		{
+			event = World/Weather/Thunder,
+		}
+	}
+
+	sound RumbleThunder
+	{
+		category = World,
+		clip
+		{
+			event = World/Weather/Thunder,
+		}
+	}
+}

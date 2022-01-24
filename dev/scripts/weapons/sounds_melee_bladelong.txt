@@ -1,0 +1,110 @@
+module Base
+{
+	sound KatanaHit
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/Katana/Hit,
+		}
+	}
+
+	sound KatanaBreak
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/Katana/Break,
+		}
+	}
+
+	sound KatanaSwing
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/Katana/Swing,
+		}
+	}
+
+	sound MacheteHit
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/Machete/Hit,
+		}
+	}
+
+	sound MacheteBreak
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/Machete/Break,
+		}
+	}
+
+	sound MacheteSwing
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/Machete/Swing,
+		}
+	}
+    
+	sound AxeHit
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/Axe/Hit,
+		}
+	}
+
+	sound AxeBreak
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/Axe/Break,
+		}
+	}
+
+	sound AxeSwing
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/Axe/Swing,
+		}
+	}
+    
+	sound WoodAxeHit
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/WoodAxe/Hit,
+		}
+	}
+
+	sound WoodAxeBreak
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/WoodAxe/Break,
+		}
+	}
+
+	sound WoodAxeSwing
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/WoodAxe/Swing,
+		}
+	}
+}

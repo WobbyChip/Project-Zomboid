@@ -1,0 +1,549 @@
+module Base
+{
+    item Mov_FoldingChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_01_60,
+    }
+	
+    item Mov_OfficeChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_01_50,
+    }
+	
+    item Mov_GreyChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_01_54,
+    }
+	
+    item Mov_WoodenStool
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= location_restaurant_bar_01_26,
+    }
+	
+    item Mov_PlasticChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_01_17,
+    }
+	
+    item Mov_BluePlasticChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_02_13,
+    }
+	
+    item Mov_MetalStool
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= location_community_medical_01_10,
+    }
+	
+    item Mov_MobileCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= location_community_medical_01_49,
+    }
+	
+    item Mov_MetalLocker
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_storage_02_8,
+    }
+	
+    item Mov_ChromeSink
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= fixtures_sinks_01_9,
+    }
+	
+    item Mov_IndustrialSink
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= fixtures_sinks_01_16,
+    }
+	
+    item Mov_WhiteSink
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= fixtures_sinks_01_12,
+    }
+	
+    item Mov_FancyToilet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= fixtures_bathroom_01_0,
+    }
+	
+    item Mov_RedBBQ
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= appliances_cooking_01_35,
+    }
+	
+    item Mov_GreyOven
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= appliances_cooking_01_5,
+    }
+	
+    item Mov_ModernOven
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= appliances_cooking_01_13,
+    }
+	
+    item Mov_GreenOven
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= appliances_cooking_01_1,
+    }
+	
+    item Mov_RedOven
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= appliances_cooking_01_9,
+    }
+	
+    item Mov_WoodenChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_02_5,
+    }
+	
+    item Mov_DarkWoodenChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_02_0,
+    }
+	
+    item Mov_GreenChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_01_57,
+    }
+	
+    item Mov_RedWoodenChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_02_9,
+    }
+	
+    item Mov_WhiteWoodenChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_02_56,
+    }
+	
+    item Mov_WhiteSimpleChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_03_57,
+    }
+	
+    item Mov_PurpleWoodenChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_03_45,
+    }
+	
+    item Mov_PileOCrepeChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= location_restaurant_pileocrepe_01_41,
+    }
+	
+    item Mov_FancyWhiteChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_01_37,
+    }
+	
+    item Mov_FancyBlackChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_03_41,
+    }
+	
+    item Mov_RedChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_01_41,
+    }
+	
+    item Mov_DarkBlueChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_03_49,
+    }
+	
+    item Mov_GreenComfyChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_01_9,
+    }
+	
+    item Mov_WhiteComfyChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_02_20,
+    }
+	
+    item Mov_BlueComfyChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_03_25,
+    }
+	
+    item Mov_GreyComfyChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_03_4,
+    }
+	
+    item Mov_BrownComfyChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_02_44,
+    }
+	
+    item Mov_YellowModernChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_03_28,
+    }
+	
+    item Mov_OrangeModernChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_01_12,
+    }
+	
+    item Mov_OrangeFuton
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_01_46,
+    }
+	
+    item Mov_BlueRattanChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_02_41,
+    }
+	
+    item Mov_PurpleRattanChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_seating_indoor_01_33,
+    }
+	
+    item Mov_FancyLowTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_tables_low_01_3,
+    }
+	
+    item Mov_PlasticLowTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_tables_low_01_20,
+    }
+	
+    item Mov_LongTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_tables_high_01_4,
+    }
+	
+    item Mov_SmallTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_storage_01_52,
+    }
+	
+    item Mov_FancyTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_tables_high_01_15,
+    }
+	
+    item Mov_FancyDarkTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_tables_high_01_16,
+    }
+	
+    item Mov_BrownLowTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_tables_low_01_13,
+    }
+	
+    item Mov_RoundTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_tables_high_01_14,
+    }
+	
+    item Mov_OakRoundTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_tables_high_01_6,
+    }
+	
+    item Mov_LightRoundTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= furniture_tables_high_01_7,
+    }
+	
+    item Mov_DesktopComputer
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= appliances_com_01_72,
+    }
+    
+    item Mov_CardboardBox
+    {
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= trashcontainers_01_24,
+    }
+
+    item Mov_FitnessContraption
+    {
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= recreational_sports_01_41,
+    }
+    
+    item Mov_MannequinMale
+    {
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= location_shop_mall_01_69,
+    }
+    
+    item Mov_MannequinFemale
+    {
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= location_shop_mall_01_66,
+    }
+
+}

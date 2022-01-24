@@ -1,0 +1,15 @@
+ContextMenu_EN = {
+	ContextMenu_HealthBars_BarType_food				= "Food",
+	ContextMenu_HealthBars_BarType_water			= "Water",
+	ContextMenu_HealthBars_BarType_endurance		= "Endurance",
+	ContextMenu_HealthBars_BarType_health			= "Health",
+	ContextMenu_HealthBars_BarType_coreTemperature	= "Core Temperature",
+	ContextMenu_HealthBars_BarType_heatGeneration	= "Heat Generation",
+
+	ContextMenu_HealthBars_Toggle_Movable				= "Toggle Movable",
+	ContextMenu_HealthBars_Toggle_Resizable				= "Toggle Resizable",
+	ContextMenu_HealthBars_Toggle_Visible				= "Toggle Visible",
+	ContextMenu_HealthBars_Toggle_Visible_Other_Bars	= "Toggle Visible Other Bars",
+	ContextMenu_HealthBars_Change_Color					= "Change Color",
+	ContextMenu_HealthBars_Save_Settings				= "Save All Settings",
+}

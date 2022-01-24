@@ -1,0 +1,133 @@
+module camping
+{
+	imports
+	{
+		Base
+	}
+
+/**********************************************************************/
+/************************* Camping Items ******************************/
+/**********************************************************************/
+  
+  item CampfireKit
+	{
+	    DisplayCategory = Camping,
+		Type				=		Normal,
+		DisplayName			=	 Campfire Materials,
+		Icon				=		TZ_CampfireKitWood,
+		Weight				=		2.0,
+		WorldStaticModel = CampfireMaterials,
+	}
+  
+  item Stone
+	{
+	    DisplayCategory = Material,
+		Type				=		Normal,
+		DisplayName			=		Stone,
+		Icon				=		TZ_Stone,
+		Weight				=		1.5,
+		OBSOLETE = TRUE,
+	}
+  
+	item Flint
+	{
+	    DisplayCategory = Material,
+		Type				=		Normal,
+		DisplayName			=		Flint,
+		Icon				=		TZ_Flint,
+		Weight				=		0.2,
+		WorldStaticModel = Flint_Ground,
+	}
+	
+	item SteelKnuckle
+	{
+	    DisplayCategory = Hidden,
+		Type				=		Normal,
+		DisplayName			=		Steel Knuckle,
+		Icon				=		TZ_SteelKnuckle,
+		Weight				=		0.2,
+		WorldStaticModel = SteelKnuckle,
+	}
+	
+	item SteelAndFlint
+	{
+	    DisplayCategory = Tool,
+		Type				=		Normal,
+		DisplayName			=		Flint and Steel,
+		Icon				=		TZ_SteelAndFlint,
+		Weight				=		0.4,
+		WorldStaticModel = FlintAndSteel,
+	}
+  
+    item CampingTent
+	{
+	    DisplayCategory = Camping,
+		Type				=		Normal,
+		DisplayName			=	 Tent,
+		Icon				=		TZ_Tent,
+		Weight				=		3.0,		
+	}
+  
+    item CampingTentKit
+	{
+	    DisplayCategory = Camping,
+		Type				=		Normal,
+		DisplayName			=	 Tent Kit,
+		Icon				=		TZ_TentKit,
+		Weight				=		3.0,
+	}
+  
+  item TentPeg
+	{
+	    DisplayCategory = Material,
+		Type				=		Normal,
+		DisplayName			=	 Tent Peg,
+		Icon				=		TZ_TentPeg,
+		Weight				=		0.2,
+		WorldStaticModel  = TentPegs_Ground,
+	}
+  
+/**********************************************************************/
+/**************************** Recipe **********************************/
+/**********************************************************************/
+    recipe Make Campfire Kit
+    {
+        Plank = 3,
+        RippedSheets/RippedSheetsDirty/Sheet/Book/Magazine/Newspaper/Twigs,
+
+        Result:CampfireKit,
+        Time:50.0,
+        Category:Survivalist,
+    }
+
+    recipe Make Campfire Kit
+    {
+        Log = 2,
+        RippedSheets/RippedSheetsDirty/Sheet/Book/Magazine/Newspaper/Twigs,
+
+        Result:CampfireKit,
+        Time:50.0,
+        Category:Survivalist,
+    }
+  
+    recipe Make Tent Kit
+    {
+        Tarp,
+        TentPeg = 4,
+        WoodenStick = 2,
+
+        Result:CampingTentKit,
+        Time:120.0,
+        Category:Survivalist,
+    }
+    recipe Make Tent Kit
+    {
+        Tarp,
+        Stake = 4,
+        WoodenStick = 2,
+
+        Result:CampingTentKit,
+        Time:120.0,
+        Category:Survivalist,
+    }
+}

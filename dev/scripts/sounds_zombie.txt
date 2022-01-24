@@ -1,0 +1,152 @@
+module Base
+{
+
+	sound ZombieFootstepsCombined
+	{
+		category = Zombie,
+		clip
+		{
+			event = Zombie/Footsteps,
+		}
+	}
+
+	sound FemaleZombieCombined
+	{
+		category = Zombie,
+		clip
+		{
+			event = Zombie/Voice/FemaleA,
+		}
+		clip
+		{
+			event = Zombie/Voice/FemaleB,
+		}
+		clip
+		{
+			event = Zombie/Voice/FemaleC,
+		}
+	}
+
+	sound MaleZombieCombined
+	{
+		category = Zombie,
+		clip
+		{
+			event = Zombie/Voice/MaleA,
+		}
+		clip
+		{
+			event = Zombie/Voice/MaleB,
+		}
+	}
+	
+	sound HeadSmash
+	{
+		category = Zombie,
+		clip
+		{
+			event = Zombie/HeadSmash,
+		}
+	}
+	
+	sound HeadStab
+	{
+		category = Zombie,
+		clip
+		{
+			event = Zombie/HeadStab,
+		}
+	}
+
+	sound BurningFlesh
+	{
+		category = Zombie,
+		clip
+		{
+			event = Character/Combat/BurningFlesh,
+		}
+	}
+
+	sound ZombieThumpGeneric
+	{
+		category = Zombie,
+		clip
+		{
+			event = Zombie/Thump/Generic,
+		}
+	}
+
+	sound ZombieThumpMetal
+	{
+		category = Zombie,
+		clip
+		{
+			event = Zombie/Thump/Metal,
+		}
+	}
+
+	sound ZombieThumpVehicle
+	{
+		category = Zombie,
+		clip
+		{
+			event = Zombie/Thump/Vehicle,
+		}
+	}
+
+	sound ZombieThumpVehicleWindow
+	{
+		category = Zombie,
+		clip
+		{
+			event = Zombie/Thump/VehicleWindow,
+		}
+	}
+
+	sound ZombieThumpWindow
+	{
+		category = Zombie,
+		clip
+		{
+			event = Zombie/Thump/Window,
+		}
+	}
+	
+	sound ZombieScratch
+	{
+		category = Zombie,
+		clip
+		{
+			event = Zombie/Scratch,
+		}
+	}
+
+	sound ZombieSurprisedPlayer
+	{
+		category = Zombie,
+		clip
+		{
+			event = Game/ZombieSurprisedPlayer,
+		}
+	}
+
+	sound BodyHitGround
+	{
+		category = Zombie,
+		clip
+		{
+			event = Character/Foley/BodyHitGround,
+		}
+	}
+	
+	sound TutorialZombie
+	{
+		category = Zombie,
+		clip
+		{
+/*			event = Zombie/Voice/Tutorial,*/
+			file = media/sound/fzombierand5.wav,
+			distanceMax = 100,
+		}
+	}
+}

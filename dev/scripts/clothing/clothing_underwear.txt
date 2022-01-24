@@ -1,0 +1,487 @@
+module Base
+{
+    item Bra_Strapless_Black
+	{
+		Type = Clothing,
+		DisplayName = Black Strapless Bra,
+		ClothingItem = Underwear_Bra_Strapless_Black,
+		BodyLocation = UnderwearTop,
+		Icon = BraStraplessGeneric,
+		Weight = 0.2,
+		ColorRed = 58,
+        ColorGreen = 58,
+        ColorBlue = 58,
+		CanHaveHoles = false,
+		WorldStaticModel = BraStraplessBlack_Ground,
+	}
+    item Bra_Strapless_RedSpots
+	{
+		Type = Clothing,
+		DisplayName = Red Spots Strapless Bra,
+		ClothingItem = Underwear_Bra_Strapless_RedSpots,
+		BodyLocation = UnderwearTop,
+		Icon = BraStraplessSpotted,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = BraStraplessRedSpots_Ground,
+	}
+    item Bra_Strapless_White
+	{
+		Type = Clothing,
+		DisplayName = Strapless Bra,
+		ClothingItem = Underwear_Bra_Strapless_White,
+		BodyLocation = UnderwearTop,
+		Icon = BraStraplessGeneric,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = BraStrapless_Ground,
+	}
+    item Bra_Straps_Black
+	{
+		Type = Clothing,
+		DisplayName = Black Straps Bra,
+		ClothingItem = Underwear_Bra_Straps_Black,
+		BodyLocation = UnderwearTop,
+		Icon = BraGeneric,
+		Weight = 0.2,
+        ColorRed = 58,
+        ColorGreen = 58,
+        ColorBlue = 58,
+		CanHaveHoles = false,
+		WorldStaticModel = BraBlack_Ground,
+	}
+    item Bra_Straps_White
+	{
+		Type = Clothing,
+		DisplayName = Straps Bra,
+		ClothingItem = Underwear_Bra_Straps_White,
+		BodyLocation = UnderwearTop,
+		Icon = BraGeneric,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Bra_Ground,
+	}
+    item Underpants_Black
+	{
+		Type = Clothing,
+		DisplayName = Black Underpants,
+		ClothingItem = Underwear_Underpants_Black,
+		BodyLocation = UnderwearBottom,
+		Icon = Underwear2,
+		Weight = 0.2,
+        ColorRed = 58,
+        ColorGreen = 58,
+        ColorBlue = 58,
+		CanHaveHoles = false,
+		WorldStaticModel = UnderpantsBlack_Ground,
+	}
+    item Underpants_RedSpots
+	{
+		Type = Clothing,
+		DisplayName = Red Spots Underpants,
+		ClothingItem = Underwear_Underpants_RedSpots,
+		BodyLocation = UnderwearBottom,
+		Icon = PantiesSpotted,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = UnderpantsRedSpots_Ground,
+	}
+    item Underpants_White
+	{
+		Type = Clothing,
+		DisplayName = Underpants,
+		ClothingItem = Underwear_Underpants_White,
+		BodyLocation = UnderwearBottom,
+		Icon = PantiesGeneric,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Underpants_Ground,
+	}
+    item Boxers_Hearts
+	{
+		Type = Clothing,
+		DisplayName = Hearts Boxers,
+		ClothingItem = Underwear_Boxers_Hearts,
+		BodyLocation = UnderwearBottom,
+		Icon = BoxersHearts,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = BoxersHearts_Ground,
+	}
+    item Boxers_Silk_Black
+	{
+		Type = Clothing,
+		DisplayName = Silk Boxers,
+		ClothingItem = Underwear_Boxers_Silk_Black,
+		BodyLocation = UnderwearBottom,
+		Icon = BoxersBlacksilky,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Boxers_Silk_Black,
+	}
+    item Boxers_Silk_Red
+	{
+		Type = Clothing,
+		DisplayName = Silk Boxers,
+		ClothingItem = Underwear_Boxers_Silk_Red,
+		BodyLocation = UnderwearBottom,
+		Icon = BoxersRedsilky,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Boxers_Silk_Red,
+	}
+    item Boxers_RedStripes
+	{
+		Type = Clothing,
+		DisplayName = Red Stripes Boxer,
+		ClothingItem = Underwear_Boxers_RedStripes,
+		BodyLocation = UnderwearBottom,
+		Icon = BoxersStriped,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = BoxersRedStripes_Ground,
+	}
+    item Boxers_White
+	{
+		Type = Clothing,
+		DisplayName = Boxers,
+		ClothingItem = Underwear_Boxers_White,
+		BodyLocation = UnderwearBottom,
+		Icon = BoxersGeneric,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Boxers_Ground,
+	}
+    item Briefs_White
+	{
+		Type = Clothing,
+		DisplayName = Briefs,
+		ClothingItem = Underwear_Briefs_White,
+		BodyLocation = UnderwearBottom,
+		Icon = BriefsGeneric,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Briefs_Ground,
+	}
+    item Briefs_AnimalPrints
+	{
+		Type = Clothing,
+		DisplayName = Briefs,
+		ClothingItem = Underwear_Briefs_AnimalPrint,
+		BodyLocation = UnderwearBottom,
+		Icon = BriefsLeopard,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Briefs_Ground,
+	}
+    item Briefs_SmallTrunks_Black
+	{
+		Type = Clothing,
+		DisplayName = Black Speedo,
+		ClothingItem = Underwear_SmallTrunks_Black,
+		BodyLocation = UnderwearBottom,
+		Icon = Speedo_Black,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Briefs_Ground,
+	}
+    item Briefs_SmallTrunks_Blue
+	{
+		Type = Clothing,
+		DisplayName = Blue Speedo,
+		ClothingItem = Underwear_SmallTrunks_Blue,
+		BodyLocation = UnderwearBottom,
+		Icon = Speedo_Blue,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Briefs_Ground,
+	}
+    item Briefs_SmallTrunks_Red
+    {
+        Type = Clothing,
+        DisplayName = Red Speedo,
+        ClothingItem = Underwear_SmallTrunks_Red,
+        BodyLocation = UnderwearBottom,
+        Icon = Speedo_Red,
+        Weight = 0.2,
+        CanHaveHoles = false,
+        WorldStaticModel = Briefs_Ground,
+    }
+    item Briefs_SmallTrunks_WhiteTINT
+	{
+		Type = Clothing,
+		DisplayName = Speedo,
+		ClothingItem = Underwear_SmallTrunks_WhiteTINT,
+		BodyLocation = UnderwearBottom,
+		Icon = SpeedoGeneric,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Briefs_Ground,
+	}
+    item StockingsBlack
+	{
+		Type = Clothing,
+		DisplayName = Stockings,
+		ClothingItem = StockingsBlack,
+		BodyLocation = UnderwearExtra1,
+		Icon = StockingsOpaque,
+		Weight = 0.1,
+		WorldStaticModel = StockingsBlack_Ground,
+	}
+    item StockingsBlackTrans
+	{
+		Type = Clothing,
+		DisplayName = Stockings Transparent,
+		ClothingItem = StockingsBlackTrans,
+		BodyLocation = UnderwearExtra1,
+		Icon = StockingsSheer,
+		Weight = 0.1,
+		WorldStaticModel = StockingsBlackTrans_Ground,
+	}
+    item StockingsBlackSemiTrans
+	{
+		Type = Clothing,
+		DisplayName = Stockings Semi Transparent,
+		ClothingItem = StockingsBlackSemiTrans,
+		BodyLocation = UnderwearExtra1,
+		Icon = StockingsSemiOpaque,
+		Weight = 0.1,
+		WorldStaticModel = StockingsBlackTrans_Ground,
+	}
+    item TightsBlack
+	{
+		Type = Clothing,
+		DisplayName = Tights,
+		ClothingItem = TightsBlack,
+		BodyLocation = UnderwearExtra1,
+		Icon = PantyhoseOpaque,
+		Weight = 0.1,
+		WorldStaticModel = TightsBlack_Ground,
+	}
+    item TightsBlackTrans
+	{
+		Type = Clothing,
+		DisplayName = Tights Transparent,
+		ClothingItem = TightsBlackTrans,
+		BodyLocation = UnderwearExtra1,
+		Icon = PantyhoseSheer,
+		Weight = 0.1,
+		WorldStaticModel = TightsTrans_Ground,
+	}
+    item TightsBlackSemiTrans
+	{
+		Type = Clothing,
+		DisplayName = Tights Semi Transparent,
+		ClothingItem = TightsBlackSemiTrans,
+		BodyLocation = UnderwearExtra1,
+		Icon = PantyhoseSemiOpaque,
+		Weight = 0.1,
+		WorldStaticModel = TightsTrans_Ground,
+	}
+    item TightsFishnets
+	{
+		Type = Clothing,
+		DisplayName = Fishnets,
+		ClothingItem = TightsBlackFishnet,
+		BodyLocation = UnderwearExtra1,
+		Icon = PantyhoseFishnet,
+		Weight = 0.1,
+		WorldStaticModel = TightsFishnet_Ground,
+	}
+	item StockingsWhite
+	{
+		Type = Clothing,
+		DisplayName = Stockings,
+		ClothingItem = StockingsWhite,
+		BodyLocation = UnderwearExtra1,
+		Icon = StockingsWhite,
+		Weight = 0.1,
+		WorldStaticModel = StockingsWhite_Ground,
+	}
+	item Garter
+	{
+		Type = Clothing,
+		DisplayName = Garter,
+		ClothingItem = Garter,
+		BodyLocation = UnderwearExtra2,
+		Icon = SpiffoTail,
+		Weight = 0.1,
+		WorldStaticModel = Garter_Ground,
+    }
+    item Corset_Black
+    {
+        Type = Clothing,
+        DisplayName = Black Corset,
+        ClothingItem = Corset_Black,
+        BodyLocation = UnderwearTop,
+        Icon = CorsetBlack,
+        Weight = 0.2,
+        CanHaveHoles = false,
+        WorldStaticModel = Corset_Black_Ground,
+    }
+    item Corset_Red
+    {
+        Type = Clothing,
+        DisplayName = Red Corset,
+        ClothingItem = Corset_Red,
+        BodyLocation = UnderwearTop,
+        Icon = CorsetRed,
+        Weight = 0.2,
+        CanHaveHoles = false,
+        WorldStaticModel = Corset_Red_Ground,
+    }
+    item Corset
+    {
+        Type = Clothing,
+        DisplayName = Corset,
+        ClothingItem = Corset,
+        BodyLocation = UnderwearTop,
+        Icon = CorsetWhite,
+        Weight = 0.2,
+        CanHaveHoles = false,
+        WorldStaticModel = Corset_Ground,
+    }
+    item Corset_Medical
+    {
+        Type = Clothing,
+        DisplayName = Medical Corset,
+        ClothingItem = Corset_Medical,
+        BodyLocation = UnderwearTop,
+        Icon = CorsetMedical,
+        Weight = 0.2,
+        CanHaveHoles = false,
+        WorldStaticModel = Corset_Medical_Ground,
+    }
+    item Bra_Strapless_AnimalPrint
+    {
+        Type = Clothing,
+        DisplayName = Animal Print Strapless Bra,
+        ClothingItem = Underwear_Bra_Strapless_AnimalPrint,
+        BodyLocation = UnderwearTop,
+        Icon = BraLeopardStrapless,
+        Weight = 0.2,
+        CanHaveHoles = false,
+        WorldStaticModel = BraStraplessAnimalPrint_Ground,
+    }
+    item Bra_Straps_AnimalPrint
+	{
+		Type = Clothing,
+		DisplayName = Animal Print Straps Bra,
+		ClothingItem = Underwear_Bra_Straps_AnimalPrint,
+		BodyLocation = UnderwearTop,
+		Icon = BraLeopard,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Bra_AnimalPrint_Ground,
+	}
+    item Bra_Straps_FrillyBlack
+	{
+		Type = Clothing,
+		DisplayName = Black Frilly Straps Bra,
+		ClothingItem = Underwear_FrillyBra_Straps_Black,
+		BodyLocation = UnderwearTop,
+		Icon = BraBlacklacy,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Bra_FrillyBlack_Ground,
+	}
+    item Bra_Strapless_FrillyBlack
+	{
+		Type = Clothing,
+		DisplayName = Black Frilly Strapless Bra,
+		ClothingItem = Underwear_FrillyBra_Strapless_Black,
+		BodyLocation = UnderwearTop,
+		Icon = BraBlacklacyStrapless,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = BraStraplessFrillyBlack_Ground,
+	}
+    item Bra_Straps_FrillyPink
+	{
+		Type = Clothing,
+		DisplayName = Pink Frilly Straps Bra,
+		ClothingItem = Underwear_FrillyBra_Straps_Pink,
+		BodyLocation = UnderwearTop,
+		Icon = BraPinklacy,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Bra_FrillyPink_Ground,
+	}
+    item Bra_Strapless_FrillyPink
+	{
+		Type = Clothing,
+		DisplayName = Pink Frilly Strapless Bra,
+		ClothingItem = Underwear_FrillyBra_Strapless_Pink,
+		BodyLocation = UnderwearTop,
+		Icon = BraPinklacyStrapless,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = BraStraplessFrillyPink_Ground,
+	}
+    item Bra_Straps_FrillyRed
+	{
+		Type = Clothing,
+		DisplayName = Red Frilly Straps Bra,
+		ClothingItem = Underwear_FrillyBra_Straps_Red,
+		BodyLocation = UnderwearTop,
+		Icon = BraRedsilky,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Bra_FrillyRed_Ground,
+	}
+    item Bra_Strapless_FrillyRed
+	{
+		Type = Clothing,
+		DisplayName = Red Frilly Strapless Bra,
+		ClothingItem = Underwear_FrillyBra_Strapless_Red,
+		BodyLocation = UnderwearTop,
+		Icon = BraRedsilkyStrapless,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = BraStraplessFrillyRed_Ground,
+	}
+    item Underpants_AnimalPrint
+	{
+		Type = Clothing,
+		DisplayName = Animal Print Underpants,
+		ClothingItem = Underwear_Underpants_AnimalPrint,
+		BodyLocation = UnderwearBottom,
+		Icon = PantiesLeopard,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Underpants_AnimalPrint_Ground,
+	}
+    item FrillyUnderpants_Black
+	{
+		Type = Clothing,
+		DisplayName = Black Frilly Underpants,
+		ClothingItem = Underwear_FrillyUnderpants_Black,
+		BodyLocation = UnderwearBottom,
+		Weight = 0.2,
+		Icon = PantiesBlacklacy,
+		CanHaveHoles = false,
+		WorldStaticModel = Underpants_Frilly_Black_Ground,
+	}
+    item FrillyUnderpants_Pink
+    {
+        Type = Clothing,
+        DisplayName = Pink Frilly Underpants,
+        ClothingItem = Underwear_FrillyUnderpants_Pink,
+        BodyLocation = UnderwearBottom,
+        Icon = PantiesPinklacy,
+        Weight = 0.2,
+        CanHaveHoles = false,
+        WorldStaticModel = Underpants_Frilly_Pink_Ground,
+    }
+    item FrillyUnderpants_Red
+	{
+		Type = Clothing,
+		DisplayName = Red Frilly Underpants,
+		ClothingItem = Underwear_FrillyUnderpants_Red,
+		BodyLocation = UnderwearBottom,
+		Icon = PantiesRedsilky,
+		Weight = 0.2,
+		CanHaveHoles = false,
+		WorldStaticModel = Underpants_Frilly_Red_Ground,
+	}
+}

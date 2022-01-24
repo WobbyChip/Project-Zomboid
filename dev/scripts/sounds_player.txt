@@ -1,0 +1,588 @@
+module Base
+{
+	sound GainExperienceLevel
+	{
+		category = Player,
+		clip
+		{
+			event = Game/LevelUp,
+		}
+	}
+
+	sound PlayerDied
+	{
+		category = Player,
+		clip
+		{
+			event = Game/GameOver,
+		}
+	}
+
+	sound DrinkingFromGeneric
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Drink/FromGeneric,
+		}
+	}
+
+	sound DrinkingFromBottle
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Drink/FromBottle,
+		}
+	}
+
+	sound DrinkingFromBottleGlass
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Drink/FromBottleGlass,
+		}
+	}
+
+	sound DrinkingFromBottlePlastic
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Drink/FromBottlePlastic,
+		}
+	}
+
+	sound DrinkingFromCan
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Drink/FromCan,
+		}
+	}
+
+	sound DrinkingFromMug
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Drink/FromMug,
+		}
+	}
+
+	sound DrinkingFromCarton
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Drink/FromCarton,
+		}
+	}
+
+	sound DrinkingFromPool
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Drink/FromPool,
+		}
+	}
+
+	sound DrinkingFromTap
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Drink/FromTap,
+		}
+	}
+
+	sound Eating
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Eat/Default,
+		}
+	}
+
+	sound EatingCrispy
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Eat/Crispy,
+		}
+	}
+
+	sound EatingDeadAnimal
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Eat/DeadAnimal,
+		}
+	}
+
+	sound EatingFruit
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Eat/Fruit,
+		}
+	}
+
+	sound EatingMushy
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Eat/Mushy,
+		}
+	}
+
+	sound EatingSoup
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Eat/Soup,
+		}
+	}
+
+	sound Swallowing
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Swallow,
+		}
+	}
+
+	sound HumanFootstepsCombined
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Footsteps,
+		}
+	}
+
+	sound AttackShove
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Combat/AttackShove,
+		}
+	}
+
+	sound AttackStomp
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Combat/AttackStomp,
+		}
+	}
+
+	sound BareHandsHit
+	{
+		category = Player,
+		clip
+		{
+			event = Weapon/Melee/BareHands/Hit,
+		}
+	}
+
+	sound ClimbThroughWindow
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Climb/Window,
+		}
+	}
+
+	sound HeartBeat
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Heartbeat,
+		}
+	}
+
+	sound FemaleBeingEatenDeath
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Death/FemaleEaten,
+		}
+	}
+
+	sound MaleBeingEatenDeath
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Death/MaleEaten,
+		}
+	}
+
+	sound WashClothing
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Hygiene/WashClothing,
+		}
+	}
+
+	sound WashYourself
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Hygiene/WashYourself,
+		}
+	}
+
+	sound ClimbOverFenceLow
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Climb/FenceLow,
+		}
+	}
+
+	sound ClimbOverFenceHighStart
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Climb/FenceHigh/Start,
+		}
+	}
+
+	sound ClimbOverFenceHighStruggle
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Climb/FenceHigh/Struggle,
+		}
+	}
+
+	sound ClimbOverFenceHighSuccess
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Climb/FenceHigh/Success,
+		}
+	}
+	
+	sound ClimbOverFenceHighFail
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Climb/FenceHigh/Fail,
+		}
+	}
+
+	sound TripOverObstacle
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Trip,
+		}
+	}
+
+	sound FallHeavy
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Fall/Heavy,
+		}
+	}
+
+	sound FallLight
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Fall/Light,
+		}
+	}
+
+	sound LandHeavy
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Land/Heavy,
+		}
+	}
+
+	sound LandLight
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Land/Light,
+		}
+	}
+
+	sound Smoke
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Foley/Smoke,
+		}
+	}
+
+	sound OpenStoveDoor
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Cooking/OpenStoveDoor,
+		}
+	}
+
+	sound CloseStoveDoor
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Cooking/CloseStoveDoor,
+		}
+	}
+
+	sound OpenCannedFood
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Cooking/OpenCannedFood,
+		}
+	}
+
+	sound OpenBook
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Literature/Book/Open,
+		}
+	}
+
+	sound CloseBook
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Literature/Book/Close,
+		}
+	}
+
+	sound PageFlipBook
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Literature/Book/PageFlip,
+		}
+	}
+
+	
+	sound OpenMagazine
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Literature/Magazine/Open,
+		}
+	}
+
+	sound CloseMagazine
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Literature/Magazine/Close,
+		}
+	}
+
+	sound PageFlipMagazine
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Literature/Magazine/PageFlip,
+		}
+	}
+
+	sound Painting
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/Painting,
+		}
+	}
+
+	sound Plastering
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/Plastering,
+		}
+	}
+
+	sound MakePlaster
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/MakePlaster,
+		}
+	}
+
+	sound BuildWoodenStructureSmall
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildWoodenStructure/Small,
+		}
+	}
+
+	sound BuildWoodenStructureMedium
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildWoodenStructure/Medium,
+		}
+	}
+
+	sound BuildWoodenStructureLarge
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildWoodenStructure/Large,
+		}
+	}
+
+	sound BuildMetalStructureSmall
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildMetalStructure/Small,
+		}
+	}
+
+	sound BuildMetalStructureMedium
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildMetalStructure/Medium,
+		}
+	}
+
+	sound BuildMetalStructureSmallScrap
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildMetalStructure/SmallScrap,
+		}
+	}
+
+	sound BuildMetalStructureLargePoleFence
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildMetalStructure/LargePoleFence,
+		}
+	}
+
+	sound BuildMetalStructureSmallPoleFence
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildMetalStructure/SmallPoleFence,
+		}
+	}
+
+	sound BuildMetalStructureLargeWiredFence
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildMetalStructure/LargeWiredFence,
+		}
+	}
+
+	sound BuildMetalStructureSmallWiredFence
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildMetalStructure/SmallWiredFence,
+		}
+	}
+
+	sound BuildMetalStructureWallFrame
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildMetalStructure/LargePoleFence,
+		}
+	}
+
+	sound BuildFenceCairn
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildFence/Cairn,
+		}
+	}
+
+	sound BuildFenceSandbag
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildFence/Sandbag,
+		}
+	}
+
+	sound BuildFenceGravelbag
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/BuildFence/Gravelbag,
+		}
+	}
+}

@@ -1,0 +1,924 @@
+module farming
+{
+	imports
+	{
+		Base
+	}
+
+/**********************************************************************/
+/***********************Farming Food Items*********************************/
+/**********************************************************************/
+
+  item BloomingBroccoli
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Seeding Broccoli,
+		Icon				=		TZ_BloomingBroccoli,
+		Weight				=		0.1,
+		HungerChange 		=		-10,
+		DaysFresh 			=		4,
+		DaysTotallyRotten 	=	 	7,
+        Carbohydrates = 2.06,
+        Proteins = 0.87,
+        Lipids = 0.11,
+        Calories = 11,
+        StaticModel = RoundFood_Green,
+        WorldStaticModel = BloomingBroccoli_Ground,
+	}
+
+    item RedRadish
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Radish,
+		Icon				=		Radish,
+		Weight				=		0.1,
+		HungerChange 		=		-3,
+		DaysFresh 			=		3,
+		DaysTotallyRotten 	=	 	7,
+		EvolvedRecipe = Soup:3;Stew:3;Stir fry Griddle Pan:3;Stir fry:3;Burger:3;Salad:3;Roasted Vegetables:3,
+		ThirstChange	=	-1,
+		FoodType    =   Vegetables,
+        Carbohydrates = 0.15,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 1,
+        StaticModel = RoundFood_Red,
+        WorldStaticModel = RedRadish_Ground,
+	}
+
+    item Strewberrie
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Strawberries,
+		Icon				=		BerryStraw,
+		Weight				=		0.1,
+		HungerChange 		=		-5,
+		ThirstChange		=		-5,
+		UnhappyChange 		= 		-10,
+		DaysFresh 			=		2,
+		DaysTotallyRotten 	=	 	5,
+		EvolvedRecipe = Cake:5;FruitSalad:5;Pancakes:5;Waffles:5,
+		FoodType    =   Fruits,
+		ThirstChange	=	-1,
+        Carbohydrates = 0.92,
+        Proteins = 0.08,
+        Lipids = 0.04,
+        Calories = 4,
+        StaticModel = RoundFood_Red,
+        WorldStaticModel = Strawberry_Ground,
+	}
+
+    item Tomato
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Tomato,
+		Icon				=		Tomato,
+		Weight				=		0.2,
+		HungerChange 		=		-12,
+		ThirstChange		=		-15,
+		DaysFresh 			=		4,
+		DaysTotallyRotten 	=	 	12,
+		EvolvedRecipe       =       Omelette:12;Soup:12;Stew:12;Pie:12;Stir fry Griddle Pan:12;Stir fry:12;Sandwich:6;Sandwich Baguette:6;Burger:6;Salad:12;Roasted Vegetables:12;RicePot:12;RicePan:12;PastaPot:12;PastaPan:12;Taco:12;Burrito:12,
+		ThirstChange	=	-8,
+		FoodType    =   Vegetables,
+        Carbohydrates = 3.53,
+        Proteins = 1.29,
+        Lipids = 0.21,
+        Calories = 14,
+        StaticModel = RoundFood_Red,
+        WorldStaticModel = Tomato_Ground,
+	}
+
+    item Potato
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Potato,
+		Icon				=		Potato,
+		Weight				=		0.2,
+		HungerChange 		=		-18,
+		DaysFresh 			=		14,
+		DaysTotallyRotten 	=	 	28,
+        EvolvedRecipe       =       Omelette:9;Soup:18;Stew:18;Pie:18;Stir fry Griddle Pan:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
+        ThirstChange	=	-7,
+        FoodType    =   Vegetables,
+        Carbohydrates = 14.52,
+        Proteins = 2.88,
+        Lipids = 0.15,
+        Calories = 70,
+        WorldStaticModel = Potato_Ground,
+	}
+
+    item Cabbage
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Cabbage,
+		Icon				=		Cabbage,
+		Weight				=		0.2,
+		HungerChange 		=		-25,
+		ThirstChange		=		-15,
+		DaysFresh 			=		2,
+		DaysTotallyRotten 	=	 	4,
+		EvolvedRecipe       =       Soup:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:10;Sandwich Baguette:10;Burger:10;Salad:15;Roasted Vegetables:15;Taco:15;Burrito:15,
+		ThirstChange	=	-10,
+		FoodType    =   Vegetables,
+        Carbohydrates = 41.41,
+        Proteins = 9.14,
+        Lipids = 0.71,
+        Calories = 178,
+        StaticModel = RoundFood_Green,
+        WorldStaticModel = Cabbage_Ground,
+	}
+
+/**********************************************************************/
+/***************************Food Items*************************************/
+/**********************************************************************/
+
+
+
+    item Milk
+    {
+        DisplayCategory = Food,
+        Type					=		Food,
+        DisplayName			=		Milk,
+        Icon				=		TZ_MilkPack,
+        Weight				=		1.0,
+        ThirstChange 		=		-100,
+        HungerChange 		= 		-10,
+        DaysFresh 			=		4,
+        DaysTotallyRotten 	=	 	7,
+		CustomContextMenu	=		Drink,
+		CustomEatSound		=		DrinkingFromCarton,
+        Carbohydrates = 48,
+        Proteins = 32,
+        Lipids = 20,
+        Calories = 520,
+        Packaged = TRUE,
+        OBSOLETE			=		true,
+    }
+
+    item Bacon
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Bacon,
+		Icon				=		Bacon,
+		Weight				=		0.3,
+		IsCookable			= 		true,
+		MinutesToCook   	= 		20,
+		MinutesToBurn   	= 		50,
+		HungerChange 		=		-12,
+		DaysFresh 			=		3,
+		DaysTotallyRotten 	=		5,
+		DangerousUncooked 	= 		true,
+		EvolvedRecipe       =       Stew:12;Pie:12;Stir fry Griddle Pan:12;Stir fry:12;Sandwich:12|Cooked;Sandwich Baguette:12|Cooked;Burger:12;Roasted Vegetables:12;RicePot:12;RicePan:12;PastaPot:12;PastaPan:12;Taco:12;Burrito:12,
+		FoodType    =   Meat,
+        Carbohydrates = 0,
+        Proteins = 10,
+        Lipids = 14,
+        Calories = 160,
+        Packaged = TRUE,
+        GoodHot = true,
+        BadCold = true,
+        WorldStaticModel = Bacon_Ground,
+	}
+
+    item BaconRashers
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Bacon Rashers,
+		Icon				=		TZ_BaconRashers,
+		Weight				=		0.1,
+		IsCookable			= 		true,
+		MinutesToCook   	= 		15,
+		MinutesToBurn   	= 		35,
+		HungerChange 		=		-4,
+		DaysFresh 			=		1,
+		DaysTotallyRotten 	= 		2,
+		DangerousUncooked 	= 		true,
+		EvolvedRecipe       =       Omelette:4;Stew:4;Pie:4;Stir fry Griddle Pan:4;Stir fry:4;Sandwich:4|Cooked;Sandwich Baguette:4|Cooked;Burger:4;Salad:4|Cooked;Roasted Vegetables:4;RicePot:4;RicePan:4;PastaPot:4;PastaPan:4;Taco:4;Burrito:4,
+		FoodType    =   Meat,
+        Carbohydrates = 0,
+        Proteins = 2.5,
+        Lipids = 3.5,
+        Calories = 40,
+        GoodHot = true,
+        BadCold = true,
+        WorldStaticModel = BaconBits_Ground,
+	}
+
+    item BaconBits
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Bacon Bits,
+		Icon				=		TZ_BaconBits,
+		Weight				=		0.1,
+		IsCookable			= 		true,
+		MinutesToCook   	= 		15,
+		MinutesToBurn   	= 		30,
+		HungerChange 		=		-1,
+		DaysFresh 			=		1,
+		DaysTotallyRotten 	= 		1,
+		DangerousUncooked 	= 		true,
+		EvolvedRecipe       =       Omelette:1;Stew:1;Pie:1;Stir fry Griddle Pan:1;Stir fry:1;Sandwich:1|Cooked;Sandwich Baguette:1|Cooked;Burger:1;Salad:1|Cooked;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1;Taco:1;Burrito:1,
+		FoodType    =   Meat,
+        Carbohydrates = 0,
+        Proteins = 0.7,
+        Lipids = 1,
+        Calories = 10,
+        GoodHot = true,
+        BadCold = true,
+        WorldStaticModel = BaconBits_Ground,
+	}
+
+    item MayonnaiseFull
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Mayonnaise,
+		Icon				=		TZ_MayonnaiseFull,
+		Weight				=		0.5,
+		HungerChange 		=		-30,
+		BoredomChange 		=		10,
+		UnhappyChange 		=		5,
+		DaysFresh 			=		10,
+		DaysTotallyRotten 	=	 	13,
+		ReplaceOnUse 	    = 		MayonnaiseEmpty,
+		EvolvedRecipe       =       Sandwich:2;Sandwich Baguette:2;Burger:2;Salad:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2;Taco:2;Burrito:2,
+		Spice   =   true,
+        Carbohydrates = 0,
+        Proteins = 0,
+        Lipids = 330,
+        Calories = 3000,
+        Packaged = TRUE,
+        EatType = candrink,
+        StaticModel = MayoJar,
+        WorldStaticModel = MayoJar_Ground,
+	}
+
+    item MayonnaiseHalf
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Bottle with Mayonnaise (Full),
+		Icon				=		TZ_MayonnaiseHalf,
+		Weight				=		0.2,
+		HungerChange 		=		-10,
+		BoredomChange 		=		10,
+		UnhappyChange 		=		5,
+		DaysFresh 			=		5,
+		DaysTotallyRotten 	=	 	6,
+		UseDelta			=		0.10,
+		ReplaceOnUse 	    = 		MayonnaiseEmpty,
+		EvolvedRecipe       =       Sandwich:2;Sandwich Baguette:2;Burger:2;Salad:2;Taco:2,
+		Spice   =   true,
+		OBSOLETE			=		true,
+		WorldStaticModel = MayoJar_Ground,
+	}
+
+    item MayonnaiseEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Type				=		Normal,
+		DisplayName			=		Empty Bottle,
+		Icon				=		TZ_MayonnaiseEmpty,
+		Weight				=		0.1,
+		ReplaceOnUseOn  	=		WaterSource-MayonnaiseWaterFull,
+		CanStoreWater		=		true,
+		StaticModel = MayoJar,
+		WorldStaticModel = MayoJarEmpty_Ground,
+	}
+
+    item MayonnaiseWaterFull
+	{
+	    DisplayCategory = Water,
+		Type		 		=		Drainable,
+		DisplayName			=		Water Bottle,
+		Icon				=		TZ_MayonnaiseWFull,
+		Weight				=		0.5,
+		ReplaceOnDeplete 	=		MayonnaiseEmpty,
+		UseWhileEquipped 	= 		false,
+		UseDelta			=		0.16,
+		ReplaceOnUseOn  	=		WaterSource-MayonnaiseWaterFull,
+		IsWaterSource		=		true,
+		CanStoreWater		=		true,
+        StaticModel = MayoJar,
+        WorldStaticModel = MayoJar_Ground,
+    }
+
+    item RemouladeFull
+    {
+        DisplayCategory = Food,
+        Type				=		Food,
+        DisplayName			=		Remoulade,
+        Icon				=		TZ_RemouladeFull,
+        Weight				=		0.5,
+        HungerChange 		=		-10,
+        BoredomChange 		=		10,
+        UnhappyChange 		=		5,
+        DaysFresh 			=		8,
+        DaysTotallyRotten 	=	 	11,
+        UseDelta			=		0.16,
+        ReplaceOnUse 	    = 		RemouladeEmpty,
+        Carbohydrates = 0,
+        Proteins = 0,
+        Lipids = 50,
+        Calories = 150,
+        Packaged = TRUE,
+        EatType = candrink,
+        StaticModel = RemouladeJar,
+        WorldStaticModel = Remoulade_Ground,
+    }
+
+    item RemouladeHalf
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Bottle with Remoulade (Half),
+		Icon				=		TZ_RemouladeHalf,
+		Weight				=		0.2,
+		HungerChange 		=		-10,
+		BoredomChange 		=		10,
+		UnhappyChange 		=		5,
+		DaysFresh 			=		4,
+		DaysTotallyRotten 	=	 	5,
+		UseDelta			=		0.16,
+		ReplaceOnUse 	    = 		RemouladeEmpty,
+		WorldStaticModel = Remoulade_Ground,
+		Obsolete = true,
+	}
+
+    item RemouladeEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Type				=		Normal,
+		DisplayName			=		Empty Bottle,
+		Icon				=		TZ_RemouladeEmpty,
+		Weight				=		0.1,
+		ReplaceOnUseOn  	=		WaterSource-RemouladeWaterFull,
+		CanStoreWater		=		true,
+		StaticModel = RemouladeJar,
+		WorldStaticModel = RemouladeEmpty_Ground,
+	}
+
+    item RemouladeWaterFull
+	{
+	    DisplayCategory = Water,
+		Type				=		Drainable,
+		DisplayName			=		Water Bottle,
+		Icon				=		TZ_RemouladeWFull,
+		Weight				=		0.5,
+		ReplaceOnDeplete 	=		RemouladeEmpty,
+		UseWhileEquipped 	= 		false,
+		UseDelta			=		0.16,
+		ReplaceOnUseOn  	=		WaterSource-RemouladeWaterFull,
+		IsWaterSource		=		true,
+		CanStoreWater		=		true,
+		StaticModel = RemouladeJar,
+		WorldStaticModel = Remoulade_Ground,
+	}
+
+    item Salad
+	{
+	    DisplayCategory = Food,
+		Type 				= 		Food,
+		DisplayName 		= 		Salad,
+		Icon 				= 		TZ_CraftSalat,
+		Weight 				= 		0.5,
+		HungerChange 		= 		-60,
+		BoredomChange 		= 		-5,
+		ReplaceOnUse 		= 		Bowl,
+		DaysFresh 			= 		2,
+		DaysTotallyRotten 	= 		3,
+		StaticModel			=		Bowl,
+		EatType				=		2hand,
+		WorldStaticModel = Salad_Ground,
+	}
+
+/**********************************************************************/
+/******************************Seeds***************************************/
+/**********************************************************************/
+
+    item CarrotSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Carrot Seeds,
+		Icon				=		TZ_CarrotSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+    item BroccoliSeed
+	{
+        DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Broccoli Seeds,
+		Icon				=		TZ_BroccoliSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+    item RedRadishSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Radish Seeds,
+		Icon				=		TZ_LRRadishSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+    item StrewberrieSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Strawberries Seeds,
+		Icon				=		TZ_StrewberrySeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+    item TomatoSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Tomato Seeds,
+		Icon				=		TZ_TomatoSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+    item PotatoSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Potato Seeds,
+		Icon				=		TZ_PotatoSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+    item CabbageSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Cabbage Seeds,
+		Icon				=		TZ_CabbageLettuceSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+/**********************************************************************/
+/***************************Seed Packages************************************/
+/**********************************************************************/
+
+    item CarrotBagSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Carrot Seeds Packet,
+		Icon				=		TZ_SeedpackCarrots,
+		Weight				=		0.1,
+		SurvivalGear = TRUE,
+		WorldStaticModel = CarrotSeedBag_Ground,
+	}
+
+    item BroccoliBagSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Broccoli Seeds Packet,
+		Icon				=		TZ_SeedpackBroccoli,
+		Weight				=		0.1,
+		SurvivalGear = TRUE,
+		WorldStaticModel = BroccoliSeedBag_Ground,
+	}
+
+    item RedRadishBagSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Radish Seeds Packet,
+		Icon				=		TZ_SeedpackLRRadish,
+		Weight				=		0.1,
+		SurvivalGear = TRUE,
+		WorldStaticModel = RadishSeedBag_Ground,
+	}
+
+    item StrewberrieBagSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Strawberries Seeds Packet,
+		Icon				=		TZ_SeedpackStrewberries,
+		Weight				=		0.1,
+		SurvivalGear = TRUE,
+		WorldStaticModel = StrawberrySeedBag_Ground,
+	}
+
+    item TomatoBagSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Tomato Seeds Packet,
+		Icon				=		TZ_SeedpackTomatoes,
+		Weight				=		0.1,
+		SurvivalGear = TRUE,
+		WorldStaticModel = TomatoSeedBag_Ground,
+	}
+
+    item PotatoBagSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Potato Seeds Packet,
+		Icon				=		TZ_SeedpackPotatoes,
+		Weight				=		0.1,
+		SurvivalGear = TRUE,
+		WorldStaticModel = PotatoSeedBag_Ground,
+	}
+
+    item CabbageBagSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Cabbage Seeds Packet,
+		Icon				=		TZ_SeedpackCabbageLettuce,
+		Weight				=		0.1,
+		SurvivalGear = TRUE,
+		WorldStaticModel = CabbageSeedBag_Ground,
+	}
+
+/**********************************************************************/
+/******************************Tools*****************************************/
+/**********************************************************************/
+
+    item HandShovel
+	{
+	    DisplayCategory = Gardening,
+	    MaxRange	=	0.9,
+        WeaponSprite	=	Trowel,
+        MinAngle	=	0.65,
+        Type	=	Weapon,
+        MinimumSwingTime	=	4,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories	=	SmallBlade,
+        ConditionLowerChanceOneIn	=	9,
+        Weight	=	0.5,
+        SplatNumber	=	2,
+        PushBackMod	=	0.3,
+        SubCategory	=	Stab,
+        CloseKillMove = Jaw_Stab,
+        ConditionMax	=	6,
+        MaxHitCount	=	2,
+        DoorDamage	=	5,
+        SwingAnim	=	Stab,
+        WeaponWeight	=	3,
+        DisplayName	=	Trowel,
+        MinRange	=	0.61,
+        SwingTime	=	4,
+        KnockdownMod	=	2,
+        SplatBloodOnNoDeath	=	FALSE,
+        Icon	=	TZ_GardenTrowel,
+        BreakSound = HandShovelBreak,
+        HitFloorSound = HandShovelHit,
+        ImpactSound = HandShovelHit,
+        DoorHitSound = HandShovelHit,
+        HitSound = HandShovelHit,
+        SwingSound = HandShovelSwing,
+        AttachmentType = Knife,
+        TreeDamage  =   0,
+        CriticalChance	=	30,
+        CritDmgMultiplier = 10,
+        MinDamage	=	0.2,
+        MaxDamage	=	0.4,
+        WeaponLength = 0.2,
+        SurvivalGear = TRUE,
+        Tags = ClearAshes;DigPlow;TakeDirt,
+	}
+
+    item WateredCanFull
+	{
+	    DisplayCategory = Water,
+		Type				=		Drainable,
+		DisplayName			=		Watering Can (Full),
+		Icon				=		WateringCan,
+		Weight				=		4.0,
+    	UseDelta			=		0.025,
+	    UseWhileEquipped	=	    false,
+    	ReplaceOnUseOn 		= 		WaterSource-WateredCanFull,
+    	ReplaceOnDeplete 	= 		WateredCan,
+    	IsWaterSource		=		true,
+		CanStoreWater		=		true,
+		IsCookable	=	TRUE,
+        RainFactor = 0.2,
+        Tooltip = Tooltip_item_RainFromGround,
+        StaticModel = WateringCan,
+        WorldStaticModel = WateringCanGround,
+        EatType = WateringCan,
+	}
+
+    item WateredCan
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Watering Can,
+		Icon				=		TZ_WateringCan,
+		Weight				=		2.0,
+    	ReplaceOnUseOn  	=		WaterSource-WateredCanFull,
+		CanStoreWater		=		true,
+        RainFactor = 0.2,
+        Tooltip = Tooltip_item_RainFromGround,
+        StaticModel = WateringCan,
+        WorldStaticModel = WateringCanGround,
+        SurvivalGear = TRUE,
+	}
+
+    item GardeningSprayMilk
+  	{
+  	    DisplayCategory = Gardening,
+    	Type				=		Drainable,
+		DisplayName			=		Mildew Spray,
+		Icon				=		TZ_GardeningSprayCan,
+		Weight				=		1.0,
+    	UseDelta			=		0.1,
+    	ReplaceOnDeplete 	= 		GardeningSprayEmpty,
+	    UseWhileEquipped	=	    false,
+    	StaticModel = GardenSpray,
+    	WorldStaticModel = GardenSprayGround,
+  	}
+
+    item GardeningSprayEmpty
+  	{
+  	    DisplayCategory = Gardening,
+   		Type 				= 		Normal,
+   		DisplayName 		= 		Gardening Spray Can (Empty),
+   		Icon 				= 		TZ_GardeningSprayCan,
+   		Weight 				= 		0.3,
+   		ReplaceOnUseOn  	=		WaterSource-GardeningSprayFull,
+		CanStoreWater		=		true,
+		StaticModel = GardenSpray,
+		WorldStaticModel = GardenSprayGround,
+		SurvivalGear = TRUE,
+  	}
+
+    item GardeningSprayFull
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Drainable,
+		DisplayName			=		Gardening Spray Can (Full),
+		Icon				=		TZ_GardeningSprayCan,
+		Weight				=		1.0,
+    	UseDelta			=		0.1,
+    	ReplaceOnUseOn 		= 		WaterSource-GardeningSprayFull,
+    	ReplaceOnDeplete 	= 		GardeningSprayEmpty,
+    	IsWaterSource		=		true,
+		CanStoreWater		=		true,
+		UseWhileEquipped	=	    false,
+		StaticModel = GardenSpray,
+		WorldStaticModel = GardenSprayGround,
+	}
+
+    item GardeningSprayCigarettes
+ 	{
+ 	    DisplayCategory = Gardening,
+    	Type				=		Drainable,
+		DisplayName			=		Insecticide Spray,
+		Icon				=		TZ_GardeningSprayCan,
+		Weight				=		1.0,
+    	UseDelta			=		0.1,
+    	ReplaceOnDeplete 	= 		GardeningSprayEmpty,
+	    UseWhileEquipped = false,
+    	UseWhileEquipped	=	    false,
+    	StaticModel = GardenSpray,
+    	WorldStaticModel = GardenSprayGround,
+  	}
+
+/*************************~~~~~~~~~~~~~~~~~****************************/
+/******************************Recipes*************************************/
+/*************************~~~~~~~~~~~~~~~~~****************************/
+
+
+    recipe Make Mildew Cure
+	{
+		GardeningSprayEmpty,
+		Base.Milk,
+
+		Result:GardeningSprayMilk,
+		Time:40.0,
+		Category:Farming,
+		NeedToBeLearn:true,
+	}
+
+    recipe Make Flies Cure
+	{
+        GardeningSprayEmpty,
+        Water=3,
+		Cigarettes=5,
+
+		Result:GardeningSprayCigarettes,
+		Time:40.0,
+		Category:Farming,
+		NeedToBeLearn:true,
+	}
+
+    recipe Open Packet of Carrot Seeds
+	{
+		CarrotBagSeed,
+  
+        Result:CarrotSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+    recipe Open Packet of Broccoli Seeds
+	{
+ 		BroccoliBagSeed,
+  
+        Result:BroccoliSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+    recipe Open Packet of Radish Seeds
+	{
+        RedRadishBagSeed,
+
+        Result:RedRadishSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+    recipe Open Packet of Strawberries Seeds
+	{
+        StrewberrieBagSeed,
+
+        Result:StrewberrieSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+    }
+
+    recipe Open Packet of Tomato Seeds
+	{
+        TomatoBagSeed,
+
+        Result:TomatoSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+    recipe Open Packet of Potato Seeds
+	{
+        PotatoBagSeed,
+
+        Result:PotatoSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+    recipe Open Packet of Cabbage Seeds
+	{
+        CabbageBagSeed,
+
+        Result:CabbageSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+    recipe Get Bacon Rashers
+    {
+        keep KitchenKnife/HuntingKnife,
+        Bacon,
+
+        Result:BaconRashers=4,
+        Time:10.0,
+        Category:Cooking,
+    }
+
+    recipe Put Carrots Seeds in Packet
+    {
+        CarrotSeed=50,
+
+        Result:CarrotBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Put Broccoli Seeds in Packet
+    {
+        BroccoliSeed=50,
+
+        Result:BroccoliBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Put Radish Seeds in Packet
+    {
+        RedRadishSeed=50,
+
+        Result:RedRadishBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Put Strawberry Seeds in Packet
+    {
+        StrewberrieSeed=50,
+
+        Result:StrewberrieBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Put Tomato Seeds in Packet
+    {
+        TomatoSeed=50,
+
+        Result:TomatoBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Put Potato Seeds in Packet
+    {
+        PotatoSeed=50,
+
+        Result:PotatoBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Put Cabbage Seeds in Packet
+    {
+        CabbageSeed=50,
+
+        Result:CabbageBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Get Bacon Bits
+    {
+        keep KitchenKnife/HuntingKnife,
+        BaconRashers,
+
+        Result:BaconBits=4,
+        Time:10.0,
+        Category:Cooking,
+    }
+
+    recipe Make Shovel
+    {
+       IronIngot=90,
+       Handle,
+       keep Hammer/BallPeenHammer,
+       keep Tongs,
+
+       NearItem:Anvil,
+       Result:Shovel,
+       Time:200.0,
+       Category:Smithing,
+       SkillRequired:Blacksmith=6,
+       OnGiveXP:Recipe.OnGiveXP.Blacksmith25,
+       NeedToBeLearn:true,
+    }
+
+    recipe Make Hand Shovel
+    {
+       IronIngot=50,
+       keep Hammer/BallPeenHammer,
+       keep Tongs,
+
+       NearItem:Anvil,
+       Result:HandShovel,
+       Time:200.0,
+       Category:Smithing,
+       SkillRequired:Blacksmith=6,
+       OnGiveXP:Recipe.OnGiveXP.Blacksmith20,
+       NeedToBeLearn:true,
+    }
+}

@@ -1,0 +1,66 @@
+module Base
+{
+	sound SniperRifleShoot
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/SniperRifle/Shoot,
+		}
+	}
+
+	sound SniperRifleRack
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/SniperRifle/Rack,
+		}
+	}
+
+	sound SniperRifleJam
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/SniperRifle/Jam,
+		}
+	}
+    
+	sound SniperRifleBringToBear
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/SniperRifle/BringToBear,
+		}
+	}
+    
+	sound SniperRifleEquip
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/SniperRifle/Equip,
+		}
+	}
+        
+	sound SniperRifleUnEquip
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/SniperRifle/UnEquip,
+		}
+	}
+
+            
+	sound SniperRifleBreak
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Firearm/SniperRifle/Break,
+		}
+	}
+}

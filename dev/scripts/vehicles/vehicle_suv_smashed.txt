@@ -1,0 +1,78 @@
+module Base
+{
+    model Vehicles_SUVSmashedRear
+	{
+		mesh = vehicles/Vehicles_SUVCRASH_Rear,
+		shader = vehicle_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle SUVSmashedRear
+	{
+		template! = SUV,
+
+		model
+		{
+			file = Vehicles_SUVSmashedRear,
+			scale = 1.8200,
+			offset = 0.0000 0.2692 0.0000,
+		}
+	}
+
+    model Vehicles_SUVSmashedRight
+	{
+		mesh = vehicles/Vehicles_SUVCRASH_Right,
+		shader = vehicle_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle SUVSmashedRight
+	{
+		template! = SUV,
+
+		model
+		{
+			file = Vehicles_SUVSmashedRight,
+			scale = 1.8200,
+			offset = 0.0000 0.2692 0.0000,
+		}
+	}
+
+	model Vehicles_SUVSmashedLeft
+	{
+		mesh = vehicles/Vehicles_SUVCRASH_Left,
+		shader = vehicle_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle SUVSmashedLeft
+	{
+		template! = SUV,
+
+		model
+		{
+			file = Vehicles_SUVSmashedLeft,
+			scale = 1.8200,
+			offset = 0.0000 0.2692 0.0000,
+		}
+	}
+
+	model Vehicles_SUVSmashedFront
+	{
+		mesh = vehicles/Vehicles_SUVCRASH_Front,
+		shader = vehicle_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle SUVSmashedFront
+	{
+		template! = SUV,
+
+		model
+		{
+			file = Vehicles_SUVSmashedFront,
+			scale = 1.8200,
+			offset = 0.0000 0.2692 0.0000,
+		}
+	}
+}

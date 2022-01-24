@@ -1,0 +1,846 @@
+module Base
+{
+	item Apron_Black
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Apron,
+		ClothingItem = Apron_Black,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronBlack,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+	}
+	item Apron_IceCream
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Ice Cream Server Apron,
+		ClothingItem = Apron_IceCream,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronIceCream,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+	}
+	item Apron_Jay
+	{
+		Type = Clothing,
+		DisplayName = Jay Chicken Server Apron,
+		ClothingItem = Apron_Jay,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronJays,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+	}
+	item Apron_PileOCrepe
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = PileOCrepe Server Apron,
+        ClothingItem = Apron_PileOCrepe,
+        BodyLocation = TorsoExtra,
+        BloodLocation = Apron,
+        Icon = Apron_Pileocrepes,
+        FabricType = Cotton,
+        WorldStaticModel = Apron_Ground,
+    }
+    item Apron_PizzaWhirled
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = PizzaWhirled Server Apron,
+        ClothingItem = Apron_PizzaWhirled,
+        BodyLocation = TorsoExtra,
+        BloodLocation = Apron,
+        Icon = Apron_PizzaWhirled,
+        FabricType = Cotton,
+        WorldStaticModel = Apron_Ground,
+    }
+	item Apron_Spiffos
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Spiffo's Server Apron,
+		ClothingItem = Apron_Spiffos,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronSpiffo,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+	}
+	item Apron_White
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Apron,
+		ClothingItem = Apron_White,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronWhite,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+	}
+	item Apron_WhiteTEXTURE
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Tight Fit Apron,
+		ClothingItem = Apron_WhiteTEXTURE,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronWhite,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+	}
+	item Glasses
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Reflective Ski Sunglasses,
+		ClothingItem = Glasses,
+		BodyLocation = Eyes,
+		Icon = ShootingGlasses,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+	}
+	item Glasses_Aviators
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Aviator Glasses,
+		ClothingItem = Glasses_Aviators,
+		BodyLocation = Eyes,
+		Icon = GlassesAviator,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 50,
+	}
+	item Glasses_Normal
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Glasses,
+		ClothingItem = Glasses_Normal,
+		BodyLocation = Eyes,
+		IconsForTexture = GlassesBlack;GlassesBlue;GlassesRed,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 50,
+	}
+	item Glasses_Reading
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Reading Glasses,
+		ClothingItem = Glasses_Reading,
+		BodyLocation = Eyes,
+		IconsForTexture = GlassesReading;GlassesReading;GlassesReading,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 50,
+	}
+	item Glasses_SafetyGoggles
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Safety Goggles,
+		ClothingItem = Glasses_SafetyGoggles,
+		BodyLocation = Eyes,
+		Icon = SafetyGoggles,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+	}
+	item Glasses_Shooting
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Shooting Glasses,
+		ClothingItem = Glasses_Shooting,
+		BodyLocation = Eyes,
+		Icon = ShootingGlasses_Reflective,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+	}
+	item Glasses_SkiGoggles
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Ski Goggles,
+		ClothingItem = Glasses_SkiGoggles,
+		BodyLocation = Eyes,
+		IconsForTexture = SkiGogglesBlack;SkiGogglesWhite,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+	}
+	item Glasses_Sun
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Sunglasses,
+		ClothingItem = Glasses_Sun,
+		BodyLocation = Eyes,
+		Icon = GlassesSun,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 50,
+	}
+	item Glasses_SwimmingGoggles
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Swimming Goggles,
+		ClothingItem = Glasses_SwimmingGoggles,
+		BodyLocation = Eyes,
+		Icon = SwimmingGoggles,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 30,
+	}
+	item Glasses_Eyepatch_Left
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Eyepatch,
+		ClothingItem = Glasses_Eyepatch_Left,
+		BodyLocation = LeftEye,
+		Icon = Eyepatch,
+		Weight = 0.01,
+		Cosmetic = TRUE,
+		ClothingItemExtra = Glasses_Eyepatch_Right,
+        ClothingItemExtraOption = EyeRight,
+        clothingExtraSubmenu = EyeLeft,
+        WorldStaticModel = Eyepatch_Ground,
+	}
+	item Glasses_Eyepatch_Right
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Eyepatch,
+		ClothingItem = Glasses_Eyepatch_Right,
+		BodyLocation = RightEye,
+		Icon = Eyepatch,
+		Weight = 0.01,
+		Cosmetic = TRUE,
+		ClothingItemExtra = Glasses_Eyepatch_Left,
+        ClothingItemExtraOption = EyeLeft,
+        clothingExtraSubmenu = EyeRight,
+        WorldStaticModel = Eyepatch_Ground,
+	}
+	item Gloves_FingerlessGloves
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Fingerless Gloves,
+		ClothingItem = Gloves_FingerlessGloves,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesFingerlessWhite,
+		Weight = 0.1,
+        Insulation = 0.25,
+        WindResistance = 0.3,
+        WorldStaticModel = Gloves_Ground,
+	}
+	item Gloves_LeatherGloves
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Leather Gloves,
+		ClothingItem = Gloves_LeatherGloves,
+		BodyLocation = Hands,
+		IconsForTexture = GlovesLeatherBlackpng;GlovesLeatherBrown,
+		BloodLocation = Hands,
+		ScratchDefense = 30,
+        BiteDefense = 15,
+        Weight = 0.1,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Leather,
+        WorldStaticModel = Gloves_Ground,
+	}
+	item Gloves_LeatherGlovesBlack
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Leather Gloves,
+		ClothingItem = Gloves_LeatherGlovesBlack,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesLeatherBlackpng,
+		ScratchDefense = 30,
+        BiteDefense = 15,
+        Weight = 0.1,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Leather,
+        WorldStaticModel = Gloves_Ground,
+	}
+	item Gloves_LongWomenGloves
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Long Gloves,
+		ClothingItem = Gloves_LongWomenGloves,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesLongBlack,
+		Weight = 0.1,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = GlovesLong_Ground,
+	}
+	item Gloves_WhiteTINT
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Gloves,
+		ClothingItem = Gloves_WhiteTINT,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesWoolyWhite,
+		Weight = 0.1,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        FabricType = Cotton,
+        WorldStaticModel = Gloves_Ground,
+	}
+	item Gloves_Surgical
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Surgical Gloves,
+		ClothingItem = Gloves_Surgical,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesSurgical,
+		Weight = 0.1,
+        Insulation = 0.25,
+        WindResistance = 0.3,
+        WorldStaticModel = Gloves_Ground,
+	}
+	item Tie_BowTieFull
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Bow Tie,
+		ClothingItem = Tie_BowTieFull,
+		BodyLocation = Neck,
+		Icon = TieBowBlack,
+		WorldStaticModel = BowTie_Ground,
+	}
+	item Tie_BowTieWorn
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Clip-on Bow Tie,
+		ClothingItem = Tie_BowTieWorn,
+		BodyLocation = Neck,
+		Icon = TieBowBlack,
+		Weight = 0.1,
+		WorldStaticModel = BowTie_Ground,
+	}
+	item Tie_Full
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Tie,
+		ClothingItem = Tie_Full,
+		BodyLocation = Neck,
+		IconsForTexture = TieBlack;TieBlue;TieBlueDot;TieBlueStripe;TieMulticolour;TieRed;TieRedDot;TieRedStripe,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+    item Tie_Full_Spiffo
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Spiffo Tie,
+        ClothingItem = Tie_Full_Spiffo,
+        BodyLocation = Neck,
+        Icon = TieSpiffo,
+        Weight = 0.1,
+        WorldStaticModel = Tie_Ground,
+    }
+	item Tie_Worn
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Clip-on Tie,
+		ClothingItem = Tie_Worn,
+		BodyLocation = Neck,
+		IconsForTexture = TieBlack;TieBlue;TieBlueDot;TieBlueStripe;TieMulticolour;TieRed;TieRedDot;TieRedStripe,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Spiffo
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Clip-on Spiffo Tie,
+        ClothingItem = Tie_Worn_Spiffo,
+        BodyLocation = Neck,
+        Icon = TieSpiffo,
+        Weight = 0.1,
+        WorldStaticModel = Tie_Ground,
+    }
+    item Scarf_White
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Scarf,
+        ClothingItem = Scarf_White,
+        BodyLocation = Scarf,
+        Icon = ScarfGeneric,
+        Weight = 0.2,
+        BloodLocation = Neck,
+        ScratchDefense = 10,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        FabricType = Cotton,
+        WorldStaticModel = Scarf_Ground,
+    }
+    item Scarf_StripeBlackWhite
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Scarf,
+        ClothingItem = Scarf_StripeBlackWhite,
+        BodyLocation = Scarf,
+        Icon = ScarfStripedBlack,
+        Weight = 0.2,
+        BloodLocation = Neck,
+        ScratchDefense = 10,
+        Insulation = 0.5,
+        WindResistance = 0.55,
+        FabricType = Cotton,
+        WorldStaticModel = Scarf_Ground,
+    }
+    item Scarf_StripeBlueWhite
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Scarf,
+        ClothingItem = Scarf_StripeBlueWhite,
+        BodyLocation = Scarf,
+        Icon = ScarfStripedBlue,
+        Weight = 0.2,
+        BloodLocation = Neck,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = Scarf_Ground,
+    }
+    item Scarf_StripeRedWhite
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Scarf,
+        ClothingItem = Scarf_StripeRedWhite,
+        BodyLocation = Scarf,
+        Icon = ScarfStripedRed,
+        Weight = 0.2,
+        BloodLocation = Neck,
+        ScratchDefense = 10,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Cotton,
+        WorldStaticModel = Scarf_Ground,
+    }
+	item Bikini_TINT
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Bikini,
+		ClothingItem = Bikini_TINT,
+		BodyLocation = Underwear,
+		Icon = Bikini_White,
+		Weight = 0.2,
+		WorldStaticModel = Bikini_Ground,
+	}
+	item Bikini_Pattern01
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Bikini,
+		ClothingItem = Bikini_Pattern01,
+		BodyLocation = Underwear,
+		Icon = Bikini_OrangePolkaDot,
+		Weight = 0.2,
+		WorldStaticModel = Bikini_Ground,
+	}
+	item SwimTrunks_Blue
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Swim Trunks,
+		ClothingItem = SwimTrunks_Blue,
+		BodyLocation = Underwear,
+		Icon = Swimtrunks_Blue,
+		Weight = 0.1,
+		WorldStaticModel = SwimTrunks_Ground,
+	}
+	item SwimTrunks_Green
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Swim Trunks,
+		ClothingItem = SwimTrunks_Green,
+		BodyLocation = Underwear,
+		Icon = Swimtrunks_Green,
+		Weight = 0.1,
+		WorldStaticModel = SwimTrunks_Ground,
+	}
+	item SwimTrunks_Red
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Swim Trunks,
+		ClothingItem = SwimTrunks_Red,
+		BodyLocation = Underwear,
+		Icon = Swimtrunks_Red,
+		Weight = 0.1,
+		WorldStaticModel = SwimTrunks_Ground,
+	}
+	item SwimTrunks_Yellow
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Swim Trunks,
+		ClothingItem = SwimTrunks_Yellow,
+		BodyLocation = Underwear,
+		Icon = Swimtrunks_Yellow,
+		Weight = 0.1,
+		WorldStaticModel = SwimTrunks_Ground,
+	}
+	item Swimsuit_TINT
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Swimsuit,
+		ClothingItem = Swimsuit_TINT,
+		BodyLocation = Underwear,
+		Icon = Swimsuit_White,
+		Weight = 0.1,
+		WorldStaticModel = SwimSuit_Ground,
+	}
+	item MakeUp_GreenCamo
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        DisplayName = MakeUp_GreenCamo,
+        ClothingItem = MakeUp_GreenCamo,
+        BodyLocation = MakeUp_FullFace,
+        Icon = MakeUp_GreenCamo,
+    }
+    item MakeUp_CamoFullFace1
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_CamoFullFace1,
+        BodyLocation = MakeUp_FullFace,
+    }
+    item MakeUp_CamoFullFace2
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_CamoFullFace2,
+        BodyLocation = MakeUp_FullFace,
+    }
+    item MakeUp_BraveHeart
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_BraveHeart,
+        BodyLocation = MakeUp_FullFace,
+    }
+    item MakeUp_ClownFace1
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_ClownFace1,
+        BodyLocation = MakeUp_FullFace,
+    }
+    item MakeUp_ClownFace2
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_ClownFace2,
+        BodyLocation = MakeUp_FullFace,
+    }
+    item MakeUp_SkullFace1
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_SkullFace1,
+        BodyLocation = MakeUp_FullFace,
+    }
+    item MakeUp_SkullFace2
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_SkullFace2,
+        BodyLocation = MakeUp_FullFace,
+    }
+    item MakeUp_Crow
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_Crow,
+        BodyLocation = MakeUp_Eyes,
+    }
+    item MakeUp_RedStripes1
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_RedStripes1,
+        BodyLocation = MakeUp_Eyes,
+    }
+    item MakeUp_RedStripes2
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_RedStripes2,
+        BodyLocation = MakeUp_Eyes,
+    }
+    item MakeUp_CamoEyes1
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_CamoEyes1,
+        BodyLocation = MakeUp_Eyes,
+    }
+    item MakeUp_CamoEyes2
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_CamoEyes2,
+        BodyLocation = MakeUp_Eyes,
+    }
+    item MakeUp_CamoStripes
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_CamoStripes,
+        BodyLocation = MakeUp_Eyes,
+    }
+    item MakeUp_Football
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_Football,
+        BodyLocation = MakeUp_Eyes,
+    }
+    item MakeUp_EyesShadowWhite
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_EyesShadowWhite,
+        BodyLocation = MakeUp_EyesShadow,
+    }
+    item MakeUp_EyesShadowLightBlue
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_EyesShadowLightBlue,
+        BodyLocation = MakeUp_EyesShadow,
+    }
+    item MakeUp_EyesShadowBlue
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_EyesShadowBlue,
+        BodyLocation = MakeUp_EyesShadow,
+    }
+    item MakeUp_EyesShadowRed
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_EyesShadowRed,
+        BodyLocation = MakeUp_EyesShadow,
+    }
+    item MakeUp_EyesShadowPink
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_EyesShadowPink,
+        BodyLocation = MakeUp_EyesShadow,
+    }
+    item MakeUp_EyesShadowGreen
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_EyesShadowGreen,
+        BodyLocation = MakeUp_EyesShadow,
+    }
+    item MakeUp_EyesShadowYellow
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_EyesShadowYellow,
+        BodyLocation = MakeUp_EyesShadow,
+    }
+    item MakeUp_LipsRed
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_LipsRed,
+        BodyLocation = MakeUp_Lips,
+    }
+    item MakeUp_LipsLightBlue
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_LipsLightBlue,
+        BodyLocation = MakeUp_Lips,
+    }
+    item MakeUp_LipsBlue
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_LipsBlue,
+        BodyLocation = MakeUp_Lips,
+    }
+    item MakeUp_LipsBlack
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_LipsBlack,
+        BodyLocation = MakeUp_Lips,
+    }
+    item MakeUp_LipsGreen
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_LipsGreen,
+        BodyLocation = MakeUp_Lips,
+    }
+    item MakeUp_LipsPink
+    {
+        DisplayCategory = MakeUp,
+        Type = Clothing,
+        ClothingItem = MakeUp_LipsPink,
+        BodyLocation = MakeUp_Lips,
+    }
+    item Belt2
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Belt,
+        Icon	=	Belt,
+        BodyLocation = Belt,
+        ClothingItem = Belt,
+        AttachmentsProvided = SmallBeltLeft;SmallBeltRight,
+        WorldStaticModel = Belt_Ground,
+    }
+
+    item HolsterSimple
+    {
+        DisplayCategory = Clothing,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Holster,
+        Icon	=	GunHolster,
+        BodyLocation = BeltExtra,
+        ClothingItem = Holster,
+        AttachmentsProvided = HolsterRight,
+        WorldStaticModel = Holster_Ground,
+    }
+
+    item HolsterDouble
+    {
+        DisplayCategory = Clothing,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Double Holster,
+        Icon	=	GunHolsterDouble,
+        BodyLocation = BeltExtra,
+        ClothingItem = HolsterDouble,
+        AttachmentsProvided = HolsterLeft;HolsterRight,
+        WorldStaticModel = Holster_Ground,
+    }
+	item AmmoStrap_Bullets
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Bullets Ammo Strap,
+		ClothingItem = AmmoStrap_Bullets,
+		BodyLocation = AmmoStrap,
+		Icon = AmmoStrap,
+		WorldStaticModel = AmmoStrap_Ground,
+	}
+	item AmmoStrap_Shells
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Shells Ammo Strap,
+		ClothingItem = AmmoStrap_Shells,
+		BodyLocation = AmmoStrap,
+		Icon = AmmoStrap,
+		Tooltip = Tooltip_AmmoStrap,
+		WorldStaticModel = AmmoStrap_Ground,
+	}
+    item Gloves_BoxingRed
+	{
+		Type = Clothing,
+		DisplayName = Boxing Gloves,
+		ClothingItem = Gloves_BoxingRed,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = BoxingGloves_Red,
+		Weight = 0.1,
+        Insulation = 0.25,
+        WindResistance = 0.3,
+        WorldStaticModel = BoxingGlovesRed_Ground,
+	}
+    item Gloves_BoxingBlue
+	{
+		Type = Clothing,
+		DisplayName = Boxing Gloves,
+		ClothingItem = Gloves_BoxingBlue,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = BoxingGloves_Blue,
+		Weight = 0.1,
+        Insulation = 0.25,
+        WindResistance = 0.3,
+        WorldStaticModel = BoxingGlovesBlue_Ground,
+	}
+	item BunnyTail
+    {
+        Type = Clothing,
+        DisplayName = Bunny Tail,
+        ClothingItem = BunnyTail,
+        BodyLocation = Tail,
+        Icon = Rabbittail,
+        WorldStaticModel = BunnyTail_Ground,
+    }
+	item BunnySuitBlack
+	{
+		Type = Clothing,
+		DisplayName = Bunny Suit,
+		ClothingItem = BunnySuitBlack,
+		BodyLocation = Underwear,
+		Icon = GlassesBlack,
+		Weight = 0.1,
+		WorldStaticModel = BunnySuitBlack_Ground,
+	}
+	item BunnySuitPink
+	{
+		Type = Clothing,
+		DisplayName = Bunny Suit,
+		ClothingItem = BunnySuitPink,
+		BodyLocation = Underwear,
+		Icon = GlassesRed,
+		Weight = 0.1,
+		WorldStaticModel = BunnySuitPink_Ground,
+	}
+}

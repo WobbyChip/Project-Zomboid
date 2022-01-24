@@ -1,0 +1,811 @@
+module Base
+{
+    item LongJohns_Bottoms
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Johns Bottoms,
+        ClothingItem = LongJohns_Bottoms,
+        BodyLocation = Legs1,
+        BloodLocation = Trousers,
+        Icon = TrousersLongjohns,
+        Insulation = 0.3,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Shorts_CamoGreenLong
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Camo Shorts,
+        ClothingItem = Shorts_CamoGreenLong,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGreen,
+        BloodLocation = Trousers,
+        Insulation = 0.5,
+        WindResistance = 0.3,
+        WaterResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
+    item Shorts_CamoUrbanLong
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Camo Shorts,
+        ClothingItem = Shorts_CamoUrbanLong,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGrey,
+        BloodLocation = Trousers,
+        Insulation = 0.5,
+        WindResistance = 0.3,
+        WaterResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
+    item Shorts_LongDenim
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Denim Shorts,
+        ClothingItem = Shorts_LongDenim,
+        BodyLocation = Pants,
+        IconsForTexture = TrousersDenimBlue;TrousersDenimBlack;TrousersDenimLightBlue,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.45,
+        WindResistance = 0.45,
+        FabricType = Denim,
+        WorldStaticModel = LongShorts_Ground,
+    }
+    item Shorts_LongSport
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Sport Shorts,
+        ClothingItem = Shorts_LongSport,
+        BodyLocation = Pants,
+        IconsForTexture = ShortsLongAthleticBlue;ShortsLongAthleticGreen;ShortsLongAthleticRed;ShortsLongAthleticYellow,
+        BloodLocation = Trousers,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
+    item Shorts_LongSport_Red
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Sport Shorts,
+        ClothingItem = Shorts_LongSport_Red,
+        BodyLocation = Pants,
+        Icon = ShortsLongAthleticRed,
+        BloodLocation = Trousers,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
+    item Shorts_BoxingRed
+    {
+        Type = Clothing,
+        DisplayName = Boxing Shorts,
+        ClothingItem = Shorts_BoxingRed,
+        BodyLocation = Pants,
+        BloodLocation = ShortsShort,
+        Icon = BoxingShorts_Red,
+        Insulation = 0.10,
+        WindResistance = 0.1,
+        WorldStaticModel = ShortShorts_Ground,
+    }
+    item Shorts_BoxingBlue
+    {
+        Type = Clothing,
+        DisplayName = Boxing Shorts,
+        ClothingItem = Shorts_BoxingBlue,
+        BodyLocation = Pants,
+        BloodLocation = ShortsShort,
+        Icon = BoxingShorts_Blue,
+        Insulation = 0.10,
+        WindResistance = 0.1,
+        WorldStaticModel = ShortShorts_Ground,
+    }
+    item Shorts_ShortDenim
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Denim Shorts,
+        ClothingItem = Shorts_ShortDenim,
+        BodyLocation = Pants,
+        BloodLocation = ShortsShort,
+        IconsForTexture = ShortsDenimDark;ShortsDenim;ShortsDenimBlack,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.30,
+        WindResistance = 0.15,
+        FabricType = Denim,
+        WorldStaticModel = ShortShorts_Ground,
+    }
+    item Shorts_ShortFormal
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shorts,
+        ClothingItem = Shorts_ShortFormal,
+        BodyLocation = Pants,
+        BloodLocation = ShortsShort,
+        Icon = ShortsWhite,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+        WorldStaticModel = ShortShorts_Ground,
+    }
+    item Shorts_ShortSport
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Sport Shorts,
+        ClothingItem = Shorts_ShortSport,
+        BodyLocation = Pants,
+        IconsForTexture = ShortsAthleticBlue;ShortsAthleticGreen;ShortsAthleticRed;ShortsAthleticYellow,
+        BloodLocation = ShortsShort,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = ShortShorts_Ground,
+    }
+    item Skirt_Knees
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Knee-length Skirt,
+        ClothingItem = Skirt_Knees,
+        BodyLocation = Skirt,
+        Icon = SkirtGeneric,
+        BloodLocation = ShortsShort,
+        Insulation = 0.1,
+        WindResistance = 0.01,
+        FabricType = Cotton,
+        WorldStaticModel = Skirt_Short_Ground,
+    }
+    item Skirt_Mini
+    {
+        Type = Clothing,
+        DisplayName = Mini Skirt,
+        ClothingItem = Skirt_Mini,
+        BodyLocation = Skirt,
+        Icon = SkirtGeneric,
+        BloodLocation = ShortsShort,
+        Insulation = 0.1,
+        WindResistance = 0.01,
+        FabricType = Cotton,
+        WorldStaticModel = Skirt_Short_Ground,
+    }
+    item Skirt_Long
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Skirt,
+        ClothingItem = Skirt_Long,
+        BodyLocation = Skirt,
+        Icon = SkirtLongWhite,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 0.93,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Skirt_Long_Ground,
+    }
+    item Skirt_Normal
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Skirt,
+        ClothingItem = Skirt_Normal,
+        BodyLocation = Skirt,
+        Icon = SkirtGeneric,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 0.93,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Skirt_Mid_Ground,
+    }
+    item Skirt_Short
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Short Skirt,
+        ClothingItem = Skirt_Short,
+        BodyLocation = Skirt,
+        Icon = SkirtGeneric,
+        BloodLocation = ShortsShort,
+        Insulation = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = Skirt_Short_Ground,
+    }
+    item Ghillie_Trousers
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ghillie Suit Pants,
+        ClothingItem = Ghillie_Trousers,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGreen,
+        BloodLocation = Trousers,
+        Icon = TrousersGhillie,
+        RunSpeedModifier = 0.85,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.70,
+        WindResistance = 0.65,
+        WaterResistance = 0.35,
+        WorldStaticModel = GhillieTrousers_Ground,
+    }
+    item Trousers
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Pants,
+        ClothingItem = Trousers,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Trousers_White,
+        Insulation = 0.50,
+        WindResistance = 0.40,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item TrousersMesh_DenimLight
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Denim Jeans,
+        ClothingItem = TrousersMesh_DenimLight,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TrousersDenimLightBlue,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.65,
+        WindResistance = 0.60,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item TrousersMesh_Leather
+    {
+        Type = Clothing,
+        DisplayName = Skinny Leather Trousers,
+        ClothingItem = TrousersMesh_Leather,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TrousersDenimLightBlue,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.65,
+        WindResistance = 0.60,
+        FabricType = Leather,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_LeatherBlack
+    {
+        Type = Clothing,
+        DisplayName = Black Leather Trousers,
+        ClothingItem = Trousers_LeatherBlack,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TrousersDenimLightBlue,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.65,
+        WindResistance = 0.60,
+        FabricType = Leather,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_CamoDesert
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Desert Camo Pants,
+        ClothingItem = Trousers_CamoDesert,
+        BodyLocation = Pants,
+        Icon = TrousersCamoSand,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.3,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_CamoGreen
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Camo Pants,
+        ClothingItem = Trousers_CamoGreen,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGreen,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.45,
+        WindResistance = 0.3,
+        WaterResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_CamoUrban
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Urban Camo Pants,
+        ClothingItem = Trousers_CamoUrban,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGrey,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.60,
+        WindResistance = 0.30,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Chef
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Chef Pants,
+        ClothingItem = Trousers_Chef,
+        BodyLocation = Pants,
+        Icon = TrousersChef,
+        BloodLocation = Trousers,
+        Insulation = 0.4,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_DefaultTEXTURE
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Pants,
+        ClothingItem = Trousers_DefaultTEXTURE,
+        BodyLocation = Pants,
+        Icon = TrousersDenimBlue,
+        BloodLocation = Trousers,
+        Insulation = 0.5,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_DefaultTEXTURE_HUE
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Pants,
+        ClothingItem = Trousers_DefaultTEXTURE_HUE,
+        BodyLocation = Pants,
+        Icon = TrousersDenimBlack,
+        BloodLocation = Trousers,
+        Insulation = 0.5,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_DefaultTEXTURE_TINT
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Pants,
+        ClothingItem = Trousers_DefaultTEXTURE_TINT,
+        BodyLocation = Pants,
+        Icon = TrousersDenimBlue,
+        BloodLocation = Trousers,
+        Insulation = 0.5,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Denim
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Jeans,
+        ClothingItem = Trousers_Denim,
+        BodyLocation = Pants,
+        IconsForTexture = TrousersDenimBlue;TrousersDenimBlack;TrousersDenimLightBlue,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.7,
+        WindResistance = 0.55,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Fireman
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Firefighter Pants,
+        ClothingItem = Trousers_Fireman,
+        BodyLocation = Pants,
+        Icon = TrousersFireman,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 0.82,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.85,
+        WindResistance = 0.85,
+        WaterResistance = 0.8,
+        Weight = 4,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_JeanBaggy
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Baggy Jeans,
+        ClothingItem = Trousers_JeanBaggy,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TrousersDenimBlue,
+        RunSpeedModifier = 0.98,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.60,
+        WindResistance = 0.65,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Padded
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Padded Pants,
+        ClothingItem = Trousers_Padded,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = PaddedTrousers_White,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 0.6,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Police
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Trooper Pants,
+        ClothingItem = Trousers_Police,
+        BodyLocation = Pants,
+        Icon = TrousersPoliceBlue,
+        BloodLocation = Trousers,
+        Insulation = 0.6,
+        WindResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_PoliceGrey
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName =  Police Deputy Pants,
+        ClothingItem = Trousers_PoliceGrey,
+        BodyLocation = Pants,
+        Icon = TrousersPoliceGrey,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.4,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_PrisonGuard
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prison Guard Pants,
+        ClothingItem = Trousers_PrisonGuard,
+        BodyLocation = Pants,
+        Icon = TrousersPrisonGuard,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Ranger
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ranger Pants,
+        ClothingItem = Trousers_Ranger,
+        BodyLocation = Pants,
+        Icon = TrousersRanger,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Santa
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Santa Suit Pants,
+        ClothingItem = Trousers_Santa,
+        BodyLocation = Pants,
+        Icon = TrousersSantaRed,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_SantaGReen
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Green Santa Suit Pants,
+        ClothingItem = Trousers_SantaGReen,
+        BodyLocation = Pants,
+        Icon = TrousersSantaGreen,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Scrubs
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Medical Pants,
+        ClothingItem = Trousers_Scrubs,
+        BodyLocation = Pants,
+        IconsForTexture = TrousersScrubsBlue;TrousersScrubsGreen,
+        BloodLocation = Trousers,
+        Insulation = 0.2,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Suit
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Suit Pants,
+        ClothingItem = Trousers_Suit,
+        BodyLocation = Pants,
+        Icon = TrousersSuitBlack,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_SuitTEXTURE
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Suit Pants,
+        ClothingItem = Trousers_SuitTEXTURE,
+        BodyLocation = Pants,
+        Icon = TrousersSuitBlack,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_SuitWhite
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Suit Pants,
+        ClothingItem = Trousers_SuitWhite,
+        BodyLocation = Pants,
+        Icon = TrousersSuitWhite,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_WhiteTEXTURE
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Pants,
+        ClothingItem = Trousers_WhiteTEXTURE,
+        BodyLocation = Pants,
+        Icon = TrousersGeneric,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_WhiteTINT
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Pants,
+        ClothingItem = Trousers_WhiteTINT,
+        BodyLocation = Pants,
+        Icon = TrousersGeneric,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Dungarees
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Overalls,
+        ClothingItem = Dungarees,
+        BodyLocation = Pants,
+        Icon = OverallsDenim,
+        BloodLocation = Trousers;ShirtNoSleeves,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.65,
+        WindResistance = 0.5,
+        FabricType = Denim,
+        WaterResistance = 0.20,
+        WorldStaticModel = Dungarees_Ground,
+    }
+    item Trousers_ArmyService
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Army Pants,
+        ClothingItem = Trousers_ArmyService,
+        BodyLocation = Pants,
+        Icon = TrouserstArmyDress,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.7,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+	item Trousers_Black
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Black Trousers,
+        ClothingItem = Trousers_Black,
+        BodyLocation = Pants,
+        Icon = Trousers,
+        BloodLocation = Trousers,
+        ColorRed = 37,
+        ColorGreen = 37,
+        ColorBlue = 37,
+        ScratchDefense = 10,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+	item Trousers_NavyBlue
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Navy Blue Trousers,
+        ClothingItem = Trousers_NavyBlue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TrousersGeneric,
+        ColorRed = 37,
+        ColorGreen = 37,
+        ColorBlue = 70,
+        ScratchDefense = 10,
+        Insulation = 0.35,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+	item Trousers_Shellsuit_Black
+    {
+        Type = Clothing,
+        DisplayName = Shell Suit Trousers,
+        ClothingItem = Trousers_Shellsuit_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TracksuitPantsBlack,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }
+	item Trousers_Shellsuit_Blue
+    {
+        Type = Clothing,
+        DisplayName = Shell Suit Trousers,
+        ClothingItem = Trousers_Shellsuit_Blue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TracksuitPantsBlue,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }
+	item Trousers_Shellsuit_Green
+    {
+        Type = Clothing,
+        DisplayName = Shell Suit Trousers,
+        ClothingItem = Trousers_Shellsuit_Green,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TracksuitPantsGreen,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }
+	item Trousers_Shellsuit_Pink
+    {
+        Type = Clothing,
+        DisplayName = Shell Suit Trousers,
+        ClothingItem = Trousers_Shellsuit_Pink,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TracksuitPantsPink,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }
+	item Trousers_Shellsuit_Teal
+    {
+        Type = Clothing,
+        DisplayName = Shell Suit Trousers,
+        ClothingItem = Trousers_Shellsuit_Teal,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TracksuitPantsTeal,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }
+	item Trousers_Shellsuit_TINT
+    {
+        Type = Clothing,
+        DisplayName = Shell Suit Trousers,
+        ClothingItem = Trousers_Shellsuit_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TracksuitPantsGeneric,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }
+}

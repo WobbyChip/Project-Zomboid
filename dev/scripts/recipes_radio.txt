@@ -1,0 +1,124 @@
+module Base
+{
+    recipe Dismantle Radio
+    {
+       Radio.RadioRed/Radio.RadioBlack,
+       keep [Recipe.GetItemTypes.Screwdriver],
+
+       NoBrokenItems:true,
+       Result:ElectronicsScrap,
+       Time:30.0,
+       OnCreate:Recipe.OnCreate.DismantleRadio,
+       OnGiveXP:Recipe.OnGiveXP.DismantleRadio,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+    }
+    recipe Dismantle Two-way Radio
+    {
+       Radio.WalkieTalkie1/Radio.WalkieTalkie2/Radio.WalkieTalkie3/Radio.WalkieTalkie4/Radio.WalkieTalkie5,
+       keep [Recipe.GetItemTypes.Screwdriver],
+
+       NoBrokenItems:true,
+       Result:ElectronicsScrap,
+       Time:30.0,
+       OnCreate:Recipe.OnCreate.DismantleRadioTwoWay,
+       OnGiveXP:Recipe.OnGiveXP.DismantleRadio,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+    }
+    recipe Dismantle HAM Radio
+    {
+       Radio.HamRadio1/Radio.HamRadio2,
+       keep [Recipe.GetItemTypes.Screwdriver],
+
+       NoBrokenItems:true,
+       Result:ElectronicsScrap,
+       Time:30.0,
+       OnCreate:Recipe.OnCreate.DismantleRadioHAM,
+       OnGiveXP:Recipe.OnGiveXP.DismantleRadio,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+    }
+    recipe Dismantle Television
+    {
+       Radio.TvAntique/Radio.TvWideScreen/Radio.TvBlack,
+       keep [Recipe.GetItemTypes.Screwdriver],
+
+       NoBrokenItems:true,
+       Result:ElectronicsScrap,
+       Time:30.0,
+       OnCreate:Recipe.OnCreate.DismantleRadioTV,
+       OnGiveXP:Recipe.OnGiveXP.DismantleRadio,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+    }
+    recipe Craft Makeshift Radio
+    {
+        ElectronicsScrap=2,
+        Amplifier,
+        LightBulb,
+        Radio.RadioReceiver,
+        Radio.ElectricWire,
+        Aluminum=2,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        NoBrokenItems:true,
+        Result:Radio.RadioMakeShift,
+        SkillRequired:Electricity=1,
+        NeedToBeLearn:true,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.RadioCraft,
+        OnGiveXP:Recipe.OnGiveXP.RadioCraft,
+        Category:Electrical,
+    }
+    recipe Craft Makeshift HAM Radio
+    {
+        ElectronicsScrap=4,
+        Amplifier,
+        LightBulb,
+        LightBulbGreen,
+        Radio.RadioReceiver,
+        Radio.RadioTransmitter,
+        Radio.ElectricWire=3,
+        Aluminum=4,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        NoBrokenItems:true,
+        Result:Radio.HamRadioMakeShift,
+        SkillRequired:Electricity=1,
+        NeedToBeLearn:true,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.RadioCraft,
+        OnGiveXP:Recipe.OnGiveXP.RadioCraft,
+        Category:Electrical,
+    }
+    recipe Craft Makeshift Walkie Talkie
+    {
+        ElectronicsScrap=3,
+        Amplifier,
+        LightBulb,
+        LightBulbGreen,
+        Radio.RadioReceiver,
+        Radio.RadioTransmitter,
+        Radio.ElectricWire=2,
+        Aluminum=3,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        NoBrokenItems:true,
+        Result:Radio.WalkieTalkieMakeShift,
+        SkillRequired:Electricity=1,
+        NeedToBeLearn:true,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.RadioCraft,
+        OnGiveXP:Recipe.OnGiveXP.RadioCraft,
+        Category:Electrical,
+    }
+}

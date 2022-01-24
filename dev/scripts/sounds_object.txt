@@ -1,0 +1,1212 @@
+module Base
+{
+
+	/*** SlidingGlassDoor ***/
+	sound SlidingGlassDoorBlocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/SlidingGlassDoor/IsBlocked,
+		}
+	}
+
+	sound SlidingGlassDoorBreak
+	{
+		category = Object,
+		clip
+		{
+			event = Object/SlidingGlassDoor/Break,
+		}
+	}
+
+	sound SlidingGlassDoorClose
+	{
+		category = Object,
+		clip
+		{
+			event = Object/SlidingGlassDoor/Close,
+		}
+	}
+
+	sound SlidingGlassDoorLock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/SlidingGlassDoor/Lock,
+		}
+	}
+
+	sound SlidingGlassDoorLocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/SlidingGlassDoor/IsLocked,
+		}
+	}
+
+	sound SlidingGlassDoorOpen
+	{
+		category = Object,
+		clip
+		{
+			event = Object/SlidingGlassDoor/Open,
+		}
+	}
+
+	sound SlidingGlassDoorUnlock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/SlidingGlassDoor/Unlock,
+		}
+	}
+
+	/*** PrisonMetalDoor ***/
+
+	sound PrisonMetalDoorBlocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/PrisonMetalDoor/IsBlocked,
+		}
+	}
+
+	sound PrisonMetalDoorBreak
+	{
+		category = Object,
+		clip
+		{
+			event = Object/PrisonMetalDoor/Break,
+		}
+	}
+
+	sound PrisonMetalDoorClose
+	{
+		category = Object,
+		clip
+		{
+			event = Object/PrisonMetalDoor/Close,
+		}
+	}
+
+	sound PrisonMetalDoorLock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/PrisonMetalDoor/Lock,
+		}
+	}
+
+	sound PrisonMetalDoorLocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/PrisonMetalDoor/IsLocked,
+		}
+	}
+
+	sound PrisonMetalDoorOpen
+	{
+		category = Object,
+		clip
+		{
+			event = Object/PrisonMetalDoor/Open,
+		}
+	}
+
+	sound PrisonMetalDoorUnlock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/PrisonMetalDoor/Unlock,
+		}
+	}
+
+	/*** GarageDoor ***/
+	
+	sound GarageDoorBlocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/GarageDoor/IsBlocked,
+		}
+	}
+	
+	sound GarageDoorBreak
+	{
+		category = Object,
+		clip
+		{
+			event = Object/GarageDoor/Break,
+		}
+	}
+
+	sound GarageDoorClose
+	{
+		category = Object,
+		clip
+		{
+			event = Object/GarageDoor/Close,
+		}
+	}
+
+	sound GarageDoorLock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/GarageDoor/Lock,
+		}
+	}
+
+	sound GarageDoorLocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/GarageDoor/IsLocked,
+		}
+	}
+
+	sound GarageDoorOpen
+	{
+		category = Object,
+		clip
+		{
+			event = Object/GarageDoor/Open,
+		}
+	}
+
+	sound GarageDoorUnlock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/GarageDoor/Unlock,
+		}
+	}
+
+	/*** MetalDoor ***/
+
+	sound MetalDoorBlocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalDoor/IsBlocked,
+		}
+	}
+
+	sound MetalDoorBreak
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalDoor/Break,
+		}
+	}
+
+	sound MetalDoorClose
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalDoor/Close,
+		}
+	}
+
+	sound MetalDoorLock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalDoor/Lock,
+		}
+	}
+
+	sound MetalDoorLocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalDoor/IsLocked,
+		}
+	}
+
+	sound MetalDoorOpen
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalDoor/Open,
+		}
+	}
+
+	sound MetalDoorUnlock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalDoor/Unlock,
+		}
+	}
+
+	/*** MetalGate ***/
+
+	sound MetalGateBlocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalGate/IsBlocked,
+		}
+	}
+
+	sound MetalGateBreak
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalGate/Break,
+		}
+	}
+
+	sound MetalGateClose
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalGate/Close,
+		}
+	}
+
+	sound MetalGateLock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalGate/Lock,
+		}
+	}
+
+	sound MetalGateLocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalGate/IsLocked,
+		}
+	}
+
+	sound MetalGateOpen
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalGate/Open,
+		}
+	}
+
+	sound MetalGateUnlock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalGate/Unlock,
+		}
+	}
+
+	/*** WoodDoor ***/
+
+	sound WoodDoorBlocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodDoor/IsBlocked,
+		}
+	}
+
+	sound WoodDoorBreak
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodDoor/Break,
+		}
+	}
+
+	sound WoodDoorClose
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodDoor/Close,
+		}
+	}
+
+	sound WoodDoorCreak
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodDoor/Creak,
+		}
+	}
+
+	sound WoodDoorLock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodDoor/Lock,
+		}
+	}
+
+	sound WoodDoorLocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodDoor/IsLocked,
+		}
+	}
+
+	sound WoodDoorOpen
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodDoor/Open,
+		}
+	}
+
+	sound WoodDoorUnlock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodDoor/Unlock,
+		}
+	}
+
+	/*** WoodGate ***/
+
+	sound WoodGateBlocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodGate/IsBlocked,
+		}
+	}
+
+	sound WoodGateBreak
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodGate/Break,
+		}
+	}
+
+	sound WoodGateClose
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodGate/Close,
+		}
+	}
+
+	sound WoodGateLock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodGate/Lock,
+		}
+	}
+
+	sound WoodGateLocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodGate/IsLocked,
+		}
+	}
+
+	sound WoodGateOpen
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodGate/Open,
+		}
+	}
+
+	sound WoodGateUnlock
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodGate/Unlock,
+		}
+	}
+
+	/*** General Door ***/
+
+	sound LockDoor
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Door/Lock,
+		}
+	}
+
+	sound UnlockDoor
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Door/Unlock,
+		}
+	}
+
+	sound BreakDoor
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Door/Break,
+		}
+	}
+
+	sound DoorIsBlocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Door/IsBlocked,
+		}
+	}
+
+	sound DoorIsLocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Door/IsLocked,
+		}
+	}
+
+	sound CarBatteryChargerRunning
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Fridge/Running,
+			volume = 2.0,
+		}
+	}
+
+	sound CurtainLongClose
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Curtain/Close,
+		}
+	}
+
+	sound CurtainLongOpen
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Curtain/Open,
+		}
+	}
+
+	sound CurtainShortClose
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Curtain/Close,
+		}
+	}
+
+	sound CurtainShortOpen
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Curtain/Open,
+		}
+	}
+
+	sound CurtainShadeClose
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Curtain/Close,
+		}
+	}
+
+	sound CurtainShadeOpen
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Curtain/Open,
+		}
+	}
+
+	sound CurtainSheetClose
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Curtain/Close,
+		}
+	}
+
+	sound CurtainSheetOpen
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Curtain/Open,
+		}
+	}
+
+	sound CurtainSheetAdd
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Curtain/Add,
+		}
+	}
+
+	sound CurtainSheetRemove
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Curtain/Remove,
+		}
+	}
+
+	sound OpenWindow
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Window/Open,
+		}
+	}
+
+	sound CloseWindow
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Window/Close,
+		}
+	}
+
+	sound SmashWindow
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Window/Smash,
+		}
+	}
+
+	sound WindowIsLocked
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Window/Locked,
+		}
+	}
+
+	sound BreakLockOnWindow
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Window/BreakLock,
+		}
+	}
+
+	sound ClothingDryerRunning
+	{
+		category = Object,
+		clip
+		{
+			event = Object/ClothingDryer/Running,
+		}
+	}
+
+	sound ClothingWasherRunning
+	{
+		category = Object,
+		clip
+		{
+			event = Object/ClothingWasher/Running,
+		}
+	}
+
+	sound ClothingDryerFinished
+	{
+		category = Object,
+		clip
+		{
+			event = Object/ClothingDryer/Finished,
+		}
+	}
+
+	sound ClothingWasherFinished
+	{
+		category = Object,
+		clip
+		{
+			event = Object/ClothingWasher/Finished,
+		}
+	}
+
+	sound ToggleStove
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Stove/Toggle,
+		}
+	}
+
+	sound CharcoalBarbecueRunning
+	{
+		category = Object,
+		clip
+		{
+			event = Object/CharcoalBarbecue/Running,
+		}
+	}
+
+	sound PropaneBarbecueRunning
+	{
+		category = Object,
+		clip
+		{
+			event = Object/PropaneBarbecue/Running,
+		}
+	}
+
+	sound StoveRunning
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Stove/Running,
+		}
+	}
+
+	sound StoveTimerExpired
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Stove/Finished,
+		}
+	}
+
+	sound MicrowaveRunning
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Microwave/Running,
+		}
+	}
+
+	sound MicrowaveCookingMetal
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Microwave/RunningMetal,
+		}
+	}
+
+	sound MicrowaveTimerExpired
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Microwave/Finished,
+		}
+	}
+
+	sound FridgeHum
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Fridge/Running,
+		}
+	}
+
+	sound LightSwitch
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Light/FlipSwitch,
+		}
+	}
+
+	sound TelevisionTestBeep
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Television/TestTone,
+		}
+	}
+
+	sound TelevisionZap
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Television/Zap,
+		}
+	}
+
+	sound RadioButton
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Radio/Toggle,
+		}
+	}
+
+	sound RadioStatic
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Radio/Static,
+		}
+	}
+
+	sound RadioTalk
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Radio/Program,
+		}
+	}
+
+	sound RadioZap
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Radio/Zap,
+		}
+	}
+
+	sound GeneratorFailedToStart
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Generator/StartupFail,
+		}
+	}
+
+	sound GeneratorStarting
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Generator/Startup,
+		}
+	}
+
+	sound GeneratorStopping
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Generator/Shutdown,
+		}
+	}
+
+	sound GeneratorLoop
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Generator/Running,
+		}
+	}
+
+	sound PourWaterIntoObject
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/PourWaterIntoObject,
+		}
+	}
+
+	sound PourLiquidOnGround
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/PourLiquidOnGround,
+		}
+	}
+
+	sound GetWaterFromLake
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/GetWater/FromLake
+,
+		}
+	}
+
+	sound GetWaterFromTap
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/GetWater/FromTap,
+		}
+	}
+
+	sound GetWaterFromTapGlass
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/GetWater/FromTapGlass,
+		}
+	}
+
+	sound GetWaterFromTapCeramic
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/GetWater/FromTapCeramic,
+		}
+	}
+
+	sound GetWaterFromTapPlasticMedium
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/GetWater/FromTapPlasticMedium,
+		}
+	}
+
+	sound GetWaterFromTapPlasticBig
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/GetWater/FromTapPlasticBig,
+		}
+	}
+
+	sound GetWaterFromTapMetalMedium
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/GetWater/FromTapMetalMedium,
+		}
+	}
+	
+	sound GetWaterFromTapMetalBig
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/GetWater/FromTapMetalBig,
+		}
+	}
+
+	sound ChopTree
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Tree/Chop,
+		}
+	}
+
+	sound FallingTree
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Tree/Fall,
+		}
+	}
+
+	sound BirdInMetalTrap
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalTrap/TrappedBird,
+		}
+	}
+
+	sound BirdInWoodTrap
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodTrap/TrappedBird,
+		}
+	}
+
+	sound AnimalInMetalTrap
+	{
+		category = Object,
+		clip
+		{
+			event = Object/MetalTrap/TrappedAnimal,
+		}
+	}
+
+	sound AnimalInWoodTrap
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodTrap/TrappedAnimal,
+		}
+	}
+
+	sound AddBarricadeMetal
+	{
+		category = Object,
+		clip
+		{
+			event = Object/BarricadeMetal/Place,
+		}
+	}
+
+	sound BeginRemoveBarricadeMetal
+	{
+		category = Object,
+		clip
+		{
+			event = Character/Survival/MetalWorking/Welding,
+/*			event = Object/BarricadeMetal/BeginRemove,*/
+		}
+	}
+
+	sound RemoveBarricadeMetal
+	{
+		category = Object,
+		clip
+		{
+			event = Object/BarricadeMetal/Remove,
+		}
+	}
+
+	sound BreakBarricadeMetal
+	{
+		category = Object,
+		clip
+		{
+			event = Object/BarricadeMetal/Break,
+		}
+	}
+
+	sound HitBarricadeMetal
+	{
+		category = Object,
+		clip
+		{
+			event = Object/BarricadeMetal/Hit,
+		}
+	}
+
+	sound BreakBarricadePlank
+	{
+		category = Object,
+		clip
+		{
+			event = Object/BarricadeWood/Break,
+		}
+	}
+
+	sound BeginRemoveBarricadePlank
+	{
+		category = Object,
+		clip
+		{
+			event = Object/BarricadeWood/BeginRemove,
+		}
+	}
+
+	sound HitBarricadePlank
+	{
+		category = Object,
+		clip
+		{
+			event = Object/BarricadeWood/Hit,
+		}
+	}
+
+	sound RemoveBarricadePlank
+	{
+		category = Object,
+		clip
+		{
+			event = Object/BarricadeWood/Remove,
+		}
+	}
+
+	sound RemoveBrokenGlass
+	{
+		category = Object,
+		clip
+		{
+			event = Object/BrokenGlass/Remove,
+		}
+	}
+
+	sound BirdInTree
+	{
+		category = Object,
+		master = Ambient,
+		loop = true,
+		clip
+		{
+			event = World/Bird/RandomInTree,
+		}
+	}
+
+	sound Bushes
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Bush/Rustle,
+		}
+	}
+
+	sound RemovePlant
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Bush/Remove,
+		}
+	}
+
+	sound WaterDrip
+	{
+		category = Object,
+		master = Ambient,
+		clip
+		{
+			event = World/Ambient/WaterDrip,
+		}
+	}
+
+	sound RotateObject
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Generic/Rotate,
+		}
+	}
+
+	sound Fire
+	{
+		category = Object,
+		clip
+		{
+			event = World/Ambient/Fire,
+		}
+	}
+
+	sound WindowRattle
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Window/Rattle,
+		}
+	}
+
+	sound WindowWind
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Window/Wind,
+		}
+	}
+
+	sound WoodDoorCreaks
+	{
+		category = Object,
+		clip
+		{
+			event = Object/WoodDoor/Creak,
+		}
+	}
+
+	sound BreakObject
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Door/Break,
+		}
+	}
+
+	sound BurnedObjectExploded
+	{
+		category = Object,
+		clip
+		{
+			event = Object/Burned/Explode,
+		}
+	}
+}

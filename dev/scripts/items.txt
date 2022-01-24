@@ -1,0 +1,1186 @@
+module Base
+{
+    /************************Normal************************/
+
+    item DishClothWet
+	{
+	    DisplayCategory = Household,
+		Weight	=	0.3,
+		Type	=	Normal,
+		DisplayName	=	Wet Dish Towel,
+        Icon	=	Dishtowel,
+        Wet                 =           TRUE,
+        WetCooldown         =           8000,
+        ItemWhenDry         =           Base.DishCloth,
+        WorldStaticModel = DishTowelWet,
+	}
+
+    item Needle
+	{
+	    DisplayCategory = Tool,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=   Needle,
+		Icon	=	Needle,
+		MetalValue = 2,
+		SurvivalGear = TRUE,
+		Medical = TRUE,
+		WorldStaticModel = Needle,
+	}
+
+	item BakingTray
+    {
+        DisplayCategory = Cooking,
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=   Baking Tray,
+        Icon	=	BakingTray,
+        MetalValue = 60,
+        WorldStaticModel = BakingTray,
+    }
+
+    item Thread
+	{
+	    DisplayCategory = Material,
+		Weight	=	0.1,
+		Type	            =	        Drainable,
+		UseWhileEquipped	=	FALSE,
+        UseDelta	        =	        0.1,
+		DisplayName	=	Thread,
+		Icon	=	Thread,
+		ConsolidateOption = ContextMenu_Merge,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Thread,
+	}
+
+	item BarbedWire
+	{
+	    DisplayCategory = Material,
+		Weight	=	1,
+		Type	=	Normal,
+		DisplayName	=	Barbed Wire,
+		Icon	=	BarbedWire,
+		MetalValue = 20,
+		WorldStaticModel = BarbedWire,
+	}
+
+	item Belt
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.3,
+		Type	=	Normal,
+		DisplayName	=	Belt,
+		Icon	=	Belt,
+	}
+
+	item Bowl
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.5,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Bowl,
+		ReplaceOnUseOn	=	WaterSource-WaterBowl,
+		Icon	=	Bowl,
+		RainFactor = 0.5,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = Bowl,
+		WorldStaticModel = BowlGround,
+	}
+
+	item BucketEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Bucket,
+		Icon	=	Bucket_Empty,
+        ReplaceOnUseOn = WaterSource-BucketWaterFull,
+        MetalValue = 20,
+        RainFactor = 1,
+        Tooltip = Tooltip_item_RainFromGround,
+        EatType = Bucket,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Bucket_Ground,
+	}
+
+	item ConcretePowder
+	{
+	    DisplayCategory = Material,
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=	Bag of Concrete Powder,
+		Icon	=	Concrete_Powder,
+		WorldStaticModel = BagofConcretePowder,
+	}
+
+	item Doorknob
+	{
+	    DisplayCategory = Material,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Doorknob,
+		Icon	=	DoorKnob,
+		MetalValue = 10,
+		WorldStaticModel = DoorKnob,
+	}
+
+	item Drawer
+	{
+	    DisplayCategory = Material,
+		Weight	=	3,
+		Type	=	Normal,
+		DisplayName	=	Drawer,
+		Icon	=	Drawer,
+		WorldStaticModel = Drawer,
+	}
+
+	item Hinge
+	{
+	    DisplayCategory = Material,
+		Weight	=	0.3,
+		Type	=	Normal,
+		DisplayName	=	Door Hinge,
+		Icon	=	Doorhinge,
+		MetalValue = 10,
+		WorldStaticModel = DoorHinge,
+	}
+
+	item KatePic
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Picture of Kate,
+		Icon	=	PictureKate,
+		WorldStaticModel = KatePic,
+	}
+
+	item Kettle
+	{
+	    DisplayCategory = Cooking,
+		Weight	=	1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Kettle,
+		ReplaceOnUseOn	=	WaterSource-FullKettle,
+		Icon	=	Kettle,
+		MetalValue = 30,
+		StaticModel = Kettle,
+		WorldStaticModel = KettleGround,
+		CustomEatSound = DrinkingFromGeneric,
+	}
+
+	item Log
+	{
+	    DisplayCategory = Material,
+		Weight	=	9,
+		Type	=	Normal,
+		DisplayName	=	Log,
+		Icon	=	Logs,
+		WorldStaticModel = Log,
+	}
+
+	item Mugl
+	{
+	    DisplayCategory = Cooking,
+		Weight	=	0.2,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Cyan Mug,
+		ReplaceOnUseOn	=	WaterSource-WaterMug,
+		Icon	=	Mugl,
+		RainFactor = 0.2,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = Mug,
+		WorldStaticModel = Mug,
+	}
+    item MugRed
+	{
+	    DisplayCategory = Cooking,
+		Weight	=	0.2,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Red Mug,
+		ReplaceOnUseOn	=	WaterSource-WaterMugRed,
+		Icon	=	MugRed,
+		RainFactor = 0.2,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = MugRed,
+		WorldStaticModel = MugRed,
+	}
+    item MugWhite
+	{
+		DisplayCategory = Cooking,
+		Weight	=	0.2,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty White Mug,
+		ReplaceOnUseOn	=	WaterSource-WaterMugWhite,
+		Icon	=	MugWhite,
+		RainFactor = 0.2,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = MugWhite,
+		WorldStaticModel = MugWhite,
+	}
+    item MugSpiffo
+	{
+		DisplayCategory = Cooking,
+		Weight	=	0.2,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Spiffo Mug,
+		ReplaceOnUseOn	=	WaterSource-WaterMugSpiffo,
+		Icon	=	MugSpiffo,
+		RainFactor = 0.2,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = MugSpiffo,
+		WorldStaticModel = MugSpiffo,
+	}
+	item Nails
+	{
+	    DisplayCategory = Material,
+		Count	=	5,
+		Weight	=	0.01,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Nails,
+		Icon	=	Nails,
+		MetalValue = 1,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Nails,
+	}
+
+	item Paintbrush
+	{
+	    DisplayCategory = Tool,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Paint Brush,
+		Icon	=	Paintbrush,
+		StaticModel = PaintBrush,
+		WorldStaticModel = PaintBrush_Ground,
+	}
+
+	item Pillow
+	{
+	    DisplayCategory = Material,
+		Weight	=	0.8,
+		Type	=	Normal,
+		DisplayName	=	Pillow,
+		Icon	=	Pillow,
+		StaticModel = Pillow,
+		WorldStaticModel = Pillow_Ground,
+	}
+
+	item PlasterPowder
+	{
+	    DisplayCategory = Material,
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=	Bag of Plaster Powder,
+		Icon	=	Plaster_Powder,
+		Tooltip = Tooltip_PlasterPowder,
+		SurvivalGear = TRUE,
+		WorldStaticModel = BagOfPlasterPowder,
+	}
+
+	item PoolBall
+	{
+	    DisplayCategory = Sports,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Pool Ball,
+		Icon	=	Poolball,
+		WorldStaticModel = PoolBall,
+	}
+
+	item PopBottleEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Pop Bottle,
+		ReplaceOnUseOn	=	WaterSource-WaterPopBottle,
+		Icon	=	Pop_empty,
+		MetalValue = 5,
+		WorldStaticModel = EmptyPopBottle,
+	}
+
+	item Pot
+	{
+	    DisplayCategory = Cooking,
+		Weight	=	1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Cooking Pot,
+		ReplaceOnUseOn	=	WaterSource-WaterPot,
+		Icon	=	Pot,
+		MetalValue = 40,
+		RainFactor = 1,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = CookingPot,
+		EatType = Pot,
+		WorldStaticModel = CookingPotGround,
+	}
+
+	item RippedSheets
+	{
+	    DisplayCategory = Household,
+		CanBandage	=	TRUE,
+		Weight	=	0.05,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Ripped Sheets,
+		ReplaceOnUse    =   RippedSheetsDirty,
+		Icon	=	Rag,
+		BandagePower    =   2,
+		Tooltip = Tooltip_RippedSheets,
+		FabricType = Cotton,
+		WorldStaticModel = RippedSheets,
+	}
+
+	item RippedSheetsDirty
+    {
+        DisplayCategory = Household,
+        CanBandage	=	TRUE,
+        Weight	=	0.05,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Dirty Rag,
+        Icon	=	RagDirty,
+        BandagePower    =   0.5,
+        WorldStaticModel = RippedSheetsDirty,
+    }
+
+    item AlcoholRippedSheets
+    {
+        DisplayCategory = FirstAid,
+        CanBandage	=	TRUE,
+        Weight	=	0.05,
+        AlwaysWelcomeGift	=	TRUE,
+        Alcoholic	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Sterilized Rag,
+        ReplaceOnUse    =   RippedSheetsDirty,
+        Icon	=	Rag,
+        BandagePower    =   2,
+        Tooltip = Tooltip_SterilizedRag,
+        WorldStaticModel = RippedSheets,
+    }
+
+	item RoastingPan
+	{
+	    DisplayCategory = Cooking,
+		Weight	=	1.3,
+		Type	=	Normal,
+		DisplayName	=	Roasting Pan,
+		Icon	=	Roastingpan,
+		MetalValue = 60,
+		WorldStaticModel = RoastingPan,
+	}
+
+    item GardenSaw
+    {
+        DisplayCategory = Tool,
+        Weight	=	0.7,
+        Type	=	Normal,
+        DisplayName	=	Garden Saw,
+        Icon	=	Handsaw,
+        MetalValue = 35,
+        StaticModel = GardenSaw,
+        SurvivalGear = TRUE,
+        Tags = Saw,
+        WorldStaticModel = GardenSawGround,
+    }
+
+	item Saw
+	{
+	    DisplayCategory = Tool,
+		Weight	=	0.7,
+		Type	=	Normal,
+		DisplayName	=	Saw,
+		Icon	=	Hacksaw,
+		MetalValue = 35,
+		StaticModel = Hacksaw,
+		SurvivalGear = TRUE,
+        Tags = Saw,
+        WorldStaticModel = HacksawGround,
+	}
+
+	item Sheet
+	{
+	    DisplayCategory = Material,
+		Weight	=	0.8,
+		Type	=	Normal,
+		DisplayName	=	Sheet,
+		Icon	=	Sheet,
+		Tooltip = Tooltip_Sheet,
+		WorldStaticModel = Sheet,
+	}
+
+	item SheetRope
+	{
+	    DisplayCategory = Material,
+		Weight	=	0.8,
+		Type	=	Normal,
+		DisplayName	=	Sheet Rope,
+		Icon	=	SheetRope,
+		Tooltip = Tooltip_SheetRope,
+		WorldStaticModel = SheetRope,
+	}
+
+	item Stairs
+	{
+	    DisplayCategory = Hidden,
+		Weight	=	35,
+		Type	=	Normal,
+		DisplayName	=	Stairs Piece,
+		Icon	=	Stairs,
+	}
+
+	item Teabag
+	{
+	    DisplayCategory = Food,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	Tea Bag,
+		Icon	=	Teabag,
+		OBSOLETE = true,
+	}
+
+	item TinOpener
+	{
+	    DisplayCategory = Cooking,
+		Weight	=	0.6,
+		Type	=	Normal,
+		DisplayName	=	Can Opener,
+		Icon	=	CanOpener,
+		MetalValue = 3,
+		StaticModel = CanOpener,
+		Tags = CanOpener,
+		WorldStaticModel = CanOpenerGround,
+	}
+
+	item WaterBottleEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WaterBottleFull,
+		Icon	=	WaterBottle_Empty,
+		StaticModel = WaterBottle,
+		WorldStaticModel = WaterBottleEmpty,
+	}
+
+	item WhiskeyEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.3,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WhiskeyWaterFull,
+		Icon	=	WhiskeyEmpty,
+		StaticModel = WhiskeyBottle,
+		WorldStaticModel = WhiskeyBottleGround,
+	}
+
+    item WineEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.3,
+		CanStoreWater = TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WineWaterFull,
+		Icon	=	WineEmpty,
+		StaticModel = WhiteWineBottle,
+		WorldStaticModel = WineWhiteGround,
+	}
+
+    item WineEmpty2
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.3,
+		CanStoreWater = TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WineWaterFull,
+		Icon	=	WineEmpty,
+		StaticModel = RedWineBottle,
+		WorldStaticModel = WineRedGround,
+	}
+
+    item BeerEmpty
+    {
+        DisplayCategory = WaterContainer,
+        Weight	=	0.1,
+        CanStoreWater = TRUE,
+        Type	=	Normal,
+        DisplayName	=	Empty Bottle,
+        ReplaceOnUseOn	=	WaterSource-BeerWaterFull,
+        Icon	=	Wine2Empty,
+        StaticModel = BeerBottle,
+        WorldStaticModel = BeerBottle,
+    }
+
+	item Cigarettes
+	{
+	    DisplayCategory = Junk,
+		Count	=	20,
+		HungerChange	=	0,
+		Weight	=	0.005,
+		RequireInHandOrInventory	=	Lighter/Matches,
+		Type	=	Food,
+		DisplayName	=	Cigarettes,
+		StressChange	=	-5,
+		Icon	=	IckySticks,
+		CustomContextMenu = Smoke,
+		CantBeFrozen = TRUE,
+		OnEat = OnEat_Cigarettes,
+		StaticModel = Cigarette,
+		EatType = Cigarettes,
+		WorldStaticModel = CigarettePack_Ground,
+		CustomEatSound = ,
+	}
+
+/************************Drainable************************/
+
+    item DishCloth
+	{
+	    DisplayCategory = Household,
+		Weight	=	0.3,
+		Type	=	Drainable,
+		DisplayName	=	Dish Towel,
+        UseWhileEquipped	=	FALSE,
+		Icon	=	Dishtowel,
+        UseDelta	=	0.1,
+		ReplaceOnDeplete	=	DishClothWet,
+		Tooltip = Tooltip_Bathtowel,
+		WorldStaticModel = DishTowel,
+	}
+
+
+	item Battery
+	{
+	    DisplayCategory = Electronics,
+		Weight	=	0.1,
+		Type	=	Drainable,
+		UseDelta	=	0.00001,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Battery,
+		Icon	=	Battery,
+		MetalValue = 1,
+		cantBeConsolided = TRUE,
+		WorldStaticModel = Battery,
+	}
+
+	item BucketConcreteFull
+	{
+	    DisplayCategory = Material,
+		Weight	=	10,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Bucket of Concrete,
+		ReplaceOnDeplete	=	BucketEmpty,
+		ReplaceOnUseOn	=	WaterSource-BucketWaterFull,
+		Icon	=	Concrete_Mixed,
+		StaticModel = Bucket,
+		EatType = Bucket,
+		WorldStaticModel = BucketFullConcrete_Ground,
+	}
+
+	item BucketPlasterFull
+	{
+	    DisplayCategory = Material,
+		Weight	=	10,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Bucket of Plaster,
+		ReplaceOnDeplete	=	BucketEmpty,
+		ReplaceOnUseOn	=	WaterSource-BucketWaterFull,
+		Icon	=	Plaster_Mixed,
+		StaticModel = Bucket,
+		EatType = Bucket,
+		WorldStaticModel = BucketFullPlaster_Ground,
+	}
+
+	item BucketWaterFull
+	{
+	    DisplayCategory = Water,
+		IsWaterSource	=	TRUE,
+		Weight	=	4,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		DisplayName	=	Bucket of Water,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.04,
+		ReplaceOnDeplete	=	BucketEmpty,
+		ReplaceOnUseOn	=	WaterSource-BucketWaterFull,
+		Icon	=	Bucket_Water,
+		RainFactor = 1,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = Bucket,
+		EatType = Bucket,
+		WorldStaticModel = BucketFullWater_Ground,
+	}
+
+	item Candle
+    {
+        DisplayCategory = LightSource,
+        Weight    =    0.2,
+        Type    =    Drainable,
+        UseDelta    =   0,
+        DisplayName    =    Candle,
+        Icon    =    Candle,
+        cantBeConsolided = TRUE,
+        StaticModel = Candle,
+        WorldStaticModel = CandleGround,
+    }
+
+	item CandleLit
+	{
+	    DisplayCategory = LightSource,
+		LightDistance	=	3,
+		Weight	=	0.2,
+		Type	=	Drainable,
+	    UseWhileUnequipped  =   TRUE,
+		TorchCone	=	FALSE,
+		UseDelta	=	0.003,
+		LightStrength	=	0.6,
+		DisplayName	=	Lit Candle,
+		ActivatedItem	=	TRUE,
+		Icon	=	CandleLit,
+		cantBeConsolided = TRUE,
+		StaticModel = Candle,
+		WorldStaticModel = CandleGround,
+	}
+
+	item Flour
+	{
+	    DisplayCategory = Cooking,
+		Weight	=	1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Flour,
+		Icon	=	Flour,
+		WorldStaticModel = Flour,
+	}
+
+    item Cornmeal
+	{
+		Weight	=	1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Cornmeal,
+		Icon	=	Cornmeal,
+	}
+
+	item FullKettle
+	{
+	    DisplayCategory = Water,
+		IsWaterSource	=	TRUE,
+		Weight	=	2,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.07,
+		DisplayName	=	Kettle of Water,
+		ReplaceOnDeplete	=	Kettle,
+		ReplaceOnUseOn	=	WaterSource-FullKettle,
+		Icon	=	Kettle,
+		IsCookable	=	TRUE,
+		StaticModel = Kettle,
+		EatType = Kettle,
+		WorldStaticModel = KettleGround,
+	}
+
+	item Gravelbag
+	{
+	    DisplayCategory = Material,
+		Weight	=	2,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Gravel Bag,
+		Icon	=	Gravelbag,
+		ReplaceOnDeplete	=	EmptySandbag,
+		ReplaceInSecondHand = Bag_Sandbag_LHand holdingbagleft,
+		ReplaceInPrimaryHand = Bag_Sandbag_RHand holdingbagright,
+		WorldStaticModel = GravelBag,
+		Tooltip = Tooltip_item_empty_sack_container,
+	}
+
+	item Lighter
+	{
+	    DisplayCategory = LightSource,
+		LightDistance	=	2,
+		Weight	=	0.1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	TRUE,
+		TorchCone	=	FALSE,
+		LightStrength	=	0.4,
+		DisplayName	=	Lighter,
+		ActivatedItem	=	TRUE,
+		Icon	=	Lighter,
+		MetalValue = 1,
+		cantBeConsolided = TRUE,
+		StaticModel = Zippo,
+		WorldStaticModel = ZippoGround,
+		ticksPerEquipUse = 110,
+	}
+
+	item Matches
+	{
+	    DisplayCategory = LightSource,
+		Weight	=	0.1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta    =   0.1,
+		DisplayName	=	Matches,
+		Icon	=	Matches,
+		WorldStaticModel = Matches,
+	}
+
+    item PaintRed
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Red Paint,
+		Icon	=	Paint_Red,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinRed_Ground,
+	}
+
+	item PaintBlack
+    {
+        DisplayCategory = Paint,
+        Weight	=	5,
+        Type	=	Drainable,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.1,
+        DisplayName	=	Black Paint,
+        Icon	=	Paint_Black,
+        Tooltip = Tooltip_Paint,
+        StaticModel = Bucket,
+        WorldStaticModel = PaintTinBlack_Ground,
+    }
+
+	item PaintBlue
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Blue Paint,
+		Icon	=	Paint_Blue,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinBlue_Ground,
+	}
+
+	item PaintBrown
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Brown Paint,
+		Icon	=	Paint_Brown,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinBrown_Ground,
+	}
+
+	item PaintCyan
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Cyan Paint,
+		Icon	=	Paint_Cyan,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinCyan_Ground,
+	}
+
+	item PaintGreen
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Green Paint,
+		Icon	=	Paint_Green,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinGreen_Ground,
+	}
+
+	item PaintGrey
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Grey Paint,
+		Icon	=	Paint_Grey,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinGrey_Ground,
+	}
+
+	item PaintLightBlue
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Light Blue Paint,
+		Icon	=	Paint_LightBlue,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinLightBlue_Ground,
+	}
+
+	item PaintLightBrown
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Light Brown Paint,
+		Icon	=	Paint_LightBrown,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinLightBrown_Ground,
+	}
+
+	item PaintOrange
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Orange Paint,
+		Icon	=	Paint_Orange,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinOrange_Ground,
+	}
+
+	item PaintPink
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Pink Paint,
+		Icon	=	Paint_Pink,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinPink_Ground,
+	}
+
+	item PaintPurple
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Purple Paint,
+		Icon	=	Paint_Purple,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinPurple_Ground,
+	}
+
+	item PaintTurquoise
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Turquoise Paint,
+		Icon	=	Paint_Turquoise,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinTurquoise_Ground,
+	}
+
+	item PaintWhite
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	White Paint,
+		Icon	=	Paint_White,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinWhite_Ground,
+	}
+
+	item PaintYellow
+	{
+	    DisplayCategory = Paint,
+		Weight	=	5,
+		Type	=	Drainable,
+		ReplaceOnDeplete = PaintbucketEmpty,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Yellow Paint,
+		Icon	=	Paint_Yellow,
+		Tooltip = Tooltip_Paint,
+		StaticModel = Bucket,
+		WorldStaticModel = PaintTinYellow_Ground,
+	}
+
+	item PetrolCan
+	{
+	    DisplayCategory = VehicleMaintenance,
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.125,
+		DisplayName	=	Gas Can,
+		Icon	=	Petrol,
+		ReplaceOnDeplete	=	EmptyPetrolCan,
+		StaticModel = GasCan,
+		ReplaceInSecondHand = Bag_GasCan_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_GasCan_RHand holdingbagright,
+        WorldStaticModel = GasCan_Ground,
+	}
+
+	item PropaneTank
+	{
+	    DisplayCategory = Material,
+		Weight	=	10.0,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.125,
+		DisplayName	=	Propane Tank,
+		Icon	=	PropaneTank,
+		UseWorldItem = TRUE,
+		ScaleWorldIcon = 2.0,
+		WeightEmpty = 5.0,
+		WorldStaticModel = PropaneTank,
+	}
+
+	item Charcoal
+	{
+	    DisplayCategory = Material,
+		Weight	=	8,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Charcoal,
+		Icon	=	TZ_CharCoal,
+		WeightEmpty = 0.02,
+		WorldStaticModel = Charcoal_Ground,
+	}
+
+	item Coal
+    {
+        DisplayCategory = Material,
+        Weight	=	8,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.1,
+        DisplayName	=	Coal,
+        Icon	=	TZ_CharCoal,
+        WeightEmpty = 0.1,
+        WorldStaticModel = Charcoal_Ground,
+        OBSOLETE = TRUE,
+    }
+
+	item Pills
+	{
+	    DisplayCategory = FirstAid,
+		Weight	=	0.2,
+		Type	=	Drainable,
+        UseDelta	=	0.1,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Painkillers,
+		Icon	=	PillsPainkiller,
+		Tooltip = Tooltip_Painkillers,
+		StaticModel = PillBottle,
+		WorldStaticModel = PainKillers_Ground,
+		Medical = TRUE,
+	}
+
+	item PillsAntiDep
+	{
+	    DisplayCategory = FirstAid,
+		Weight	=	0.2,
+		Type	=	Drainable,
+        UseDelta	=	0.1,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Antidepressants,
+		Icon	=	PillsAntidepressant,
+		Tooltip = Tooltip_PillsAntidepressant,
+		StaticModel = PillBottle,
+		WorldStaticModel = PillBottleGround,
+		Medical = TRUE,
+	}
+
+	item PillsBeta
+	{
+	    DisplayCategory = FirstAid,
+		Weight	=	0.2,
+		Type	=	Drainable,
+        UseDelta	=	0.1,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Beta Blockers,
+		Icon	=	PillsBetablocker,
+		Tooltip = Tooltip_PillsBetablocker,
+		StaticModel = PillBottle,
+		WorldStaticModel = PillBottleGround,
+		Medical = TRUE,
+	}
+
+	item PillsSleepingTablets
+	{
+	    DisplayCategory = FirstAid,
+		Weight	=	0.2,
+		Type	=	Drainable,
+        UseDelta	=	0.1,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Sleeping Tablets,
+		Icon	=	PillsSleeping,
+		Tooltip = Tooltip_PillsSleeping,
+		StaticModel = PillBottle,
+		WorldStaticModel = SleepingTablets_Ground,
+		Medical = TRUE,
+	}
+
+    item Dirtbag
+	{
+	    DisplayCategory = Material,
+		Weight	=	2,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Dirt Bag,
+		Icon	=	Sandbag,
+		ReplaceOnDeplete	=	EmptySandbag,
+		ReplaceInSecondHand = Bag_Sandbag_LHand holdingbagleft,
+		ReplaceInPrimaryHand = Bag_Sandbag_RHand holdingbagright,
+		WorldStaticModel = DirtBag_Ground,
+        Tooltip = Tooltip_item_empty_sack_container,
+	}
+
+	item Sandbag
+	{
+	    DisplayCategory = Material,
+		Weight	=	2,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Sand Bag,
+		Icon	=	Sandbag,
+		ReplaceOnDeplete	=	EmptySandbag,
+		ReplaceInSecondHand = Bag_Sandbag_LHand holdingbagleft,
+		ReplaceInPrimaryHand = Bag_Sandbag_RHand holdingbagright,
+		WorldStaticModel = SandBag,
+		Tooltip = Tooltip_item_empty_sack_container,
+	}
+
+	item Tissue
+	{
+	    DisplayCategory = FirstAid,
+		Weight	=	0.1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Tissue,
+		Icon	=	Tissue,
+		Tooltip = Tooltip_tissue_tooltip,
+		WorldStaticModel = Tissue,
+	}
+
+	item Torch
+	{
+	    DisplayCategory = LightSource,
+		LightDistance	=	25,
+		Weight	=	1,
+		DisappearOnUse	=	FALSE,
+		Type	=	Drainable,
+		TorchCone	=	TRUE,
+		UseDelta	=	0.0009,
+		LightStrength	=	2,
+		TorchDot = 0.66,
+		DisplayName	=	Flashlight,
+		ActivatedItem	=	TRUE,
+		Icon	=	Flashlight,
+		MetalValue = 10,
+		cantBeConsolided = TRUE,
+		StaticModel = FlashLight,
+		primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,
+        WorldStaticModel = FlashLightGround,
+	}
+
+	item Fertilizer
+    {
+        DisplayCategory = Gardening,
+        Type				=		Drainable,
+        DisplayName			=		NPK Fertilizer,
+        Icon				=		TZ_IndieStoneNPK,
+        Weight				=		2.0,
+        UseDelta			=		0.25,
+        UseWhileEquipped	=	    false,
+        Tooltip = Tooltip_Fertilizer,
+        WeightEmpty = 0.1,
+        WorldStaticModel = Fertilizer_Ground,
+    }
+
+    item FertilizerEmpty
+    {
+        DisplayCategory = Gardening,
+        Type				=		Normal,
+        DisplayName			=		Empty Fertilizer,
+        Icon				=		TZ_IndieStoneNPK,
+        Weight				=		0.001,
+        WorldStaticModel = Fertilizer_Ground,
+    }
+}

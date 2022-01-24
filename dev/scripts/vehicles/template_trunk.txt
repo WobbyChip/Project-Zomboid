@@ -1,0 +1,66 @@
+module Base
+{
+	template vehicle Trunk
+	{
+		/* FIXME: This should be "Trunk" */
+		part TruckBed
+		{
+			area = TruckBed,
+			category = bodywork,
+			itemType = Base.NormalTrunk,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = true,
+				/* FIXME: This should be "ContainerAccess.Trunk" */
+				test = Vehicles.ContainerAccess.TruckBed,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		/* FIXME: This should be "TruckBed" */
+		part TruckBedOpen
+		{
+			area = TruckBed,
+			category = bodywork,
+			itemType = Base.NormalTrunk,
+			mechanicRequireKey = false,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = true,
+				/* FIXME: This should be "ContainerAccess.TruckBed" */
+				test = Vehicles.ContainerAccess.TruckBedOpen,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part TrailerTrunk
+		{
+			area = TruckBed,
+			category = bodywork,
+			itemType = Base.TrailerTrunk,
+			mechanicRequireKey = false,
+			repairMechanic = true,
+			container
+			{
+			    capacity = 100,
+				conditionAffectsCapacity = false,
+				/* FIXME: This should be "ContainerAccess.TruckBed" */
+				test = Vehicles.ContainerAccess.TruckBedOpen,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+	}
+}
+

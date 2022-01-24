@@ -1,0 +1,17 @@
+module NoBitten
+{
+    item Antibodies
+    {
+        Weight = 0.05,
+        Type = Food,
+        DisplayCategory = FirstAid,
+        DisplayName = Antibodies,
+        Icon = Antibiotics,
+        CustomContextMenu = Take_Antibodies,
+        CantBeFrozen = FALSE,
+        Medical = TRUE,
+        OnEat = OnEat_Antibodies,
+        WorldStaticModel = Antibiotics,
+        Tooltip = Tooltip_Antibodies,
+    }
+}

@@ -1,0 +1,435 @@
+module Base
+{
+
+	sound OpenBag
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Foley/Bag/Open,
+		}
+	}
+
+	sound CloseBag
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Foley/Bag/Close,
+		}
+	}
+
+	sound PutItemInBag
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Foley/Bag/StoreItem,
+		}
+	}
+
+	sound LightbulbBurnedOut
+	{
+		category = Item,
+		clip
+		{
+			event = Object/Light/BulbBurnOut,
+		}
+	}
+
+	sound CastFishingLine
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Fishing/CastLine,
+		}
+	}
+
+	sound BreakFishingLine
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Fishing/BreakLine,
+		}
+	}
+
+	sound Sawing
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Carpentry/Sawing,
+		}
+	}
+
+	sound Shoveling
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Farming/Shovel,
+		}
+	}
+	
+	sound SliceBread
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Cooking/SliceBread,
+		}
+	}
+
+	sound SliceMeat
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Cooking/SliceMeat,
+		}
+	}
+
+	sound ClothesRipping
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Tailoring/RipCloth,
+		}
+	}
+
+	sound FixWithTape
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/FixItemWithTape,
+		}
+	}
+
+	sound FixingItemFailed
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/FixItemWithTapeFail,
+		}
+	}
+
+	sound BreakMetalItem
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Carpentry/BreakMetalItem,
+		}
+	}
+
+	sound BreakWoodItem
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Carpentry/BreakWoodItem,
+		}
+	}
+
+	sound BreakGlassItem
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Carpentry/BreakGlassItem,
+		}
+	}
+
+	sound AddItemInRecipe
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Cooking/AddItemInRecipe,
+		}
+	}
+
+	sound AddItemInBeverage
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Crafting/AddItemInBeverage,
+		}
+	}
+
+	sound AlarmClockRingingLoop
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/AlarmClockRinging,
+		}
+	}
+
+	sound WatchAlarmLoop
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/AlarmWatchRinging,
+		}
+	}
+
+	sound BlowTorch
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/MetalWorking/Welding,
+		}
+	}
+
+	sound Hammering
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Carpentry/Hammering,
+		}
+	}
+
+	sound Screwdriver
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Survival/Carpentry/Screwing,
+		}
+	}
+
+	sound BloodSplatter
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Combat/BloodSplatter,
+		}
+	}
+
+	sound BulletHitBody
+	{
+		category = Item,
+		clip
+		{
+			event = Character/Combat/BulletHitBody,
+		}
+	}
+
+	sound MapOpen
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Map/Open,
+		}
+	}
+
+	sound MapClose
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Map/Close,
+		}
+	}
+
+	sound MapAddNote
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Map/AddNote,
+		}
+	}
+
+	sound MapAddSymbol
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Map/AddSymbol,
+		}
+	}
+
+	sound MapRemoveMarking
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Map/RemoveMarking,
+		}
+	}
+
+	sound LogAddToStack
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/Logs/AddToStack,
+		}
+	}
+
+	sound LogRemoveFromStack
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Carpentry/Logs/RemoveFromStack,
+		}
+	}
+
+	sound UseMatch
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Use/Match,
+		}
+	}
+
+	sound UseLighter
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Use/Lighter,
+		}
+	}
+
+	sound BoilingFood
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Cooking/BoilingFood,
+		}
+	}
+
+	sound FryingFood
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Cooking/FryingFood,
+		}
+	}
+
+	sound DigFurrowWithHands
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Farming/Furrow/Dig/Hands,
+		}
+	}
+
+	sound DigFurrowWithShovel
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Farming/Furrow/Dig/Shovel,
+		}
+	}
+
+	sound DigFurrowWithTrowel
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Farming/Furrow/Dig/Trowel,
+		}
+	}
+
+	sound OpenSeedPacket
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Farming/Seed/OpenPaket,
+		}
+	}
+
+	sound SowSeeds
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Farming/Seed/Sow,
+		}
+	}
+
+	sound DropSoilFromShovel
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Farming/Soil/Drop/FromShovel,
+		}
+	}
+
+	sound DropSoilFromTrowel
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Farming/Soil/Drop/FromTrowel,
+		}
+	}
+
+	sound DropSoilFromDirtBag
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Farming/Soil/Drop/FromDirtBag,
+		}
+	}
+
+	sound DropSoilFromGravelBag
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Farming/Soil/Drop/FromGravelBag,
+		}
+	}
+
+	sound DropSoilFromSandBag
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Farming/Soil/Drop/FromSandBag,
+		}
+	}
+
+	sound HarvestCrops
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Farming/Crops/Harvest,
+		}
+	}
+
+	sound WaterCrops
+	{
+		category = Player,
+		clip
+		{
+			event = Character/Survival/Farming/Crops/Water,
+		}
+	}
+}

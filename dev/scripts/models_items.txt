@@ -1,0 +1,8779 @@
+module Base
+{
+	model FemaleBody
+	{
+		mesh = Skinned/FemaleBody,
+
+		attachment bighikingbagrighthand
+		{
+			offset = 0.8920 -0.1530 -0.0670,
+			rotate = -178.0000 -15.0000 100.0000,
+			bone = Bip01_R_Hand,
+		}
+
+		attachment bighikingbaglefthand
+		{
+			offset = 0.8790 0.2000 -0.0740,
+			rotate = 178.0000 -15.0000 77.0000,
+			bone = Bip01_L_Hand,
+		}
+
+		attachment hikingbagrighthand
+		{
+			offset = 0.8960 -0.1300 -0.0440,
+			rotate = -178.0000 -15.0000 100.0000,
+			bone = Bip01_R_Hand,
+		}
+
+		attachment hikingbaglefthand
+		{
+			offset = 0.8840 0.1770 -0.0720,
+			rotate = 178.0000 -15.0000 77.0000,
+			bone = Bip01_L_Hand,
+		}
+
+		attachment duffelbagrighthand
+		{
+			offset = 0.3440 -0.1810 -0.5550,
+			rotate = -7.0000 57.0000 77.0000,
+			bone = Bip01_R_Hand,
+		}
+
+		attachment duffelbaglefthand
+		{
+			offset = 0.3410 -0.1830 -0.5710,
+			rotate = -7.0000 57.0000 77.0000,
+			bone = Bip01_L_Hand,
+		}
+
+		attachment 1schoolbagrighthand
+		{
+			offset = 0.8810 -0.0600 0.0920,
+			rotate = -179.0000 -5.0000 95.0000,
+			bone = Bip01_R_Hand,
+		}
+
+		attachment 1schoolbaglefthand
+		{
+			offset = 0.9030 0.0710 0.0520,
+			rotate = 179.0000 -5.0000 85.0000,
+			bone = Bip01_L_Hand,
+		}
+
+		attachment walkie_belt_right
+		{
+			offset = -0.0600 -0.1070 -0.0030,
+			rotate = 12.0000 -1.0000 -81.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment walkie_belt_left
+		{
+			offset = -0.0610 0.1070 -0.0030,
+			rotate = -169.0000 -4.0000 -82.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment meatcleaver_right
+		{
+			offset = -0.0600 -0.0990 -0.0290,
+			rotate = 178.0000 19.0000 -96.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment meatcleaver_left
+		{
+			offset = -0.0680 0.1130 -0.0350,
+			rotate = -173.0000 23.0000 -86.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_rotated_right
+		{
+			offset = -0.1360 -0.1100 -0.0460,
+			rotate = 156.0000 19.0000 -87.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_rotated_left
+		{
+			offset = -0.1280 0.0810 -0.0470,
+			rotate = -155.0000 13.0000 -98.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment fryingpan_back_bag
+		{
+			offset = -0.0050 -0.0650 0.0970,
+			rotate = -84.0000 44.0000 -32.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment saucepan_back
+		{
+			offset = -0.0400 -0.0650 0.0840,
+			rotate = -30.0000 38.0000 -34.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment saucepan_back_bag
+		{
+			offset = 0.0150 -0.1460 0.1070,
+			rotate = 82.0000 36.0000 -166.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment knife_belt_back
+		{
+			offset = 0.1490 -0.0010 -0.0820,
+			rotate = 87.0000 9.0000 102.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment knife_belt_front
+		{
+			offset = 0.1590 0.0410 0.0530,
+			rotate = 88.0000 24.0000 101.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment wrench_right
+		{
+			offset = -0.2100 -0.1090 -0.0060,
+			rotate = 91.0000 5.0000 -89.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment wrench_left
+		{
+			offset = -0.2260 0.1090 -0.0060,
+			rotate = 93.0000 -2.0000 -83.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment fryingpan_back
+		{
+			offset = -0.0300 -0.1020 0.1210,
+			rotate = -60.0000 -49.0000 -3.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment shovel_back
+		{
+			offset = -0.0390 -0.0990 0.1520,
+			rotate = -7.0000 87.0000 -55.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment shovel_back_bag
+		{
+			offset = -0.0040 -0.0980 0.1350,
+			rotate = 90.0000 0.0000 -179.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment racket_back
+		{
+			offset = 0.0030 0.0320 -0.1800,
+			rotate = 22.0000 86.0000 85.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment racket_back_bag
+		{
+			offset = -0.0260 -0.1050 0.2430,
+			rotate = -90.0000 0.0000 -26.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment big_blade_back_bag
+		{
+			offset = -0.0160 -0.1040 0.1630,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment big_w_back_bag
+		{
+			offset = -0.0290 -0.1040 0.1190,
+			rotate = 90.0000 -2.0000 -172.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment rifle_back_bag
+		{
+			offset = -0.0020 -0.0760 0.1040,
+			rotate = -170.0000 -80.0000 -73.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment rifle_back
+		{
+			offset = -0.0220 -0.1010 0.0490,
+			rotate = -49.0000 11.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment back_guitar
+		{
+			offset = 0.0280 0.1510 -0.4750,
+			rotate = 8.0000 85.0000 100.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment back_guitar_acoustic
+		{
+			offset = 0.0660 0.1480 -0.4610,
+			rotate = 8.0000 85.0000 100.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment blade_back
+		{
+			offset = -0.0240 -0.1220 0.1280,
+			rotate = -62.0000 0.0000 -5.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment big_w_back
+		{
+			offset = -0.0350 -0.0580 0.1110,
+			rotate = 113.0000 -5.0000 -173.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment belt_right_upside
+		{
+			offset = 0.0740 -0.0880 -0.0110,
+			rotate = 150.0000 14.0000 80.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_left_upside
+		{
+			offset = 0.0570 0.0870 -0.0220,
+			rotate = 144.0000 3.0000 109.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_right_screwdriver
+		{
+			offset = 0.0290 -0.0880 0.0220,
+			rotate = 20.0000 -3.0000 105.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_left_screwdriver
+		{
+			offset = 0.0500 0.0830 0.0220,
+			rotate = 163.0000 0.0000 107.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_right
+		{
+			offset = -0.1360 -0.1100 -0.0460,
+			rotate = 156.0000 19.0000 -87.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_left
+		{
+			offset = -0.1350 0.1010 -0.0610,
+			rotate = 22.0000 -24.0000 -80.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment nightstick_right
+		{
+			offset = 0.0850 -0.0880 -0.0060,
+			rotate = 180.0000 2.0000 83.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment nightstick_left
+		{
+			offset = 0.0850 0.0890 -0.0060,
+			rotate = 179.0000 2.0000 98.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment holster_right
+		{
+			offset = 0.0860 -0.1100 -0.0060,
+			rotate = -180.0000 2.0000 91.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment holster_left
+		{
+			offset = 0.0860 0.1040 -0.0050,
+			rotate = 179.0000 2.0000 91.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment crowbar_back
+		{
+			offset = -0.2770 -0.0310 -0.1520,
+			rotate = -87.0000 5.0000 -108.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment knife_right_leg
+		{
+			offset = 0.0720 -0.0050 0.0820,
+			rotate = -89.0000 -2.0000 -34.0000,
+			bone = Bip01_R_Thigh,
+		}
+
+		attachment knife_left_leg
+		{
+			offset = 0.0150 -0.0070 0.0840,
+			rotate = -89.0000 -2.0000 -18.0000,
+			bone = Bip01_L_Thigh,
+		}
+
+		attachment axe_back
+		{
+			offset = -0.1670 -0.0840 -0.2130,
+			rotate = -175.0000 34.0000 -100.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment knife_stomach
+		{
+			offset = 0.0410 0.0020 0.1280,
+			rotate = 3.0000 84.0000 -99.0000,
+			bone = Bip01_Spine,
+		}
+
+		attachment knife_shoulder
+		{
+			offset = 0.0520 0.1050 -0.0800,
+			rotate = -173.0000 -75.0000 36.0000,
+			bone = Bip01_L_Clavicle,
+		}
+
+		attachment meatcleaver_in_back
+		{
+			offset = -0.0160 -0.0800 -0.1510,
+			rotate = -175.0000 34.0000 -100.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment backpack_left
+		{
+			offset = -0.0010 0.1290 -0.0010,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment back
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment knife_head
+		{
+			offset = -0.0570 0.0030 0.0840,
+			rotate = -0.0570 21.0000 -96.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment stomach
+		{
+			offset = 0.0330 0.0030 0.2750,
+			rotate = 3.0000 84.0000 -99.0000,
+			bone = Bip01_Spine,
+		}
+
+		attachment knife_in_back
+		{
+			offset = 0.1100 0.0450 -0.1330,
+			rotate = -180.0000 -62.0000 84.0000,
+			bone = Bip01_Spine1,
+		}
+	}
+	model MaleBody
+	{
+		mesh = Skinned/MaleBody,
+
+        attachment bighikingbagrighthand
+        {
+            offset = 0.8920 -0.1530 -0.0670,
+            rotate = -178.0000 -15.0000 100.0000,
+            bone = Bip01_R_Hand,
+        }
+
+        attachment bighikingbaglefthand
+        {
+            offset = 0.8790 0.2000 -0.0740,
+            rotate = 178.0000 -15.0000 77.0000,
+            bone = Bip01_L_Hand,
+        }
+
+		attachment hikingbagrighthand
+		{
+			offset = 0.8960 -0.1300 -0.0440,
+			rotate = -178.0000 -15.0000 100.0000,
+			bone = Bip01_R_Hand,
+		}
+
+		attachment hikingbaglefthand
+		{
+			offset = 0.8840 0.1770 -0.0720,
+			rotate = 178.0000 -15.0000 77.0000,
+			bone = Bip01_L_Hand,
+		}
+
+		attachment duffelbagrighthand
+		{
+			offset = 0.3440 -0.1810 -0.5550,
+			rotate = -7.0000 57.0000 77.0000,
+			bone = Bip01_R_Hand,
+		}
+
+		attachment duffelbaglefthand
+		{
+			offset = 0.3410 -0.1830 -0.5710,
+			rotate = -7.0000 57.0000 77.0000,
+			bone = Bip01_L_Hand,
+		}
+
+		attachment schoolbagrighthand
+		{
+			offset = 0.8800 -0.0570 0.0510,
+            rotate = -179.0000 -5.0000 95.0000,
+            bone = Bip01_R_Hand,
+		}
+
+		attachment schoolbaglefthand
+		{
+			offset = 0.9030 0.0710 0.0520,
+			rotate = 179.0000 -5.0000 85.0000,
+			bone = Bip01_L_Hand,
+		}
+
+		attachment walkie_belt_right
+		{
+			offset = -0.0600 -0.1070 -0.0030,
+			rotate = 12.0000 -1.0000 -81.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment walkie_belt_left
+		{
+			offset = -0.0610 0.1070 -0.0030,
+			rotate = -169.0000 -4.0000 -82.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment meatcleaver_right
+		{
+			offset = -0.0600 -0.0990 -0.0290,
+			rotate = 178.0000 19.0000 -96.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment meatcleaver_left
+		{
+			offset = -0.0680 0.1130 -0.0350,
+			rotate = -173.0000 23.0000 -86.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_rotated_right
+		{
+			offset = -0.1660 -0.1110 -0.0260,
+			rotate = 156.0000 19.0000 -87.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_rotated_left
+		{
+			offset = -0.1640 0.1150 -0.0340,
+			rotate = -174.0000 9.0000 -85.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment rifle_back_bag
+		{
+			offset = 0.0230 -0.0860 0.1040,
+			rotate = -170.0000 -80.0000 -73.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment rifle_back
+		{
+			offset = 0.0080 -0.1020 0.0610,
+			rotate = -49.0000 11.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment fryingpan_back_bag
+		{
+			offset = -0.0050 -0.0650 0.0970,
+			rotate = -84.0000 44.0000 -32.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment saucepan_back
+		{
+			offset = -0.0040 -0.0650 0.0830,
+			rotate = -30.0000 38.0000 -34.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment saucepan_back_bag
+		{
+			offset = 0.0150 -0.1460 0.1070,
+			rotate = 82.0000 36.0000 -166.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment wrench_right
+		{
+			offset = -0.1930 -0.1320 -0.0080,
+			rotate = 91.0000 5.0000 -89.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment wrench_left
+		{
+			offset = -0.1980 0.1140 -0.0070,
+			rotate = 93.0000 -2.0000 -83.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment fryingpan_back
+		{
+			offset = -0.0140 -0.1070 0.1200,
+			rotate = -73.0000 -52.0000 -18.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment shovel_back
+		{
+			offset = -0.0170 -0.1050 0.1630,
+			rotate = -7.0000 87.0000 -53.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment shovel_back_bag
+		{
+			offset = -0.0040 -0.0980 0.1710,
+			rotate = 90.0000 0.0000 -179.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment racket_back
+		{
+			offset = -0.0170 -0.1050 0.1630,
+			rotate = -7.0000 87.0000 -53.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment racket_back_bag
+		{
+			offset = -0.0260 -0.1050 0.2430,
+			rotate = -90.0000 0.0000 -26.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment big_blade_back_bag
+		{
+			offset = -0.0160 -0.1030 0.1610,
+			rotate = -97.0000 0.0000 -4.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment big_w_back_bag
+		{
+			offset = 0.0060 -0.1190 0.1530,
+			rotate = 91.0000 0.0000 180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment back_guitar
+		{
+			offset = 0.0490 0.1510 -0.4750,
+			rotate = 8.0000 85.0000 100.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment back_guitar_acoustic
+		{
+			offset = 0.0660 0.1480 -0.4610,
+			rotate = 8.0000 85.0000 100.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment blade_back
+		{
+			offset = -0.0020 -0.1190 0.1550,
+			rotate = -61.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment big_w_back
+		{
+			offset = -0.0030 -0.0580 0.1100,
+			rotate = 113.0000 -5.0000 -173.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment belt_right_screwdriver
+		{
+			offset = 0.0290 -0.0880 0.0220,
+			rotate = 20.0000 -3.0000 105.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_left_screwdriver
+		{
+			offset = 0.0500 0.0830 0.0220,
+			rotate = 163.0000 0.0000 107.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_right_upside
+		{
+			offset = 0.0800 -0.0770 0.0160,
+			rotate = 150.0000 14.0000 80.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_left_upside
+		{
+			offset = 0.0770 0.0730 0.0220,
+			rotate = 144.0000 3.0000 109.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_right
+		{
+			offset = -0.1660 -0.1110 -0.0260,
+			rotate = 156.0000 19.0000 -87.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment belt_left
+		{
+			offset = -0.1630 0.1090 -0.0340,
+			rotate = 31.0000 -23.0000 -78.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment holster_right
+		{
+			offset = 0.0830 -0.1010 -0.0050,
+			rotate = 179.0000 2.0000 91.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment holster_left
+		{
+			offset = 0.0860 0.0950 -0.0050,
+			rotate = 179.0000 2.0000 91.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment nightstick_right
+		{
+			offset = 0.0820 -0.0830 -0.0060,
+			rotate = 179.0000 2.0000 83.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment nightstick_left
+		{
+			offset = 0.0860 0.0800 -0.0060,
+			rotate = 179.0000 2.0000 96.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment crowbar_back
+		{
+			offset = -0.2130 0.0600 -0.1820,
+			rotate = -103.0000 21.0000 -94.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment knife_right_leg
+		{
+			offset = 0.0720 -0.0050 0.0820,
+			rotate = -89.0000 -2.0000 -34.0000,
+			bone = Bip01_R_Thigh,
+		}
+
+		attachment knife_left_leg
+		{
+			offset = 0.0150 -0.0070 0.0840,
+			rotate = -89.0000 -2.0000 -18.0000,
+			bone = Bip01_L_Thigh,
+		}
+
+		attachment axe_back
+		{
+			offset = -0.1300 -0.0820 -0.2360,
+			rotate = -175.0000 34.0000 -100.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment knife_stomach
+		{
+			offset = 0.0400 0.0020 0.1390,
+			rotate = 3.0000 84.0000 -99.0000,
+			bone = Bip01_Spine,
+		}
+
+		attachment knife_shoulder
+		{
+			offset = 0.1110 0.1160 -0.0440,
+			rotate = -22.0000 -1.0000 147.0000,
+			bone = Bip01_L_Clavicle,
+		}
+
+		attachment meatcleaver_in_back
+		{
+			offset = -0.0160 -0.0800 -0.1510,
+			rotate = -175.0000 34.0000 -100.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment backpack_left
+		{
+			offset = -0.0010 0.1290 -0.0010,
+			rotate = -0.0010 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment back
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment knife_head
+		{
+			offset = -0.0570 0.0030 0.0840,
+			rotate = -0.0570 21.0000 -96.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment stomach
+		{
+			offset = 0.0350 0.0020 0.2220,
+			rotate = 3.0000 84.0000 -99.0000,
+			bone = Bip01_Spine,
+		}
+
+		attachment knife_in_back
+		{
+			offset = 0.1080 0.0020 -0.1830,
+			rotate = 180.0000 -71.0000 84.0000,
+			bone = Bip01_Spine1,
+		}
+	}
+	model BlowTorch
+	{
+		mesh = Blowtorch,
+
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = -180.0000 0.0000 -180.0000,
+		}
+	}
+	model GunMagazine
+    {
+        mesh = Weapons/Firearm/gun_magazine,
+    }
+	model BleachBottle
+	{
+		mesh = BleachBottle,
+	}
+	model Book
+	{
+		mesh = Book,
+	}
+	model Bowl
+	{
+		mesh = Bowl,
+	}
+	model Bucket
+	{
+		mesh = Bucket,
+	}
+	model Burger
+	{
+		mesh = Burger,
+	}
+	model CakeSlice
+	{
+		mesh = CakeSlice,
+	}
+	model CanClosed
+	{
+		mesh = CanClosed,
+	}
+	model Candle
+	{
+		mesh = Candle,
+	}
+	model CanOpen
+	{
+		mesh = CanOpen,
+	}
+    model CanOpenBolognese
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedBolognese,
+    }
+    model CanClosedBolognese
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedBolognese,
+    }
+    model CanOpenCornerBeef
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedCornedBeef,
+    }
+    model CanClosedCornerBeef
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedCornedBeef,
+    }
+    model CanOpenChilli
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedChilli,
+    }
+    model CanClosedChilli
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedChilli,
+    }
+    model CanOpenCarrots
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedCarrots,
+    }
+    model CanClosedCarrots
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedCarrots,
+    }
+    model CanOpenCorn
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedCorn,
+    }
+    model CanClosedCorn
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedCorn,
+    }
+    model CanOpenMushroom
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedMushroom,
+    }
+    model CanClosedMushroom
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedMushroom,
+    }
+    model CanOpenPeas
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedPeas,
+    }
+    model CanClosedPeas
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedPeas,
+    }
+    model CanOpenPotatoes
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedPotatoes,
+    }
+    model CanClosedPotatoes
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedPotatoes,
+    }
+    model CanOpenTomatoes
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedTomatoes,
+    }
+    model CanClosedTomatoes
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedTomatoes,
+    }
+    model CanOpenDogFood
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedDogFood,
+    }
+    model CanClosedDogFood
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedDogFood,
+    }
+    model CanOpenSoup
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedSoup,
+    }
+    model CanClosedSoup
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedSoup,
+    }
+	model CanOpener
+	{
+		mesh = CanClosed,
+	}
+	model CDPlayer
+	{
+		mesh = WorldItems/CDplayer,
+		texture = CDPlayer,
+		scale = 0.4,
+	}
+	model Cigarette
+	{
+		mesh = Cigarette,
+	}
+	model CookingPot
+	{
+		mesh = CookingPot,
+	}
+	model Corndog
+	{
+		mesh = Corndog,
+	}
+	model CubePuzzle
+	{
+		mesh = CubePuzzle,
+	}
+	model FlashLight
+	{
+		mesh = FlashLight,
+	}
+	model HandTorch
+    {
+        mesh = HandTorch,
+    }
+	model FriedChicken
+	{
+		mesh = FriedChicken,
+	}
+	model GasCan
+	{
+		mesh = GasCan,
+	}
+	model GardenSpray
+	{
+		mesh = GardenSpray,
+	}
+	model Hacksaw
+	{
+		mesh = Hacksaw,
+	}
+	model GardenSaw
+    {
+        mesh = GardenSaw,
+    }
+	model HotDog
+	{
+		mesh = HotDog,
+	}
+	model Kettle
+	{
+		mesh = Kettle,
+	}
+	model Log
+	{
+		mesh = Log,
+	}
+	model Magazine
+	{
+		mesh = Magazine,
+	}
+	model MelonSlice
+	{
+		mesh = MelonSlice,
+	}
+	model MilkCarton
+	{
+		mesh = MilkCarton,
+	}
+	model Molotov
+	{
+		mesh = Molotov,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 90.0000 90.0000,
+		}
+	}
+	model Mortar
+	{
+		mesh = Mortar,
+	}
+	model Mug
+	{
+		mesh = Mug,
+	}
+	model MugRed
+    {
+        mesh = Mug,
+        texture = MugRed,
+    }
+	model MugWhite
+    {
+        mesh = Mug,
+        texture = MugWhite,
+    }
+	model MugSpiffo
+    {
+        mesh = Mug,
+        texture = MugYellowSpiffo,
+    }
+	model Newspaper
+	{
+		mesh = Newspaper,
+	}
+	model PaintBrush
+	{
+		mesh = PaintBrush,
+	}
+	model PillBottle
+	{
+		mesh = PillBottle,
+	}
+	model Pillow
+	{
+		mesh = Pillow,
+	}
+	model PopBottle
+	{
+		mesh = PopBottle,
+	}
+	model PopCanDiet
+	{
+		mesh = PopCanDiet,
+	}
+	model PopCanRed
+	{
+		mesh = PopCanRed,
+	}
+	model PopCanFizz
+    {
+        mesh = PopCanRed,
+        texture = WorldItems/PopCanFizz,
+    }
+	model RedWineBottle
+	{
+		mesh = RedWineBottle,
+	}
+	model BeerCan
+    {
+        mesh = PopCanDiet,
+        texture = BeerCan,
+    }
+	model BeerBottle
+    {
+        mesh = BeerBottle,
+        texture = BeerBottle,
+    }
+	model Sandwich
+	{
+		mesh = Sandwich,
+	}
+	model Trowel
+	{
+		mesh = Trowel,
+
+		attachment world
+		{
+			offset = 0.0000 0.1020 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model WaterBottle
+	{
+		mesh = WaterBottle,
+	}
+	model WateringCan
+	{
+		mesh = WateringCan,
+	}
+	model WhiskeyBottle
+	{
+		mesh = WhiskeyBottle,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 27.0000 -89.0000,
+		}
+	}
+	model WhiteWineBottle
+	{
+		mesh = WhiteWineBottle,
+	}
+	model Zippo
+	{
+		mesh = Zippo,
+	}
+	model SaucePan
+	{
+		mesh = Weapons/1Handed/SaucePan,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -45.0000 0.0000,
+		}
+	}
+	model DumbBell
+	{
+		mesh = Weapons/1Handed/DumbBell,
+
+		attachment world
+		{
+			offset = 0.0000 0.0500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model BarBell
+	{
+		mesh = Weapons/2Handed/BarBell,
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model LeadPipe
+	{
+		mesh = Weapons/1Handed/LeadPipe,
+
+		attachment world
+		{
+			offset = 0.0000 0.1530 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model HandAxe
+	{
+		mesh = Weapons/1Handed/HandAxe,
+
+		attachment world
+		{
+			offset = 0.0000 0.1250 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model HandScythe
+	{
+		mesh = Weapons/1Handed/HandScythe,
+
+		attachment world
+		{
+			offset = 0.0000 0.1150 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Machete
+	{
+		mesh = Weapons/1Handed/Machete,
+
+		attachment world
+		{
+			offset = 0.0000 0.1400 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model PipeWrench
+	{
+		mesh = Weapons/1Handed/PipeWrench,
+
+		attachment world
+		{
+			offset = 0.0000 0.1300 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model Saxophone
+	{
+		mesh = Weapons/1Handed/Saxophone,
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model Trumpet
+	{
+		mesh = Weapons/1Handed/Trumpet,
+
+		attachment world
+		{
+			offset = 0.0000 0.1910 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Violin
+	{
+		mesh = Weapons/1Handed/Violin,
+
+		attachment world
+		{
+			offset = 0.0000 0.1300 0.0000,
+			rotate = -56.0000 90.0000 56.0000,
+		}
+	}
+	model Banjo
+	{
+		mesh = Weapons/1Handed/Banjo,
+
+		attachment world
+		{
+			offset = 0.0000 0.2030 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model Drumstick
+	{
+		mesh = Weapons/1Handed/Drumstick,
+	}
+	model Plunger
+	{
+		mesh = Weapons/1Handed/Plunger,
+
+		attachment world
+		{
+			offset = 0.0000 0.1620 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Flute
+	{
+		mesh = Weapons/1Handed/Flute,
+
+		attachment world
+		{
+			offset = 0.0000 0.1800 0.0000,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+	model ChairLeg
+	{
+		mesh = Weapons/1Handed/ChairLeg,
+
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model PickAxeHandle
+	{
+		mesh = Weapons/1Handed/PickAxeHandle,
+
+		attachment world
+		{
+			offset = 0.0000 0.2400 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model PickAxeHandleSpiked
+	{
+		mesh = Weapons/1Handed/PickAxeHandleSpiked,
+
+		attachment world
+		{
+			offset = 0.0000 0.2400 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model TableLeg
+	{
+		mesh = Weapons/1Handed/TableLeg,
+
+		attachment world
+		{
+			offset = 0.0000 0.2200 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model BadmintonRacket
+	{
+		mesh = Weapons/1Handed/BadmintonRacket,
+
+		attachment world
+		{
+			offset = 0.0000 0.2030 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model TennisRacket
+	{
+		mesh = Weapons/1Handed/TennisRacket,
+
+		attachment world
+		{
+			offset = 0.0000 0.2200 0.0000,
+			rotate = 180.0000 -90.0000 180.0000,
+		}
+	}
+	model GolfClub
+	{
+		mesh = Weapons/1Handed/GolfClub,
+
+		attachment world
+		{
+			offset = 0.0000 0.2900 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ClubHammer
+	{
+		mesh = Weapons/1Handed/ClubHammer,
+	}
+	model BallPeenHammer
+	{
+		mesh = Weapons/1Handed/BallPeenHammer,
+
+		attachment world
+		{
+			offset = 0.0000 0.1100 0.0000,
+			rotate = -180.0000 0.0000 -180.0000,
+		}
+	}
+	model WoodenMallet
+	{
+		mesh = Weapons/1Handed/WoodenMallet,
+	}
+	model Wrench
+	{
+		mesh = Weapons/1Handed/Wrench,
+
+		attachment world
+		{
+			offset = 0.0000 0.1200 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model Hammer
+	{
+		mesh = Weapons/1Handed/Hammer,
+
+		attachment world
+		{
+			offset = 0.0000 0.1100 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model StoneHammer
+	{
+		mesh = Weapons/1Handed/StoneHammer,
+
+		attachment world
+		{
+			offset = 0.0000 0.1150 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RollingPin
+	{
+		mesh = Weapons/1Handed/RollingPin,
+
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model FryingPan
+	{
+		mesh = Weapons/1Handed/FryingPan,
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 45.0000 0.0000,
+		}
+	}
+	model GridlePan
+    {
+        mesh = Weapons/1Handed/GridlePan,
+    }
+	model Crowbar
+	{
+		mesh = Weapons/1Handed/Crowbar,
+
+		attachment world
+		{
+			offset = 0.0000 0.1700 0.0000,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+	model HandFork
+	{
+		mesh = Weapons/1Handed/HandFork,
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model HuntingKnife
+	{
+		mesh = Weapons/1Handed/HuntingKnife,
+	}
+	model MeatCleaver
+	{
+		mesh = Weapons/1Handed/MeatCleaver,
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model BreadKnife
+	{
+		mesh = Weapons/1Handed/BreadKnife,
+
+		attachment world
+		{
+			offset = 0.0000 0.1480 -0.0080,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model FlintKnife
+	{
+		mesh = Weapons/1Handed/FlintKnife,
+	}
+	model IcePick
+	{
+		mesh = Weapons/1Handed/IcePick,
+	}
+	model LetterOpener
+	{
+		mesh = Weapons/1Handed/LetterOpener,
+	}
+	model Fork
+	{
+		mesh = Weapons/1Handed/Fork,
+	}
+	model Scissors
+	{
+		mesh = Weapons/1Handed/Scissors,
+	}
+	model Spoon
+	{
+		mesh = Weapons/1Handed/Spoon,
+	}
+	model Scalpel
+	{
+		mesh = Weapons/1Handed/Scalpel,
+	}
+	model ButterKnife
+	{
+		mesh = Weapons/1Handed/ButterKnife,
+	}
+	model Knife
+	{
+		mesh = Weapons/1Handed/Knife,
+	}
+	model Pen
+	{
+		mesh = Weapons/1Handed/Pen,
+	}
+	model Pencil
+	{
+		mesh = Weapons/1Handed/Pencil,
+	}
+	model SmashedBottle
+    {
+        mesh = Weapons/1Handed/SmashedBottle,
+    }
+	model Screwdriver
+	{
+		mesh = Weapons/1Handed/Screwdriver,
+	}
+	model Stake
+    {
+        mesh = Weapons/1Handed/Stake,
+    }
+	model Nightstick
+	{
+		mesh = Weapons/1Handed/Nightstick,
+
+		attachment world
+		{
+			offset = 0.0000 0.1630 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Recorder
+    {
+        mesh = Weapons/1Handed/Recorder,
+    }
+	model Keytar
+	{
+		mesh = Weapons/2Handed/Keytar,
+
+		attachment world
+		{
+			offset = 0.0000 0.3000 0.0000,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+	model Guitar_Acoustic
+	{
+		mesh = Weapons/2Handed/Guitar_Acoustic,
+
+		attachment world
+		{
+			offset = 0.0000 0.2820 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model Katana
+    {
+        mesh = Weapons/2Handed/Katana,
+    }
+	model Guitar_ElectricBassBlack
+	{
+		mesh = Weapons/2Handed/Guitar_ElectricBassBlack,
+
+		attachment world
+		{
+			offset = 0.0000 0.3030 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model Guitar_ElectricBassBlue
+	{
+		mesh = Weapons/2Handed/Guitar_ElectricBassBlue,
+
+		attachment world
+		{
+			offset = 0.0000 0.3030 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model Guitar_ElectricBassRed
+	{
+		mesh = Weapons/2Handed/Guitar_ElectricBassRed,
+
+		attachment world
+		{
+			offset = 0.0000 0.3030 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model Guitar_ElectricBlack
+	{
+		mesh = Weapons/2Handed/Guitar_ElectricBlack,
+
+		attachment world
+		{
+			offset = 0.0000 0.2880 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model Guitar_ElectricBlue
+	{
+		mesh = Weapons/2Handed/Guitar_ElectricBlue,
+
+		attachment world
+		{
+			offset = 0.0000 0.2880 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model Guitar_ElectricRed
+	{
+		mesh = Weapons/2Handed/Guitar_ElectricBlack,
+		texture = Weapons/2Handed/Guitar_ElectricRed,
+
+		attachment world
+		{
+			offset = 0.0000 0.2880 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model StoneAxe
+	{
+		mesh = Weapons/2Handed/StoneAxe,
+
+		attachment world
+		{
+			offset = 0.0000 0.1720 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SnowShovel
+	{
+		mesh = Weapons/2Handed/SnowShovel,
+
+		attachment world
+		{
+			offset = 0.0000 0.2580 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model Shovel
+	{
+		mesh = Weapons/2Handed/Shovel,
+
+		attachment world
+		{
+			offset = 0.0000 0.2270 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model Shovel02
+	{
+		mesh = Weapons/2Handed/Shovel02,
+
+		attachment world
+		{
+			offset = 0.0000 0.2450 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model GardenHoe
+	{
+		mesh = Weapons/2Handed/GardenHoe,
+
+		attachment world
+		{
+			offset = 0.0000 0.2800 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model SledgeHammer
+	{
+		mesh = Weapons/2Handed/SledgeHammer,
+
+		attachment world
+		{
+			offset = 0.0000 0.2970 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SledgeHammer02
+	{
+		mesh = Weapons/2Handed/SledgeHammer02,
+
+		attachment world
+		{
+			offset = 0.0000 0.2120 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Plank
+	{
+		mesh = Weapons/2Handed/Plank,
+
+		attachment world
+		{
+			offset = 0.0000 0.2120 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model NailedPlank
+	{
+		mesh = Weapons/2Handed/NailedPlank,
+
+		attachment world
+		{
+			offset = 0.0000 0.2070 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model PoolCue
+	{
+		mesh = Weapons/2Handed/PoolCue,
+
+		attachment world
+		{
+			offset = 0.0000 0.2900 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Broom
+	{
+		mesh = Weapons/2Handed/Broom,
+
+		attachment world
+		{
+			offset = 0.0000 0.3010 0.0000,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+	model HockeyStick
+	{
+		mesh = Weapons/2Handed/HockeyStick,
+
+		attachment world
+		{
+			offset = 0.0000 0.2800 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model IceHockeyStick
+	{
+		mesh = Weapons/2Handed/IceHockeyStick,
+
+		attachment world
+		{
+			offset = 0.0000 0.3000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model LaCrosseStick
+	{
+		mesh = Weapons/2Handed/LaCrosseStick,
+
+		attachment world
+		{
+			offset = 0.0000 0.3200 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model PickAxe
+	{
+		mesh = Weapons/2Handed/PickAxe,
+
+		attachment world
+		{
+			offset = 0.0000 0.2400 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model CanoePadel
+	{
+		mesh = Weapons/2Handed/CanoePadel,
+
+		attachment world
+		{
+			offset = 0.0000 0.2970 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model CanoePadelX2
+	{
+		mesh = Weapons/2Handed/CanoePadelX2,
+
+		attachment world
+		{
+			offset = 0.0000 0.1800 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model BaseballBat
+	{
+		mesh = Weapons/2Handed/BaseballBat,
+
+		attachment world
+		{
+			offset = 0.0000 0.2450 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model BaseballBatSpiked
+	{
+		mesh = Weapons/2Handed/BaseballBatSpiked,
+
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model FishingRod_Crafted
+	{
+		mesh = Weapons/2Handed/FishingRod_Crafted,
+
+		attachment world
+		{
+			offset = 0.0000 0.2500 -0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model FishingRod_Modern
+	{
+		mesh = Weapons/2Handed/FishingRod_Modern,
+
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model FireAxe
+	{
+		mesh = Weapons/2Handed/FireAxe,
+
+		attachment world
+		{
+			offset = 0.0000 0.1730 0.0000,
+			rotate = -180.0000 1.0000 -180.0000,
+		}
+	}
+	model WoodAxe
+	{
+		mesh = Weapons/2Handed/WoodAxe,
+
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model LeafRake
+	{
+		mesh = Weapons/2Handed/LeafRake,
+
+		attachment world
+		{
+			offset = 0.0000 0.3100 0.0000,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+	model Rake
+	{
+		mesh = Weapons/2Handed/Rake,
+
+		attachment world
+		{
+			offset = 0.0000 0.3000 0.0000,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+	model GardenFork
+	{
+		mesh = Weapons/2Handed/GardenFork,
+
+		attachment world
+		{
+			offset = 0.0000 0.2600 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model WoodenLance
+	{
+		mesh = Weapons/2Handed/WoodenLance,
+
+		attachment world
+		{
+			offset = 0.0000 0.2900 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearBreadKnife
+	{
+		mesh = Weapons/2Handed/SpearBreadKnife,
+
+		attachment world
+		{
+			offset = 0.0000 0.3370 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearButterKnife
+	{
+		mesh = Weapons/2Handed/SpearButterKnife,
+
+		attachment world
+		{
+			offset = 0.0000 0.2800 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearFork
+	{
+		mesh = Weapons/2Handed/SpearFork,
+
+		attachment world
+		{
+			offset = 0.0000 0.2720 0.0000,
+			rotate = 180.0000 -90.0000 180.0000,
+		}
+	}
+	model SpearLetterOpener
+	{
+		mesh = Weapons/2Handed/SpearLetterOpener,
+
+		attachment world
+		{
+			offset = 0.0000 0.2960 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearScalpel
+	{
+		mesh = Weapons/2Handed/SpearScalpel,
+
+		attachment world
+		{
+			offset = 0.0000 0.2650 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearSpoon
+	{
+		mesh = Weapons/2Handed/SpearSpoon,
+
+		attachment world
+		{
+			offset = 0.0000 0.2750 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearScissors
+	{
+		mesh = Weapons/2Handed/SpearScissors,
+
+		attachment world
+		{
+			offset = 0.0000 0.2750 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearHandFork
+	{
+		mesh = Weapons/2Handed/SpearHandFork,
+
+		attachment world
+		{
+			offset = 0.0000 0.2350 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model SpearScrewdriver
+	{
+		mesh = Weapons/2Handed/SpearScrewdriver,
+
+		attachment world
+		{
+			offset = 0.0000 0.2850 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearHuntingKnife
+	{
+		mesh = Weapons/2Handed/SpearHuntingKnife,
+
+		attachment world
+		{
+			offset = 0.0000 0.3140 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearMachete
+	{
+		mesh = Weapons/2Handed/SpearMachete,
+
+		attachment world
+		{
+			offset = 0.0000 0.3400 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearCrafted
+	{
+		mesh = Weapons/2Handed/SpearCrafted,
+
+		attachment world
+		{
+			offset = 0.0000 0.2880 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearKnife
+	{
+		mesh = Weapons/2Handed/SpearKnife,
+
+		attachment world
+		{
+			offset = 0.0000 0.3000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearIcePick
+	{
+		mesh = Weapons/2Handed/SpearIcePick,
+
+		attachment world
+		{
+			offset = 0.0000 0.3370 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model AssaultRifle
+	{
+		mesh = Weapons/Firearm/AssaultRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4020 0.0270,
+			rotate = -90.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0050 0.0350 0.0780,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model AssaultRifle02
+	{
+		mesh = Weapons/Firearm/AssaultRifle02,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4270 0.0310,
+			rotate = -90.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0050 0.0350 0.0780,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model M14
+	{
+		mesh = Weapons/Firearm/M14,
+		texture = weapons/firearm/AssaultRifle02,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4750 0.0310,
+			rotate = -90.0000 0.0000 -180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1800 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model Revolver
+	{
+		mesh = Weapons/Firearm/Revolver,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1460 -0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment scope
+        {
+			offset = 0.0000 0.1240 -0.0380,
+			rotate = 180.0000 0.0000 0.0000,
+        }
+		attachment reddot
+		{
+			offset = 0.0010 0.0440 -0.0400,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+	}
+	model Revolver_Long
+	{
+		mesh = Weapons/Firearm/Revolver_Long,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1710 -0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		attachment scope
+        {
+			offset = 0.0000 0.1240 -0.0380,
+			rotate = 180.0000 0.0000 0.0000,
+        }
+		attachment reddot
+		{
+			offset = 0.0010 0.0440 -0.0400,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+	}
+	model Revolver_Short
+	{
+		mesh = Weapons/Firearm/Revolver_Short,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1160 -0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment scope
+        {
+            offset = 0.0000 0.0400 0.0580,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+	}
+	model Handgun
+	{
+		mesh = Weapons/Firearm/Handgun,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1520 -0.0270,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0440 -0.0400,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment gunlight
+		{
+			offset = 0.0000 0.0800 0.0030,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1240 -0.0380,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.0900 0.0080,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model GunLight
+    {
+        mesh = Weapons/parts/Handgun_Light,
+    }
+	model RedDot
+	{
+	    mesh = Weapons/parts/Handgun_RedDotScope,
+	    texture = Weapons/parts/Handgun_RedDotScopeTEMP,
+	}
+	model RecoilPad
+    {
+        mesh = Weapons/parts/Rifle_RecoilPad,
+    }
+	model Laser
+	{
+		mesh = Weapons/parts/Handgun_Laser,
+	}
+	model ChokeTube
+    {
+        mesh = Weapons/parts/Shotgun_Choke,
+    }
+	model HandgunRedDot
+	{
+		mesh = Weapons/Firearm/Handgun_RedDot,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1700 -0.0300,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+	}
+	model Handgun02
+	{
+		mesh = Weapons/Firearm/Handgun02,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1350 -0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+        {
+            offset = 0.0010 0.0440 -0.0400,
+            rotate = 1.0000 1.0000 1.0000,
+        }
+
+        attachment gunlight
+        {
+            offset = 0.0000 0.0800 0.0030,
+            rotate = 1.0000 1.0000 1.0000,
+        }
+
+        attachment scope
+        {
+            offset = 0.0000 0.1240 -0.0380,
+            rotate = 180.0000 0.0000 0.0000,
+        }
+        attachment laser
+        {
+            offset = 0.0000 0.0900 0.0080,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+	}
+	model Handgun03
+	{
+		mesh = Weapons/Firearm/Handgun03,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1370 -0.0260,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+        {
+            offset = 0.0010 0.0440 -0.0400,
+            rotate = 1.0000 1.0000 1.0000,
+        }
+
+        attachment gunlight
+        {
+            offset = 0.0000 0.0800 0.0030,
+            rotate = 1.0000 1.0000 1.0000,
+        }
+
+        attachment scope
+        {
+            offset = 0.0000 0.1240 -0.0380,
+			rotate = 180.0000 0.0000 0.0000,
+        }
+		attachment laser
+		{
+			offset = 0.0000 0.0900 0.0080,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model HuntingRifle
+	{
+		mesh = Weapons/Firearm/HuntingRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4600 0.0330,
+			rotate = -90.0000 0.0000 180.0000,
+		}
+
+		attachment bayonnet
+		{
+			offset = 0.0000 0.3510 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0400 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.1090 0.0450,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1630 -0.0210,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0990 0.0410,
+			rotate = -179.0000 0.0000 -180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model Bayonnet
+	{
+		mesh = Weapons/parts/Rifle_Bayonet,
+		texture = Weapons/parts/Rifle_ImpBayonet,
+	}
+	model x2Scope
+    {
+        mesh = Weapons/parts/Rifle_2XScope,
+        texture = Weapons/parts/Rifle_12XScope,
+    }
+	model x4Scope
+    {
+        mesh = Weapons/parts/Rifle_4XScope,
+        texture = Weapons/parts/Rifle_12XScope,
+    }
+	model x8Scope
+    {
+        mesh = Weapons/parts/Rifle_8XScope,
+        texture = Weapons/parts/Rifle_12XScope,
+    }
+	model x12Scope
+    {
+        mesh = Weapons/parts/Rifle_12XScope,
+        texture = Weapons/parts/Rifle_12XScope,
+    }
+	model IronSight
+	{
+		mesh = Weapons/parts/Rifle_IronSights,
+	}
+	model Shotgun
+	{
+		mesh = Weapons/Firearm/Shotgun,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -90.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1660 0.0000,
+			rotate = -180.0000 1.0000 -180.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -180.0000 0.0000 -180.0000,
+		}
+	}
+	model DoubleBarrelShotgun
+	{
+		mesh = Weapons/Firearm/ShotgunDoubleBarrel,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5400 0.0330,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ShotgunDoubleBarrel_OPEN
+    {
+        mesh = Weapons/Firearm/ShotgunDoubleBarrel_OPEN,
+    }
+	model ShotgunDoubleBarrelSawn
+	{
+		mesh = Weapons/Firearm/ShotgunDoubleBarrelSawn,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3230 0.0330,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ShotgunDoubleBarrelSawn_OPEN
+    {
+        mesh = Weapons/Firearm/ShotgunDoubleBarrelSawn_OPEN,
+    }
+	model ShotgunSawnOff
+	{
+		mesh = Weapons/Firearm/ShotgunSawnOff,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3200 0.0300,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model VarmintRifle
+	{
+		mesh = weapons/firearm/VarmintRifle,
+
+		attachment bayonet
+		{
+			offset = 0.0000 0.4340 0.0080,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5010 0.0330,
+			rotate = -90.0000 0.0000 180.0000,
+		}
+
+		attachment bayonnet
+		{
+			offset = 0.0000 0.3510 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0400 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.1090 0.0450,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1630 -0.0210,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0990 0.0410,
+			rotate = -179.0000 0.0000 -180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1600 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RoundFood_Green
+    {
+        mesh = RoundFood,
+        texture = RoundFood_AppleGreen,
+    }
+	model RoundFood_Orange
+    {
+        mesh = RoundFood,
+        texture = RoundFood_Orange,
+    }
+	model RoundFood_Yellow
+    {
+        mesh = RoundFood,
+        texture = RoundFood_Lemon,
+    }
+	model RoundFood_Red
+    {
+        mesh = RoundFood,
+        texture = RoundFood_AppleRed,
+    }
+	model RoundFood_Peach
+    {
+        mesh = RoundFood,
+        texture = RoundFood_Peach,
+    }
+	model CylinderFood_Yellow
+    {
+        mesh = CylinderFood,
+        texture = CylinderFood_Bannana,
+        scale = 1.5,
+    }
+	model CylinderFood_Green
+    {
+        mesh = CylinderFood,
+        texture = CylinderFood_Pickle,
+        scale = 1.5,
+    }
+	model CylinderFood_Orange
+    {
+        mesh = CylinderFood,
+        texture = RoundFood_Orange,
+        scale = 1.5,
+    }
+	model CylinderFood_Purple
+    {
+        mesh = CylinderFood,
+        texture = RoundFood_Purple,
+        scale = 1.5,
+    }
+	model DinnerPlate
+    {
+        mesh = DinnerPlate,
+    }
+	model UmbrellaRed
+    {
+        mesh = Weapons/2Handed/Umbrella_Open,
+        texture = Weapons/2Handed/Umbrella_Red,
+
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+    }
+	model UmbrellaBlue
+    {
+        mesh = Weapons/2Handed/Umbrella_Open,
+        texture = Weapons/2Handed/Umbrella_Blue,
+
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+    }
+	model UmbrellaBlack
+	{
+		mesh = Weapons/2Handed/Umbrella_Open,
+		texture = Weapons/2Handed/Umbrella_Black,
+
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model UmbrellaWhite
+    {
+        mesh = Weapons/2Handed/Umbrella_Open,
+        texture = Weapons/2Handed/Umbrella_White,
+
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+    }
+	model Umbrella_Closed_Red
+	{
+		mesh = Weapons/2Handed/Umbrella_Closed,
+		texture = Weapons/2Handed/Umbrella_Red,
+
+		attachment world
+		{
+			offset = 0.0000 0.2700 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Umbrella_Closed_Blue
+    {
+        mesh = Weapons/2Handed/Umbrella_Closed,
+        texture = Weapons/2Handed/Umbrella_Blue,
+
+		attachment world
+		{
+			offset = 0.0000 0.2700 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+    }
+	model Umbrella_Closed_White
+    {
+        mesh = Weapons/2Handed/Umbrella_Closed,
+        texture = Weapons/2Handed/Umbrella_White,
+
+		attachment world
+		{
+			offset = 0.0000 0.2700 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+    }
+	model Umbrella_Closed_Black
+    {
+        mesh = Weapons/2Handed/Umbrella_Closed,
+        texture = Weapons/2Handed/Umbrella_Black,
+
+		attachment world
+		{
+			offset = 0.0000 0.2700 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+    }
+	model PlasticBag
+    {
+        mesh = PlasticBag,
+        texture = Clothes/Bag/PlasticBag,
+    }
+	model Purse
+    {
+        mesh = Purse,
+        texture = Clothes/Bag/Purse,
+    }
+	model GarbageBag
+    {
+        mesh = GarbageBag,
+        texture = Clothes/Bag/GarbageBag,
+    }
+	model SandBag
+    {
+        mesh = SandBag,
+        texture = Clothes/Bag/SandBag,
+    }
+	model ToteBag
+    {
+        mesh = Tote,
+        texture = Clothes/Bag/ToteBagTIS,
+    }
+	model Lunchbox
+    {
+        mesh = skinned\backpacks\PlasticLunchBox_LHand,
+        texture = Clothes/Bag/PlasticLunchBox,
+    }
+	model SchoolBag
+    {
+        mesh = skinned\backpacks\m_schoolbag,
+        texture = schoolbag_black,
+    }
+	model DuffelBag_L
+    {
+        mesh = skinned\backpacks\DuffelBag_LHand,
+        texture = duffelbagwhite,
+    }
+	model DuffelBag
+    {
+        mesh = skinned\backpacks\m_duffelbag,
+        texture = duffelbagwhite,
+    }
+	model NormalHikingBag
+    {
+        mesh = skinned\backpacks\m_hikingbag,
+        texture = hikingbagblue,
+    }
+	model BigHikingBag
+    {
+        mesh = skinned\backpacks\m_bighikingbag,
+        texture = bighikingbagblue,
+    }
+	model Bag_ALICEpack_Army
+    {
+        mesh = skinned\backpacks\m_alice_pack,
+        texture = alicepack_camo,
+    }
+	model Bag_ALICEpack
+    {
+        mesh = skinned\backpacks\m_alice_pack,
+        texture = f_alice_pack,
+    }
+	model TVDinner
+    {
+        mesh = TVDinner,
+    }
+	model PieSlice
+    {
+        mesh = PieSlice,
+    }
+	model WalkieTalkieToy
+    {
+        mesh = Weapons/1Handed/WalkieTalkie,
+        texture = weapons/1handed/WalkieTalkie_Toy,
+    }
+	model WalkieTalkieValue
+    {
+        mesh = Weapons/1Handed/WalkieTalkie,
+        texture = weapons/1handed/WalkieTalkie_ValuTech,
+    }
+	model WalkieTalkiePremium
+    {
+        mesh = Weapons/1Handed/WalkieTalkie,
+        texture = weapons/1handed/WalkieTalkie_Premium,
+    }
+	model WalkieTalkieTactical
+    {
+        mesh = Weapons/1Handed/WalkieTalkie,
+        texture = weapons/1handed/WalkieTalkie_Tactical,
+    }
+	model WalkieTalkieMakeshift
+    {
+        mesh = Weapons/1Handed/WalkieTalkie,
+        texture = weapons/1handed/WalkieTalkie_Makeshift,
+    }
+	model WalkieTalkieUSArmy
+    {
+        mesh = Weapons/1Handed/WalkieTalkie,
+        texture = weapons/1handed/WalkieTalkie_USArmy,
+    }
+	model DeadMouse
+    {
+        mesh = DeadMouse,
+        texture = Mouse_Deer,
+    }
+	model MayoJar
+    {
+        mesh = Jar,
+        texture = Jar_Mayo,
+    }
+	model RemouladeJar
+    {
+        mesh = Jar,
+        texture = Jar_Romoulade,
+    }
+	model BaseBall
+	{
+		mesh = WorldItems/BaseBall,
+		texture = WorldItems/BaseBall,
+		scale = 0.4,
+	}
+	model BasketBall
+	{
+		mesh = WorldItems/BasketBall,
+		texture = WorldItems/BasketBall,
+		scale = 0.4,
+	}
+	model Bell
+	{
+		mesh = WorldItems/Bell,
+		texture = WorldItems/Bell,
+		scale = 0.4,
+	}
+	model BlackChessPieces
+	{
+		mesh = WorldItems/BlackChessPieces,
+		texture = WorldItems/BlackChessPieces,
+		scale = 0.6,
+	}
+	model BoxOfJars
+	{
+		mesh = WorldItems/BoxOfJars,
+		texture = WorldItems/BoxOfJars,
+		scale = 0.4,
+	}
+	model BoxOfSparklers
+	{
+		mesh = WorldItems/BoxOfSparklers,
+		texture = WorldItems/BoxOfSparklers,
+		scale = 0.4,
+	}
+	model BrickToys
+	{
+		mesh = WorldItems/BrickToys,
+		texture = WorldItems/BrickToys,
+		scale = 0.6,
+	}
+	model Button
+	{
+		mesh = WorldItems/Button,
+		texture = WorldItems/Button,
+		scale = 0.6,
+	}
+	model CatToy
+	{
+		mesh = WorldItems/CatToy,
+		texture = WorldItems/CatToy,
+		scale = 0.6,
+	}
+	model ChippedStone
+	{
+		mesh = WorldItems/ChippedStone,
+		texture = WorldItems/Stone_ChippedStone,
+		scale = 0.4,
+	}
+	model CleaningLiquid
+	{
+		mesh = WorldItems/CleaningLiquid,
+		texture = WorldItems/WashingLiquid,
+		scale = 0.4,
+	}
+	model ColdPack
+	{
+		mesh = WorldItems/ColdPack,
+		texture = WorldItems/Icepack,
+		scale = 0.4,
+	}
+	model Cologne
+	{
+		mesh = WorldItems/Cologne,
+		texture = WorldItems/Cologne,
+		scale = 0.6,
+	}
+	model CraftedTimer
+	{
+		mesh = WorldItems/CraftedTimer,
+		texture = WorldItems/AlarmClock_CraftedTimer,
+		scale = 0.6,
+	}
+	model CraftedTrigger
+	{
+		mesh = WorldItems/CraftedTrigger,
+		texture = WorldItems/CraftedTrigger,
+		scale = 0.6,
+	}
+	model Crayons
+	{
+		mesh = WorldItems/Crayons,
+		texture = WorldItems/Crayons,
+		scale = 0.6,
+	}
+	model CreditCard
+	{
+		mesh = WorldItems/CreditCard,
+		texture = WorldItems/CreditCard,
+		scale = 0.6,
+	}
+	model Dart
+	{
+		mesh = WorldItems/Dart,
+		texture = WorldItems/Dart,
+		scale = 0.6,
+	}
+	model DogChewToy
+	{
+		mesh = WorldItems/DogChewToy,
+		texture = WorldItems/DogChewToy,
+		scale = 0.6,
+	}
+	model EarBuds
+	{
+		mesh = WorldItems/EarBuds,
+		texture = WorldItems/EarBuds,
+		scale = 0.6,
+	}
+	model EarRings
+	{
+		mesh = WorldItems/EarRings,
+		texture = WorldItems/EarRings,
+		scale = 0.6,
+	}
+	model ElectronicsScrap
+	{
+		mesh = WorldItems/ElectronicsScrap,
+		texture = WorldItems/ElectronicScrap,
+		scale = 0.3,
+	}
+	model Eraser
+	{
+		mesh = WorldItems/Eraser,
+		texture = WorldItems/Eraser,
+		scale = 0.4,
+	}
+	model EyesMakeup
+	{
+		mesh = WorldItems/EyesMakeup,
+		texture = WorldItems/EyesMakeup,
+		scale = 0.6,
+	}
+	model Football
+	{
+		mesh = WorldItems/Football,
+		texture = WorldItems/Football,
+		scale = 0.4,
+	}
+	model FoundationMakeup
+	{
+		mesh = WorldItems/FoundationMakeup,
+		texture = WorldItems/FoundationMakeup,
+		scale = 0.6,
+	}
+	model FourLogsStack
+	{
+		mesh = WorldItems/FourLogsStack,
+		texture = WorldItems/Log,
+		scale = 0.4,
+	}
+	model Frame
+	{
+		mesh = WorldItems/Frame,
+		texture = WorldItems/Frame,
+		scale = 0.4,
+	}
+	model GolfBall
+	{
+		mesh = WorldItems/GolfBall,
+		texture = WorldItems/GolfBall,
+		scale = 0.6,
+	}
+	model GunPowder
+	{
+		mesh = WorldItems/GunPowder,
+		texture = WorldItems/GunPowder,
+		scale = 0.4,
+	}
+	model GunpowderJar
+	{
+		mesh = WorldItems/GunpowderJar,
+		texture = WorldItems/GunpowderJar,
+		scale = 0.4,
+	}
+	model HairSpray
+	{
+		mesh = WorldItems/HairSpray,
+		texture = WorldItems/HairSpray,
+		scale = 0.4,
+	}
+	model HeadPhones
+	{
+		mesh = WorldItems/HeadPhones,
+		texture = WorldItems/HeadPhones,
+		scale = 0.4,
+	}
+	model HomeAlarm
+	{
+		mesh = WorldItems/HomeAlarm,
+		texture = WorldItems/HomeAlarm,
+		scale = 0.4,
+	}
+	model KnittingNeedles
+	{
+		mesh = WorldItems/KnittingNeedles,
+		texture = WorldItems/KnittingNeedles,
+		scale = 0.6,
+	}
+	model Leash
+	{
+		mesh = WorldItems/Leash,
+		texture = WorldItems/Leash,
+		scale = 0.4,
+	}
+	model LightBulb
+	{
+		mesh = WorldItems/LightBulb,
+		texture = WorldItems/LightBulb,
+		scale = 0.4,
+	}
+	model LightBulbBlue
+	{
+		mesh = WorldItems/LightBulb,
+		texture = WorldItems/LightBulb_Blue,
+		scale = 0.4,
+	}
+	model LightBulbCyan
+	{
+		mesh = WorldItems/LightBulb,
+		texture = WorldItems/LightBulb_Cyan,
+		scale = 0.4,
+	}
+	model LightBulbGreen
+	{
+		mesh = WorldItems/LightBulb,
+		texture = WorldItems/LightBulb_Green,
+		scale = 0.4,
+	}
+	model LightBulbMagenta
+	{
+		mesh = WorldItems/LightBulb,
+		texture = WorldItems/LightBulb_Magenta,
+		scale = 0.4,
+	}
+	model LightBulbOrange
+	{
+		mesh = WorldItems/LightBulb,
+		texture = WorldItems/LightBulb_Orange,
+		scale = 0.4,
+	}
+	model LightBulbPink
+	{
+		mesh = WorldItems/LightBulb,
+		texture = WorldItems/LightBulb_Pink,
+		scale = 0.4,
+	}
+	model LightBulbPurple
+	{
+		mesh = WorldItems/LightBulb,
+		texture = WorldItems/LightBulb_Purple,
+		scale = 0.4,
+	}
+	model LightBulbRed
+	{
+		mesh = WorldItems/LightBulb,
+		texture = WorldItems/LightBulb_Red,
+		scale = 0.4,
+	}
+	model LightBulbYellow
+	{
+		mesh = WorldItems/LightBulb,
+		texture = WorldItems/LightBulb_Yellow,
+		scale = 0.4,
+	}
+	model Log
+	{
+		mesh = WorldItems/Log,
+		texture = WorldItems/Log,
+		scale = 0.4,
+	}
+	model Mattress
+	{
+		mesh = WorldItems/Mattress,
+		texture = WorldItems/Mattress,
+		scale = 0.6,
+	}
+	model MetalSheet
+	{
+		mesh = WorldItems/MetalSheet,
+		texture = WorldItems/MetalSheet,
+		scale = 0.008,
+	}
+	model Mop
+	{
+		mesh = WorldItems/Mop,
+		texture = WorldItems/Mop,
+		scale = 0.4,
+	}
+	model MotionSensor
+	{
+		mesh = WorldItems/MotionSensor,
+		texture = WorldItems/MotionSensor,
+		scale = 0.7,
+	}
+	model Perfume
+	{
+		mesh = WorldItems/Perfume,
+		texture = WorldItems/Perfume,
+		scale = 0.6,
+	}
+	model PineCone
+	{
+		mesh = WorldItems/PineCone,
+		texture = WorldItems/PineCone,
+		scale = 0.6,
+	}
+	model PlasticPipe
+	{
+		mesh = WorldItems/PlasticPipe,
+		texture = WorldItems/PlasticPipe,
+		scale = 0.3,
+	}
+	model Receiver
+	{
+		mesh = WorldItems/Receiver,
+		texture = WorldItems/ElectronicScrap_Reciever,
+		scale = 0.6,
+	}
+	model RemoteController
+	{
+		mesh = WorldItems/RemoteController,
+		texture = WorldItems/RemoteController,
+		scale = 0.02,
+	}
+	model RubberBand
+	{
+		mesh = WorldItems/RubberBand,
+		texture = WorldItems/RubberBand,
+		scale = 0.6,
+	}
+	model ScrapMetal
+	{
+		mesh = WorldItems/ScrapMetal,
+		texture = WorldItems/ScrapMetal,
+		scale = 0.4,
+	}
+	model SoccerBall
+	{
+		mesh = WorldItems/SoccerBall,
+		texture = WorldItems/SoccerBall,
+		scale = 0.4,
+	}
+	model Speaker
+	{
+		mesh = WorldItems/Speaker,
+		texture = WorldItems/Speaker,
+		scale = 0.5,
+	}
+	model Sponge
+	{
+		mesh = WorldItems/Sponge,
+		texture = WorldItems/Sponge,
+		scale = 0.5,
+    }
+	model Stone
+	{
+		mesh = WorldItems/Stone,
+		texture = WorldItems/Stone_ChippedStone,
+		scale = 0.5,
+	}
+	model SutureNeedle
+	{
+		mesh = WorldItems/SutureNeedle,
+		texture = WorldItems/SutureNeedle,
+		scale = 0.8,
+	}
+	model SutureNeedleHolder
+	{
+		mesh = WorldItems/SutureNeedleHolder,
+		texture = WorldItems/SutureNeedleHolder,
+		scale = 0.4,
+	}
+	model Tarp
+	{
+		mesh = WorldItems/Tarp,
+		texture = WorldItems/Tarp,
+		scale = 0.3,
+	}
+	model TennisBall
+	{
+		mesh = WorldItems/TennisBall,
+		texture = WorldItems/TennisBall,
+		scale = 0.4,
+	}
+	model ThreeLogsStack
+	{
+		mesh = WorldItems/ThreeLogsStack,
+		texture = WorldItems/Log,
+		scale = 0.4,
+	}
+	model Timer
+	{
+		mesh = WorldItems/Timer,
+		texture = WorldItems/Timer,
+		scale = 0.6,
+	}
+	model ToiletPaper
+	{
+		mesh = WorldItems/ToiletPaper,
+		texture = WorldItems/ToiletPaper,
+		scale = 0.4,
+	}
+	model ToyCar
+	{
+		mesh = WorldItems/ToyCar,
+		texture = WorldItems/ToyCar,
+		scale = 0.6,
+	}
+	model TreeBranch
+	{
+		mesh = WorldItems/TreeBranch,
+		texture = WorldItems/TreeBranch,
+		scale = 0.5,
+	}
+	model Twigs
+	{
+		mesh = WorldItems/Twigs,
+		texture = WorldItems/Twigs,
+		scale = 0.4,
+	}
+	model TwoLogsStack
+	{
+		mesh = WorldItems/TwoLogsStack,
+		texture = WorldItems/Log,
+		scale = 0.4,
+	}
+	model UnusableMetal
+	{
+		mesh = WorldItems/UnusableMetal,
+		texture = WorldItems/UnusableMetal,
+		scale = 0.3,
+	}
+	model UnusableWood
+	{
+		mesh = WorldItems/UnusableWood,
+		texture = WorldItems/UnusableWood,
+		scale = 0.3,
+	}
+	model WaterDish
+	{
+		mesh = WorldItems/WaterDish,
+		texture = WorldItems/WaterDish,
+		scale = 0.4,
+	}
+	model WhiteChessPieces
+	{
+		mesh = WorldItems/WhiteChessPieces,
+		texture = WorldItems/WhiteChessPieces,
+		scale = 0.6,
+	}
+	model Yarn
+	{
+		mesh = WorldItems/Yarn,
+		texture = WorldItems/Yarn,
+		scale = 0.5,
+	}
+	model 38SpecialBullets
+	{
+		mesh = WorldItems/38SpecialBullets,
+		texture = WorldItems/BulletRound,
+		scale = 0.8,
+	}
+	model 9mmRounds
+	{
+		mesh = WorldItems/9mmRounds,
+		texture = WorldItems/BulletRound,
+		scale = 0.8,
+	}
+	model AerosolBomb
+	{
+		mesh = WorldItems/AerosolBomb,
+		texture = WorldItems/AerosolBomb,
+		scale = 0.5,
+	}
+	model AerosolBombSensor
+	{
+		mesh = WorldItems/AerosolBombSensor,
+		texture = WorldItems/AerosolBomb,
+		scale = 0.5,
+	}
+	model AlarmClock
+	{
+		mesh = WorldItems/AlarmClock,
+		texture = WorldItems/AlarmClock_CraftedTimer,
+		scale = 0.6,
+	}
+	model AlcoholWipes
+	{
+		mesh = WorldItems/AlcoholWipes,
+		texture = WorldItems/AlcoholWipes,
+		scale = 0.6,
+	}
+	model Aluminum
+	{
+		mesh = WorldItems/Aluminum,
+		texture = WorldItems/Aluminum,
+		scale = 0.4,
+	}
+	model Antibiotics
+	{
+		mesh = WorldItems/Antibiotics,
+		texture = WorldItems/Antibiotics,
+		scale = 0.6,
+    }
+	model BagofConcretePowder
+	{
+		mesh = WorldItems/BagofConcretePowder,
+		texture = WorldItems/BagofConcretePowder,
+		scale = 0.2,
+    }
+	model BagOfPlasterPowder
+	{
+		mesh = WorldItems/BagOfPlasterPowder,
+		texture = WorldItems/BagOfPlaster,
+		scale = 0.006,
+	}
+	model BakingPan
+	{
+		mesh = WorldItems/BakingPan,
+		texture = WorldItems/BakingPan,
+		scale = 0.4,
+	}
+	model BakingTray
+	{
+		mesh = WorldItems/BakingTray,
+		texture = WorldItems/BakingTray,
+		scale = 0.4,
+	}
+	model Bandage
+	{
+		mesh = WorldItems/Bandage,
+		texture = WorldItems/Bandages,
+		scale = 0.5,
+	}
+	model BandageDirty
+	{
+		mesh = WorldItems/Bandage,
+		texture = WorldItems/BandagesDirty,
+		scale = 0.5,
+	}
+	model BandAid
+	{
+		mesh = WorldItems/BandAid,
+		texture = WorldItems/Bandages,
+		scale = 0.6,
+	}
+	model BarbedWire
+	{
+		mesh = WorldItems/BarbedWire,
+		texture = WorldItems/BarbedWire,
+		scale = 0.2,
+	}
+	model Bass
+	{
+		mesh = WorldItems/Bass,
+		texture = WorldItems/Bass_BaitFish,
+		scale = 0.43,
+	}
+	model BassBurnt
+	{
+		mesh = WorldItems/Bass,
+		texture = WorldItems/Bass_BaitFishBurnt,
+		scale = 0.43,
+	}
+	model BassCooked
+	{
+		mesh = WorldItems/Bass,
+		texture = WorldItems/BassCooked,
+		scale = 0.43,
+	}
+	model BassRotten
+	{
+		mesh = WorldItems/Bass,
+		texture = WorldItems/Bass_BaitFishRotten,
+		scale = 0.43,
+	}
+	model BathTowel
+	{
+		mesh = WorldItems/BathTowel,
+		texture = WorldItems/BathTowel,
+		scale = 0.2,
+	}
+	model Battery
+	{
+		mesh = WorldItems/Battery,
+		texture = WorldItems/Battery,
+		scale = 0.6,
+	}
+	model BeefJerky
+	{
+		mesh = WorldItems/BeefJerky,
+		texture = WorldItems/BeefJerky,
+		scale = 0.6,
+	}
+	model Belt_Ground
+	{
+		mesh = WorldItems/Belt,
+		texture = WorldItems/Belt,
+		scale = 0.3,
+	}
+	model BerryBlack
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/Berries,
+		scale = 0.015,
+	}
+	model BerryBlackRotten
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesRotten,
+		scale = 0.015,
+	}
+	model BerryBlue
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesGeneric2,
+		scale = 0.015,
+	}
+	model BerryBlueRotten
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesGeneric2Rotten,
+		scale = 0.015,
+	}
+	model BerryGeneric1
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesGeneric1,
+		scale = 0.015,
+	}
+	model BerryGeneric1Rotten
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesGeneric1Rotten,
+		scale = 0.015,
+	}
+	model BerryGeneric2
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesGeneric2,
+		scale = 0.015,
+	}
+	model BerryGeneric2Rotten
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesGeneric2Rotten,
+		scale = 0.015,
+	}
+	model BerryGeneric3
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesGeneric3,
+		scale = 0.015,
+	}
+	model BerryGeneric3Rotten
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesGeneric3Rotten,
+		scale = 0.015,
+	}
+	model BerryGeneric4
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesGeneric4,
+		scale = 0.015,
+	}
+	model BerryGeneric4Rotten
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesGeneric4Rotten,
+		scale = 0.015,
+	}
+	model BerryGeneric5
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesGeneric5,
+		scale = 0.017,
+	}
+	model BerryGeneric5Rotten
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesGeneric5Rotten,
+		scale = 0.017,
+	}
+	model BerryWhite
+	{
+		mesh = WorldItems/BerryGeneric,
+		texture = WorldItems/BerriesWhite,
+		scale = 0.015,
+	}
+	model BlackSage
+	{
+		mesh = WorldItems/BlackSage,
+		texture = WorldItems/BlackSage,
+		scale = 0.4,
+	}
+	model WaterBottleFull
+	{
+		mesh = WorldItems/Bottle,
+		texture = WorldItems/WaterBottleFull,
+		scale = 0.6,
+	}
+	model WaterBottleEmpty
+	{
+		mesh = WorldItems/Bottle,
+		texture = WorldItems/WaterBottleEmpty,
+		scale = 0.6,
+	}
+	model BoxOfShotGunShells
+	{
+		mesh = WorldItems/BoxOfShotGunShells,
+		texture = WorldItems/BoxOfShotGunShells,
+		scale = 0.6,
+	}
+	model Bread
+	{
+		mesh = WorldItems/Bread,
+		texture = WorldItems/Bread,
+		scale = 0.3,
+	}
+	model BreadRotten
+	{
+		mesh = WorldItems/Bread,
+		texture = WorldItems/BreadRotten,
+		scale = 0.3,
+	}
+	model BreadDough
+	{
+		mesh = WorldItems/BreadDough,
+		texture = WorldItems/dough,
+		scale = 0.01,
+	}
+	model BreadSlices
+	{
+		mesh = WorldItems/BreadSlices,
+		texture = WorldItems/CheeseSandwich_PeanutButterSandwich_BreadSlices,
+		scale = 0.3,
+	}
+	model BreadSlicesRotten
+	{
+		mesh = WorldItems/BreadSlices,
+		texture = WorldItems/CheeseSandwich_PeanutButterSandwich_BreadSlicesRotten,
+		scale = 0.3,
+	}
+	model BrokenFishingNet
+	{
+		mesh = WorldItems/BrokenFishingNet,
+		texture = WorldItems/FishingNet,
+		scale = 0.4,
+	}
+	model Butter
+	{
+		mesh = WorldItems/Butter,
+		texture = WorldItems/Butter,
+		scale = 0.4,
+	}
+	model Cake
+	{
+		mesh = WorldItems/Cake,
+		texture = WorldItems/Cake,
+		scale = 0.4,
+	}
+    model CakeRotten
+	{
+		mesh = WorldItems/Cake,
+		texture = WorldItems/CakeRotten,
+		scale = 0.4,
+	}
+	model CakeBatter
+	{
+		mesh = WorldItems/CakeBatter,
+		texture = WorldItems/CakeBatter,
+		scale = 0.4,
+	}
+	model CakePreparation
+	{
+		mesh = WorldItems/CakePreparation,
+		texture = WorldItems/CakePreparation,
+		scale = 0.4,
+	}
+	model CampfireMaterials
+	{
+		mesh = WorldItems/CampfireMaterials,
+		texture = WorldItems/CampfireMaterials,
+		scale = 0.6,
+	}
+	model CandyCane
+	{
+		mesh = WorldItems/CandyCane,
+		texture = WorldItems/CandyCane,
+		scale = 0.4,
+	}
+	model CandyPackage
+	{
+		mesh = WorldItems/CandyPackage,
+		texture = WorldItems/CandyPackage,
+		scale = 0.4,
+	}
+	model CanOfOats
+	{
+		mesh = WorldItems/CanOfOats,
+		texture = WorldItems/CanOfOats,
+		scale = 0.4,
+	}
+	model CardDeck
+	{
+		mesh = WorldItems/CardDeck,
+		texture = WorldItems/PlayingCards,
+		scale = 0.8,
+	}
+	model Catfish
+	{
+		mesh = WorldItems/Catfish,
+		texture = WorldItems/Catfish,
+		scale = 0.2,
+	}
+	model CatfishCooked
+	{
+		mesh = WorldItems/Catfish,
+		texture = WorldItems/CatfishCooked,
+		scale = 0.2,
+	}
+	model CatfishBurnt
+	{
+		mesh = WorldItems/Catfish,
+		texture = WorldItems/CatfishBurnt,
+		scale = 0.2,
+	}
+	model CatfishRotten
+	{
+		mesh = WorldItems/Catfish,
+		texture = WorldItems/CatfishRotten,
+		scale = 0.2,
+	}
+	model Cereal
+	{
+		mesh = WorldItems/Cereal,
+		texture = WorldItems/Cereal,
+		scale = 0.4,
+	}
+	model Cheese
+	{
+		mesh = WorldItems/Cheese,
+		texture = WorldItems/Cheese,
+		scale = 0.4,
+	}
+	model CheeseRotten
+	{
+		mesh = WorldItems/Cheese,
+		texture = WorldItems/CheeseRotten,
+		scale = 0.4,
+	}
+	model CheeseSandwich
+	{
+		mesh = WorldItems/CheeseSandwich,
+		texture = WorldItems/CheeseSandwich_PeanutButterSandwich_BreadSlices,
+		scale = 0.3,
+	}
+	model CheeseSandwichRotten
+	{
+		mesh = WorldItems/CheeseSandwich,
+		texture = WorldItems/CheeseSandwich_PeanutButterSandwich_BreadSlicesRotten,
+		scale = 0.3,
+	}
+	model Cherry_Ground
+	{
+		mesh = WorldItems/Cherry,
+		scale = 0.6,
+	}
+	model Cherry_GroundRotten
+	{
+		mesh = WorldItems/Cherry,
+		texture = WorldItems/CherryRotten,
+		scale = 0.6,
+	}
+	model Chips
+	{
+		mesh = WorldItems/Chips,
+		texture = WorldItems/Chips,
+		scale = 0.28,
+	}
+	model Chips2
+	{
+		mesh = WorldItems/Chips2,
+		texture = WorldItems/Chips2,
+		scale = 0.008,
+	}
+	model Chips3
+	{
+		mesh = WorldItems/Chips3,
+		texture = WorldItems/Chips3,
+		scale = 0.008,
+	}
+	model Chips4
+	{
+		mesh = WorldItems/Chips4,
+		texture = WorldItems/Chips4,
+		scale = 0.008,
+	}
+	model Chocolate
+	{
+		mesh = WorldItems/Chocolate,
+		texture = WorldItems/Chocolate,
+		scale = 0.4,
+	}
+	model Coffee
+	{
+		mesh = WorldItems/Coffee,
+		texture = WorldItems/Coffee,
+		scale = 0.4,
+	}
+	model Comb
+	{
+		mesh = WorldItems/Comb,
+		texture = WorldItems/Comb,
+		scale = 0.4,
+	}
+	model CombinationPadlock
+	{
+		mesh = WorldItems/CombinationPadlock,
+		texture = WorldItems/CombinationPadlock,
+		scale = 0.6,
+	}
+	model CommonMallow
+	{
+		mesh = WorldItems/CommonMallow,
+		texture = WorldItems/CommonMallowGrapeLeaves,
+		scale = 0.4,
+	}
+	model CompostBag
+	{
+		mesh = WorldItems/CompostBag,
+		texture = WorldItems/CompostBag,
+		scale = 0.4,
+	}
+	model Cookie
+	{
+		mesh = WorldItems/Cookie,
+		texture = WorldItems/Cookie,
+		scale = 0.5,
+	}
+	model CookieJelly
+	{
+		mesh = WorldItems/CookieJelly,
+		texture = WorldItems/RaspberryShortbread,
+		scale = 0.6,
+	}
+	model CordlessPhone
+	{
+		mesh = WorldItems/CordlessPhone,
+		texture = WorldItems/CordlessPhone,
+		scale = 0.4,
+	}
+	model Cork
+	{
+		mesh = WorldItems/Cork,
+		texture = WorldItems/Cork,
+		scale = 0.6,
+	}
+	model Corkscrew
+	{
+		mesh = WorldItems/Corkscrew,
+		texture = WorldItems/Corkscrew,
+		scale = 0.4,
+	}
+	model Cornflour_Ground
+	{
+		mesh = WorldItems/Cornflour,
+		texture = WorldItems/Cornflour,
+		scale = 0.5,
+	}
+	model CottonBalls
+	{
+		mesh = WorldItems/CottonBalls,
+		texture = WorldItems/CottonBall,
+		scale = 0.6,
+	}
+	model Crappie
+	{
+		mesh = WorldItems/Crappie,
+		texture = WorldItems/Crappie,
+		scale = 0.4,
+	}
+	model CrappieBurnt
+	{
+		mesh = WorldItems/Crappie,
+		texture = WorldItems/CrappieBurnt,
+		scale = 0.4,
+	}
+	model CrappieCooked
+	{
+		mesh = WorldItems/Crappie,
+		texture = WorldItems/CrappieCooked,
+		scale = 0.4,
+	}
+	model CrappieRotten
+	{
+		mesh = WorldItems/Crappie,
+		texture = WorldItems/CrappieRotten,
+		scale = 0.4,
+	}
+	model Cupcake
+	{
+		mesh = WorldItems/Cupcake,
+		texture = WorldItems/Cupcake,
+		scale = 0.6,
+	}
+	model DeadBird
+	{
+		mesh = WorldItems/DeadBird,
+		texture = WorldItems/DeadBird,
+		scale = 0.4,
+	}
+	model DeadBirdCooked
+	{
+		mesh = WorldItems/DeadBird,
+		texture = WorldItems/DeadBirdCooked,
+		scale = 0.4,
+	}
+	model DeadBirdBurnt
+	{
+		mesh = WorldItems/DeadBird,
+		texture = WorldItems/DeadBirdCooked,
+		scale = 0.4,
+	}
+	model DeadRabbit
+	{
+		mesh = WorldItems/DeadRabbit,
+		texture = WorldItems/DeadSquirrel,
+		scale = 0.3,
+	}
+	model DeadRabbitBurnt
+	{
+		mesh = WorldItems/DeadRabbit,
+		texture = WorldItems/DeadSquirrelBurnt,
+		scale = 0.3,
+	}
+	model DeadRabbitCooked
+	{
+		mesh = WorldItems/DeadRabbit,
+		texture = WorldItems/DeadSquirrelCooked,
+		scale = 0.3,
+	}
+	model DeadRat
+	{
+		mesh = WorldItems/DeadRat,
+		texture = WorldItems/DeadRat,
+		scale = 0.4,
+	}
+	model DeadRatBurnt
+	{
+		mesh = WorldItems/DeadRat,
+		texture = WorldItems/DeadRatBurnt,
+		scale = 0.4,
+	}
+	model DeadRatCooked
+	{
+		mesh = WorldItems/DeadRat,
+		texture = WorldItems/DeadRatCooked,
+		scale = 0.4,
+	}
+    model DeadMouseWorld
+	{
+		mesh = WorldItems/DeadRat,
+		texture = Mouse_Deer,
+		scale = 0.3,
+	}
+    model DeadMouseWorldBurnt
+	{
+		mesh = WorldItems/DeadRat,
+		texture = WorldItems/Mouse_DeerBurnt,
+		scale = 0.3,
+	}
+    model DeadMouseWorldCooked
+	{
+		mesh = WorldItems/DeadRat,
+		texture = WorldItems/Mouse_DeerCooked,
+		scale = 0.3,
+	}
+	model DeadSquirrel
+	{
+		mesh = WorldItems/DeadSquirrel,
+		texture = WorldItems/DeadSquirrel,
+		scale = 0.3,
+	}
+	model DeadSquirrelBurnt
+	{
+		mesh = WorldItems/DeadSquirrel,
+		texture = WorldItems/DeadSquirrelBurnt,
+		scale = 0.3,
+	}
+	model DeadSquirrelCooked
+	{
+		mesh = WorldItems/DeadSquirrel,
+		texture = WorldItems/DeadSquirrelCooked,
+		scale = 0.3,
+	}
+	model DenimStrips
+	{
+		mesh = WorldItems/DenimStrips,
+		texture = WorldItems/DenimStrips,
+		scale = 0.4,
+	}
+	model DenimStripsDirty
+    {
+        mesh = WorldItems/DenimStrips,
+        texture = WorldItems/DenimStripsDirty,
+        scale = 0.4,
+    }
+	model Dice
+	{
+		mesh = WorldItems/Dice,
+		texture = WorldItems/Dice,
+		scale = 0.6,
+	}
+	model DigitalWatch
+	{
+		mesh = WorldItems/DigitalWatch,
+		texture = WorldItems/DigitalWatch,
+		scale = 0.6,
+	}
+	model DishCloth
+	{
+		mesh = WorldItems/DishCloth,
+		texture = WorldItems/DishCloth,
+		scale = 0.3,
+	}
+	model DishTowel
+	{
+		mesh = WorldItems/DishTowel,
+		texture = WorldItems/DishTowel,
+		scale = 0.3,
+	}
+	model DishTowelWet
+	{
+		mesh = WorldItems/DishTowel,
+		texture = WorldItems/WetDishTowel,
+		scale = 0.3,
+	}
+	model Disinfectant
+	{
+		mesh = WorldItems/Disinfectant,
+		texture = WorldItems/BottleOfDisinfectant,
+		scale = 0.4,
+	}
+	model Disk
+	{
+		mesh = WorldItems/Disk,
+		texture = WorldItems/CD,
+		scale = 0.5,
+	}
+	model Doll
+	{
+		mesh = WorldItems/Doll,
+		texture = WorldItems/Doll,
+		scale = 0.4,
+	}
+	model DoorHinge
+	{
+		mesh = WorldItems/DoorHinge,
+		texture = WorldItems/DoorHinge,
+		scale = 0.6,
+	}
+	model DoorKnob
+	{
+		mesh = WorldItems/DoorKnob,
+		texture = WorldItems/DoorKnob,
+		scale = 0.6,
+	}
+	model Dough
+	{
+		mesh = WorldItems/Dough,
+		texture = WorldItems/DoughRolledDough,
+		scale = 0.4,
+	}
+	model DoughRotten
+	{
+		mesh = WorldItems/Dough,
+		texture = WorldItems/DoughRolledDoughRotten,
+		scale = 0.4,
+	}
+	model Drawer
+	{
+		mesh = WorldItems/Drawer,
+		texture = WorldItems/Drawer,
+		scale = 0.3,
+	}
+	model DryRamenNoodles
+	{
+		mesh = WorldItems/DryRamenNoodles,
+		texture = WorldItems/DryRamenNoodles,
+		scale = 0.4,
+	}
+	model DuctTape
+	{
+		mesh = WorldItems/DuctTape,
+		texture = WorldItems/DuctTape,
+		scale = 0.6,
+	}
+	model Egg
+	{
+		mesh = WorldItems/Egg,
+		texture = WorldItems/Egg,
+		scale = 0.4,
+	}
+	model EggCarton
+	{
+		mesh = WorldItems/EggCarton,
+		texture = WorldItems/EggCarton,
+		scale = 0.4,
+	}
+	model EmptyFertilizer
+	{
+		mesh = WorldItems/EmptyFertilizer,
+		texture = WorldItems/EmptyFertilizer,
+		scale = 0.6,
+	}
+	model EmptyJar
+	{
+		mesh = WorldItems/EmptyJar,
+		texture = WorldItems/Jar_Empty,
+		scale = 0.4,
+	}
+	model EmptyNotebook
+	{
+		mesh = WorldItems/EmptyNotebook,
+		texture = WorldItems/EmptyNotePad,
+		scale = 0.6,
+	}
+	model EmptyPopBottle
+	{
+		mesh = WorldItems/EmptyPopBottle,
+		texture = WorldItems/EmptyPopBottle,
+		scale = 0.017,
+	}
+	model PopBottleWorld
+	{
+		mesh = WorldItems/EmptyPopBottle,
+		texture = PopBottle,
+		scale = 0.017,
+	}
+	model PopCanDietWorld
+	{
+		mesh = WorldItems/EmptyPopCan,
+		texture = WorldItems/PopCanDiet,
+		scale = 0.011,
+	}
+    model BeerCanEmptyWorld
+	{
+		mesh = WorldItems/EmptyPopCan,
+		texture = BeerCan,
+		scale = 0.011,
+	}
+    model PopCanFizzWorld
+	{
+		mesh = WorldItems/EmptyPopCan,
+		texture = WorldItems/PopCanFizz,
+		scale = 0.011,
+	}
+    model PopCanRedWorld
+	{
+		mesh = WorldItems/EmptyPopCan,
+		texture = WorldItems/PopCanRed,
+		scale = 0.011,
+	}
+	model Extinguisher
+	{
+		mesh = WorldItems/Extinguisher_test4,
+		texture = WorldItems/Extinguisher,
+		scale = 0.5,
+	}
+	model Fertiizer
+	{
+		mesh = WorldItems/Fertiizer,
+		texture = WorldItems/Fertiizer,
+		scale = 0.6,
+	}
+	model FertiizerEmpty
+	{
+		mesh = WorldItems/FertiizerEmpty,
+		texture = WorldItems/FertiizerEmpty,
+		scale = 0.6,
+	}
+	model FishFillet
+	{
+		mesh = WorldItems/FishFillet,
+		texture = WorldItems/FishFillet,
+		scale = 0.3,
+	}
+	model FishFilletBurnt
+	{
+		mesh = WorldItems/FishFillet,
+		texture = WorldItems/FishFilletBurnt,
+		scale = 0.3,
+	}
+	model FishFilletCooked
+	{
+		mesh = WorldItems/FishFillet,
+		texture = WorldItems/FishFilletCooked,
+		scale = 0.3,
+	}
+	model FishFilletRotten
+	{
+		mesh = WorldItems/FishFillet,
+		texture = WorldItems/FishFilletRotten,
+		scale = 0.3,
+	}
+	model FishingLine
+	{
+		mesh = WorldItems/FishingLine,
+		texture = WorldItems/FishingLine,
+		scale = 0.6,
+	}
+	model FishingNet
+	{
+		mesh = WorldItems/FishingNet,
+		texture = WorldItems/FishingNet,
+		scale = 0.4,
+	}
+	model FishingTackle
+	{
+		mesh = WorldItems/FishingTackle,
+		texture = WorldItems/FishingTackle,
+		scale = 0.6,
+	}
+	model FishingTackle2
+    {
+        mesh = WorldItems/FishingTackle,
+        texture = WorldItems/FishingTackle2,
+        scale = 0.6,
+    }
+	model FlameTrap
+	{
+		mesh = WorldItems/FlameTrap,
+		texture = WorldItems/FlameTrap,
+		scale = 0.6,
+	}
+	model FlameTrapSensor
+	{
+		mesh = WorldItems/FlameTrapSensor,
+		texture = WorldItems/FlameTrap,
+		scale = 0.6,
+	}
+	model FlintAndSteel
+	{
+		mesh = WorldItems/FlintAndSteel,
+		texture = WorldItems/FlintAndSteel,
+		scale = 0.6,
+	}
+	model Flour
+	{
+		mesh = WorldItems/Flour,
+		texture = WorldItems/Flour,
+		scale = 0.4,
+	}
+	model Fries
+	{
+		mesh = WorldItems/Fries,
+		texture = WorldItems/Fries,
+		scale = 0.5,
+	}
+	model FriesRotten
+	{
+		mesh = WorldItems/Fries,
+		texture = WorldItems/FriesRotten,
+		scale = 0.5,
+	}
+	model Ginseng
+	{
+		mesh = WorldItems/Ginseng,
+		texture = WorldItems/Ginseng,
+		scale = 0.6,
+	}
+	model Glue
+	{
+		mesh = WorldItems/Glue,
+		texture = WorldItems/Glue,
+		scale = 0.4,
+	}
+	model GrapeLeaves
+	{
+		mesh = WorldItems/GrapeLeaves,
+		texture = WorldItems/CommonMallowGrapeLeaves,
+		scale = 0.4,
+	}
+	model Grapes_Ground
+	{
+		mesh = WorldItems/Grapes,
+		scale = 0.3,
+	}
+	model Grapes_GroundRotten
+	{
+		mesh = WorldItems/Grapes,
+		texture = WorldItems/GrapesRotten,
+		scale = 0.3,
+	}
+	model GravelBag
+	{
+		mesh = WorldItems/GravelBag,
+		texture = WorldItems/GravelBag,
+		scale = 0.3,
+	}
+	model GrilledCheese
+	{
+		mesh = WorldItems/GrilledCheese,
+		texture = WorldItems/CheeseSandwich_PeanutButterSandwich_BreadSlices,
+		scale = 0.3,
+	}
+	model GrilledCheeseRotten
+	{
+		mesh = WorldItems/GrilledCheese,
+		texture = WorldItems/CheeseSandwich_PeanutButterSandwich_BreadSlicesRotten,
+		scale = 0.3,
+	}
+	model HairDyeYellowBlond
+	{
+		mesh = WorldItems/HairDye,
+		texture = WorldItems/HairDyeYellowBlond,
+		scale = 0.6,
+	}
+    model HairDyeBlond
+	{
+		mesh = WorldItems/HairDye,
+		texture = WorldItems/HairDyeBlond,
+		scale = 0.6,
+	}
+	model HairDyeBlackDarkBrown
+    {
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeBlackDarkBrown,
+        scale = 0.6,
+    }
+	model HairDyeBrown
+    {
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeBrown,
+        scale = 0.6,
+    }
+	model HairDyeBlackWhite
+    {
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeBlackWhite,
+        scale = 0.6,
+    }
+	model HairDyePink
+    {
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyePink,
+        scale = 0.6,
+    }
+	model HairDyeRedStrawberryBlond
+    {
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeRedStrawberryBlond,
+        scale = 0.6,
+    }
+	model HairDyeGreen
+    {
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeGreen,
+        scale = 0.6,
+    }
+	model HairDyeBlue
+    {
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeBlue,
+        scale = 0.6,
+    }
+	model Ham
+	{
+		mesh = WorldItems/Ham,
+		texture = WorldItems/Ham,
+		scale = 0.4,
+	}
+	model HamRotten
+	{
+		mesh = WorldItems/Ham,
+		texture = WorldItems/HamRotten,
+		scale = 0.4,
+	}
+	model HamSlice
+	{
+		mesh = WorldItems/HamSlice,
+		texture = WorldItems/Ham_HamSlice,
+		scale = 0.4,
+	}
+	model HandGunAmmoBox
+	{
+		mesh = WorldItems/HandGunAmmoBox,
+		texture = WorldItems/BoxOfRounds9MM,
+		scale = 0.4,
+	}
+	model BoxOf38Special
+	{
+		mesh = WorldItems/HandGunAmmoBox,
+		texture = WorldItems/BoxOfRounds38Special,
+		scale = 0.4,
+	}
+	model BoxOf44Magnum
+	{
+		mesh = WorldItems/HandGunAmmoBox,
+		texture = WorldItems/BoxOfRounds44Magnum,
+		scale = 0.4,
+	}
+	model BoxOf45Auto
+	{
+		mesh = WorldItems/HandGunAmmoBox,
+		texture = WorldItems/BoxOfRounds45Auto,
+		scale = 0.4,
+	}
+	model Handle
+	{
+		mesh = WorldItems/Handle,
+		texture = WorldItems/Handle,
+		scale = 0.4,
+	}
+	model Honey
+	{
+		mesh = WorldItems/Honey,
+		texture = WorldItems/Honey,
+		scale = 0.4,
+	}
+	model IceCream
+	{
+		mesh = WorldItems/IceCream,
+		texture = WorldItems/IceCream,
+		scale = 0.4,
+	}
+	model IcecreamMelted
+	{
+		mesh = WorldItems/IcecreamMelted,
+		texture = WorldItems/IceCream,
+		scale = 0.4,
+	}
+	model JarFoodGreen
+	{
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodGreen,
+		scale = 0.6,
+	}
+	model Amplifier
+    {
+        mesh = WorldItems/Amplifier,
+        texture = WorldItems/Amplifier,
+        scale = 0.6,
+    }
+	model JarFoodBrown
+	{
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodBrown,
+		scale = 0.6,
+	}
+	model JarFoodRed
+	{
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodRed,
+		scale = 0.6,
+	}
+	model JuiceBox
+	{
+		mesh = WorldItems/JuiceBox,
+		texture = WorldItems/JuiceBox,
+		scale = 0.4,
+	}
+	model KatePic
+	{
+		mesh = WorldItems/KatePic,
+		texture = WorldItems/PictureOfKate,
+		scale = 0.4,
+	}
+	model Ketchup
+	{
+		mesh = WorldItems/Ketchup,
+		texture = WorldItems/Ketchup,
+		scale = 0.4,
+	}
+	model Key
+	{
+		mesh = WorldItems/Key,
+		texture = WorldItems/Key,
+		scale = 0.6,
+	}
+	model Key2
+	{
+		mesh = WorldItems/Key,
+		texture = WorldItems/Key2,
+		scale = 0.6,
+	}
+	model Key3
+	{
+		mesh = WorldItems/Key,
+		texture = WorldItems/Key3,
+		scale = 0.6,
+	}
+	model KeyPadlock
+	{
+		mesh = WorldItems/KeyPadlock,
+		texture = WorldItems/KeyPadlock,
+		scale = 0.6,
+	}
+	model LeatherStrips
+	{
+		mesh = WorldItems/LeatherStrips,
+		texture = WorldItems/LeatherStrips,
+		scale = 0.4,
+	}
+	model LeatherStripsDirty
+	{
+		mesh = WorldItems/LeatherStrips,
+		texture = WorldItems/LeatherStripsDirty,
+		scale = 0.4,
+	}
+	model LemonGrass
+	{
+		mesh = WorldItems/LemonGrass,
+		texture = WorldItems/LemonGrass,
+		scale = 0.6,
+	}
+	model LidJar
+	{
+		mesh = WorldItems/LidJar,
+		texture = WorldItems/JarLid,
+		scale = 0.4,
+	}
+	model Lipstick
+	{
+		mesh = WorldItems/Lipstick,
+		texture = WorldItems/Lipstick,
+	    scale = 0.7,
+	}
+	model LittleBaitFish
+	{
+		mesh = WorldItems/LittleBaitFish,
+		texture = WorldItems/Bass_BaitFish,
+		scale = 0.6,
+	}
+	model LittleBaitFishCooked
+	{
+		mesh = WorldItems/LittleBaitFish,
+		texture = WorldItems/BassCooked,
+		scale = 0.6,
+	}
+	model LittleBaitFishBurnt
+	{
+		mesh = WorldItems/LittleBaitFish,
+		texture = WorldItems/Bass_BaitFishBurnt,
+		scale = 0.6,
+	}
+	model Locket
+	{
+		mesh = WorldItems/Locket,
+		texture = WorldItems/Locket,
+		scale = 0.6,
+	}
+	model Lollipop
+	{
+		mesh = WorldItems/Lollipop,
+		texture = WorldItems/Lollipop,
+		scale = 0.6,
+	}
+	model MacAndCheese
+	{
+		mesh = WorldItems/MacAndCheese,
+		texture = WorldItems/MacAndCheese,
+		scale = 0.4,
+	}
+	model Map
+	{
+		mesh = WorldItems/Map,
+		texture = WorldItems/Map,
+		scale = 0.6,
+	}
+	model Marinara
+	{
+		mesh = WorldItems/Marinara,
+		texture = WorldItems/Marinara,
+		scale = 0.4,
+	}
+	model Matches
+	{
+		mesh = WorldItems/Matches,
+		texture = WorldItems/Matches,
+		scale = 0.4,
+	}
+	model MeatPatty
+	{
+		mesh = WorldItems/MeatPatty,
+		texture = WorldItems/MeatPatty,
+		scale = 0.4,
+	}
+	model MeatPattyBurnt
+	{
+		mesh = WorldItems/MeatPatty,
+		texture = WorldItems/MeatPattyBurnt,
+		scale = 0.4,
+	}
+	model MeatPattyCooked
+	{
+		mesh = WorldItems/MeatPatty,
+		texture = WorldItems/MeatPattyCooked,
+		scale = 0.4,
+	}
+	model MeatPattyRotten
+	{
+		mesh = WorldItems/MeatPatty,
+		texture = WorldItems/MeatPattyRotten,
+		scale = 0.4,
+	}
+	model MedicinalHerbsLeafBundle
+	{
+		mesh = WorldItems/MedicinalHerbsLeafBundle,
+		texture = WorldItems/MedicinalHerbsLeafBundle,
+		scale = 0.6,
+	}
+	model MeltedIceCream
+	{
+		mesh = WorldItems/MeltedIceCream,
+		texture = WorldItems/MeltedIceCream,
+		scale = 0.6,
+	}
+	model MetalBar
+	{
+		mesh = WorldItems/MetalBar,
+		texture = WorldItems/MetalBar,
+		scale = 0.6,
+	}
+	model MetalBits
+	{
+		mesh = WorldItems/MetalBits,
+		texture = WorldItems/MetalBits,
+		scale = 0.6,
+	}
+	model MetalPipe
+	{
+		mesh = WorldItems/MetalPipe,
+		texture = WorldItems/MetalPipe,
+		scale = 0.6,
+	}
+	model MetalSheetSmall
+	{
+		mesh = WorldItems/SmallSheetMetal,
+		texture = WorldItems/MetalSheet,
+		scale = 0.6,
+	}
+	model MintCandy
+	{
+		mesh = WorldItems/MintCandy,
+		texture = WorldItems/MintCandy,
+		scale = 0.5,
+	}
+	model Mirror
+	{
+		mesh = WorldItems/Mirror,
+		texture = WorldItems/Mirror,
+		scale = 0.6,
+	}
+	model Modjeska
+	{
+		mesh = WorldItems/Modjeska,
+		texture = WorldItems/Modjeska,
+		scale = 0.6,
+	}
+	model Money
+	{
+		mesh = WorldItems/Money,
+		texture = WorldItems/Money,
+		scale = 0.6,
+	}
+	model Mushroom
+	{
+		mesh = WorldItems/Mushroom,
+		texture = WorldItems/Mushroom,
+		scale = 0.6,
+	}
+	model MushroomRotten
+	{
+		mesh = WorldItems/Mushroom,
+		texture = WorldItems/MushroomRotten,
+		scale = 0.6,
+	}
+	model MushroomGeneric1
+	{
+		mesh = WorldItems/MushroomGeneric1,
+		texture = WorldItems/Mushroom,
+		scale = 0.6,
+	}
+	model MushroomGeneric1Rotten
+	{
+		mesh = WorldItems/MushroomGeneric1,
+		texture = WorldItems/MushroomRotten,
+		scale = 0.6,
+	}
+	model Mustard
+	{
+		mesh = WorldItems/Mustard,
+		texture = WorldItems/Mustard,
+		scale = 0.4,
+	}
+	model MuttonChop
+	{
+		mesh = WorldItems/MuttonChop,
+		texture = WorldItems/MuttonChop,
+		scale = 0.6,
+	}
+	model MuttonChopBurnt
+	{
+		mesh = WorldItems/MuttonChop,
+		texture = WorldItems/MuttonChopBurnt,
+		scale = 0.6,
+	}
+	model MuttonChopCooked
+	{
+		mesh = WorldItems/MuttonChop,
+		texture = WorldItems/MuttonChopCooked,
+		scale = 0.6,
+	}
+	model MuttonChopRotten
+	{
+		mesh = WorldItems/MuttonChop,
+		texture = WorldItems/MuttonChopRotten,
+		scale = 0.6,
+	}
+	model Nails
+	{
+		mesh = WorldItems/Nails,
+		texture = WorldItems/Nails,
+		scale = 0.6,
+	}
+	model NailsBox
+	{
+		mesh = WorldItems/NailsBox,
+		texture = WorldItems/BoxOfNails,
+		scale = 0.4,
+	}
+	model Needle
+	{
+		mesh = WorldItems/Needle,
+		texture = WorldItems/Needle,
+		scale = 0.6,
+	}
+	model NoiseMaker
+	{
+		mesh = WorldItems/NoiseMaker,
+		texture = WorldItems/NoiseMaker,
+		scale = 0.6,
+	}
+	model NoiseMakerSensor
+	{
+		mesh = WorldItems/NoiseMakerSensor,
+		texture = WorldItems/NoiseMaker,
+		scale = 0.6,
+	}
+	model Padlock
+	{
+		mesh = WorldItems/Padlock,
+		texture = WorldItems/Padlock,
+		scale = 0.6,
+	}
+	model Pancakes
+	{
+		mesh = WorldItems/Pancakes,
+		texture = WorldItems/Pancakes,
+		scale = 0.4,
+	}
+	model Paperclip
+	{
+		mesh = WorldItems/Paperclip,
+		texture = WorldItems/Paperclip,
+		scale = 0.6,
+	}
+	model PaperclipBox
+	{
+		mesh = WorldItems/PaperclipBox,
+		texture = WorldItems/PaperclipsBox,
+		scale = 0.6,
+	}
+	model Pasta
+	{
+		mesh = WorldItems/Pasta,
+		texture = WorldItems/Pasta,
+		scale = 0.4,
+	}
+	model PeanutButter
+	{
+		mesh = WorldItems/PeanutButter,
+		texture = WorldItems/PeanutButter,
+		scale = 0.4,
+	}
+	model PeanutButterSandwich
+	{
+		mesh = WorldItems/PeanutButterSandwich,
+		texture = WorldItems/CheeseSandwich_PeanutButterSandwich_BreadSlices,
+		scale = 0.3,
+	}
+	model PeanutButterSandwichRotten
+	{
+		mesh = WorldItems/PeanutButterSandwich,
+		texture = WorldItems/CheeseSandwich_PeanutButterSandwich_BreadSlicesRotten,
+		scale = 0.3,
+	}
+	model Peanuts
+	{
+		mesh = WorldItems/Peanuts,
+		texture = WorldItems/Peanuts,
+		scale = 0.6,
+	}
+	model Peas
+	{
+		mesh = WorldItems/Peas,
+		texture = WorldItems/Peas,
+		scale = 0.4,
+	}
+	model Pepper
+	{
+		mesh = WorldItems/Pepper,
+		texture = WorldItems/SaltPepper,
+		scale = 0.6,
+	}
+	model PercedWood
+	{
+		mesh = WorldItems/PercedWood,
+		texture = WorldItems/PercedWood,
+		scale = 0.3,
+	}
+	model Pickles
+	{
+		mesh = WorldItems/Pickles,
+		texture = WorldItems/Pickles,
+		scale = 0.6,
+	}
+	model Pie
+	{
+		mesh = WorldItems/PiePumpkin,
+		texture = WorldItems/Pie,
+		scale = 0.4,
+	}
+    model PieRotten
+	{
+		mesh = WorldItems/PiePumpkin,
+		texture = WorldItems/PieRotten,
+		scale = 0.4,
+	}
+	model PiePreparation
+	{
+		mesh = WorldItems/PiePreparation,
+		texture = WorldItems/PiePreparation,
+		scale = 0.45,
+	}
+	model PiePreparationCooked
+	{
+		mesh = WorldItems/PiePreparation,
+		texture = WorldItems/PieCooked,
+		scale = 0.45,
+	}
+	model CakeSlice
+	{
+		mesh = WorldItems/PiePumpkin,
+		texture = WorldItems/CakeSlice,
+		scale = 0.4,
+	}
+	model PiePumpkin
+	{
+		mesh = WorldItems/PiePumpkin,
+		texture = WorldItems/PumpkinPieSlice,
+		scale = 0.4,
+	}
+	model PiePumpkinRotten
+	{
+		mesh = WorldItems/PiePumpkin,
+		texture = WorldItems/PumpkinPieSliceRotten,
+		scale = 0.4,
+	}
+	model Pineapple_Ground
+	{
+		mesh = WorldItems/Pineapple,
+		scale = 0.3,
+	}
+	model Pineapple_GroundRotten
+	{
+		mesh = WorldItems/Pineapple,
+		texture = WorldItems/PineappleRotten,
+		scale = 0.3,
+	}
+	model PipeBomb
+	{
+		mesh = WorldItems/PipeBomb,
+		texture = WorldItems/PipeBomb,
+		scale = 0.4,
+	}
+	model PipeBombSensor
+	{
+		mesh = WorldItems/PipeBombSensor,
+		texture = WorldItems/PipeBomb,
+		scale = 0.6,
+	}
+	model Pizza
+	{
+		mesh = WorldItems/Pizza,
+		texture = WorldItems/PizzaPizzaSlice,
+		scale = 0.4,
+	}
+	model PizzaRotten
+	{
+		mesh = WorldItems/Pizza,
+		texture = WorldItems/PizzaPizzaSliceRotten,
+		scale = 0.4,
+	}
+	model PlasterPowder
+	{
+		mesh = WorldItems/PlasterPowder,
+		texture = WorldItems/PlasterPowder,
+		scale = 0.6,
+	}
+	model PoolBall
+	{
+		mesh = WorldItems/PoolBall,
+		texture = WorldItems/PoolBall,
+		scale = 0.4,
+	}
+	model PopBottleEmpty
+	{
+		mesh = WorldItems/PopBottleEmpty,
+		texture = WorldItems/PopBottleEmpty,
+		scale = 0.6,
+	}
+	model Popcorn
+	{
+		mesh = WorldItems/Popcorn,
+		texture = WorldItems/InstantPopcorn,
+		scale = 0.4,
+	}
+	model PorkChop
+	{
+		mesh = WorldItems/PorkChop,
+		texture = WorldItems/PorkChop,
+		scale = 0.3,
+	}
+	model PorkChopBurnt
+	{
+		mesh = WorldItems/PorkChop,
+		texture = WorldItems/PorkChopBurnt,
+		scale = 0.3,
+	}
+	model PorkChopCooked
+	{
+		mesh = WorldItems/PorkChop,
+		texture = WorldItems/PorkChopCooked,
+		scale = 0.3,
+	}
+	model PorkChopRotten
+	{
+		mesh = WorldItems/PorkChop,
+		texture = WorldItems/PorkChopRotten,
+		scale = 0.3,
+	}
+	model Poultice
+	{
+		mesh = WorldItems/Poultice,
+		texture = WorldItems/Poultice,
+		scale = 0.6,
+	}
+	model ProcessedCheese
+	{
+		mesh = WorldItems/ProcessedCheese,
+		texture = WorldItems/ProcessedCheese,
+		scale = 0.6,
+	}
+	model ProcessedCheeseRotten
+	{
+		mesh = WorldItems/ProcessedCheese,
+		texture = WorldItems/ProcessedCheeseRotten,
+		scale = 0.6,
+	}
+	model PropaneTank
+	{
+		mesh = WorldItems/PropaneTank,
+		texture = WorldItems/PropaneTank,
+		scale = 0.25,
+	}
+	model PumpkinPieSlice
+	{
+		mesh = WorldItems/PumpkinPieSlice,
+		texture = WorldItems/PumpkinPieSlice,
+		scale = 0.4,
+	}
+	model PumpkinPieSliceRotten
+	{
+		mesh = WorldItems/PumpkinPieSlice,
+		texture = WorldItems/PumpkinPieSliceRotten,
+		scale = 0.4,
+	}
+	model RabbitMeat
+	{
+		mesh = WorldItems/RabbitMeat,
+		texture = WorldItems/RabbitMeat,
+		scale = 0.4,
+	}
+	model RabbitMeatBurnt
+	{
+		mesh = WorldItems/RabbitMeat,
+		texture = WorldItems/RabbitMeatBurnt,
+		scale = 0.4,
+	}
+	model RabbitMeatCooked
+	{
+		mesh = WorldItems/RabbitMeat,
+		texture = WorldItems/RabbitMeatCooked,
+		scale = 0.4,
+	}
+	model RadioRed_Ground
+	{
+		mesh = WorldItems/Radio,
+		texture = WorldItems/RadioRed,
+		scale = 0.4,
+	}
+	model RadioBlue_Ground
+	{
+		mesh = WorldItems/Radio,
+		texture = WorldItems/Radio,
+		scale = 0.4,
+	}
+	model RadioBlack_Ground
+	{
+		mesh = WorldItems/Radio,
+		texture = WorldItems/RadioBlack,
+		scale = 0.4,
+	}
+	model Ramen
+	{
+		mesh = WorldItems/Ramen,
+		texture = WorldItems/Ramen,
+		scale = 0.6,
+	}
+	model RaspberryShortbread
+	{
+		mesh = WorldItems/RaspberryShortbread,
+		texture = WorldItems/RaspberryShortbread,
+		scale = 0.6,
+	}
+	model Remote
+	{
+		mesh = WorldItems/Remote,
+		texture = WorldItems/TVRemote,
+		scale = 0.6,
+	}
+	model Rice
+	{
+		mesh = WorldItems/Rice,
+		texture = WorldItems/Rice,
+		scale = 0.4,
+	}
+	model RifleAmmo
+	{
+		mesh = WorldItems/RifleAmmo,
+		texture = WorldItems/BulletRound,
+		scale = 0.6,
+	}
+	model RifleAmmoBox
+	{
+		mesh = WorldItems/RifleAmmoBox,
+		texture = WorldItems/RifleAmmoBox,
+		scale = 0.6,
+	}
+	model RippedSheets
+	{
+		mesh = WorldItems/RippedSheets,
+		texture = WorldItems/RippedSheet,
+		scale = 0.17,
+	}
+	model RippedSheetsDirty
+	{
+		mesh = WorldItems/RippedSheets,
+		texture = WorldItems/RippedSheetDirty,
+		scale = 0.17,
+	}
+	model RoastingPan
+	{
+		mesh = WorldItems/RoastingPan,
+		texture = WorldItems/RoastingPan,
+		scale = 0.3,
+	}
+	model RolledDough
+	{
+		mesh = WorldItems/RolledDough,
+		texture = WorldItems/DoughRolledDough,
+		scale = 0.3,
+	}
+	model RolledDoughRotten
+	{
+		mesh = WorldItems/RolledDough,
+		texture = WorldItems/DoughRolledDoughRotten,
+		scale = 0.3,
+	}
+	model Rolling Pin
+	{
+		mesh = WorldItems/Rolling Pin,
+		texture = WorldItems/Rolling Pin,
+		scale = 0.6,
+	}
+	model Rope
+	{
+		mesh = WorldItems/Rope,
+		texture = WorldItems/Rope,
+		scale = 0.4,
+	}
+	model RoseHips
+	{
+		mesh = WorldItems/RoseHips,
+		texture = WorldItems/RoseHips,
+		scale = 0.6,
+	}
+	model Rubberducky
+	{
+		mesh = WorldItems/Rubberducky,
+		texture = WorldItems/RubberDuck,
+		scale = 0.6,
+	}
+	model Salt
+	{
+		mesh = WorldItems/Salt,
+		texture = WorldItems/SaltPepper,
+		scale = 0.6,
+	}
+	model SandBag
+	{
+		mesh = WorldItems/SandBag,
+		texture = WorldItems/SandBag,
+		scale = 0.3,
+	}
+	model WaterSaucepan
+	{
+		mesh = WorldItems/WaterSaucepanPasta,
+		texture = Weapons/1Handed/SaucePan,
+		scale = 0.35,
+	}
+	model SaucePanPasta
+	{
+		mesh = WorldItems/SaucePanPasta,
+		texture = WorldItems/SaucePanPastaRice,
+		scale = 0.35,
+	}
+	model SaucePanPastaRotten
+	{
+		mesh = WorldItems/SaucePanPasta,
+		texture = WorldItems/SaucePanPastaRiceRotten,
+		scale = 0.35,
+	}
+	model WaterSaucepanPasta
+	{
+		mesh = WorldItems/WaterSaucepanPasta,
+		texture = WorldItems/SaucePanPastaRice,
+		scale = 0.35,
+	}
+	model WaterSaucepanPastaRotten
+	{
+		mesh = WorldItems/WaterSaucepanPasta,
+		texture = WorldItems/SaucePanPastaRiceRotten,
+		scale = 0.35,
+	}
+	model SaucePanRice
+	{
+		mesh = WorldItems/SaucePanRice,
+		texture = WorldItems/SaucePanPastaRice,
+		scale = 0.35,
+	}
+	model SaucePanRiceRotten
+	{
+		mesh = WorldItems/SaucePanRice,
+		texture = WorldItems/SaucePanPastaRiceRotten,
+		scale = 0.35,
+	}
+	model WaterSaucepanRice
+	{
+		mesh = WorldItems/SaucePanRice,
+		texture = WorldItems/SaucePanPastaRice,
+		scale = 0.35,
+	}
+	model WaterSaucepanRiceRotten
+	{
+		mesh = WorldItems/SaucePanRice,
+		texture = WorldItems/SaucePanPastaRiceRotten,
+		scale = 0.35,
+	}
+	model Scotchtape
+	{
+		mesh = WorldItems/ScotchTape,
+		texture = WorldItems/AdhesiveTape,
+		scale = 0.6,
+	}
+	model Screws
+	{
+		mesh = WorldItems/Screws,
+		texture = WorldItems/Screws,
+		scale = 0.6,
+	}
+	model ScrewsBox
+	{
+		mesh = WorldItems/ScrewsBox,
+		texture = WorldItems/BoxOfScrews,
+		scale = 0.4,
+	}
+	model SeedBag
+	{
+		mesh = WorldItems/SeedBag,
+		texture = WorldItems/SeedBag,
+		scale = 0.6,
+	}
+	model Sheet
+	{
+		mesh = WorldItems/Sheet,
+		texture = WorldItems/Sheet,
+		scale = 0.15,
+	}
+	model SheetOfPaper
+	{
+		mesh = WorldItems/SheetOfPaper,
+		texture = WorldItems/SheetOfPaper,
+		scale = 0.02,
+	}
+	model SheetRope
+	{
+		mesh = WorldItems/SheetRope,
+		texture = WorldItems/SheetRope,
+		scale = 0.15,
+	}
+	model ShotGunShells
+	{
+		mesh = WorldItems/ShotGunShells,
+		texture = WorldItems/ShotGunShells,
+		scale = 0.6,
+	}
+	model ShotGunShellstMold
+	{
+		mesh = WorldItems/ShotGunShellstMold,
+		texture = WorldItems/ShotGunShellstMold,
+		scale = 0.6,
+	}
+	model SmokeBomb
+	{
+		mesh = WorldItems/SmokeBomb,
+		texture = WorldItems/SmokeBomb,
+		scale = 0.6,
+	}
+	model SmokeBombSensor
+	{
+		mesh = WorldItems/SmokeBombSensor,
+		texture = WorldItems/SmokeBomb,
+		scale = 0.6,
+	}
+	model Soap
+	{
+		mesh = WorldItems/Soap,
+		texture = WorldItems/Soap,
+		scale = 0.6,
+	}
+	model Splint
+	{
+		mesh = WorldItems/Splint,
+		texture = WorldItems/Splint,
+		scale = 0.4,
+	}
+	model Steak
+	{
+		mesh = WorldItems/Steak,
+		texture = WorldItems/Steak,
+		scale = 0.3,
+	}
+	model SteakCooked
+	{
+		mesh = WorldItems/Steak,
+		texture = WorldItems/SteakCooked,
+		scale = 0.3,
+	}
+	model SteakBurnt
+	{
+		mesh = WorldItems/Steak,
+		texture = WorldItems/SteakBurnt,
+		scale = 0.3,
+	}
+	model SteakRotten
+	{
+		mesh = WorldItems/Steak,
+		texture = WorldItems/SteakRotten,
+		scale = 0.3,
+	}
+	model SteelKnuckle
+	{
+		mesh = WorldItems/SteelKnuckle,
+		texture = WorldItems/SteelKnuckle,
+		scale = 0.6,
+	}
+	model String
+	{
+		mesh = WorldItems/String,
+		texture = WorldItems/String,
+		scale = 0.6,
+	}
+	model Sugar
+	{
+		mesh = WorldItems/Sugar,
+		texture = WorldItems/Sugar,
+		scale = 0.5,
+	}
+	model SunflowerSeeds
+	{
+		mesh = WorldItems/SunflowerSeeds,
+		texture = WorldItems/SunflowerSeeds,
+		scale = 0.6,
+	}
+	model TeaBag
+	{
+		mesh = WorldItems/TeaBag,
+		texture = WorldItems/TeaBag,
+		scale = 0.6,
+	}
+	model Tent
+	{
+		mesh = WorldItems/Tent,
+		texture = WorldItems/Tent,
+		scale = 0.6,
+	}
+	model Thread
+	{
+		mesh = WorldItems/Thread,
+		texture = WorldItems/Thread,
+		scale = 0.6,
+	}
+	model Tissue
+	{
+		mesh = WorldItems/Tissue,
+		texture = WorldItems/Tissue,
+		scale = 0.5,
+	}
+	model Tofu
+	{
+		mesh = WorldItems/Tofu,
+		texture = WorldItems/Tofu,
+		scale = 0.3,
+	}
+	model Tongs
+	{
+		mesh = WorldItems/Tongs,
+		texture = WorldItems/Tongs,
+		scale = 0.4,
+	}
+	model Toothbrush
+	{
+		mesh = WorldItems/Toothbrush,
+		texture = WorldItems/Toothbrush,
+		scale = 0.6,
+	}
+	model Toothpaste
+	{
+		mesh = WorldItems/Toothpaste,
+		texture = WorldItems/Toothpaste,
+		scale = 0.6,
+	}
+	model ToyBear
+	{
+		mesh = WorldItems/ToyBear,
+		texture = WorldItems/ToyBear,
+		scale = 0.6,
+	}
+	model TrapBox
+	{
+		mesh = WorldItems/TrapBox,
+		texture = WorldItems/TrapBox,
+		scale = 0.6,
+	}
+	model TrapCage
+	{
+		mesh = WorldItems/TrapCage,
+		texture = WorldItems/TrapCage,
+		scale = 0.6,
+	}
+	model TrapMouse
+	{
+		mesh = WorldItems/TrapMouse,
+		texture = WorldItems/TrapMouse,
+		scale = 0.6,
+	}
+	model TrapSnare
+	{
+		mesh = WorldItems/TrapSnare,
+		texture = WorldItems/TrapSnare,
+		scale = 0.6,
+	}
+	model TrapStick
+	{
+		mesh = WorldItems/TrapStick,
+		texture = WorldItems/TrapStick,
+		scale = 0.6,
+	}
+	model Tweezers
+	{
+		mesh = WorldItems/Tweezers,
+		texture = WorldItems/Tweezers,
+		scale = 0.6,
+	}
+	model Twine
+	{
+		mesh = WorldItems/Twine,
+		texture = WorldItems/Twine,
+		scale = 0.6,
+	}
+	model VideoGame
+	{
+		mesh = WorldItems/VideoGame,
+		texture = WorldItems/VideoGame,
+		scale = 0.5,
+	}
+	model Vinegar
+	{
+		mesh = WorldItems/Vinegar,
+		texture = WorldItems/Vinegar,
+		scale = 0.4,
+	}
+	model Violets
+	{
+		mesh = WorldItems/Violets,
+		texture = WorldItems/Violets,
+		scale = 0.6,
+	}
+	model Waffles
+	{
+		mesh = WorldItems/Waffles,
+		texture = WorldItems/Waffles,
+		scale = 0.3,
+	}
+	model WafflesRotten
+	{
+		mesh = WorldItems/Waffles,
+		texture = WorldItems/WafflesRotten,
+		scale = 0.3,
+	}
+	model Wallet
+	{
+		mesh = WorldItems/Wallet,
+		texture = WorldItems/Wallet,
+		scale = 0.6,
+	}
+	model Wallet2
+	{
+		mesh = WorldItems/Wallet,
+		texture = WorldItems/Wallet2,
+		scale = 0.6,
+	}
+	model Wallet3
+    {
+        mesh = WorldItems/Wallet,
+        texture = WorldItems/Wallet3,
+        scale = 0.6,
+    }
+	model Wallet4
+    {
+        mesh = WorldItems/Wallet,
+        texture = WorldItems/Wallet4,
+        scale = 0.6,
+    }
+	model Watermelon_Ground
+	{
+		mesh = WorldItems/Watermelon,
+		scale = 0.3,
+	}
+	model Watermelon_GroundRotten
+	{
+		mesh = WorldItems/Watermelon,
+		texture = WorldItems/WatermelonRotten,
+		scale = 0.3,
+	}
+	model WeldingRods
+	{
+		mesh = WorldItems/WeldingRods,
+		texture = WorldItems/WeldingRods,
+		scale = 0.3,
+	}
+	model WildEggs
+	{
+		mesh = WorldItems/WildEggs,
+		texture = WorldItems/WildEggs,
+		scale = 0.4,
+	}
+	model Wire
+	{
+		mesh = WorldItems/Wire,
+		texture = WorldItems/Wire,
+		scale = 0.25,
+	}
+    model ElectricWire
+	{
+		mesh = WorldItems/Wire,
+		texture = WorldItems/ElectricWire,
+		scale = 0.25,
+	}
+	model WoodenStick
+	{
+		mesh = WorldItems/WoodenStick,
+		texture = WorldItems/SturdyStick,
+		scale = 0.6,
+	}
+	model WoodGlue
+	{
+		mesh = WorldItems/WoodGlue,
+		texture = WorldItems/WoodGlue,
+		scale = 0.6,
+	}
+	model Yeast
+	{
+		mesh = WorldItems/Yeast,
+		texture = WorldItems/Yeast,
+		scale = 0.6,
+	}
+	model Yogurt
+	{
+		mesh = WorldItems/Yogurt,
+		texture = WorldItems/Yogurt,
+		scale = 0.6,
+	}
+	model Yoyo
+	{
+		mesh = WorldItems/Yoyo,
+		texture = WorldItems/Yoyo,
+        scale = 0.6,
+	}
+	model Hoodie_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Hoodie_Ground,
+        scale = 0.33,
+    }
+    model Jacket_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Jacket_Ground,
+        scale = 0.33,
+    }
+    model JacketLong_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_LongJacket_Ground,
+        scale = 0.33,
+    }
+    model Bathrobe_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_LongJacket_Ground,
+        scale = 0.4,
+    }
+    model SuitJacket_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_SuitJacket_Ground,
+        scale = 0.33,
+    }
+    model Jumper_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Jumper_Ground,
+        scale = 0.33,
+    }
+    model JumperSleeveless_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_SleevelessJumper_Ground,
+        scale = 0.33,
+    }
+    model Poncho_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Poncho_Ground,
+        scale = 0.33,
+    }
+    model JacketCoat_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_CoatArmy_Ground,
+        scale = 0.33,
+    }
+    model GhillieTop_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_GhillieTop_Ground,
+        scale = 0.38,
+    }
+    model WeddingJacket_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_WeddingJacket_Ground,
+        scale = 0.33,
+    }
+    model Trousers_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Trousers_Ground,
+        scale = 0.33,
+    }
+    model ShortShorts_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_ShortShorts_Ground,
+        scale = 0.33,
+    }
+    model LongShorts_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_LongShorts_Ground,
+        scale = 0.33,
+    }
+    model GhillieTrousers_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_GihillieTrousers_Ground,
+        scale = 0.38,
+    }
+    model Dungarees_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Dungarees_Ground,
+        scale = 0.33,
+    }
+    model BulletVest_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_BulletVest_Ground,
+        scale = 0.33,
+    }
+    model HuntingVest_Ground
+    {
+        mesh = WorldItems/Clothing/HuntingVest_Ground,
+        scale = 0.33,
+    }
+    model Hazmat_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Hazmat_Ground,
+        scale = 0.33,
+    }
+    model HospitalGown_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_HospitalGown_Ground,
+        scale = 0.33,
+    }
+    model BoilerSuit_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_BoilerSuit_Ground,
+        scale = 0.33,
+    }
+    model WeddingDress_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_WeddingDress_Ground,
+        texture = WorldItems/WeddingDress,
+        scale = 0.33,
+    }
+    model Tie_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Tie_Ground,
+        scale = 0.33,
+    }
+    model Scarf_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Scarf_Ground,
+        scale = 0.33,
+    }
+    model Apron_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Apron_Ground,
+        scale = 0.33,
+    }
+    model Shirt_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Shirt_Ground,
+        scale = 0.33,
+    }
+    model Dress_Long_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Dress_Long_Ground,
+        scale = 0.33,
+    }
+    model Dress_Mid_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Dress_Mid_Ground,
+        scale = 0.33,
+    }
+    model Dress_Short_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Dress_Short_Ground,
+        scale = 0.33,
+    }
+    model Skirt_Long_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Skirt_Long_Ground,
+        scale = 0.33,
+    }
+    model Skirt_Mid_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Skirt_Mid_Ground,
+        scale = 0.33,
+    }
+    model Skirt_Short_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Skirt_Short_Ground,
+        scale = 0.33,
+    }
+    model TShirt_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_TShirt_Ground,
+        scale = 0.33,
+    }
+    model Bikini_Ground
+    {
+        mesh = WorldItems/Clothing/Bikini_Ground,
+        scale = 0.42,
+    }
+    model Boots_Ground
+    {
+        mesh = WorldItems/Clothing/Boots_Ground,
+        scale = 0.33,
+    }
+    model Gloves_Ground
+    {
+        mesh = WorldItems/Clothing/Gloves_Ground,
+        scale = 0.33,
+    }
+    model GlovesLong_Ground
+    {
+        mesh = WorldItems/Clothing/GlovesLong_Ground,
+        scale = 0.33,
+    }
+    model Holster_Ground
+    {
+        mesh = WorldItems/Clothing/Holster_Ground,
+        texture = WorldItems/Holster,
+        scale = 0.33,
+    }
+    model Shoes_Ground
+    {
+        mesh = WorldItems/Clothing/Shoes_Ground,
+        scale = 0.33,
+    }
+    model SwimSuit_Ground
+    {
+        mesh = WorldItems/Clothing/SwimSuit_Ground,
+        scale = 0.45,
+    }
+    model SwimTrunks_Ground
+    {
+        mesh = WorldItems/Clothing/SwimTrunks_Ground,
+        scale = 0.33,
+    }
+    model BowTie_Ground
+    {
+        mesh = WorldItems/Clothing/BowTie_Ground,
+        scale = 0.5,
+    }
+    model Shoes_FlipFlops_Ground
+    {
+        mesh = WorldItems/Clothing/Shoes_FlipFlops,
+        scale = 0.5,
+    }
+    model Shoes_Slippers_Ground
+    {
+        mesh = WorldItems/Clothing/Shoes_Slippers,
+        scale = 0.4,
+    }
+    model Sock_Ankle_Ground
+    {
+        mesh = WorldItems/Clothing/Sock_Ankle,
+        scale = 0.45,
+    }
+    model Socks_Long_Ground
+    {
+        mesh = WorldItems/Clothing/Socks_Long,
+        scale = 0.4,
+    }
+    model BellPepper_Ground
+    {
+        mesh = WorldItems/BellPepper,
+        texture = WorldItems/BellPepper,
+        scale = 0.4,
+    }
+    model BellPepper_GroundRotten
+    {
+        mesh = WorldItems/BellPepper,
+        texture = WorldItems/BellPepperRotten,
+        scale = 0.4,
+    }
+    model Broccoli_Ground
+    {
+        mesh = WorldItems/Broccoli,
+        scale = 0.4,
+    }
+    model Broccoli_GroundRotten
+    {
+        mesh = WorldItems/Broccoli,
+        texture = WorldItems/BroccoliRotten,
+        scale = 0.4,
+    }
+    model Chicken
+    {
+        mesh = WorldItems/Chicken,
+        texture = WorldItems/ChickenRaw,
+        scale = 0.3,
+    }
+    model ChickenBurnt
+    {
+        mesh = WorldItems/Chicken,
+        texture = WorldItems/ChickenBurnt,
+        scale = 0.3,
+    }
+    model ChickenCooked
+    {
+        mesh = WorldItems/Chicken,
+        texture = WorldItems/ChickenCooked,
+        scale = 0.3,
+    }
+    model ChickenRotten
+    {
+        mesh = WorldItems/Chicken,
+        texture = WorldItems/ChickenRawRotten,
+        scale = 0.3,
+    }
+    model EggPlant_Ground
+    {
+        mesh = WorldItems/EggPlant,
+        texture = WorldItems/EggPlant,
+        scale = 0.4,
+    }
+    model EggPlant_GroundRotten
+    {
+        mesh = WorldItems/EggPlant,
+        texture = WorldItems/EggPlantRotten,
+        scale = 0.4,
+    }
+    model Leek_Ground
+    {
+        mesh = WorldItems/Leek,
+        scale = 0.4,
+    }
+    model Leek_GroundRotten
+    {
+        mesh = WorldItems/Leek,
+        texture = WorldItems/LeekRotten,
+        scale = 0.4,
+    }
+    model Lemon_Ground
+    {
+        mesh = WorldItems/Lemon,
+        texture = WorldItems/Lemon,
+        scale = 0.4,
+    }
+    model Lemon_GroundRotten
+    {
+        mesh = WorldItems/Lemon,
+        texture = WorldItems/LemonRotten,
+        scale = 0.4,
+    }
+    model Lettuce_Ground
+    {
+        mesh = WorldItems/Lettuce,
+        scale = 0.4,
+    }
+    model Lettuce_GroundRotten
+    {
+        mesh = WorldItems/Lettuce,
+        texture = WorldItems/LettuceRotten,
+        scale = 0.4,
+    }
+    model Salmon
+    {
+        mesh = WorldItems/Salmon,
+        texture = WorldItems/Salmon,
+        scale = 0.25,
+    }
+    model SalmonBurnt
+    {
+        mesh = WorldItems/Salmon,
+        texture = WorldItems/SalmonBurnt,
+        scale = 0.25,
+    }
+    model SalmonCooked
+    {
+        mesh = WorldItems/Salmon,
+        texture = WorldItems/SalmonCooked,
+        scale = 0.25,
+    }
+    model SalmonRotten
+    {
+        mesh = WorldItems/Salmon,
+        texture = WorldItems/SalmonRotten,
+        scale = 0.25,
+    }
+    model SchoolBag_Ground
+    {
+        mesh = WorldItems/Clothing/SchoolBag_Ground,
+        scale = 0.4,
+    }
+    model ALICE_Pack_Ground
+    {
+        mesh = WorldItems/Clothing/ALICE_Pack_Ground,
+        scale = 0.4,
+    }
+    model BigHikingBag_Ground
+    {
+        mesh = WorldItems/Clothing/BigHikingBag_Ground,
+        scale = 0.4,
+    }
+    model Briefcase_Ground
+    {
+        mesh = WorldItems/Clothing/Briefcase_Ground,
+        texture = clothes/bag/Briefcase,
+        scale = 0.4,
+    }
+    model ClassicGuitarCase_Ground
+    {
+        mesh = WorldItems/Clothing/ClassicGuitarCase_Ground,
+        texture = clothes/bag/ClassicGuitarCase,
+        scale = 0.4,
+    }
+    model Cooler_Ground
+    {
+        mesh = WorldItems/Clothing/Cooler_Ground,
+        texture = clothes/bag/Cooler,
+        scale = 0.4,
+    }
+    model DuffelBag_Ground
+    {
+        mesh = WorldItems/Clothing/DuffelBag_Ground,
+        scale = 0.4,
+    }
+    model GarbageBag_Ground
+    {
+        mesh = WorldItems/Clothing/GarbageBag_Ground,
+        texture = clothes/bag/GarbageBag,
+        scale = 0.4,
+    }
+    model GasCan_Ground
+    {
+        mesh = WorldItems/Clothing/GasCan,
+        texture = GasCan,
+        scale = 0.4,
+    }
+    model GuitarCase_Ground
+    {
+        mesh = WorldItems/Clothing/GuitarCase_Ground,
+        texture = clothes/bag/GuitarCase,
+        scale = 0.4,
+    }
+    model Handbag_Ground
+    {
+        mesh = WorldItems/Clothing/Handbag_Ground,
+        texture = clothes/bag/Handbag,
+        scale = 0.4,
+    }
+    model HikingBag_Ground
+    {
+        mesh = WorldItems/Clothing/HikingBag_Ground,
+        scale = 0.4,
+    }
+    model FannyPack_Ground
+    {
+        mesh = WorldItems/Clothing/M_FannyPackFront_Ground,
+        scale = 0.4,
+    }
+    model PlasticBag_Ground
+    {
+        mesh = WorldItems/Clothing/PlasticBag_Ground,
+        texture = clothes/bag/PlasticBag,
+        scale = 0.4,
+    }
+    model LunchBox_Ground
+    {
+        mesh = WorldItems/Clothing/PlasticLunchBox_Ground,
+        texture = clothes/bag/plasticlunchbox_01,
+        scale = 0.4,
+    }
+    model LunchBox2_Ground
+    {
+        mesh = WorldItems/Clothing/PlasticLunchBox_Ground,
+        texture = clothes/bag/plasticlunchbox_02,
+        scale = 0.4,
+    }
+    model LunchBoxMedic_Ground
+    {
+        mesh = WorldItems/Clothing/PlasticLunchBox_Ground,
+        texture = clothes/bag/PlasticLunchBox_Medic,
+        scale = 0.4,
+    }
+    model GunCase_Ground
+    {
+        mesh = WorldItems/Clothing/PlasticLunchBox_Ground,
+        texture = clothes/bag/GunCase,
+        scale = 0.4,
+    }
+    model Purse_Ground
+    {
+        mesh = WorldItems/Clothing/Purse_Ground,
+        texture = clothes/bag/Purse,
+        scale = 0.4,
+    }
+    model SandBag_Ground
+    {
+        mesh = WorldItems/Clothing/SandBag_Ground,
+        texture = clothes/bag/SandBag,
+        scale = 0.4,
+    }
+    model Satchel_Ground
+    {
+        mesh = WorldItems/Clothing/Satchel_Ground,
+        scale = 0.4,
+    }
+    model Suitcase_Ground
+    {
+        mesh = WorldItems/Clothing/Suitecase_Ground,
+        texture = clothes/bag/Suitcase,
+        scale = 0.4,
+    }
+    model ToolBox_Ground
+    {
+        mesh = WorldItems/Clothing/ToolBox_Ground,
+        texture = clothes/bag/ToolBox,
+        scale = 0.4,
+    }
+    model TotesBag_Ground
+    {
+        mesh = WorldItems/Clothing/TotesBag_Ground,
+        texture = clothes/bag/ToteBag,
+        scale = 0.4,
+    }
+    model SpiffoPlushie
+    {
+        mesh = WorldItems/SpiffoPlushie,
+        scale = 0.4,
+    }
+    model SpiffoPlushieBig
+    {
+        mesh = WorldItems/SpiffoPlushie,
+        scale = 1,
+    }
+    model CarBumper
+    {
+        mesh = WorldItems/CarBumper,
+        scale = 0.25,
+    }
+    model CarDoor
+    {
+        mesh = WorldItems/CarDoor,
+        scale = 0.25,
+    }
+    model CarGrille
+    {
+        mesh = WorldItems/CarGrille,
+        scale = 0.25,
+    }
+    model CarHood
+    {
+        mesh = WorldItems/CarHood,
+        scale = 0.25,
+    }
+    model CarJack
+    {
+        mesh = WorldItems/CarJack,
+        scale = 0.25,
+    }
+    model CarParts
+    {
+        mesh = WorldItems/CarParts,
+        scale = 0.25,
+    }
+    model CarSidePanel
+    {
+        mesh = WorldItems/CarParts_SidePanel,
+        scale = 0.25,
+    }
+    model CarTrunkLid
+    {
+        mesh = WorldItems/CarTrunkLid,
+        scale = 0.25,
+    }
+    model CarWindshield
+    {
+        mesh = WorldItems/CarWindShield,
+        scale = 0.25,
+    }
+    model CarWindow
+    {
+        mesh = WorldItems/CarWindShield,
+        scale = 0.18,
+    }
+    model TirePump
+    {
+        mesh = WorldItems/TirePump,
+        scale = 0.4,
+    }
+    model Wheel
+    {
+        mesh = WorldItems/Wheel,
+        texture = Vehicles/vehicle_wheel04,
+        scale = 0.37,
+    }
+    model WheelHub
+    {
+        mesh = WorldItems/WheelHub,
+        scale = 0.4,
+    }
+    model CarKeys
+    {
+        mesh = WorldItems/CarKeys,
+        scale = 0.55,
+    }
+    model VHS
+    {
+        mesh = WorldItems/VhsBox,
+        texture = WorldItems/VhsBox1,
+        scale = 0.3,
+    }
+    model VHSBox
+    {
+        mesh = WorldItems/VhsBox,
+        texture = WorldItems/VhsBox1,
+        scale = 0.3,
+    }
+    model VHSBox2
+    {
+        mesh = WorldItems/VhsBox,
+        texture = WorldItems/VhsBox2,
+        scale = 0.3,
+    }
+    model VHSBox3
+    {
+        mesh = WorldItems/VhsBox,
+        texture = WorldItems/VhsBox3,
+        scale = 0.3,
+    }
+    model SewingKit
+    {
+        mesh = WorldItems/SewingKit,
+        scale = 0.6,
+    }
+    model BrakeDisk
+    {
+        mesh = WorldItems/BrakeDisk,
+        scale = 0.32,
+    }
+    model CarBattery
+    {
+        mesh = WorldItems/CarBattery,
+        scale = 0.4,
+    }
+    model CarBatteryCharger
+    {
+        mesh = WorldItems/CarBatteryCharger,
+        scale = 0.4,
+    }
+    model CarSeat
+    {
+        mesh = WorldItems/CarSeat,
+        scale = 0.4,
+    }
+    model EngineParts
+    {
+        mesh = WorldItems/EngineParts,
+        scale = 0.3,
+    }
+    model Muffler
+    {
+        mesh = WorldItems/Muffler,
+        scale = 0.4,
+    }
+    model GasTank
+    {
+        mesh = WorldItems/NormalGasTank1,
+        texture = WorldItems/FuelTank,
+        scale = 0.33,
+    }
+    model BigGasTank
+    {
+        mesh = WorldItems/NormalGasTank1,
+        texture = WorldItems/FuelTank,
+        scale = 0.4,
+    }
+    model SmallGasTank
+    {
+        mesh = WorldItems/NormalGasTank1,
+        texture = WorldItems/FuelTank,
+        scale = 0.27,
+    }
+    model Suspension
+    {
+        mesh = WorldItems/Suspension,
+        scale = 0.4,
+    }
+    model LugWrench
+    {
+        mesh = WorldItems/LugWrench,
+        scale = 0.4,
+    }
+    model Trout
+    {
+        mesh = WorldItems/Trout,
+        scale = 0.4,
+    }
+    model TroutBurnt
+    {
+        mesh = WorldItems/Trout,
+        texture = WorldItems/TroutBurnt,
+        scale = 0.4,
+    }
+    model TroutCooked
+    {
+        mesh = WorldItems/Trout,
+        texture = WorldItems/TroutCooked,
+        scale = 0.4,
+    }
+    model TroutRotten
+    {
+        mesh = WorldItems/Trout,
+        texture = WorldItems/TroutRotten,
+        scale = 0.4,
+    }
+    model Perch
+    {
+        mesh = WorldItems/Perch,
+        scale = 0.4,
+    }
+    model PerchBurnt
+    {
+        mesh = WorldItems/Perch,
+        texture = WorldItems/PerchBurnt,
+        scale = 0.4,
+    }
+    model PerchCooked
+    {
+        mesh = WorldItems/Perch,
+        texture = WorldItems/PerchCooked,
+        scale = 0.4,
+    }
+    model PerchRotten
+    {
+        mesh = WorldItems/Perch,
+        texture = WorldItems/PerchRotten,
+        scale = 0.4,
+    }
+    model SunFish
+    {
+        mesh = WorldItems/SunFish,
+        scale = 0.4,
+    }
+    model SunFishBurnt
+    {
+        mesh = WorldItems/SunFish,
+        texture = WorldItems/SunFishBurnt,
+        scale = 0.4,
+    }
+    model SunFishCooked
+    {
+        mesh = WorldItems/SunFish,
+        texture = WorldItems/SunFishCooked,
+        scale = 0.4,
+    }
+    model SunFishRotten
+    {
+        mesh = WorldItems/SunFish,
+        texture = WorldItems/SunFishRotten,
+        scale = 0.4,
+    }
+    model WatchClassicBlack
+    {
+        mesh = WorldItems/WatchClassic,
+        texture = WorldItems/WatchClassicBlack,
+        scale = 0.4,
+    }
+    model WatchClassicBrown
+    {
+        mesh = WorldItems/WatchClassic,
+        texture = WorldItems/WatchClassicBrown,
+        scale = 0.4,
+    }
+    model WatchClassicGold
+    {
+        mesh = WorldItems/WatchClassic,
+        texture = WorldItems/WatchClassicBlack,
+        scale = 0.4,
+    }
+    model WatchClassicMilitary
+    {
+        mesh = WorldItems/WatchClassic,
+        texture = WorldItems/WatchClassicBlack,
+        scale = 0.4,
+    }
+    model DigitalWatchRed
+    {
+        mesh = WorldItems/DigitalWatch,
+        texture = WorldItems/DigitalWatch,
+        scale = 0.4,
+    }
+    model DigitalWatchBlack
+    {
+        mesh = WorldItems/DigitalWatch,
+        texture = WorldItems/DigitalWatchBlack,
+        scale = 0.4,
+    }
+    model DigitalWatchGold
+    {
+        mesh = WorldItems/DigitalWatch,
+        texture = WorldItems/DigitalWatchGold,
+        scale = 0.4,
+    }
+    model DigitalWatchGold
+    {
+        mesh = WorldItems/DigitalWatch,
+        texture = WorldItems/DigitalWatchGold,
+        scale = 0.4,
+    }
+    model BeerBottleGround
+    {
+        mesh = WorldItems/BeerBottle,
+        texture = BeerBottle,
+        scale = 0.4,
+    }
+    model BlowtorchGround
+    {
+        mesh = WorldItems/Blowtorch,
+        texture = Blowtorch,
+        scale = 0.4,
+    }
+    model BookGrey_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/BookGrey,
+        scale = 0.4,
+    }
+    model BookClosedGrey_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/BookGrey,
+        scale = 0.4,
+    }
+    model BookLightBlue_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/BookLightBlue,
+        scale = 0.4,
+    }
+    model BookClosedLightBlue_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/BookLightBlue,
+        scale = 0.4,
+    }
+    model BookLightGreen_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/BookLightGreen,
+        scale = 0.4,
+    }
+    model BookClosedLightGreen_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/BookLightGreen,
+        scale = 0.4,
+    }
+    model BookYellowBrown_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/BookYellowBrown,
+        scale = 0.4,
+    }
+    model BookClosedYellowBrown_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/BookYellowBrown,
+        scale = 0.4,
+    }
+    model BookPurple_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/BookPurple,
+        scale = 0.4,
+    }
+    model BookClosedPurple_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/BookPurple,
+        scale = 0.4,
+    }
+    model BookRedPink_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/BookRedPink,
+        scale = 0.4,
+    }
+    model BookClosedRedPink_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/BookRedPink,
+        scale = 0.4,
+    }
+    model BookDarkCyan_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/BookDarkCyan,
+        scale = 0.4,
+    }
+    model BookClosedDarkCyan_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/BookDarkCyan,
+        scale = 0.4,
+    }
+    model BookBrown_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/BookBrown,
+        scale = 0.4,
+    }
+    model BookClosedBrown_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/BookBrown,
+        scale = 0.4,
+    }
+    model BookBlue_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/BookBlue,
+        scale = 0.4,
+    }
+    model BookClosedBlue_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/BookBlue,
+        scale = 0.4,
+    }
+    model BookGreen_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/BookGreen,
+        scale = 0.4,
+    }
+    model BookClosedGreen_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/BookGreen,
+        scale = 0.4,
+    }
+    model BookYellow_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/BookYellow,
+        scale = 0.4,
+    }
+    model BookClosedYellow_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/BookYellow,
+        scale = 0.4,
+    }
+    model Book_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/BookRed,
+        scale = 0.4,
+    }
+    model BookClosedGround
+    {
+        mesh = WorldItems/BookClosed,
+        texture = Book,
+        scale = 0.4,
+    }
+    model BowlGround
+    {
+        mesh = WorldItems/Bowl,
+        texture = WorldItems/Bowl,
+        scale = 0.4,
+    }
+    model CandleGround
+    {
+        mesh = WorldItems/Candle,
+        texture = Candle,
+        scale = 0.4,
+    }
+    model CanOpenerGround
+    {
+        mesh = WorldItems/CanOpener,
+        texture = CanOpener,
+        scale = 0.4,
+    }
+    model CookingPotGround
+    {
+        mesh = WorldItems/CookingPot,
+        texture = CookingPot,
+        scale = 0.4,
+    }
+    model FlashLightGround
+    {
+        mesh = WorldItems/FlashLight,
+        texture = FlashLight,
+        scale = 0.4,
+    }
+    model GardenSawGround
+    {
+        mesh = WorldItems/GardenSaw,
+        texture = GardenSaw,
+        scale = 0.4,
+    }
+    model GardenSprayGround
+    {
+        mesh = WorldItems/GardenSpray,
+        texture = GardenSpray,
+        scale = 0.3,
+    }
+    model HacksawGround
+    {
+        mesh = WorldItems/Hacksaw,
+        texture = GardenSaw,
+        scale = 0.4,
+    }
+    model HandTorchGround
+    {
+        mesh = WorldItems/HandTorch,
+        texture = HandTorch,
+        scale = 0.4,
+    }
+    model KettleGround
+    {
+        mesh = WorldItems/Kettle,
+        texture = Kettle,
+        scale = 0.4,
+    }
+    model MagazineGround
+    {
+        mesh = WorldItems/MagazineOpen,
+        texture = WorldItems/MagazineOpen1,
+        scale = 0.4,
+    }
+    model MagazineOpenGround
+    {
+        mesh = WorldItems/MagazineOpen,
+        texture = Magazine,
+        scale = 0.4,
+    }
+    model Necklace_Crucifix_Ground
+    {
+        mesh = WorldItems/Necklace_Crucifix_Ground,
+        texture = NecklaceCrucifix,
+        scale = 0.4,
+    }
+    model Necklace_SilverCrucifix_Ground
+    {
+        mesh = WorldItems/Necklace_Crucifix_Ground,
+        texture = Necklace_SilverCrucifix,
+        scale = 0.4,
+    }
+    model Necklace_Pearl_Ground
+    {
+        mesh = WorldItems/Necklace_Pearl_Ground,
+        texture = EarringDiamond,
+        scale = 0.4,
+    }
+    model NecklaceLong_SilverSapphireGround
+    {
+        mesh = WorldItems/NecklaceLong_Stone_Ground,
+        texture = NecklaceLong_SilverSapphire,
+        scale = 1,
+    }
+    model NecklaceLong_AmberGround
+    {
+        mesh = WorldItems/NecklaceLong_Stone_Ground,
+        texture = NecklaceLong_Amber,
+        scale = 1,
+    }
+    model NecklaceLongSilverDiamond_Ground
+    {
+        mesh = WorldItems/NecklaceLong_Stone_Ground,
+        texture = NecklaceLong_SilverDiamond,
+        scale = 0.5,
+    }
+    model NecklaceLongSilverSapphire_Ground
+    {
+        mesh = WorldItems/NecklaceLong_Stone_Ground,
+        texture = NecklaceLong_SilverSapphire,
+        scale = 0.5,
+    }
+    model NecklaceLong_SilverEmerald_Ground
+    {
+        mesh = WorldItems/NecklaceLong_Stone_Ground,
+        texture = NecklaceLong_SilverEmerald,
+        scale = 0.5,
+    }
+    model NecklaceLong_Silver_Ground
+    {
+        mesh = WorldItems/NecklaceLong_Ground,
+        texture = NecklaceLong_Silver,
+        scale = 0.5,
+    }
+    model NecklaceLong_Gold_Ground
+    {
+        mesh = WorldItems/NecklaceLong_Ground,
+        texture = NecklaceLong_Gold,
+        scale = 0.5,
+    }
+    model NecklaceLong_GoldDiamond_Ground
+    {
+        mesh = WorldItems/NecklaceLong_Stone_Ground,
+        texture = NecklaceLong_GoldDiamond,
+        scale = 0.5,
+    }
+    model Necklace_GoldDiamond_Ground
+    {
+        mesh = WorldItems/Necklace_Stone_Ground,
+        texture = Necklace_GoldDiamond,
+        scale = 0.5,
+    }
+    model Necklace_GoldRuby_Ground
+    {
+        mesh = WorldItems/Necklace_Stone_Ground,
+        texture = Necklace_GoldRuby,
+        scale = 0.5,
+    }
+    model Necklace_Gold_Ground
+    {
+        mesh = WorldItems/Necklace_Ground,
+        texture = Necklace_Gold,
+        scale = 0.5,
+    }
+    model Necklace_SilverSapphire_Ground
+    {
+        mesh = WorldItems/Necklace_Stone_Ground,
+        texture = Necklace_SilverSapphire,
+        scale = 0.5,
+    }
+    model Necklace_SilverDiamond_Ground
+    {
+        mesh = WorldItems/Necklace_Stone_Ground,
+        texture = Necklace_SilverDiamond,
+        scale = 0.5,
+    }
+    model Necklace_YingYang_Ground
+    {
+        mesh = WorldItems/Necklace_Stone_Ground,
+        texture = Necklace_YingYang,
+        scale = 0.5,
+    }
+    model Necklace_Silver_Ground
+    {
+        mesh = WorldItems/Necklace_Ground,
+        texture = Necklace_Silver,
+        scale = 0.5,
+    }
+    model PillBottleGround
+    {
+        mesh = WorldItems/PillBottle,
+        texture = PillBottle,
+        scale = 0.4,
+    }
+    model WateringCanGround
+    {
+        mesh = WorldItems/WateringCan,
+        texture = WateringCan,
+        scale = 0.35,
+    }
+    model WhiskeyBottleGround
+    {
+        mesh = WorldItems/WhiskeyBottle,
+        texture = WhiskeyBottle,
+        scale = 0.4,
+    }
+    model WineRedGround
+    {
+        mesh = WorldItems/Wine,
+        texture = RedWineBottle,
+        scale = 0.4,
+    }
+    model WineWhiteGround
+    {
+        mesh = WorldItems/Wine,
+        texture = WhiteWineBottle,
+        scale = 0.4,
+    }
+    model ZippoGround
+    {
+        mesh = WorldItems/Zippo,
+        texture = zippo,
+        scale = 0.4,
+    }
+    model BalaclavaFace_Ground
+    {
+        mesh = WorldItems/BalaclavaFace_Ground,
+        texture = Balaclava_Full2,
+        scale = 0.4,
+    }
+    model BalaclavaFull_Ground
+    {
+        mesh = WorldItems/BalaclavaFull_Ground,
+        texture = Balaclava_Full2,
+        scale = 0.4,
+    }
+    model Bracelet_Bangle_Ground
+    {
+        mesh = WorldItems/Bracelet_Bangle_Ground,
+        texture = BraceletChain_Gold,
+        scale = 0.4,
+    }
+    model Bracelet_BangleSilver_Ground
+    {
+        mesh = WorldItems/Bracelet_Bangle_Ground,
+        texture = BraceletChain_Silver,
+        scale = 0.4,
+    }
+    model Bracelet_Chain_Ground
+    {
+        mesh = WorldItems/Bracelet_Chain_Ground,
+        texture = BraceletChain_Gold,
+        scale = 0.4,
+    }
+    model Bracelet_ChainSilver_Ground
+    {
+        mesh = WorldItems/Bracelet_Chain_Ground,
+        texture = BraceletChain_Silver,
+        scale = 0.4,
+    }
+    model Bracelet_Friendship_Ground
+    {
+        mesh = WorldItems/Bracelet_Chain_Ground,
+        texture = BraceletChain_White,
+        scale = 0.4,
+    }
+    model Choker_Ground
+    {
+        mesh = WorldItems/Choker_Ground,
+        texture = Choker,
+        scale = 0.4,
+    }
+    model Choker_Sapphire_Ground
+    {
+        mesh = WorldItems/Choker_Stone_Ground,
+        texture = Choker_Sapphire,
+        scale = 0.4,
+    }
+    model Choker_Sapphire_Ground
+    {
+        mesh = WorldItems/Choker_Stone_Ground,
+        texture = Choker_Sapphire,
+        scale = 0.4,
+    }
+    model Choker_Amber_Ground
+    {
+        mesh = WorldItems/Choker_Stone_Ground,
+        texture = Choker_Amber,
+        scale = 0.4,
+    }
+    model Choker_Diamond_Ground
+    {
+        mesh = WorldItems/Choker_Stone_Ground,
+        texture = Choker_Diamond,
+        scale = 0.4,
+    }
+    model Earring_LoopLrg_Ground
+    {
+        mesh = WorldItems/Earring_LoopLrg_Ground,
+        texture = EarringGold,
+        scale = 0.4,
+    }
+    model Earring_LoopLrgSilver_Ground
+    {
+        mesh = WorldItems/Earring_LoopLrg_Ground,
+        texture = EarringSilver,
+        scale = 0.4,
+    }
+    model Earring_LoopMed_Ground
+    {
+        mesh = WorldItems/Earring_LoopMed_Ground,
+        texture = EarringGold,
+        scale = 0.4,
+    }
+    model Earring_LoopMedSilver_Ground
+    {
+        mesh = WorldItems/Earring_LoopMed_Ground,
+        texture = EarringSilver,
+        scale = 0.4,
+    }
+    model Earring_LoopSmall_Ground
+    {
+        mesh = WorldItems/Earring_LoopMed_Ground,
+        texture = EarringGold,
+        scale = 0.3,
+    }
+    model Earring_LoopSmallSilver_Ground
+    {
+        mesh = WorldItems/Earring_LoopMed_Ground,
+        texture = EarringSilver,
+        scale = 0.3,
+    }
+    model Eyepatch_Ground
+    {
+        mesh = WorldItems/Eyepatch_Ground,
+        texture = Eyepatch,
+        scale = 0.4,
+    }
+    model NBC_Mask_Ground
+    {
+        mesh = WorldItems/NBC_Mask_Ground,
+        texture = NBC_Mask,
+        scale = 0.4,
+    }
+    model Necklace_Dogtags_Ground
+    {
+        mesh = WorldItems/Necklace_Dogtags_Ground,
+        texture = Necklace_Dogtags,
+        scale = 0.4,
+    }
+    model Nosering_Ground
+    {
+        mesh = WorldItems/Nosering_Ground,
+        texture = EarringGold,
+        scale = 0.4,
+    }
+    model NoseringSilver_Ground
+    {
+        mesh = WorldItems/Nosering_Ground,
+        texture = EarringSilver,
+        scale = 0.4,
+    }
+    model NoseStud_Ground
+    {
+        mesh = WorldItems/NoseStud_Ground,
+        texture = EarringGold,
+        scale = 0.4,
+    }
+    model NoseStudSilver_Ground
+    {
+        mesh = WorldItems/NoseStud_Ground,
+        texture = EarringSilver,
+        scale = 0.4,
+    }
+    model SpiffoTail_Ground
+    {
+        mesh = WorldItems/SpiffoTail_Ground,
+        texture = Clothes\SpiffoSuit\SpiffoSuit,
+        scale = 0.4,
+    }
+    model GolfBag_Ground
+    {
+        mesh = WorldItems/GolfBag_Ground,
+        scale = 0.4,
+    }
+    model Pillow_Ground
+    {
+        mesh = WorldItems/Pillow,
+        texture = Pillow,
+        scale = 0.35,
+    }
+    model WeddingVeil_Ground
+    {
+        mesh = WorldItems/WeddingVeil_Ground,
+        texture = Clothes/WeddingVeil,
+        scale = 0.4,
+    }
+    model Bucket_Ground
+    {
+        mesh = WorldItems/Bucket,
+        texture = WorldItems/Bucket,
+        scale = 0.4,
+    }
+    model BucketFullConcrete_Ground
+    {
+        mesh = WorldItems/BucketFull,
+        texture = WorldItems/BucketFullConcrete,
+        scale = 0.4,
+    }
+    model BucketFullPlaster_Ground
+    {
+        mesh = WorldItems/BucketFull,
+        texture = WorldItems/BucketFullPlaster,
+        scale = 0.4,
+    }
+    model BucketFullWater_Ground
+    {
+        mesh = WorldItems/BucketFull,
+        texture = WorldItems/BucketFullWater,
+        scale = 0.4,
+    }
+    model Milk_Ground
+    {
+        mesh = WorldItems/Milk,
+        texture = WorldItems/MilkCarton,
+        scale = 0.4,
+    }
+    model CigarettePack_Ground
+    {
+        mesh = WorldItems/CigarettePack,
+        texture = WorldItems/CigarettePack,
+        scale = 0.4,
+    }
+    model CigarettePack_Ground
+    {
+        mesh = WorldItems/CigarettePack,
+        texture = WorldItems/CigarettePack,
+        scale = 0.4,
+    }
+    model PaintTinGreen_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinGreen,
+        scale = 0.4,
+    }
+    model PaintTinGrey_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinGrey,
+        scale = 0.4,
+    }
+    model PaintTinPurple_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinPurple,
+        scale = 0.4,
+    }
+    model PaintTinRed_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinRed,
+        scale = 0.4,
+    }
+    model PaintTinWhite_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinWhite,
+        scale = 0.4,
+    }
+    model PaintTinBlack_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinBlack,
+        scale = 0.4,
+    }
+    model PaintTinBlue_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinBlue,
+        scale = 0.4,
+    }
+    model PaintTinBrown_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinBrown,
+        scale = 0.4,
+    }
+    model PaintTinCyan_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinCyan,
+        scale = 0.4,
+    }
+    model PaintTinLightBlue_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinLightBlue,
+        scale = 0.4,
+    }
+    model PaintTinLightBrown_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinLightBrown,
+        scale = 0.4,
+    }
+    model PaintTinOrange_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinOrange,
+        scale = 0.4,
+    }
+    model PaintTinPink_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinPink,
+        scale = 0.4,
+    }
+    model PaintTinTurquoise_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinTurquoise,
+        scale = 0.4,
+    }
+    model PaintTinYellow_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinYellow,
+        scale = 0.4,
+    }
+    model PaintTinEmpty_Ground
+    {
+        mesh = WorldItems/PaintTinEmpty,
+        texture = WorldItems/PaintTinEmpty,
+        scale = 0.4,
+    }
+    model TentPegs_Ground
+    {
+        mesh = WorldItems/TentPegs,
+        texture = WorldItems/TentPeg,
+        scale = 0.4,
+    }
+    model DirtBag_Ground
+    {
+        mesh = WorldItems/DirtBag,
+        texture = WorldItems/SandBag,
+        scale = 0.25,
+    }
+    model Burger_Ground
+    {
+        mesh = WorldItems/Burger,
+        scale = 0.4,
+    }
+    model Burger_GroundRotten
+    {
+        mesh = WorldItems/Burger,
+        texture = WorldItems/BurgerRotten,
+        scale = 0.4,
+    }
+    model CannedSardines_Open_Ground
+    {
+        mesh = WorldItems/CannedSardinesOpen,
+        texture = WorldItems/CannedSardines,
+        scale = 0.4,
+    }
+    model CannedSardines_Open_GroundRotten
+    {
+        mesh = WorldItems/CannedSardinesOpen,
+        texture = WorldItems/CannedSardinesRotten,
+        scale = 0.4,
+    }
+    model CannedSardines_Ground
+    {
+        mesh = WorldItems/CannedSardines,
+        scale = 0.4,
+    }
+    model ChickenFried_Ground
+    {
+        mesh = WorldItems/ChickenFried,
+        texture = WorldItems/ChickenCooked,
+        scale = 0.4,
+    }
+    model Corndog_Ground
+    {
+        mesh = WorldItems/Corndog,
+        texture = WorldItems/CornDog,
+        scale = 0.4,
+    }
+    model GriddlePanFriedVegetables_Ground
+    {
+        mesh = WorldItems/GriddlePanFriedVegetables,
+        texture = WorldItems/GriddlePanFriedVegetables,
+        scale = 0.4,
+    }
+    model GriddlePanFriedVegetables_GroundRotten
+    {
+        mesh = WorldItems/GriddlePanFriedVegetables,
+        texture = WorldItems/GriddlePanFriedVegetablesRotten,
+        scale = 0.4,
+    }
+    model PanFriedVegetables_Ground
+    {
+        mesh = WorldItems/PanFriedVegetables,
+        texture = WorldItems/GriddlePanFriedVegetables,
+        scale = 0.4,
+    }
+    model PanFriedVegetables_GroundRotten
+    {
+        mesh = WorldItems/PanFriedVegetables,
+        texture = WorldItems/GriddlePanFriedVegetablesRotten,
+        scale = 0.4,
+    }
+    model Pike_Ground
+    {
+        mesh = WorldItems/Pike,
+        scale = 0.35,
+    }
+    model Pike_GroundCooked
+    {
+        mesh = WorldItems/Pike,
+        texture = WorldItems/PikeCooked,
+        scale = 0.35,
+    }
+    model Pike_GroundBurnt
+    {
+        mesh = WorldItems/Pike,
+        texture = WorldItems/PikeBurnt,
+        scale = 0.35,
+    }
+    model Pike_GroundRotten
+    {
+        mesh = WorldItems/Pike,
+        texture = WorldItems/PikeRotten,
+        scale = 0.35,
+    }
+    model SmallAnimalMeat_Ground
+    {
+        mesh = WorldItems/SmallAnimalMeat,
+        scale = 0.4,
+    }
+    model SmallAnimalMeat_GroundBurnt
+    {
+        mesh = WorldItems/SmallAnimalMeat,
+        texture = WorldItems/SmallAnimalMeatBurnt,
+        scale = 0.4,
+    }
+    model SmallAnimalMeat_GroundCooked
+    {
+        mesh = WorldItems/SmallAnimalMeat,
+        texture = WorldItems/SmallAnimalMeatCooked,
+        scale = 0.4,
+    }
+    model SmallAnimalMeat_GroundRotten
+    {
+        mesh = WorldItems/SmallAnimalMeat,
+        texture = WorldItems/SmallAnimalMeatRotten,
+        scale = 0.4,
+    }
+    model SmallBirdMeat_Ground
+    {
+        mesh = WorldItems/SmallBirdMeat,
+        scale = 0.4,
+    }
+    model SmallBirdMeat_GroundBurnt
+    {
+        mesh = WorldItems/SmallBirdMeat,
+        texture = WorldItems/SmallBirdMeatBurnt,
+        scale = 0.4,
+    }
+    model SmallBirdMeat_GroundCooked
+    {
+        mesh = WorldItems/SmallBirdMeat,
+        texture = WorldItems/SmallBirdMeatCooked,
+        scale = 0.4,
+    }
+    model SmallBirdMeat_GroundRotten
+    {
+        mesh = WorldItems/SmallBirdMeat,
+        texture = WorldItems/SmallBirdMeatRotten,
+        scale = 0.4,
+    }
+    model TinnedTuna_Ground
+    {
+        mesh = WorldItems/TinnedTuna,
+        scale = 0.4,
+    }
+    model TinnedTuna_Open_Ground
+    {
+        mesh = WorldItems/TinnedTunaOpen,
+        texture = WorldItems/TinnedTuna,
+        scale = 0.4,
+    }
+    model TinnedTuna_Open_GroundRotten
+    {
+        mesh = WorldItems/TinnedTunaOpen,
+        texture = WorldItems/TinnedTunaRotten,
+        scale = 0.4,
+    }
+    model TVDinner_Ground
+    {
+        mesh = WorldItems/TVDinner,
+        scale = 0.4,
+    }
+    model Apple_Ground
+    {
+        mesh = WorldItems/Apple,
+        scale = 0.4,
+    }
+    model Apple_GroundRotten
+    {
+        mesh = WorldItems/Apple,
+        texture = WorldItems/AppleRotten,
+        scale = 0.4,
+    }
+    model Avocado_Ground
+    {
+        mesh = WorldItems/Avocado,
+        scale = 0.4,
+    }
+    model Avocado_GroundRotten
+    {
+        mesh = WorldItems/Avocado,
+        texture = WorldItems/AvocadoRotten,
+        scale = 0.4,
+    }
+    model Carrots_Ground
+    {
+        mesh = WorldItems/Carrots,
+        scale = 0.4,
+    }
+    model Carrots_GroundRotten
+    {
+        mesh = WorldItems/Carrots,
+        texture = WorldItems/CarrotsRotten,
+        scale = 0.4,
+    }
+    model Corn_Ground
+    {
+        mesh = WorldItems/Corn,
+        scale = 0.4,
+    }
+    model Corn_GroundRotten
+    {
+        mesh = WorldItems/Corn,
+        texture = WorldItems/CornRotten,
+        scale = 0.4,
+    }
+    model Onion_Ground
+    {
+        mesh = WorldItems/Onion,
+        scale = 0.4,
+    }
+    model Onion_GroundRotten
+    {
+        mesh = WorldItems/Onion,
+        texture = WorldItems/OnionRotten,
+        scale = 0.4,
+    }
+    model Orange_Ground
+    {
+        mesh = WorldItems/Orange,
+        scale = 0.4,
+    }
+    model Orange_GroundRotten
+    {
+        mesh = WorldItems/Orange,
+        texture = WorldItems/OrangeRotten,
+        scale = 0.4,
+    }
+    model Peach_Ground
+    {
+        mesh = WorldItems/Peach,
+        scale = 0.4,
+    }
+    model Peach_GroundRotten
+    {
+        mesh = WorldItems/Peach,
+        texture = WorldItems/PeachRotten,
+        scale = 0.4,
+    }
+    model Zucchini_Ground
+    {
+        mesh = WorldItems/Zucchini,
+        scale = 0.4,
+    }
+    model Zucchini_GroundRotten
+    {
+        mesh = WorldItems/Zucchini,
+        texture = WorldItems/ZucchiniRotten,
+        scale = 0.4,
+    }
+    model Banana_Ground
+    {
+        mesh = WorldItems/Banana,
+        scale = 0.4,
+    }
+    model Banana_GroundRotten
+    {
+        mesh = WorldItems/Banana,
+        texture = WorldItems/BananaRotten,
+        scale = 0.4,
+    }
+    model Cockroach_Ground
+    {
+        mesh = WorldItems/Cockroach,
+        scale = 0.4,
+    }
+    model Cricket_Ground
+    {
+        mesh = WorldItems/Cricket,
+        scale = 0.4,
+    }
+    model FrogMeat_Ground
+    {
+        mesh = WorldItems/FrogMeat,
+        scale = 0.4,
+    }
+    model FrogMeat_GroundBurnt
+    {
+        mesh = WorldItems/FrogMeat,
+        texture = WorldItems/FrogMeatBurnt,
+        scale = 0.4,
+    }
+    model FrogMeat_GroundCooked
+    {
+        mesh = WorldItems/FrogMeat,
+        texture = WorldItems/FrogMeatCooked,
+        scale = 0.4,
+    }
+    model FrogMeat_GroundRotten
+    {
+        mesh = WorldItems/FrogMeat,
+        texture = WorldItems/FrogMeatRotten,
+        scale = 0.4,
+    }
+    model Grasshopper_Ground
+    {
+        mesh = WorldItems/Grasshopper,
+        scale = 0.4,
+    }
+    model Worm_Ground
+    {
+        mesh = WorldItems/Worm,
+        scale = 0.4,
+    }
+    model Bacon_Ground
+    {
+        mesh = WorldItems/Bacon,
+        texture = WorldItems/BaconBaconBits,
+        scale = 0.4,
+    }
+    model Bacon_GroundCooked
+    {
+        mesh = WorldItems/Bacon,
+        texture = WorldItems/BaconBaconBitsCooked,
+        scale = 0.4,
+    }
+    model Bacon_GroundRotten
+    {
+        mesh = WorldItems/Bacon,
+        texture = WorldItems/BaconBaconBitsRotten,
+        scale = 0.4,
+    }
+    model BaconBits_Ground
+    {
+        mesh = WorldItems/BaconBits,
+        texture = WorldItems/BaconBaconBits,
+        scale = 0.4,
+    }
+    model BaconBits_GroundCooked
+    {
+        mesh = WorldItems/BaconBits,
+        texture = WorldItems/BaconBaconBitsCooked,
+        scale = 0.4,
+    }
+    model BaconBits_GroundRotten
+    {
+        mesh = WorldItems/BaconBits,
+        texture = WorldItems/BaconBaconBitsRotten,
+        scale = 0.4,
+    }
+    model PizzaSlice_Ground
+    {
+        mesh = WorldItems/PizzaSlice,
+        scale = 0.4,
+    }
+    model PizzaSlice_GroundRotten
+    {
+        mesh = WorldItems/PizzaSlice,
+        texture = WorldItems/PizzaSliceRotten,
+        scale = 0.4,
+    }
+    model HotDog_Ground
+    {
+        mesh = WorldItems/HotDog,
+        texture = HotDog,
+        scale = 0.4,
+    }
+    model BloomingBroccoli_Ground
+    {
+        mesh = WorldItems/BloomingBroccoli,
+        scale = 0.4,
+    }
+    model BloomingBroccoli_GroundRotten
+    {
+        mesh = WorldItems/BloomingBroccoli,
+        texture = WorldItems/BloomingBroccoliRotten,
+        scale = 0.4,
+    }
+    model BroccoliSeedBag_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = WorldItems/SeedPacketBroccoli,
+        scale = 0.4,
+    }
+    model CarrotSeedBag_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = WorldItems/SeedPacketCarrot,
+        scale = 0.4,
+    }
+    model CabbageSeedBag_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = WorldItems/SeedPacketCabbage,
+        scale = 0.4,
+    }
+    model PotatoSeedBag_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = WorldItems/SeedPacketPotatoe,
+        scale = 0.4,
+    }
+    model RadishSeedBag_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = WorldItems/SeedPacketRadish,
+        scale = 0.4,
+    }
+    model StrawberrySeedBag_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = WorldItems/SeedPacketStrawberry,
+        scale = 0.4,
+    }
+    model TomatoSeedBag_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = WorldItems/SeedPacketTomatoe,
+        scale = 0.4,
+    }
+    model CarrotSeedBag_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = WorldItems/SeedPacketCarrot,
+        scale = 0.4,
+    }
+    model Seeds_Ground
+    {
+        mesh = WorldItems/Seeds,
+        scale = 0.4,
+    }
+    model MayoJar_Ground
+    {
+        mesh = WorldItems/JarLid,
+        texture = WorldItems/Jar_Mayo,
+        scale = 0.4,
+    }
+    model MayoJarEmpty_Ground
+    {
+        mesh = WorldItems/JarLid,
+        texture = WorldItems/Jar_Mayo_Empty,
+        scale = 0.4,
+    }
+    model Remoulade_Ground
+    {
+        mesh = WorldItems/JarLid,
+        texture = WorldItems/Jar_Romoulade,
+        scale = 0.4,
+    }
+    model RemouladeEmpty_Ground
+    {
+        mesh = WorldItems/JarLid,
+        texture = WorldItems/Jar_Romoulade_Empty,
+        scale = 0.4,
+    }
+    model Seeds_Ground
+    {
+        mesh = WorldItems/Seeds,
+        scale = 0.4,
+    }
+    model Cabbage_Ground
+    {
+        mesh = WorldItems/Cabbage,
+        scale = 0.4,
+    }
+    model Cabbage_GroundRotten
+    {
+        mesh = WorldItems/Cabbage,
+        texture = WorldItems/CabbageRotten,
+        scale = 0.4,
+    }
+    model Potato_Ground
+    {
+        mesh = WorldItems/Potato,
+        scale = 0.4,
+    }
+    model Potato_GroundRotten
+    {
+        mesh = WorldItems/Potato,
+        texture = WorldItems/PotatoRotten,
+        scale = 0.4,
+    }
+    model RedRadish_Ground
+    {
+        mesh = WorldItems/RedRadish,
+        scale = 0.4,
+    }
+    model RedRadish_GroundRotten
+    {
+        mesh = WorldItems/RedRadish,
+        texture = WorldItems/RedRadishRotten,
+        scale = 0.4,
+    }
+    model Salad_Ground
+    {
+        mesh = WorldItems/Salad,
+        scale = 0.4,
+    }
+    model Salad_GroundRotten
+    {
+        mesh = WorldItems/Salad,
+        texture = WorldItems/SaladRotten
+        scale = 0.4,
+    }
+    model Strawberry_Ground
+    {
+        mesh = WorldItems/Strawberry,
+        scale = 0.4,
+    }
+    model Strawberry_GroundRotten
+    {
+        mesh = WorldItems/Strawberry,
+        texture = WorldItems/StrawberryRotten,
+        scale = 0.4,
+    }
+    model Tomato_Ground
+    {
+        mesh = WorldItems/Tomato,
+        scale = 0.4,
+    }
+    model Tomato_GroundRotten
+    {
+        mesh = WorldItems/Tomato,
+        texture = WorldItems/TomatoRotten,
+        scale = 0.4,
+    }
+    model Newspaper_Ground
+    {
+        mesh = WorldItems/Newspaper,
+        scale = 0.4,
+    }
+    model BeerCan_Ground
+    {
+        mesh = PopCanRed,
+        texture = BeerCan,
+    }
+    model TinCanEmpty_Ground
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinCanEmpty,
+    }
+    model HairGel_Ground
+    {
+        mesh = WorldItems/HairGel,
+        scale = 0.4,
+    }
+    model Mortar_Ground
+    {
+        mesh = WorldItems/Mortar,
+        scale = 0.4,
+    }
+    model Ring_Silver_Ground
+    {
+        mesh = WorldItems/Ring,
+        texture = WorldItems/RingSilver,
+        scale = 2.4,
+    }
+    model Ring_Gold_Ground
+    {
+        mesh = WorldItems/Ring,
+        texture = WorldItems/RingGold,
+        scale = 0.8,
+    }
+    model Rifle_2XScope_Ground
+    {
+        mesh = WorldItems/Rifle_2XScope,
+        texture = WorldItems/12x_Scope,
+        scale = 0.4,
+    }
+    model Rifle_4XScope_Ground
+    {
+        mesh = WorldItems/Rifle_4XScope,
+        texture = WorldItems/12x_Scope,
+        scale = 0.4,
+    }
+    model Rifle_8XScope_Ground
+    {
+        mesh = WorldItems/Rifle_8XScope,
+        texture = WorldItems/12x_Scope,
+        scale = 0.4,
+    }
+    model Gun_Magazine_Ground
+    {
+        mesh = WorldItems/Gun_Magazine,
+        scale = 0.4,
+    }
+    model Handgun_Laser_Ground
+    {
+        mesh = WorldItems/Handgun_Laser,
+        scale = 0.4,
+    }
+    model Handgun_Light_Ground
+    {
+        mesh = WorldItems/Handgun_Light,
+        scale = 0.4,
+    }
+    model Handgun_RedDotScope_Ground
+    {
+        mesh = WorldItems/Handgun_RedDotScope,
+        scale = 0.4,
+    }
+    model Rifle_Bayonet_Ground
+    {
+        mesh = WorldItems/Rifle_Bayonet,
+        texture = WorldItems/Rifle_ImpBayonet,
+        scale = 0.4,
+    }
+    model Rifle_IronSights_Ground
+    {
+        mesh = WorldItems/Rifle_IronSights,
+        scale = 0.4,
+    }
+    model Rifle_RecoilPad_Ground
+    {
+        mesh = WorldItems/Rifle_RecoilPad,
+        scale = 0.4,
+    }
+    model Shotgun_Choke_Ground
+    {
+        mesh = WorldItems/Shotgun_Choke,
+        scale = 0.4,
+    }
+    model AmmoStrap_Ground
+    {
+        mesh = WorldItems/AmmoStrap,
+        texture = WorldItems/AmmoStrap_Shells,
+        scale = 0.4,
+    }
+    model SleepingTablets_Ground
+    {
+        mesh = WorldItems/SleepingTablets,
+        scale = 0.4,
+    }
+    model Vitamins_Ground
+    {
+        mesh = WorldItems/Vitamins,
+        scale = 0.4,
+    }
+    model PainKillers_Ground
+    {
+        mesh = WorldItems/PainKillers,
+        scale = 0.4,
+    }
+    model Charcoal_Ground
+    {
+        mesh = WorldItems/Charcoal,
+        scale = 0.4,
+    }
+    model PaintBrush_Ground
+    {
+        mesh = WorldItems/PaintBrush,
+        scale = 0.4,
+    }
+    model KeyRing_Ground
+    {
+        mesh = WorldItems/KeyRing,
+        scale = 0.4,
+    }
+    model Cube_Ground
+    {
+        mesh = WorldItems/Cube,
+        scale = 0.4,
+    }
+    model Fertilizer_Ground
+    {
+        mesh = WorldItems/Fertiizer,
+        texture = WorldItems/NPKFertilizer,
+        scale = 0.004,
+    }
+    model Razor_Ground
+    {
+        mesh = WorldItems/Razor,
+        texture = WorldItems/DisposableRazor,
+        scale = 0.4,
+    }
+    model Frog_Ground
+    {
+        mesh = WorldItems/Frog,
+        scale = 0.4,
+    }
+    model BowlRamen_Ground
+    {
+        mesh = WorldItems/BowlRamen,
+        texture = WorldItems/BowlRamen,
+        scale = 0.4,
+    }
+    model BowlRamen_GroundRotten
+    {
+        mesh = WorldItems/BowlRamen,
+        texture = WorldItems/BowlRamenRotten,
+        scale = 0.4,
+    }
+    model BowlSalad_Ground
+    {
+        mesh = WorldItems/BowlRamen,
+        texture = WorldItems/BowlSalad,
+        scale = 0.4,
+    }
+    model BowlSoup_Ground
+    {
+        mesh = WorldItems/BowlSoup,
+        texture = WorldItems/BowlSoup,
+        scale = 0.4,
+    }
+    model BowlSoup_GroundRotten
+    {
+        mesh = WorldItems/BowlSoup,
+        texture = WorldItems/BowlSoupRotten,
+        scale = 0.4,
+    }
+    model BowlWater_Ground
+    {
+        mesh = WorldItems/BowlSoup,
+        texture = WorldItems/BowlWater,
+        scale = 0.4,
+    }
+    model BowlRice_Ground
+    {
+        mesh = WorldItems/BowlRamen,
+        texture = WorldItems/BowlRice,
+        scale = 0.4,
+    }
+    model BowlPasta_Ground
+    {
+        mesh = WorldItems/BowlRamen,
+        texture = WorldItems/BowlPasta,
+        scale = 0.4,
+    }
+    model CookingPotWater_Ground
+    {
+        mesh = WorldItems/CookingPotFull,
+        texture = WorldItems/CookingPotWater,
+        scale = 0.4,
+    }
+    model CookingPotSoup_Ground
+    {
+        mesh = WorldItems/CookingPotFull,
+        texture = WorldItems/CookingPotSoup,
+        scale = 0.4,
+    }
+    model CookingPotRice_Ground
+    {
+        mesh = WorldItems/CookingPotFull,
+        texture = WorldItems/CookingPotRice,
+        scale = 0.4,
+    }
+    model CookingPotPasta_Ground
+    {
+        mesh = WorldItems/CookingPotFull,
+        texture = WorldItems/CookingPotPasta,
+        scale = 0.4,
+    }
+    model JarFoodBellPeppers_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodBellPeppers,
+		scale = 0.6,
+    }
+    model JarFoodBroccoli_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodBroccoli,
+		scale = 0.6,
+    }
+    model JarFoodCabbage_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodCabbage,
+		scale = 0.6,
+    }
+    model JarFoodCarrots_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodCarrots,
+		scale = 0.6,
+    }
+    model JarFoodEggplants_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodEggplants,
+		scale = 0.6,
+    }
+    model JarFoodLeeks_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodLeeks,
+		scale = 0.6,
+    }
+    model JarFoodPotatoes_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodPotatoes,
+		scale = 0.6,
+    }
+    model JarFoodRadish_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodRadish,
+		scale = 0.6,
+    }
+    model JarFoodTomatoes_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodTomatoes,
+		scale = 0.6,
+    }
+    model BunnySuitBlack_Ground
+    {
+		mesh = WorldItems/Clothing/BunnyOutfit_Ground,
+		texture = WorldItems/BunnyOutfit_Black_Ground,
+		scale = 0.5,
+    }
+    model BunnySuitPink_Ground
+    {
+		mesh = WorldItems/Clothing/BunnyOutfit_Ground,
+		texture = WorldItems/BunnyOutfit_Pink_Ground,
+		scale = 0.5,
+    }
+
+    model BunnyEarsWhite_Ground
+    {
+		mesh = WorldItems/Clothing/BunnyEars_Ground,
+		texture = Clothes/Hat/BunnyEars_White,
+		scale = 0.4,
+    }
+    model BunnyEarsBlack_Ground
+    {
+		mesh = WorldItems/Clothing/BunnyEars_Ground,
+		texture = Clothes/Hat/BunnyEars_Black,
+		scale = 0.4,
+    }
+    model StockingsBlack_Ground
+    {
+		mesh = WorldItems/Clothing/Stockings_Ground,
+		texture = WorldItems/Stockings_Black_80Denier,
+		scale = 0.4,
+    }
+    model StockingsBlackTrans_Ground
+    {
+		mesh = WorldItems/Clothing/Stockings_Ground,
+		texture = WorldItems/Stockings_Black_10Denier,
+		scale = 0.4,
+    }
+    model StockingsWhite_Ground
+    {
+		mesh = WorldItems/Clothing/Stockings_Ground,
+		texture = WorldItems/Stockings_White_Ground,
+		scale = 0.4,
+    }
+    model TightsTrans_Ground
+    {
+		mesh = WorldItems/Clothing/Tights_Ground,
+		texture = WorldItems/Tights_Black_10Denier_Ground,
+		scale = 0.4,
+    }
+    model TightsBlack_Ground
+    {
+		mesh = WorldItems/Clothing/Tights_Ground,
+		texture = WorldItems/Tights_Black_80Denier_Ground,
+		scale = 0.4,
+    }
+    model TightsFishnet_Ground
+    {
+		mesh = WorldItems/Clothing/Tights_Ground,
+		texture = WorldItems/Tights_BlackFishnet_Ground,
+		scale = 0.4,
+    }
+    model Garter_Ground
+    {
+		mesh = WorldItems/Clothing/Garter,
+		texture = WorldItems/Garter,
+		scale = 0.5,
+    }
+    model BunnyTail_Ground
+    {
+		mesh = WorldItems/Clothing/BunnyTail,
+		texture = Clothes/Trousers_Mesh/BunnyTail,
+		scale = 0.4,
+    }
+    model WaterMelonSlice_Ground
+    {
+		mesh = WorldItems/WaterMelonSlice,
+		texture = WorldItems/WaterMelonSliceChunks,
+		scale = 0.4,
+    }
+    model WaterMelonChunks_Ground
+    {
+		mesh = WorldItems/WaterMelonChunks,
+		texture = WorldItems/WaterMelonSliceChunks,
+		scale = 0.4,
+    }
+    model WaterMelonSlice_GroundRotten
+    {
+		mesh = WorldItems/WaterMelonSlice,
+		texture = WorldItems/WaterMelonSliceChunksRotten,
+		scale = 0.4,
+    }
+    model FurryEars_Ground
+    {
+		mesh = WorldItems/FurryEars_Ground,
+		texture = Clothes/Hat/TeddyEars,
+		scale = 0.4,
+    }
+    model HeadBopper_Antlers_Ground
+    {
+		mesh = WorldItems/HeadBopper_Antlers_Ground,
+		texture = Clothes/Hat/Bopper_Antlers,
+		scale = 0.4,
+    }
+    model HeadBopper_GoldStar_Ground
+    {
+		mesh = WorldItems/HeadBopper_GoldStar_Ground,
+		texture = Clothes/Hat/Bopper_GoldStar,
+		scale = 0.4,
+    }
+    model JokeArrow_Ground
+    {
+		mesh = WorldItems/JokeArrow_Ground,
+		texture = Clothes/Hat/Joke_Arrow,
+		scale = 0.4,
+    }
+    model JokeKnife_Ground
+    {
+		mesh = WorldItems/JokeKnife_Ground,
+		texture = Clothes/Hat/Joke_Knife,
+		scale = 0.4,
+    }
+    model Flint_Ground
+    {
+		mesh = WorldItems/Flint,
+		texture = WorldItems/FlintAndSteel,
+		scale = 0.4,
+    }
+    model MagazineMec1Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineAutoCommercial,
+        scale = 0.4,
+    }
+    model MagazineMec2Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineAutoPerformace,
+        scale = 0.4,
+    }
+    model MagazineMec3Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineAutoStandard,
+        scale = 0.4,
+    }
+    model MagazineFarmGround
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineFarming,
+        scale = 0.4,
+    }
+    model MagazineFish1Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineAngler1,
+        scale = 0.4,
+    }
+    model MagazineFish2Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineAngler2,
+        scale = 0.4,
+    }
+    model MagazineHunter1Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineHunter1,
+        scale = 0.4,
+    }
+    model MagazineHunter2Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineHunter2,
+        scale = 0.4,
+    }
+    model MagazineHunter3Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineHunter3,
+        scale = 0.4,
+    }
+    model MagazineHerbGround
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineHerbalist,
+        scale = 0.4,
+    }
+    model MagazineMetal1Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineMetalWork1,
+        scale = 0.4,
+    }
+    model MagazineMetal2Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineMetalWork2,
+        scale = 0.4,
+    }
+    model MagazineMetal3Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineMetalWork3,
+        scale = 0.4,
+    }
+    model MagazineMetal4Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineMetalWork4,
+        scale = 0.4,
+    }
+    model MagazineCook1Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineCooking1,
+        scale = 0.4,
+    }
+    model MagazineCook2Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineCooking2,
+        scale = 0.4,
+    }
+    model MagazineElec1Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineElectronics1,
+        scale = 0.4,
+    }
+    model MagazineElec2Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineElectronics2,
+        scale = 0.4,
+    }
+    model MagazineElec3Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineElectronics3,
+        scale = 0.4,
+    }
+    model MagazineElec4Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineGenerator1,
+        scale = 0.4,
+    }
+    model MagazineEngi1Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineEngineer1,
+        scale = 0.4,
+    }
+    model MagazineRadio1Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineGuerilla1,
+        scale = 0.4,
+    }
+    model MagazineRadio2Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineGuerilla2,
+        scale = 0.4,
+    }
+    model MagazineRadio3Ground
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineGuerilla3,
+        scale = 0.4,
+    }
+    model TVMagazineGround
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/Magazine,
+        scale = 0.4,
+    }
+    model BoxingGlovesRed_Ground
+    {
+        mesh = WorldItems/Clothing/BoxingGloves_Ground,
+        texture = Clothes/Gloves/BoxingGloves_Red,
+        scale = 0.4,
+    }
+    model BoxingGlovesBlue_Ground
+    {
+        mesh = WorldItems/Clothing/BoxingGloves_Ground,
+        texture = Clothes/Gloves/BoxingGloves_Blue,
+        scale = 0.4,
+    }
+    model CropTop_Ground
+    {
+        mesh = WorldItems/Clothing/BoobTube,
+        texture = WorldItems/BoobTube,
+        scale = 0.6,
+    }
+    model BoobTubeSmall_Ground
+    {
+        mesh = WorldItems/Clothing/BoobTube,
+        texture = WorldItems/BoobTubeSmall,
+        scale = 0.6,
+    }
+    model Boxers_Ground
+    {
+        mesh = WorldItems/Clothing/Boxers,
+        texture = Clothes/Underwear/Male_Boxers_White,
+        scale = 0.4,
+    }
+    model Boxers_Silk_Black
+    {
+        mesh = WorldItems/Clothing/Boxers,
+        texture = Clothes/Underwear/Male_SilkBoxers_Black,
+        scale = 0.4,
+    }
+    model Boxers_Silk_Red
+    {
+        mesh = WorldItems/Clothing/Boxers,
+        texture = Clothes/Underwear/Male_SilkBoxers_Red,
+        scale = 0.4,
+    }
+    model BoxersHearts_Ground
+    {
+        mesh = WorldItems/Clothing/Boxers,
+        texture = Clothes/Underwear/Male_Boxers_Hearts,
+        scale = 0.4,
+    }
+    model BoxersRedStripes_Ground
+    {
+        mesh = WorldItems/Clothing/Boxers,
+        texture = Clothes/Underwear/Male_Boxers_RedStripes,
+        scale = 0.4,
+    }
+    model Briefs_Ground
+    {
+        mesh = WorldItems/Clothing/Male_Briefs,
+        scale = 0.4,
+    }
+    model Underpants_Ground
+    {
+        mesh = WorldItems/Clothing/Female_Underpants,
+        texture = Clothes/Underwear/Female_Underpants_White,
+        scale = 0.4,
+    }
+    model Underpants_AnimalPrint_Ground
+    {
+        mesh = WorldItems/Clothing/Female_Underpants,
+        texture = Clothes/Underwear/Female_Underpants_AnimalPrint,
+        scale = 0.4,
+    }
+    model Underpants_Frilly_Black_Ground
+    {
+        mesh = WorldItems/Clothing/Female_Underpants,
+        texture = Clothes/Underwear/Female_FrillyPants_Black,
+        scale = 0.4,
+    }
+    model Underpants_Frilly_Pink_Ground
+    {
+        mesh = WorldItems/Clothing/Female_Underpants,
+        texture = Clothes/Underwear/Female_FrillyPants_Pink,
+        scale = 0.4,
+    }
+    model Underpants_Frilly_Red_Ground
+    {
+        mesh = WorldItems/Clothing/Female_Underpants,
+        texture = Clothes/Underwear/Female_FrillyPants_Red,
+        scale = 0.4,
+    }
+    model UnderpantsRedSpots_Ground
+    {
+        mesh = WorldItems/Clothing/Female_Underpants,
+        texture = Clothes/Underwear/Female_Underpants_RedSpots,
+        scale = 0.4,
+    }
+    model UnderpantsBlack_Ground
+    {
+        mesh = WorldItems/Clothing/Female_Underpants,
+        texture = Clothes/Underwear/Female_Underpants_Black,
+        scale = 0.4,
+    }
+   model BraStrapless_Ground
+   {
+       mesh = WorldItems/Clothing/Female_Bra_Strapless_White_Ground,
+       texture = Clothes/Underwear/Female_Bra_Strapless_White,
+       scale = 0.4,
+   }
+   model BraStraplessBlack_Ground
+   {
+       mesh = WorldItems/Clothing/Female_Bra_Strapless_White_Ground,
+       texture = Clothes/Underwear/Female_Bra_Strapless_Black,
+       scale = 0.4,
+   }
+   model BraStraplessRedSpots_Ground
+   {
+       mesh = WorldItems/Clothing/Female_Bra_Strapless_White_Ground,
+       texture = Clothes/Underwear/Female_Bra_Strapless_RedSpots,
+       scale = 0.4,
+   }
+   model BraStraplessAnimalPrint_Ground
+   {
+       mesh = WorldItems/Clothing/Female_Bra_Strapless_White_Ground,
+       texture = Clothes/Underwear/Female_Bra_Strapless_AnimalPrint,
+       scale = 0.4,
+   }
+   model BraStraplessFrillyBlack_Ground
+   {
+       mesh = WorldItems/Clothing/Female_Bra_Strapless_White_Ground,
+       texture = Clothes/Underwear/Female_FrillyBra_Strapless_Black,
+       scale = 0.4,
+   }
+   model BraStraplessFrillyPink_Ground
+   {
+       mesh = WorldItems/Clothing/Female_Bra_Strapless_White_Ground,
+       texture = Clothes/Underwear/Female_FrillyBra_Strapless_Pink,
+       scale = 0.4,
+   }
+   model BraStraplessFrillyRed_Ground
+   {
+       mesh = WorldItems/Clothing/Female_Bra_Strapless_White_Ground,
+       texture = Clothes/Underwear/Female_FrillyBra_Strapless_Red,
+       scale = 0.4,
+   }
+   model Bra_Ground
+   {
+       mesh = WorldItems/Clothing/Female_Bra_Straps_White_Ground,
+       texture = Clothes/Underwear/Female_Bra_Straps_White,
+       scale = 0.4,
+   }
+   model BraBlack_Ground
+   {
+       mesh = WorldItems/Clothing/Female_Bra_Straps_White_Ground,
+       texture = Clothes/Underwear/Female_Bra_Straps_Black,
+       scale = 0.4,
+   }
+   model Bra_AnimalPrint_Ground
+   {
+       mesh = WorldItems/Clothing/Female_Bra_Straps_White_Ground,
+       texture = Clothes/Underwear/Female_Bra_Straps_AnimalPrint,
+       scale = 0.4,
+   }
+   model Bra_FrillyBlack_Ground
+   {
+       mesh = WorldItems/Clothing/Female_Bra_Straps_White_Ground,
+       texture = Clothes/Underwear/Female_FrillyBra_Straps_Black,
+       scale = 0.4,
+   }
+   model Bra_FrillyPink_Ground
+   {
+       mesh = WorldItems/Clothing/Female_Bra_Straps_White_Ground,
+       texture = Clothes/Underwear/Female_FrillyBra_Straps_Pink,
+       scale = 0.4,
+   }
+   model Bra_FrillyRed_Ground
+   {
+       mesh = WorldItems/Clothing/Female_Bra_Straps_White_Ground,
+       texture = Clothes/Underwear/Female_FrillyBra_Straps_Red,
+       scale = 0.4,
+   }
+   model Trousers_Shellsuit_Ground
+   {
+       mesh = WorldItems/Clothing/TrousersShellSuit_Ground,
+       scale = 0.3,
+   }
+   model Jacket_Shellsuit_Ground
+   {
+       mesh = WorldItems/Clothing/JacketShellSuit_Ground,
+       scale = 0.3,
+   }
+   model BowlingBallBag_Ground
+   {
+       mesh = WorldItems/Clothing/BowlingBallBag_Ground,
+       scale = 0.4,
+   }
+   model PlasticCup_Ground
+   {
+      mesh = WorldItems/PlasticCup,
+      texture = WorldItems/PlasticCup_Red,
+      scale = 0.25,
+   }
+   model Bagel_Ground
+   {
+      mesh = WorldItems/Bagel,
+      texture = WorldItems/Bagel,
+      scale = 0.35,
+   }
+   model BagelPoppy_Ground
+   {
+     mesh = WorldItems/Bagel,
+     texture = WorldItems/BagelPoppySeeds,
+     scale = 0.35,
+   }
+   model BagelSesame_Ground
+   {
+     mesh = WorldItems/Bagel,
+     texture = WorldItems/BagelSesameSeeds,
+     scale = 0.35,
+   }
+   model CarrotCake_Ground
+   {
+      mesh = WorldItems/CakeSlice,
+      texture = WorldItems/CakeCarrotCake,
+      scale = 0.4,
+   }
+   model CheeseCake_Ground
+   {
+      mesh = WorldItems/CakeSlice,
+      texture = WorldItems/CakeCheeseCake,
+      scale = 0.4,
+   }
+   model ChocolateCake_Ground
+   {
+      mesh = WorldItems/CakeSlice,
+      texture = WorldItems/CakeChocolate,
+      scale = 0.4,
+   }
+   model RedVelvetCake_Ground
+   {
+      mesh = WorldItems/CakeSlice,
+      texture = WorldItems/CakeRedVelvet,
+      scale = 0.4,
+   }
+   model BlackForestCake_Ground
+   {
+      mesh = WorldItems/CakeSlice_BlackForest,
+      texture = WorldItems/CakeBlackforest,
+      scale = 0.4,
+   }
+   model StrawberryShortcake_Ground
+   {
+      mesh = WorldItems/CakeSlice_StrawberryShortcake,
+      texture = WorldItems/CakeStrawberryShortcake,
+      scale = 0.4,
+   }
+   model Dress_Straps_Ground
+   {
+      mesh = WorldItems/Clothing/Dress_Straps,
+      texture = Clothes/Dress_Textures/Dress_Straps,
+      scale = 0.4,
+   }
+   model Dress_Knees_Straps_Ground
+   {
+      mesh = WorldItems/Clothing/DressKnees_Straps,
+      texture = Clothes/Dress_Textures/DressKnees_Straps,
+      scale = 0.4,
+   }
+   model Dress_Small_Strapless_Ground
+   {
+      mesh = WorldItems/Clothing/DressSmall_Strapless,
+      texture = Clothes/Dress_Textures/DressSmall_Strapless,
+      scale = 0.4,
+   }
+   model Dress_Small_Black_Strapless_Ground
+   {
+      mesh = WorldItems/Clothing/DressSmall_Strapless,
+      texture = Clothes/Dress_Textures/Dress_SmallBlack_Strapless,
+      scale = 0.4,
+   }
+   model Dress_Small_Straps_Ground
+   {
+      mesh = WorldItems/Clothing/DressSmall_Straps,
+      texture = Clothes/Dress_Textures/DressSmall_Straps,
+      scale = 0.4,
+   }
+   model Dress_Small_Black_Straps_Ground
+   {
+      mesh = WorldItems/Clothing/DressSmall_Straps,
+      texture = Clothes/Dress_Textures/Dress_SmallBlack_Straps,
+      scale = 0.4,
+   }
+   model Corset_Ground
+   {
+      mesh = WorldItems/Clothing/Corset_Ground,
+      texture = WorldItems/Corset_White_Ground,
+      scale = 0.4,
+   }
+   model Corset_Black_Ground
+   {
+      mesh = WorldItems/Clothing/Corset_Ground,
+      texture = WorldItems/Corset_Black_Ground,
+      scale = 0.4,
+   }
+   model Corset_Red_Ground
+   {
+      mesh = WorldItems/Clothing/Corset_Ground,
+      texture = WorldItems/Corset_Red_Ground,
+      scale = 0.4,
+   }
+   model Corset_Medical_Ground
+   {
+      mesh = WorldItems/Clothing/Corset_Medical_Ground,
+      texture = WorldItems/Corset_Medical_Ground,
+      scale = 0.4,
+   }
+   model BakingSoda_Ground
+   {
+      mesh = WorldItems/BakingSoda,
+      scale = 0.4,
+   }
+   model Doughnut_Ground
+   {
+      mesh = WorldItems/Doughnut,
+      texture = WorldItems/Doughnut_Plain,
+      scale = 0.4,
+   }
+   model Doughnut_Chocolate_Ground
+   {
+      mesh = WorldItems/Doughnut,
+      texture = WorldItems/Doughnut_Chocolate,
+      scale = 0.4,
+   }
+   model Doughnut_Frosted_Ground
+   {
+        mesh = WorldItems/Doughnut,
+        texture = WorldItems/Doughnut_Frosted,
+        scale = 0.4,
+   }
+   model Doughnut_Jelly_Ground
+   {
+        mesh = WorldItems/Doughnut,
+        texture = WorldItems/Doughnut_Jelly,
+        scale = 0.4,
+   }
+    model Cookie_Ground
+    {
+        mesh = WorldItems/Cookies,
+        texture = WorldItems/CookieSugar,
+        scale = 0.4,
+    }
+    model Cookie_Chocolate_Ground
+    {
+        mesh = WorldItems/Cookies,
+        texture = WorldItems/CookiesChocolate,
+        scale = 0.4,
+    }
+    model Cookie_Oatmeal_Ground
+    {
+        mesh = WorldItems/Cookies,
+        texture = WorldItems/CookiesOatmeal,
+        scale = 0.4,
+    }
+    model Cookie_Shortbread_Ground
+    {
+        mesh = WorldItems/Cookies_Shortbread,
+        texture = WorldItems/CookiesShortbread,
+        scale = 0.4,
+    }
+    model JamFruit_Ground
+    {
+        mesh = WorldItems/JarLid,
+        texture = WorldItems/JamFruit,
+        scale = 0.4,
+    }
+    model JamMarmalade_Ground
+    {
+        mesh = WorldItems/JarLid,
+        texture = WorldItems/JamMarmalade,
+        scale = 0.4,
+    }
+    model GlassTumbler_Ground
+    {
+        mesh = WorldItems/GlassTumbler,
+        texture = WorldItems/GlassTumblerWine,
+        scale = 0.3,
+    }
+    model GlassWine_Ground
+    {
+        mesh = WorldItems/GlassWine,
+        texture = WorldItems/GlassTumblerWine,
+        scale = 0.3,
+    }
+    model MincedMeat_Ground
+    {
+        mesh = WorldItems/MincedMeat,
+        texture = WorldItems/MincedMeatRaw,
+        scale = 0.4,
+    }
+    model MincedMeat_GroundCooked
+    {
+        mesh = WorldItems/MincedMeat,
+        texture = WorldItems/MincedMeatCooked,
+        scale = 0.4,
+    }
+    model MincedMeat_GroundBurnt
+    {
+        mesh = WorldItems/MincedMeat,
+        texture = WorldItems/MincedMeatBurnt,
+        scale = 0.4,
+    }
+    model MincedMeat_GroundRotten
+    {
+        mesh = WorldItems/MincedMeat,
+        texture = WorldItems/MincedMeatRotten,
+        scale = 0.4,
+    }
+    model Plate_Ground
+    {
+        mesh = WorldItems/Plate,
+        scale = 0.25,
+    }
+    model Plate_Blue_Ground
+    {
+        mesh = WorldItems/Plate,
+        texture = WorldItems/PlateBlue,
+        scale = 0.25,
+    }
+    model Plate_Fancy_Ground
+    {
+        mesh = WorldItems/Plate,
+        texture = WorldItems/PlateFancy,
+        scale = 0.25,
+    }
+    model Plate_Orange_Ground
+    {
+        mesh = WorldItems/Plate,
+        texture = WorldItems/PlateOrange,
+        scale = 0.25,
+    }
+    model Camera_Ground
+    {
+        mesh = WorldItems/Camera,
+        scale = 0.4,
+    }
+    model CameraDisposable_Ground
+    {
+        mesh = WorldItems/CameraDisposable,
+        scale = 0.4,
+    }
+    model CameraExpensive_Ground
+    {
+        mesh = WorldItems/CameraExpensive,
+        scale = 0.4,
+    }
+    model CameraFilm_Ground
+    {
+        mesh = WorldItems/CameraFilm,
+        scale = 0.4,
+    }
+    model Baguette_Ground
+    {
+        mesh = WorldItems/Baguette,
+        scale = 0.4,
+    }
+    model Baloney_Ground
+    {
+        mesh = WorldItems/Baloney,
+        scale = 0.4,
+    }
+    model Blackbeans_Ground
+    {
+        mesh = WorldItems/Blackbeans,
+        scale = 0.4,
+    }
+    model Burrito_Ground
+    {
+        mesh = WorldItems/Burrito,
+        scale = 0.4,
+    }
+    model Crackers_Ground
+    {
+        mesh = WorldItems/Crackers,
+        scale = 0.4,
+    }
+    model Croissant_Ground
+    {
+        mesh = WorldItems/Croissant,
+        scale = 0.4,
+    }
+    model Biscuit_Ground
+    {
+        mesh = WorldItems/Biscuit,
+        scale = 0.4,
+    }
+    model ChickenFoot_Ground
+    {
+        mesh = WorldItems/ChickenFoot,
+        scale = 0.4,
+    }
+    model Chopsticks_Ground
+    {
+        mesh = WorldItems/Chopsticks,
+        scale = 0.4,
+    }
+    model CocoaPowder_Ground
+    {
+        mesh = WorldItems/CocoaPowder,
+        scale = 0.4,
+    }
+    model ChocolateChips_Ground
+    {
+        mesh = WorldItems/ChoccolateChips,
+        scale = 0.4,
+    }
+    model Cornbread_Ground
+    {
+        mesh = WorldItems/Cornbread,
+        scale = 0.4,
+    }
+    model Daikon_Ground
+    {
+        mesh = WorldItems/Daikon,
+        scale = 0.4,
+    }
+    model Daikon_GroundRotten
+    {
+        mesh = WorldItems/Daikon,
+        texture = WorldItems/DaikonRotten,
+        scale = 0.4,
+    }
+    model EggBoiled_Ground
+    {
+        mesh = WorldItems/EggBoiled,
+        scale = 0.4,
+    }
+    model EggOmlette_Ground
+    {
+        mesh = WorldItems/EggOmlette,
+        scale = 0.4,
+    }
+    model Taco_Ground
+    {
+        mesh = WorldItems/Taco,
+        scale = 0.4,
+    }
+    model Grapefruit_Ground
+    {
+        mesh = WorldItems/Grapefruit,
+        scale = 0.4,
+    }
+    model Grapefruit_GroundRotten
+    {
+        mesh = WorldItems/Grapefruit,
+        texture = WorldItems/GrapefruitRotten,
+        scale = 0.4,
+    }
+    model Lime_Ground
+    {
+        mesh = WorldItems/Lime,
+        scale = 0.4,
+    }
+    model Lime_GroundRotten
+    {
+        mesh = WorldItems/Lime,
+        texture = WorldItems/LimeRotten,
+        scale = 0.4,
+    }
+    model FishFried_Ground
+    {
+        mesh = WorldItems/FishFillet,
+        texture = WorldItems/FishFried,
+        scale = 0.3,
+    }
+    model FishFried_GroundRotten
+    {
+        mesh = WorldItems/FishFillet,
+        texture = WorldItems/FishFriedRotten,
+        scale = 0.3,
+    }
+    model SugarBrown_Ground
+    {
+        mesh = WorldItems/Sugar,
+        texture = WorldItems/SugarBrown,
+        scale = 0.4,
+    }
+    model CrackersGraham_Ground
+    {
+        mesh = WorldItems/Crackers,
+        texture = WorldItems/CrackersGraham,
+        scale = 0.4,
+    }
+    model MuffinFruit_Ground
+    {
+        mesh = WorldItems/Muffin,
+        texture = WorldItems/MuffinFruit,
+        scale = 0.4,
+    }
+    model MuffinGeneric_Ground
+    {
+        mesh = WorldItems/Muffin,
+        texture = WorldItems/MuffinGeneric,
+        scale = 0.4,
+    }
+    model RefriedBeans_Ground
+    {
+        mesh = WorldItems/RefriedBeans,
+        scale = 0.4,
+    }
+    model TacoShell_Ground
+    {
+        mesh = WorldItems/TacoShell,
+        scale = 0.4,
+    }
+    model Tortilla_Ground
+    {
+        mesh = WorldItems/Tortilla,
+        scale = 0.4,
+    }
+    model TortillaChips_Ground
+    {
+        mesh = WorldItems/TortillaChips,
+        scale = 0.4,
+    }
+    model Maki_Ground
+    {
+        mesh = WorldItems/Maki,
+        scale = 0.4,
+    }
+    model MeatDumplings_Ground
+    {
+        mesh = WorldItems/MeatDumplings,
+        scale = 0.4,
+    }
+    model MeatSteamBun_Ground
+    {
+        mesh = WorldItems/MeatSteamBun,
+        scale = 0.4,
+    }
+    model Soysauce_Ground
+    {
+        mesh = WorldItems/Soysauce,
+        scale = 0.4,
+    }
+    model Lobster_Ground
+    {
+        mesh = WorldItems/Lobster,
+        texture = WorldItems/LobsterRaw,
+        scale = 0.4,
+    }
+    model Lobster_GroundCooked
+    {
+        mesh = WorldItems/Lobster,
+        texture = WorldItems/LobsterCooked,
+        scale = 0.4,
+    }
+    model Lobster_GroundRotten
+    {
+        mesh = WorldItems/Lobster,
+        texture = WorldItems/LobsterRotten,
+        scale = 0.4,
+    }
+    model Lobster_GroundBurnt
+    {
+        mesh = WorldItems/Lobster,
+        texture = WorldItems/LobsterBurnt,
+        scale = 0.4,
+    }
+    model Sausage_Ground
+    {
+        mesh = WorldItems/Sausage,
+        texture = WorldItems/SausageRaw,
+        scale = 0.4,
+    }
+    model Sausage_GroundCooked
+    {
+        mesh = WorldItems/Sausage,
+        texture = WorldItems/SausageCooked,
+        scale = 0.4,
+    }
+    model Sausage_GroundBurnt
+    {
+        mesh = WorldItems/Sausage,
+        texture = WorldItems/SausageBurnt,
+        scale = 0.4,
+    }
+    model Sausage_GroundBurnt
+    {
+        mesh = WorldItems/Sausage,
+        texture = WorldItems/SausageBurnt,
+        scale = 0.4,
+    }
+    model CanOpenFruitCocktail_Ground
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedFruitCocktail,
+    }
+    model CanClosedPineapple_Ground
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedPinapple,
+    }
+    model CanOpenPineapple_Ground
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedPinapple,
+    }
+    model CanClosedFruitCocktail_Ground
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedFruitCocktail,
+    }
+    model CanOpenPeaches_Ground
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinnedPeaches,
+    }
+    model CanClosedPeaches_Ground
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TinnedPeaches,
+    }
+    model PancakeMix_Ground
+    {
+        mesh = WorldItems/PancakeMix,
+        scale = 0.4,
+    }
+    model PancakesFruit_Ground
+    {
+        mesh = WorldItems/Pancakes,
+        texture = WorldItems/PancakesFruit,
+        scale = 0.4,
+    }
+    model Pepperoni_Ground
+    {
+        mesh = WorldItems/Pepperoni,
+        scale = 0.4,
+    }
+    model Salami_Ground
+    {
+        mesh = WorldItems/Salami,
+        scale = 0.4,
+    }
+    model Springroll_Ground
+    {
+        mesh = WorldItems/Springroll,
+        scale = 0.4,
+    }
+    model NoodleSoup_Ground
+    {
+        mesh = WorldItems/BowlSoup,
+        texture = WorldItems/NoodleSoup,
+        scale = 0.4,
+    }
+    model NoodleSoup_GroundRotten
+    {
+        mesh = WorldItems/BowlSoup,
+        texture = WorldItems/NoodleSoupRotten,
+        scale = 0.4,
+    }
+    model ChickenNuggets_Ground
+    {
+        mesh = WorldItems/ChickenNuggets,
+        texture = WorldItems/ChickenNuggets,
+        scale = 0.4,
+    }
+    model FishFingers_Ground
+    {
+        mesh = WorldItems/FishFingers,
+        texture = WorldItems/FishFingers,
+        scale = 0.4,
+    }
+    model Jackolantern_Ground
+    {
+        mesh = WorldItems/Pumpkin,
+        texture = WorldItems/Jackolantern,
+        scale = 0.4,
+    }
+    model Pumpkin_Ground
+    {
+        mesh = WorldItems/Pumpkin,
+        texture = WorldItems/Pumpkin,
+        scale = 0.4,
+    }
+    model Pumpkin_GroundRotten
+    {
+        mesh = WorldItems/Pumpkin,
+        texture = WorldItems/PumpkinRotten,
+        scale = 0.4,
+    }
+    model Shrimp_Ground
+    {
+        mesh = WorldItems/Shrimp_Raw_Rotten,
+        texture = WorldItems/ShrimpRaw,
+        scale = 0.4,
+    }
+    model Shrimp_GroundBurnt
+    {
+        mesh = WorldItems/Shrimp_Cooked_Fried_Burnt,
+        texture = WorldItems/ShrimpBurnt,
+        scale = 0.4,
+    }
+    model Shrimp_GroundCooked
+    {
+        mesh = WorldItems/Shrimp_Cooked_Fried_Burnt,
+        texture = WorldItems/ShrimpCooked,
+        scale = 0.4,
+    }
+    model Shrimp_GroundRotten
+    {
+        mesh = WorldItems/Shrimp_Raw_Rotten,
+        texture = WorldItems/ShrimpRotten,
+        scale = 0.4,
+    }
+    model ShrimpFried_Ground
+    {
+        mesh = WorldItems/Shrimp_Cooked_Fried_Burnt,
+        texture = WorldItems/ShrimpFried,
+        scale = 0.4,
+    }
+}

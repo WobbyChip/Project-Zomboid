@@ -1,0 +1,19 @@
+module Base
+{
+	template vehicle Engine
+	{
+		part Engine
+		{
+		    area = Engine,
+			category = engine,
+			mechanicRequireKey = true,
+			lua
+			{
+				create = Vehicles.Create.Engine,
+				update = Vehicles.Update.Engine,
+				checkEngine = Vehicles.CheckEngine.Engine,
+			}
+		}
+	}
+}
+

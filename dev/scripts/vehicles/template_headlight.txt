@@ -1,0 +1,72 @@
+module Base
+{
+	template vehicle Headlight
+	{
+		part HeadlightLeft
+		{
+			area = Engine,
+		}
+
+		part HeadlightRight
+		{
+			area = Engine,
+		}
+
+		/* FIXME: Rename to Taillight? */
+		part HeadlightRearLeft
+		{
+			area = TruckBed,
+		}
+
+		/* FIXME: Rename to Taillight? */
+		part HeadlightRearRight
+		{
+			area = TruckBed,
+		}
+
+		part Headlight*
+		{
+			category = lights,
+			specificItem = false,
+			itemType = Base.LightBulb,
+			mechanicRequireKey = true,
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 100,
+				test = Vehicles.InstallTest.Default,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 100,
+				test = Vehicles.UninstallTest.Default,
+			}
+			lua
+			{
+				create = Vehicles.Create.Headlight,
+				init = Vehicles.Init.Headlight,
+				update = Vehicles.Update.Headlight,
+			}
+		}
+	}
+}
+
