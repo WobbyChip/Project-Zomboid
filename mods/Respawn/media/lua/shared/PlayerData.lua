@@ -19,6 +19,7 @@ function savePlayer(player)
     Respawn.Traits = player:getTraits();
     Respawn.Profession = player:getDescriptor():getProfession();
     Respawn.Recipes = player:getKnownRecipes();
+    Respawn.ZombieKills = player:getZombieKills();
 end
 
 function savePlayerLevels(player)
@@ -153,6 +154,7 @@ function loadPlayer(player)
     loadPlayerModel(player);
     loadPlayerBoosts(player);
     loadPlayerTraits(player);
+    player:setZombieKills(Respawn.ZombieKills);
 end
 
 function loadPlayerLevels(player)
