@@ -1,0 +1,3 @@
+ContextMenu_RU = {
+    ContextMenu_Grab_Skateboard = "Поднять скейт"
+}

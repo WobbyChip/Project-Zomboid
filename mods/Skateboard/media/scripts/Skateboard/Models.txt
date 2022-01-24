@@ -1,0 +1,21 @@
+module Dislaik
+{
+    model Skateboard
+	{
+        mesh = weapons/2handed/Skateboard,
+        texture = vehicles/Skateboard,
+
+		attachment world
+		{
+			offset = 0.0000 0.2450 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+	model Skateboard_Ground
+	{
+        mesh = weapons/2handed/SkateboardBroken,
+        texture = vehicles/Skateboard,
+		scale = 1
+	}
+}

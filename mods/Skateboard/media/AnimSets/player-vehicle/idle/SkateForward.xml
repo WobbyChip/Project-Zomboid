@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>Bob_SkateForward</m_Name>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_AnimName>Bob_SkateForward</m_AnimName>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_Conditions>
+		<m_Name>vehicleScriptName</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>Base.Skateboard</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>vehicleForward</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+</animNode>
