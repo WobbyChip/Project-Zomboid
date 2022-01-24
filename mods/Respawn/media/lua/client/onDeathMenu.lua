@@ -93,13 +93,11 @@ function onRespawn(target)
 
     setPlayerMouse(nil); --This spawns new player
     loadPlayer(getPlayer());
+    setHealth(getPlayer(), SandboxVars.healthOnRespawn);
 
     if selected.name == "Respawn" then
         loadRespawnLocation(getPlayer());
     end
-
-    local health = 100-(20*SandboxVars.healthPenaltyPercentage/100);
-    setHealth(getPlayer(), health);
 
     CCC:setVisible(false);
     CCC:cancel();

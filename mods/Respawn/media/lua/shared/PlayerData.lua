@@ -350,9 +350,9 @@ function setRespawnRegion(player, region)
     end
 end
 
---Going bellow 80 will kill you.
 function setHealth(player, health)
     local parts = player:getBodyDamage():getBodyParts();
+    local health = 80+(20*health/100);
 
     for i = 0, parts:size()-1 do
         parts:get(i):SetHealth(health);

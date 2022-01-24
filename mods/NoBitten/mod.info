@@ -1,4 +1,4 @@
 name=NoBitten
 poster=poster.png
 id=NoBitten
-description=Adds craft of pills to remove zombification.
+description=Removes bitten in exchange for health
