@@ -18,6 +18,10 @@ if SandboxVars.keepRecipes == nil then
     SandboxVars.keepRecipes = true;
 end
 
+if SandboxVars.keepNutrition == nil then
+    SandboxVars.keepNutrition = true;
+end
+
 if SandboxVars.spawnpointTimer == nil then
     SandboxVars.spawnpointTimer = 1000;
 end

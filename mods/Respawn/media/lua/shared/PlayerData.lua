@@ -15,6 +15,7 @@ function savePlayer(player)
     savePlayerInventory(player);
     saveRespawnLocation(player);
     savePlayerModel(player);
+    saveNutrition(player);
 
     Respawn.Traits = player:getTraits();
     Respawn.Profession = player:getDescriptor():getProfession();
@@ -126,7 +127,15 @@ function savePlayerModel(player)
     Respawn.Descriptor.Female = player:isFemale();
     Respawn.Descriptor.Forename = player:getDescriptor():getForename();
     Respawn.Descriptor.Surname = player:getDescriptor():getSurname();
-    Respawn.Descriptor.Weight = player:getNutrition():getWeight();
+end
+
+function saveNutrition(player)
+    Respawn.Nutrition = {};
+    Respawn.Nutrition.Calories = player:getNutrition():getCalories();
+    Respawn.Nutrition.Proteins = player:getNutrition():getProteins();
+    Respawn.Nutrition.Lipids = player:getNutrition():getLipids();
+    Respawn.Nutrition.Carbohydrates = player:getNutrition():getCarbohydrates();
+    Respawn.Nutrition.Weight = player:getNutrition():getWeight();
 end
 
 --Load player
@@ -149,6 +158,10 @@ function loadPlayer(player)
 
     if SandboxVars.keepRecipes then
         loadPlayerRecipes(player);
+    end
+
+    if SandboxVars.keepNutrition then
+        loadNutrition(player);
     end
 
     loadPlayerModel(player);
@@ -285,8 +298,15 @@ function loadPlayerModel(player)
         player:getDescriptor():setFemale(Respawn.Descriptor.Female);
         player:getDescriptor():setForename(Respawn.Descriptor.Forename);
         player:getDescriptor():setSurname(Respawn.Descriptor.Surname);
-        player:getNutrition():setWeight(Respawn.Descriptor.Weight);
     end
+end
+
+function loadNutrition(player)
+    player:getNutrition():setCalories(Respawn.Nutrition.Calories);
+    player:getNutrition():setProteins(Respawn.Nutrition.Proteins);
+    player:getNutrition():setLipids(Respawn.Nutrition.Lipids);
+    player:getNutrition():setCarbohydrates(Respawn.Nutrition.Carbohydrates);
+    player:getNutrition():setWeight(Respawn.Nutrition.Weight);
 end
 
 --Other
