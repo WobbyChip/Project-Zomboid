@@ -10,7 +10,7 @@ const path = require('path');
 var config = {
     serverIni: 'servertest.ini',
     gameDir: `./../game`,
-    memory: '4096M',
+    memory: '8g',
     port: 5000,
 
     buffer_lines: 1000,
