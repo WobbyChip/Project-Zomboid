@@ -3,9 +3,12 @@
 --Basicly If you put Belt and then Holster add attachments and then respawn
 --After respawn belt order will be different and attachments removed
 
---setWornItem will cause error if respawn with overweight character
+--setWornItem will cause error if respawn with overweight invenotry > 50
 --ItemContainer#Capacity is public simply modify it and then set back
 --or use isUnlimitedCarry and setUnlimitedCarry
+
+--and check if you die with overweight invenotry
+--will items drop on the ground
 
 Respawn = {};
 
