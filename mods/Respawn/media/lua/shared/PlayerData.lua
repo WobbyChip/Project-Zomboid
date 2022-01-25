@@ -3,7 +3,7 @@
 --Basicly If you put Belt and then Holster add attachments and then respawn
 --After respawn belt order will be different and attachments removed
 
---setWornItem will cause error if respawn with overwight character
+--setWornItem will cause error if respawn with overweight character
 
 Respawn = {};
 
