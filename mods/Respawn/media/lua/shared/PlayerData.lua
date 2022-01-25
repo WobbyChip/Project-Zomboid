@@ -4,6 +4,7 @@
 --After respawn belt order will be different and attachments removed
 
 --setWornItem will cause error if respawn with overweight character
+--ItemContainer#Capacity is public simply modify it and then set back
 
 Respawn = {};
 
