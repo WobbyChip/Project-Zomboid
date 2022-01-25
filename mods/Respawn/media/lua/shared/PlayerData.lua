@@ -5,6 +5,7 @@
 
 --setWornItem will cause error if respawn with overweight character
 --ItemContainer#Capacity is public simply modify it and then set back
+--or use isUnlimitedCarry and setUnlimitedCarry
 
 Respawn = {};
 
