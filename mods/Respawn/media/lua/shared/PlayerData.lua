@@ -1,14 +1,16 @@
---Belts for some reason don't load in correct order
---Which causes attachment failure, and player need to put them back manually
---Basicly If you put Belt and then Holster add attachments and then respawn
---After respawn belt order will be different and attachments removed
+-- [-] Belts for some reason don't load in correct order
+-- [-] Which causes attachment failure, and player need to put them back manually
+-- [-] Basicly If you put Belt and then Holster add attachments and then respawn
+-- [-] After respawn belt order will be different and attachments removed
 
---setWornItem will cause error if respawn with overweight invenotry > 50
---ItemContainer#Capacity is public simply modify it and then set back
---or use isUnlimitedCarry and setUnlimitedCarry
+-- [+] setWornItem will cause error if respawn with overweight invenotry > 50
+-- [+] ItemContainer#Capacity is public simply modify it and then set back
+-- [+] or use isUnlimitedCarry and setUnlimitedCarry
 
---and check if you die with overweight invenotry
---will items drop on the ground
+-- [?] and check if you die with overweight invenotry
+-- [?] will items drop on the ground
+
+-- [-] Primary and secondary items drop on MP
 
 Respawn = {};
 
@@ -104,6 +106,10 @@ function saveRespawnLocation(player)
 end
 
 function saveEquipItems(player)
+    if not isClient() then
+        player:dropHeavyItems(); --Fix corpse duplication glitch on MP
+    end
+
     Respawn.PrimaryHandItem = player:getPrimaryHandItem();
     player:setPrimaryHandItem(nil);
 
@@ -229,6 +235,9 @@ function loadPlayerRecipes(player)
 end
 
 function loadPlayerInventory(player)
+    local isUnlimitedCarry = player:isUnlimitedCarry();
+    player:setUnlimitedCarry(true);
+
     --Assign new player's container to old items
     for i = 0, Respawn.Items:size()-1 do
         Respawn.Items:get(i):setEquipParent(player);
@@ -270,6 +279,7 @@ function loadPlayerInventory(player)
     --Set items in primary and secondary hands
     player:setPrimaryHandItem(Respawn.PrimaryHandItem);
     player:setSecondaryHandItem(Respawn.SecondaryHandItem);
+    player:setUnlimitedCarry(isUnlimitedCarry);
     player:update();
 
 	if isClient() then
@@ -319,6 +329,9 @@ end
 --Other
 
 function clearInventory(player)
+    local isUnlimitedCarry = player:isUnlimitedCarry();
+    player:setUnlimitedCarry(true);
+
     --Need to unequip default equped items
     local WornItems = {};
 
@@ -334,11 +347,14 @@ function clearInventory(player)
 
 	player:getWornItems():clear(); --Worn items, like clothes and belt
     player:getAttachedItems():clear(); --Attched items, like attached to belt
+    player:setPrimaryHandItem(nil);
+    player:setSecondaryHandItem(nil);
 
 	local playerInventory = player:getInventory();
 	playerInventory:getItems():clear();
 	playerInventory:removeAllItems();
 	player:setInventory(playerInventory);
+    player:setUnlimitedCarry(isUnlimitedCarry);
 	player:update();
 
 	if isClient() then
