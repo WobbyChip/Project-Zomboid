@@ -15,7 +15,7 @@
 -- [+] updateWhileDead()
 
 -- [+] Corpse duplication, second player is seeing two corpses
--- [-] Some wird body part, Grab Base.Wound_*
+-- [-] Some wird body part, Grab Base.Wound_*, client side error
 
 Respawn = {};
 
