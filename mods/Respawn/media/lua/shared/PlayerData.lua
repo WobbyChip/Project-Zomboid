@@ -11,6 +11,8 @@
 -- [?] will items drop on the ground
 
 -- [-] Primary and secondary items drop on MP
+-- [-] This is cause client drops items and sends packet before event
+-- [-] updateWhileDead()
 
 Respawn = {};
 
