@@ -1,6 +1,6 @@
 function onFillWorldObjectContextMenu(playerId, context, worldobjects, test)
 	for _, object in ipairs(worldobjects) do
-        if SandboxVars.allowSpawnpoint and instanceof(object, "IsoTelevision") then
+        if SandboxVars.Respawn.allowSpawnpoint and instanceof(object, "IsoTelevision") then
             context:addOption(getText("ContextMenu_SetRespawn"), object, onSetRespawn, playerId, true);
             context:addOption(getText("ContextMenu_RemoveRespawn"), object, onSetRespawn, playerId, false);
         end;
@@ -14,7 +14,7 @@ function onSetRespawn(object, playerId, addRemove)
 		return
 	end
 
-    ISTimedActionQueue.add(SpawnpointAction:new(player, addRemove, SandboxVars.spawnpointTimer));
+    ISTimedActionQueue.add(SpawnpointAction:new(player, addRemove, SandboxVars.Respawn.spawnpointTimer));
 end
 
 Events.OnFillWorldObjectContextMenu.Add(onFillWorldObjectContextMenu)

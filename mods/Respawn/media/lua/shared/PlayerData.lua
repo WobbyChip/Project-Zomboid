@@ -10,9 +10,12 @@
 -- [?] and check if you die with overweight invenotry
 -- [?] will items drop on the ground
 
--- [-] Primary and secondary items drop on MP
--- [-] This is cause client drops items and sends packet before event
--- [-] updateWhileDead()
+-- [+] Primary and secondary items drop on MP
+-- [+] This is cause client drops items and sends packet before event
+-- [+] updateWhileDead()
+
+-- [+] Corpse duplication, second player is seeing two corpses
+-- [-] Some wird body part, Grab Base.Wound_*
 
 Respawn = {};
 
@@ -108,8 +111,8 @@ function saveRespawnLocation(player)
 end
 
 function saveEquipItems(player)
-    if not isClient() then
-        player:dropHeavyItems(); --Fix corpse duplication glitch on MP
+    if SandboxVars.Respawn.dropHeavyItems then
+        player:dropHeavyItems();
     end
 
     Respawn.PrimaryHandItem = player:getPrimaryHandItem();
@@ -117,7 +120,6 @@ function saveEquipItems(player)
 
     Respawn.SecondaryHandItem = player:getSecondaryHandItem();
     player:setSecondaryHandItem(nil);
-    player:update();
 end
 
 function savePlayerModel(player)
@@ -158,24 +160,24 @@ end
 function loadPlayer(player)
     clearInventory(player);
 
-    if SandboxVars.keepInventory then
+    if SandboxVars.Respawn.keepInventory then
         loadPlayerInventory(player);
     end
 
-    if SandboxVars.keepLevels then
+    if SandboxVars.Respawn.keepLevels then
         loadPlayerLevels(player);
     end
 
-    if SandboxVars.keepBooks then
+    if SandboxVars.Respawn.keepBooks then
         loadPlayerBooks(player);
         loadPlayerMultipliers(player);
     end
 
-    if SandboxVars.keepRecipes then
+    if SandboxVars.Respawn.keepRecipes then
         loadPlayerRecipes(player);
     end
 
-    if SandboxVars.keepNutrition then
+    if SandboxVars.Respawn.keepNutrition then
         loadNutrition(player);
     end
 

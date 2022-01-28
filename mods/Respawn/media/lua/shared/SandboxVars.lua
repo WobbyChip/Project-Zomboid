@@ -1,35 +1,43 @@
-if SandboxVars.allowSpawnpoint == nil then
-    SandboxVars.allowSpawnpoint = true;
+if SandboxVars.Respawn == nil then
+    SandboxVars.Respawn = {};
 end
 
-if SandboxVars.keepInventory == nil then
-    SandboxVars.keepInventory = true;
+if SandboxVars.Respawn.allowSpawnpoint == nil then
+    SandboxVars.Respawn.allowSpawnpoint = true;
 end
 
-if SandboxVars.keepLevels == nil then
-    SandboxVars.keepLevels = true;
+if SandboxVars.Respawn.keepInventory == nil then
+    SandboxVars.Respawn.keepInventory = true;
 end
 
-if SandboxVars.keepBooks == nil then
-    SandboxVars.keepBooks = true;
+if SandboxVars.Respawn.dropHeavyItems == nil then
+    SandboxVars.Respawn.dropHeavyItems = true;
 end
 
-if SandboxVars.keepRecipes == nil then
-    SandboxVars.keepRecipes = true;
+if SandboxVars.Respawn.keepLevels == nil then
+    SandboxVars.Respawn.keepLevels = true;
 end
 
-if SandboxVars.keepNutrition == nil then
-    SandboxVars.keepNutrition = true;
+if SandboxVars.Respawn.keepBooks == nil then
+    SandboxVars.Respawn.keepBooks = true;
 end
 
-if SandboxVars.spawnpointTimer == nil then
-    SandboxVars.spawnpointTimer = 1000;
+if SandboxVars.Respawn.keepRecipes == nil then
+    SandboxVars.Respawn.keepRecipes = true;
 end
 
-if SandboxVars.respawnCooldown == nil then
-    SandboxVars.respawnCooldown = 5;
+if SandboxVars.Respawn.keepNutrition == nil then
+    SandboxVars.Respawn.keepNutrition = true;
 end
 
-if SandboxVars.healthOnRespawn == nil then
-    SandboxVars.healthOnRespawn = 50;
+if SandboxVars.Respawn.spawnpointTimer == nil then
+    SandboxVars.Respawn.spawnpointTimer = 1000;
+end
+
+if SandboxVars.Respawn.respawnCooldown == nil then
+    SandboxVars.Respawn.respawnCooldown = 5;
+end
+
+if SandboxVars.Respawn.healthOnRespawn == nil then
+    SandboxVars.Respawn.healthOnRespawn = 50;
 end

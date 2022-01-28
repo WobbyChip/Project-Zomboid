@@ -45,7 +45,7 @@ end
 
 function onPlayerDeath(player)
     o.playerNum = player:getPlayerNum();
-    o.cooldown = os.time() + SandboxVars.respawnCooldown + 4;
+    o.cooldown = os.time() + SandboxVars.Respawn.respawnCooldown + 4;
 
     if ISPostDeathUI.instance[o.playerNum] then
         ISPostDeathUI.instance[o.playerNum].buttonQuit:setOnClick(nil);
@@ -70,7 +70,7 @@ function onRespawnMenu(target)
     CCC.mapSpawnSelect.nextButton:setOnClick(onRespawn);
     local coords = getPlayerRespawn(getPlayer());
 
-    if SandboxVars.allowSpawnpoint and coords.x and coords.y and coords.z then
+    if SandboxVars.Respawn.allowSpawnpoint and coords.x and coords.y and coords.z then
         local item = {
             name = "Respawn",
             region = nil,
@@ -93,7 +93,7 @@ function onRespawn(target)
 
     setPlayerMouse(nil); --This spawns new player
     loadPlayer(getPlayer());
-    setHealth(getPlayer(), SandboxVars.healthOnRespawn);
+    setHealth(getPlayer(), SandboxVars.Respawn.healthOnRespawn);
 
     if selected.name == "Respawn" then
         loadRespawnLocation(getPlayer());
