@@ -1,6 +1,6 @@
 function onPlayerUpdate(player)
     if player:getHealth() > 0 and player:getBodyDamage():getHealth() > 0 then return end
-    if Respawn.bDead  then return end
+    if Respawn.bDead then return end
 
     local isMe = (player:getOnlineID() == getPlayer():getOnlineID());
     if not isMe then return end
