@@ -15,7 +15,8 @@
 -- [+] updateWhileDead()
 
 -- [+] Corpse duplication, second player is seeing two corpses
--- [-] Some wird body part, Grab Base.Wound_*, client side error
+-- [-] Some weird body part, Grab Base.Wound_*, client side error
+-- [-] Probaly not even my error
 
 Respawn = {};
 
