@@ -1,6 +1,13 @@
 function onCharacterDeath(character)
     if not instanceof(character, "IsoPlayer") then return end
     local isMe = (character:getOnlineID() == getPlayer():getOnlineID());
+
+    --This is specially for SP
+    if not isClient() and isMe then
+        onPlayerUpdate(character);
+    end
+
+    --The next code is only for MP
     if not isClient() or isMe then return end
 
     --Fix corpse duplication glitch on MP
