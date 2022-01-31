@@ -1,0 +1,401 @@
+module Base
+{
+	model AM2_SkullKing
+	{
+		mesh = vehicles/AM2_SkullKing,
+		shader = vehicle_norandom_multiuv,
+		static = TRUE,
+		invertX = FALSE,
+		scale = 1.0,
+	}
+	model AM2_SkullKing_wheel
+	{
+		mesh = vehicles/AM2_SkullKing_wheel,
+			texture = vehicles/AM2_SkullKing,
+		shader = vehiclewheel,
+	}
+	model AM2_SkullKing_wheel_rear
+	{
+		mesh = vehicles/AM2_SkullKing_wheel_rear,
+			texture = vehicles/AM2_SkullKing,
+		shader = vehiclewheel,
+	}
+	vehicle AM2_SkullKing
+	{
+		mechanicType = 5,
+		engineRepairLevel = 6,
+		playerDamageProtection = 1,
+		offRoadEfficiency = 5.0,
+
+		model
+		{
+			file = AM2_SkullKing,
+			scale = 1.0000,
+			offset = 0.0000 -0.0100 0.0000,
+			rotate = 0 0 0,
+		}
+
+		skin
+		{
+			texture = Vehicles/AM2_SkullKing,
+		}
+
+		textureMask = Vehicles/AM2_SkullKing_mask,
+		textureLights = Vehicles/AM2_SkullKing_lights,
+		textureDamage1Overlay = Vehicles/Blank,
+		textureDamage2Overlay = Vehicles/Blank,
+		textureDamage1Shell = Vehicles/Blank,
+		textureDamage2Shell = Vehicles/Blank,
+		textureRust = Vehicles/Blank,
+
+		sound
+		{
+			engine = VehicleEngineSportsCar,
+			engineStart = VehicleEngineSportsCar,
+			engineTurnOff = VehicleEngineSportsCar,
+			horn = VehicleHornSportsCar,
+			ignitionFail = VehicleIgnitionFailSportsCar,
+		}
+
+		extents = 0.4400 0.8000 2.1000,
+		mass = 250,
+		physicsChassisShape = 0.4400 0.8000 2.1000,
+		centerOfMassOffset = 0.0000 0.3900 -0.0200,
+		shadowExtents = 0.2300 2.1000,
+		shadowOffset = 0.0000 -0.0200,
+		engineForce = 10000,
+		engineQuality = 90,
+		engineLoudness = 110,
+		maxSpeed = 150f,
+		gearRatioCount = 5,
+		gearRatioR = 3.5,
+		gearRatio1 = 4.11,
+		gearRatio2 = 2.50,
+		gearRatio3 = 1.65,
+		gearRatio4 = 1.25,
+		gearRatio5 = 0.80,
+		stoppingMovementForce = 0.25f,
+		rollInfluence = 0.7f,
+		steeringIncrement = 0.04,
+		steeringClamp = 0.3,
+		suspensionStiffness = 50,
+		suspensionCompression = 4.1,
+		suspensionDamping = 3.4,
+		maxSuspensionTravelCm = 20,
+		suspensionRestLength = 0.2f,
+		wheelFriction = 1.8f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 2,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.0000 -0.0100 0.8000,
+			radius = 0.115f,
+			width = 0.575f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.0000 -0.0100 -0.8200,
+			radius = 0.115f,
+			width = 0.575f,
+		}
+
+		template = PassengerSeat2,
+
+		passenger FrontLeft
+		{
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.4100 -0.6100,
+				rotate = -30.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.4400 -0.2300 0.2100,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		passenger FrontRight
+		{
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.4700 -0.7900,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.5500 -0.3000 -0.1400,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontRight,
+			}
+		}
+
+		area Engine
+		{
+			xywh = 0.0100 0.4300 1.6000 1.2000,
+		}
+
+	
+		area SeatFrontLeft
+		{
+			xywh = 0.5100 -0.3000 0.6000 0.8000,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = 0.0600 -1.4400 1.5000 0.8000,
+		}
+
+		area GasTank
+		{
+			xywh = 0.0100 -0.0800 1.6000 0.9000,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.0000 0.7900 1.7200 0.4600,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.0000 -0.7800 1.7200 0.4600,
+		}
+
+		template = Seat/part/SeatFrontLeft,
+		template = Seat/part/SeatFrontRight,
+
+		part Seat*
+		{
+			category = nodisplay,
+			specificItem = false,
+			itemType = filcher.CycleSeatNoStorage,
+
+			table install
+			{
+				skills = Mechanics:2,
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:2,
+				recipes = Motorcycle Mechanics,
+			}
+
+			
+		}
+
+		template = GasTank,
+
+		part GasTank
+		{
+			specificItem = false,
+			itemType = filcher.SmallCycleGasTank;filcher.CycleGasTank,
+
+			install
+			{
+				skills = Mechanics:6,
+				recipes = Motorcycle Mechanics,
+			}
+
+			uninstall
+			{
+				skills = Mechanics:6,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = Battery,
+
+		part Battery
+		{
+			specificItem = false,
+			itemType = filcher.CycleBattery,
+		}
+
+		template = Engine,
+		template = Muffler,
+
+		part Muffler
+		{
+			specificItem = false,
+			itemType = filcher.OldCycleMuffler;filcher.NormalCycleMuffler;filcher.ModernCycleMuffler,
+
+			table install
+			{
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+
+		part Wind*
+		{
+			category = nodisplay,
+			itemType= Base.nil,
+
+			table install
+			{
+				recipes = Impossible,
+			}
+
+			table uninstall
+			{
+				recipes = Impossible,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+
+		part Door*
+		{
+			category = nodisplay,
+			itemType= Base.nil,
+
+			table install
+			{
+				sound = VehicleDoorOpenSportsCar,
+			}
+
+			anim Close
+			{
+				sound = VehicleDoorCloseSportsCar,
+			}
+
+			anim Lock
+			{
+				sound = LockVehicleDoorSportsCar,
+			}
+
+			anim Unlock
+			{
+				sound = UnlockVehicleDoorSportsCar,
+			}
+
+			anim IsLocked
+			{
+				sound = VehicleDoorIsLockedSportsCar,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template = Tire/part/TireFrontLeft,
+		template = Tire/part/TireRearLeft,
+
+		part TireFrontLeft
+		{
+			specificItem = false,
+			itemType = filcher.OldCycleTire;filcher.NormalCycleTire;filcher.ModernCycleTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = AM2_SkullKing_wheel,
+			}
+		}
+
+		part TireRearLeft
+		{
+			specificItem = false,
+			itemType = filcher.OldCycleTire;filcher.NormalCycleTire;filcher.ModernCycleTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = AM2_SkullKing_wheel_rear,
+			}
+		}
+
+		template = Brake/part/BrakeFrontLeft,
+		template = Brake/part/BrakeRearLeft,
+
+		part Brake*
+		{
+			specificItem = false,
+			itemType = filcher.OldCycleBrake;filcher.NormalCycleBrake;filcher.ModernCycleBrake,
+
+			table install
+			{
+				skills = Mechanics:6,
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:6,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = Suspension/part/SuspensionFrontLeft,
+		template = Suspension/part/SuspensionRearLeft,
+
+		part Suspension*
+		{
+			specificItem = false,
+			itemType = filcher.NormalCycleSuspension;filcher.ModernCycleSuspension,
+
+			table install
+			{
+				skills = Mechanics:6,
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:6,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = Headlight/part/HeadlightLeft,
+		template = Headlight/part/HeadlightRight,
+
+
+
+		attachment trailer
+		{
+			offset = 0.0000 0.0000 -1.0400,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = -1.0000,
+		}
+	}
+}

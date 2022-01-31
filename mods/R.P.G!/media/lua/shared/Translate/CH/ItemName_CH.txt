@@ -1,0 +1,4 @@
+ItemName_CH = {
+    ItemName_Base.modRPG7 = "RPG-7§ıΩbµ©",
+    ItemName_Base.modRPG7Rocket = "RPG-7æ…ºu¿Y",
+}

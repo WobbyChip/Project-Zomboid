@@ -1,0 +1,80 @@
+Recipe_EN = {
+	Recipe_Make_a_compact_fridge = "Make a compact fridge",
+	Recipe_Make_a_compact_stove = "Make a compact stove",
+	Recipe_Make_a_compact_microwave = "Make a compact microwave",
+	
+	Recipe_Make_ATAProtectionWheelsItem = "Make Wheel protection",
+	Recipe_Cut_ATAProtectionWheelsItem = "Cut Wheel protection",
+	
+	Recipe_Basic_Tuning = "Basic Tuning",
+
+
+	/************ Autotsar Tuning Atelier - Bus ************/
+	
+    Recipe_Make_ATABusKengur1Item = "Make Bullbar (Bear Bus)",
+	Recipe_Make_ATABusKengur2Item = "Make Improved bullbar (Bear Bus)",
+	Recipe_Make_ATABusKengur3Item = "Make Spiked plow (Bear Bus)",
+	Recipe_Make_ATABusRoofRack = "Make Roof rack (Bear Bus)",
+	Recipe_Make_ATABusProtectionDoorItem = "Make Protection for door (Bear Bus)",
+	Recipe_Make_ATABusProtectionDoorRearItem = "Make Protection for rear door (Bear Bus)",
+	Recipe_Make_ATABusProtectionWheelsItem = "Make Protection for wheels (Bear Bus)",
+	Recipe_Make_ATABusProtectionWindowsFrontItem = "Make Protection for windshield (Bear Bus)",
+	Recipe_Make_ATABusProtectionWindowsRightItem = "Make Protection for right windows (Bear Bus)",
+	Recipe_Make_ATABusProtectionWindowsLeftItem = "Make Protection for left windows (Bear Bus)",
+	Recipe_Make_ATABusRoofBoxItem = "Make Toolbox (Bear Bus)",
+	
+
+	/************ Autotsar Tuning Atelier - Jaap Wrungel ************/
+	
+	Recipe_Cut_ATAJeepBumper1Item = "Cut Bumper (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepBumper2Item = "Cut Bumper (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepBumper3Item = "Cut Bumper (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepBumper4Item = "Cut Bumper (Jaap Wrungel)",
+	Recipe_Make_ATAJeepBumper4Item = "Make Lethal bumper (Jaap Wrungel)",
+	
+	Recipe_Make_ATAJeepInteractiveTrunkRoofRackItem = "Make Roof rack (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepInteractiveTrunkRoofRackItem = "Cut Roof rack (Jaap Wrungel)",
+	Recipe_Make_ATAJeepInteractiveTrunkWheelRackItem = "Make Trunk over spare wheel (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepInteractiveTrunkWheelRackItem = "Cut Trunk over spare wheel (Jaap Wrungel)",
+
+	Recipe_Make_ATAJeepProtectionWindowItem = "Make Window protection (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepProtectionWindowItem = "Cut Window protection (Jaap Wrungel)",
+	Recipe_Make_ATAJeepProtectionWindowFrontItem = "Make Windshield protection (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepProtectionWindowFrontItem = "Cut Windshield protection (Jaap Wrungel)",
+	Recipe_Make_ATAJeepProtectionWindowRearItem = "Make Window rear protection (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepProtectionWindowRearItem = "Cut Window rear protection (Jaap Wrungel)",
+	
+	Recipe_Make_ATAJeepRoofBaseItem = "Make Congo cage (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepRoofBaseItem = "Cut Congo cage (Jaap Wrungel)",
+
+	
+	/************ Autotsar Tuning Atelier - Fjord Mustard ************/
+	
+	Recipe_Cut_ATAMustangBullbar1Item = "Cut Bullbar (Fjord Mustard)",
+	Recipe_Cut_ATAMustangBullbar2Item = "Cut Bullbar (Fjord Mustard)",
+	Recipe_Cut_ATAMustangBullbar3Item = "Cut Bullbar (Fjord Mustard)",
+	Recipe_Make_ATAMustangBullbar3Item = "Make Bullbar (Fjord Mustard)",
+
+	Recipe_Cut_ATAMustangHood2Item3 = "Cut Hood (Fjord Mustard)",
+	Recipe_Cut_ATAMustangHood3Item3 = "Cut Hood (Fjord Mustard)",
+	Recipe_Cut_ATAMustangHood4Item3 = "Cut Hood (Fjord Mustard)",
+	Recipe_Cut_ATAMustangHoodItem = "Cut Hood (Fjord Mustard)",
+	
+	Recipe_Cut_ATAMustangFendersWideItem = "Cut Hood (Fjord Mustard)",
+	Recipe_Cut_ATAMustangSkirtsSideItem = "Cut Hood (Fjord Mustard)",
+	Recipe_Cut_ATAMustangSpoilerFrontItem = "Cut Spoiler (Fjord Mustard)",
+	Recipe_Cut_ATAMustangSpoilerRear1Item = "Cut Spoiler (Fjord Mustard)",
+	Recipe_Cut_ATAMustangSpoilerRear2Item = "Cut Spoiler (Fjord Mustard)",
+	
+	Recipe_Make_ATAMustangProtectionWindowLeftItem = "Make Protection for left window  (Fjord Mustard)",
+	Recipe_Make_ATAMustangProtectionWindowRightItem = "Make Protection for right window (Fjord Mustard)",
+	Recipe_Make_ATAMustangProtectionWindowFrontItem = "Make Protection for windshield (Fjord Mustard)",
+	Recipe_Make_ATAMustangProtectionWindowRearItem = "Make Protection for rear window (Fjord Mustard)",
+	Recipe_Cut_ATAMustangProtectionWindowLeftItem = "Cut Protection for left window (Fjord Mustard)",
+	Recipe_Cut_ATAMustangProtectionWindowRightItem = "Cut Protection for right window (Fjord Mustard)",
+	Recipe_Cut_ATAMustangProtectionWindowFrontItem = "Cut Protection for windshield (Fjord Mustard)",
+	Recipe_Cut_ATAMustangProtectionWindowRearItem = "Cut Protection for rear window (Fjord Mustard)",
+	
+	Recipe_Make_ATAMustangRoofRackItem = "Make Roof Rack (Fjord Mustard)",
+	Recipe_Cut_ATAMustangRoofRackItem = "Cut Roof Rack (Fjord Mustard)",
+}

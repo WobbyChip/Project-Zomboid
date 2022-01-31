@@ -1,0 +1,509 @@
+module Base
+{
+
+	vehicle AM2_Yeti_Test
+	{
+		mechanicType = 5,
+		offRoadEfficiency = 1.4,
+		engineRepairLevel = 4,
+		playerDamageProtection = 1,
+		engineRPMType = firebird,
+
+		model
+		{
+			file = AM2_Yeti,
+			scale = 1.8200,
+			offset = -0.0055 -0.0275 0.0055,
+		}
+
+		spawnOffsetY = 0.12999995,
+
+		skin
+		{
+			texture = Vehicles/AM2_Yeti,
+		}
+
+		textureMask = Vehicles/Blank,
+		textureLights = Vehicles/Blank,
+		textureDamage1Overlay = Vehicles/Blank,
+		textureDamage2Overlay = Vehicles/Blank,
+		textureDamage1Shell = Vehicles/Blank,
+		textureDamage2Shell = Vehicles/Blank,
+		textureRust = Vehicles/Blank,
+
+		sound
+		{
+			engine = VehicleEngineOffRoad,
+			engineStart = VehicleEngineOffRoad,
+			engineTurnOff = VehicleEngineOffRoad,
+			horn = VehicleHornJeep,
+			ignitionFail = VehicleIgnitionFailOffRoad,
+		}
+
+		extents = 0.3846 0.4176 0.8022,
+		mass = 250,
+		physicsChassisShape = 0.3846 0.4176 0.8022,
+		centerOfMassOffset = 0.0000 0.2473 0.0000,
+		shadowExtents = 0.3901 0.8076,
+		shadowOffset = 0.0000 0.0000,
+		engineForce = 2000,
+		engineLoudness = 90,
+		engineQuality = 70,
+		maxSpeed = 45f,
+		gearRatioCount = 5,
+		gearRatioR = 3.5,
+		gearRatio1 = 4.11,
+		gearRatio2 = 2.50,
+		gearRatio3 = 1.65,
+		gearRatio4 = 1.25,
+		gearRatio5 = 0.80,
+		stoppingMovementForce = 2.0f,
+		rollInfluence = 0.7f,
+		steeringIncrement = 0.04,
+		steeringClamp = 0.3,
+		suspensionStiffness = 50,
+		suspensionCompression = 4.1,
+		suspensionDamping = 3.4,
+		maxSuspensionTravelCm = 20,
+		suspensionRestLength = 0.2f,
+		wheelFriction = 1.8f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 1,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.1648 0.0604 0.2802,
+			radius = 0.125f,
+			width = 0.2f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.1648 0.0604 0.2802,
+			radius = 0.125f,
+			width = 0.2f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.1648 0.0604 -0.3022,
+			radius = 0.125f,
+			width = 0.2f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = -0.1648 0.0604 -0.3022,
+			radius = 0.125f,
+			width = 0.2f,
+		}
+
+		template = PassengerSeat2,
+
+		passenger FrontLeft
+		{
+			showPassenger=true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0055 0.3462 -0.2253,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.5549 -0.3022 -0.1429,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 0.0055 0.7582 1.0000,
+		}
+
+		area Engine
+		{
+			xywh = 0.0000 0.7088 0.7912 0.4725,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 0.4615 -0.0055 0.4725 0.4725,
+		}
+
+		area GasTank
+		{
+			xywh = 0.5769 -0.3132 0.4725 0.4725,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.5604 0.3187 0.4725 0.4725,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.5769 0.3297 0.4725 0.4725,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.5714 -0.3132 0.4725 0.4725,
+		}
+
+		area TireRearRight
+		{
+			xywh = -0.5659 -0.2967 0.4725 0.4725,
+		}
+
+		template = Trunk/part/TruckBed,
+
+		part TruckBed
+		{
+			
+			model schoolbag
+			{
+				file = SchoolBag_Yeti,
+				offset = 0 0.3 0.325,
+				rotate = 0 0 0,
+			
+			}
+			model alice
+			{
+				file = ALICE_Pack_Yeti,
+				offset = 0 0.35 0.4,
+				rotate = 0 90 -90,
+			
+			}
+			model bighiking
+			{
+				file = BigHikingBag_Yeti,
+				offset = 0 0.425 0.275,
+				rotate = 0 0 180,
+			
+			}
+			model duffel
+			{
+				file = DuffelBag_Yeti,
+				offset = 0 0.3 0.275,
+				rotate = 0 -90 0,
+			
+			}
+			model hiking
+			{
+				file = HikingBag_Yeti,
+				offset = 0 0.425 0.275,
+				rotate = 0 0 180,
+			
+			}
+			
+			
+			
+			specificItem = false,
+			itemType = Base.Bag_NormalHikingBag;Base.Bag_BigHikingBag;Base.Bag_SurvivorBag;Base.Bag_ALICEpack;Base.Bag_ALICEpack_Army;Base.Bag_DuffelBag;Base.Bag_DuffelBagTINT;Base.Bag_Schoolbag,
+
+
+			/*itemType = Base.Bag_DuffelBag,*/
+
+			container
+			{
+				test = Vehicles.ContainerAccess.AME_TruckBedOpen,
+			}
+			
+		
+			lua
+			{
+				create = Vehicles.Create.Bagrack,
+				init = Vehicles.Init.Bagrack,
+				update = Vehicles.Update.Bagrack,
+			}	
+			
+				table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 100,
+				test = Vehicles.InstallTest.Default,
+				requireEmpty = true,
+				
+				complete = Vehicles.InstallComplete.Bagrack,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 100,
+				test = Vehicles.UninstallTest.Bagrack,
+				requireEmpty = true,
+				complete = Vehicles.UninstallComplete.Bagrack,
+			}
+			
+			
+		}
+
+		template = Seat/part/SeatFrontLeft,
+
+		part Seat*
+		{
+			category = nodisplay,
+			hasRoof = false,
+			specificItem = false,
+			itemType = filcher.CycleSeatNoStorage,
+
+			table install
+			{
+				skills = Mechanics:2,
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:2,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = GasTank,
+
+		part GasTank
+		{
+			specificItem = false,
+			itemType = filcher.SmallCycleGasTank;filcher.CycleGasTank,
+
+			install
+			{
+				skills = Mechanics:4,
+				recipes = Motorcycle Mechanics,
+			}
+
+			uninstall
+			{
+				skills = Mechanics:4,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = Battery,
+		template = Engine,
+
+		part Battery
+		{
+			specificItem = false,
+			itemType = filcher.CycleBattery,
+		}
+
+		template = Muffler,
+
+		part Muffler
+		{
+			specificItem = false,
+			itemType = filcher.OldCycleMuffler;filcher.NormalCycleMuffler;filcher.ModernCycleMuffler,
+
+			table install
+			{
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = EngineDoor,
+
+		part EngineDoor
+		{
+			specificItem = false,
+			itemType = Base.ATVHood,
+
+			anim Open
+			{
+				sound = VehicleHoodOpenSportsCar,
+			}
+
+			anim Close
+			{
+				sound = VehicleHoodCloseSportsCar,
+			}
+
+			table install
+			{
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+
+		part Wind*
+		{
+			category = nodisplay,
+			itemType= Base.nil,
+
+			table install
+			{
+				recipes = Impossible,
+			}
+
+			table uninstall
+			{
+				recipes = Impossible,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+
+		part Door*
+		{
+			category = nodisplay,
+			itemType= Base.nil,
+
+			table install
+			{
+				sound = VehicleDoorOpenSportsCar,
+			}
+
+			anim Close
+			{
+				sound = VehicleDoorCloseSportsCar,
+			}
+
+			anim Lock
+			{
+				sound = LockVehicleDoorSportsCar,
+			}
+
+			anim Unlock
+			{
+				sound = UnlockVehicleDoorSportsCar,
+			}
+
+			anim IsLocked
+			{
+				sound = VehicleDoorIsLockedSportsCar,
+			}
+
+			table install
+			{
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = Tire,
+
+		part Tire*
+		{
+			specificItem = false,
+			itemType = Base.OldATVTire;Base.NormalATVTire;Base.ModernATVTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = AM2_QuadBike_Wheel,
+				scale = 1.1,
+				rotate = 0 0 0,
+			}
+		}
+
+		template = Brake,
+
+		part Brake*
+		{
+			specificItem = false,
+			itemType = filcher.OldCycleBrake;filcher.NormalCycleBrake;filcher.ModernCycleBrake,
+
+			table install
+			{
+				skills = Mechanics:4,
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:4,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = Suspension,
+
+		part Suspension*
+		{
+			specificItem = false,
+			itemType = filcher.NormalCycleSuspension;filcher.ModernCycleSuspension,
+
+			table install
+			{
+				skills = Mechanics:4,
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:4,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = Headlight,
+
+		attachment trailer
+		{
+			offset = 0.0000 0.1154 -0.5110,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = -1.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.2747 1.0769,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = 1.0000,
+		}
+	}
+}

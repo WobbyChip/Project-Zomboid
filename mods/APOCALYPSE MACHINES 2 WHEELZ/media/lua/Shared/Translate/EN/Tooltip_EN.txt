@@ -1,0 +1,4 @@
+Tooltip_EN = {
+
+    Tooltip_item_MechanicMag4 = "Instructive manual containing diagrams and common maintenance<br>tasks for popular motorcycle models.",
+}

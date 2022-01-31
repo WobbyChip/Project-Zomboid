@@ -1,0 +1,81 @@
+Recipe_RU = {
+	Recipe_Make_a_compact_fridge = "Создать компактный холодильник",
+	Recipe_Make_a_compact_stove = "Создать компактную плиту",
+	Recipe_Make_a_compact_microwave = "Создать компактную микроволновку",
+
+	Recipe_Make_ATAProtectionWheelsItem = "Создать Защиту колес",
+	Recipe_Cut_ATAProtectionWheelsItem = "Разрезать Защиту колес",
+	
+	Recipe_Basic_Tuning = "Базовый тюнинг",
+
+
+/************ Autotsar Tuning Atelier - Bus ************/
+	
+	Recipe_Make_ATABusKengur1Item = "Создать Кенгурятник (Bear Bus)",
+	Recipe_Make_ATABusKengur2Item = "Создать Улучшенный кенгурятник (Bear Bus)",
+	Recipe_Make_ATABusKengur3Item = "Создать Плуг с шипами (Bear Bus)",
+	Recipe_Make_ATABusRoofRack = "Создать Багажник для крыши (Bear Bus)",
+	Recipe_Make_ATABusProtectionDoorItem = "Создать Защиту для двери (Bear Bus)",
+	Recipe_Make_ATABusProtectionDoorRearItem = "Создать Защиту для задних дверей (Bear Bus)",
+	Recipe_Make_ATABusProtectionWheelsItem = "Создать Защиту для колес (Bear Bus)",
+	Recipe_Make_ATABusProtectionWindowsFrontItem = "Создать Защиту для лобового стекла (Bear Bus)",
+	Recipe_Make_ATABusProtectionWindowsRightItem = "Создать Защиту для правых боковых стекол (Bear Bus)",
+	Recipe_Make_ATABusProtectionWindowsLeftItem = "Создать Защиту для левых боковых стекол (Bear Bus)",
+	Recipe_Make_ATABusRoofBoxItem = "Создать Ящик для инструментов",
+
+
+/************ Autotsar Tuning Atelier - Jeep ************/	
+
+	Recipe_Cut_ATAJeepBumper1Item = "Разрезать Бампер (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepBumper2Item = "Разрезать Бампер (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepBumper3Item = "Разрезать Бампер (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepBumper4Item = "Разрезать Бампер (Jaap Wrungel)",
+	Recipe_Make_ATAJeepBumper4Item = "Создать Смертоносный бампер (Jaap Wrungel)",
+	
+	Recipe_Make_ATAJeepProtectionWindowItem = "Создать Защиту стёкол (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepProtectionWindowItem = "Разрезать Защиту стёкол (Jaap Wrungel)",
+	Recipe_Make_ATAJeepProtectionWindowFrontItem = "Создать Защиту лобового стекла ((Jaap Wrungel))",
+	Recipe_Cut_ATAJeepProtectionWindowFrontItem = "Разрезать Защиту лобового стекла (Jaap Wrungel)",
+	Recipe_Make_ATAJeepProtectionWindowRearItem = "Создать Защиту заднего стекла (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepProtectionWindowRearItem = "Разрезать Защиту заднего стекла (Jaap Wrungel)",
+	
+	Recipe_Make_ATAJeepInteractiveTrunkRoofRackItem = "Создать Багажник для крыши (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepInteractiveTrunkRoofRackItem = "Разрезать Багажник для крыши (Jaap Wrungel)",
+	Recipe_Make_ATAJeepInteractiveTrunkWheelRackItem = "Создать Багажник над запасным колесом (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepInteractiveTrunkWheelRackItem = "Разрезать Багажник над запасным колесом (Jaap Wrungel)",
+	Recipe_Make_ATAJeepRoofBaseItem = "Создать Рейлинги (Jaap Wrungel)",
+	Recipe_Cut_ATAJeepRoofBaseItem = "Разрезать Рейлинги (Jaap Wrungel)",
+	
+	
+/************ Autotsar Tuning Atelier - Mustang ************/
+	
+	Recipe_Cut_ATAMustangBullbar1Item = "Разрезать Кенгурятник (Fjord Mustard)",
+	Recipe_Cut_ATAMustangBullbar2Item = "Разрезать Кенгурятник (Fjord Mustard)",
+	Recipe_Cut_ATAMustangBullbar3Item = "Разрезать Кенгурятник (Fjord Mustard)",
+	Recipe_Make_ATAMustangBullbar3Item = "Создать Кенгурятник (Fjord Mustard)",
+
+	Recipe_Cut_ATAMustangHood2Item3 = "Разрезать Капот (Fjord Mustard)",
+	Recipe_Cut_ATAMustangHood3Item3 = "Разрезать Капот (Fjord Mustard)",
+	Recipe_Cut_ATAMustangHood4Item3 = "Разрезать Капот (Fjord Mustard)",
+	Recipe_Cut_ATAMustangHoodItem = "Разрезать Капот (Fjord Mustard)",
+	
+	Recipe_Cut_ATAMustangFendersWideItem = "Разрезать Капот (Fjord Mustard)",
+	Recipe_Cut_ATAMustangSkirtsSideItem = "Разрезать Капот (Fjord Mustard)",
+	Recipe_Cut_ATAMustangSpoilerFrontItem = "Разрезать Губу переднего бампера (Fjord Mustard)",
+	Recipe_Cut_ATAMustangSpoilerRear1Item = "Разрезать Спойлер (Fjord Mustard)",
+	Recipe_Cut_ATAMustangSpoilerRear2Item = "Разрезать Спойлер (Fjord Mustard)",
+	
+	Recipe_Make_ATAMustangProtectionWindowLeftItem = "Создать Защиту левого стекла (Fjord Mustard)",
+	Recipe_Make_ATAMustangProtectionWindowRightItem = "Создать Защиту правого стекла (Fjord Mustard)",
+	Recipe_Make_ATAMustangProtectionWindowFrontItem = "Создать Защиту лобового стекла (Fjord Mustard)",
+	Recipe_Make_ATAMustangProtectionWindowRearItem = "Создать Защиту заднего стекла (Fjord Mustard)",
+	Recipe_Cut_ATAMustangProtectionWindowLeftItem = "Разрезать Защиту левого стекла (Fjord Mustard)",
+	Recipe_Cut_ATAMustangProtectionWindowRightItem = "Разрезать Защиту правого стекла (Fjord Mustard)",
+	Recipe_Cut_ATAMustangProtectionWindowFrontItem = "Разрезать Защиту лобового стекла (Fjord Mustard)",
+	Recipe_Cut_ATAMustangProtectionWindowRearItem = "Разрезать Защиту заднего стекла (Fjord Mustard)",
+	
+	Recipe_Make_ATAMustangRoofRackItem = "Создать Багажник для крыши (Fjord Mustard)",
+	Recipe_Cut_ATAMustangRoofRackItem = "Разрезать Багажник для крыши (Fjord Mustard)",
+	
+	
+}

@@ -1,0 +1,6 @@
+IG_UI_ES = {
+    IGUI_VehicleNameStepVanSwat = "Van de Transporte SWAT",
+    IGUI_VehicleNameRiotTruck = "Camion Policial Anti Disturbios",
+    IGUI_VehicleNameSwatTruck = "Camion Swat Blindado",
+    IGUI_VehicleNameBankTruck = "Camion de Transporte de Caudales",
+}

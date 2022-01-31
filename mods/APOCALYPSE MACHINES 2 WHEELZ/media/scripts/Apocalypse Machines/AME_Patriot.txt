@@ -1,0 +1,340 @@
+module Base
+{
+	model AME_Patriot
+	{
+		mesh = vehicles/AME_Patriot,
+		shader = vehicle_multiuv,
+		invertX = FALSE,
+		
+		scale = 0.00095,
+	}
+	model AME_PatriotX
+	{
+		mesh = vehicles/AME_EagleX,
+		shader = vehicle_multiuv,
+		invertX = FALSE,
+		scale = 0.00095,
+	}
+	vehicle AME_Patriot
+	{
+		mechanicType = 5,
+		offRoadEfficiency = 0.8,
+		engineRepairLevel = 3,
+		playerDamageProtection = 0.8,
+		spawnOffsetY = 0.19402517,
+
+		model
+		{
+			file = AME_PatriotX,
+			scale = 1.8200,
+			offset = 0.0000 0.3022 0.0000,
+			rotate = 0 0 0,
+		}
+
+		skin
+		{
+			texture = Vehicles/AME_Patriot,
+		}
+
+		textureMask = Vehicles/Blank,
+		textureLights = Vehicles/Blank,
+		textureDamage1Overlay = Vehicles/Blank,
+		textureDamage2Overlay = Vehicles/Blank,
+		textureDamage1Shell = Vehicles/Blank,
+		textureDamage2Shell = Vehicles/Blank,
+		textureRust = Vehicles/Blank,
+
+		sound
+		{
+			engine = StoveRunning,
+			engineStart = RadioButton,
+			engineTurnOff = RadioButton,
+			horn = VehicleHornStandard,
+			ignitionFail = RadioButton,
+		}
+
+		extents = 0.3626 0.4176 0.4066,
+		mass = 150,
+		physicsChassisShape = 0.3626 0.4176 0.4066,
+		centerOfMassOffset = 0.0000 0.3077 0.0000,
+		shadowExtents = 0.3626 0.4066,
+		shadowOffset = 0.0000 0.0000,
+		engineForce = 250,
+		engineQuality = 60,
+		engineLoudness = 20,
+		maxSpeed = 1f,
+		brakingForce = 60,
+		stoppingMovementForce = 0.25f,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.03,
+		steeringClamp = 0.3,
+		suspensionStiffness = 30,
+		suspensionCompression = 2.83,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 10,
+		suspensionRestLength = 0.2,
+		wheelFriction = 1.6f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 1,
+		template = PassengerSeat2,
+
+		passenger FrontLeft
+		{
+			vehicle.passenger.showPassenger=true,
+			showPassenger=true,
+
+			position inside
+			{
+				offset = 0.0000 0.0000 -0.0330,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.5714 -0.4615 -0.0659,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 0.0165 0.4451 0.4725 0.4725,
+		}
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.1319 -0.3077 0.1374,
+			radius = 0.026f,
+			width = 0.2f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.1319 -0.3077 0.1374,
+			radius = 0.026f,
+			width = 0.2f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.1593 -0.2747 -0.1429,
+			radius = 0.062f,
+			width = 0.2f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = -0.1593 -0.2747 -0.1429,
+			radius = 0.062f,
+			width = 0.2f,
+		}
+
+		area Engine
+		{
+			xywh = 0.0000 -0.4231 0.8352 0.4725,
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 0.4505 0.8352 0.4725,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.4341 0.1868 0.4725 0.4725,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.4286 0.1868 0.4725 0.4725,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.4286 -0.1648 0.4725 0.4725,
+		}
+
+		area TireRearRight
+		{
+			xywh = -0.4286 -0.1703 0.4725 0.4725,
+		}
+		/*template = Trunk/part/TruckBed,*/
+
+		part GloveBox
+		{
+			area = SeatFrontLeft,
+			itemType = Base.GloveBox,
+
+			container
+			{
+				test = Vehicles.ContainerAccess.AME_TruckBedOpen,
+				capacity = 2,
+			}
+		}
+
+
+		template = Seat/part/SeatFrontLeft,
+
+		part SeatFrontLeft
+		{
+			category = nodisplay,
+			specificItem = false,
+			itemType = Base.NormalCarSeat1,
+		}
+
+		template = GasTank,
+
+		part GasTank
+		{
+			category = nodisplay,
+			specificItem = false,
+			itemType = filcher.SmallCycleGasTank,
+
+			lua
+			{
+				create = Vehicles.Create.GasTank,
+				update = Vehicles.Update.AME_GasTank,
+				checkEngine = Vehicles.CheckEngine.AME_GasTank,
+			}
+		}
+
+		template = Battery,
+
+		part Battery
+		{
+			specificItem = false,
+			itemType = filcher.CycleBattery,
+
+			lua
+			{
+				create = Vehicles.Create.Battery,
+				update = Vehicles.Update.AME_Battery,
+			}
+		}
+
+		template = Engine,
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+
+		part Window*
+		{
+			category = nodisplay,
+			itemType= Base.nil,
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+
+		part Door*
+		{
+			category = nodisplay,
+			itemType= Base.nil,
+		}
+
+		template = Tire,
+
+		part TireFrontLeft
+		{
+			specificItem = false,
+			itemType = Base.OldScooterTire;Base.NormalScooterTire;Base.ModernScooterTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = AM2_Vesper_Wheel,
+				scale = 0.15,
+			}
+		}
+
+		part TireFrontRight
+		{
+			specificItem = false,
+			itemType = Base.OldScooterTire;Base.NormalScooterTire;Base.ModernScooterTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = AM2_Vesper_Wheel,
+				scale = 0.15,
+			}
+		}
+
+		part TireRearLeft
+		{
+			specificItem = false,
+			itemType = Base.OldScooterTire;Base.NormalScooterTire;Base.ModernScooterTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = AM2_Vesper_Wheel,
+				scale = 0.35,
+			}
+		}
+
+		part TireRearRight
+		{
+			specificItem = false,
+			itemType = Base.OldScooterTire;Base.NormalScooterTire;Base.ModernScooterTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = AM2_Vesper_Wheel,
+				scale = 0.35,
+			}
+		}
+
+		template = Brake,
+		template = Suspension,
+
+		part Brake*
+		{
+			specificItem = false,
+			itemType = Base.OldScooterBrake;Base.NormalScooterBrake;Base.ModernScooterBrake,
+
+			table install
+			{
+				skills = Mechanics:3,
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:3,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		part Suspension*
+		{
+			specificItem = false,
+			itemType = Base.NormalScooterSuspension;Base.ModernScooterSuspension,
+
+			table install
+			{
+				skills = Mechanics:3,
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:3,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+	}
+}

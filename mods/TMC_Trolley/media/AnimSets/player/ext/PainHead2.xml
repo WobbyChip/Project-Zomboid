@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Ext_PainHead.xml">
+	<m_Name>PainHead2</m_Name>
+	<m_Conditions>
+		<m_StringValue>PainHead2</m_StringValue>
+	</m_Conditions>
+</animNode>

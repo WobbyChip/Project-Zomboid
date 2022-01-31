@@ -1,0 +1,105 @@
+ItemName_EN = {
+
+	ItemName_filcher.OldCycleBrake = "Old Motorcycle Brake",
+	
+	ItemName_filcher.NormalCycleBrake = "Regular Motorcycle Brake",
+	
+	ItemName_filcher.ModernCycleBrake = "Performance Motorcycle Brake",
+	
+	
+	ItemName_filcher.SmallCycleGasTank = "Small Motorcycle Gas Tank",
+	
+	ItemName_filcher.CycleGasTank = "Motorcycle Gas Tank",
+	
+	
+	
+	
+
+    ItemName_Base.BigCarSeat13 = "Big Seat",
+
+    ItemName_Base.BigGasTank13 = "Big Gas Tank",
+
+    ItemName_Base.BigTrunk13 = "Big Trunk",
+   
+
+    ItemName_Base.CarBattery13 = "Motorcycle Battery",
+    
+  
+
+    ItemName_Base.EngineDoor13 = "Hood",
+
+
+
+    ItemName_Base.FrontCarDoor13 = "Front Door",
+
+    ItemName_Base.FrontWindow13 = "Front Window",
+
+
+    ItemName_Base.GloveBox1 = "Glove Box",
+    ItemName_Base.GloveBox2 = "Glove Box",
+    ItemName_Base.GloveBox13 = "Glove Box",
+
+
+
+ 
+
+    ItemName_Base.ModernBrake13 = "Performance Brake",
+
+    ItemName_Base.ModernCarMuffler13 = "Performance Muffler",
+
+    ItemName_Base.ModernSuspension13 = "Performance Suspension",
+
+    ItemName_Base.ModernTire13 = "Performance Tire",
+
+    ItemName_Base.NormalBrake13 = "Regular Brake",
+
+    ItemName_Base.NormalCarMuffler13 = "Average Muffler",
+
+    ItemName_Base.NormalCarSeat13 = "Standard Seat",
+
+    ItemName_Base.NormalGasTank13 = "Standard Gas Tank",
+
+    ItemName_Base.NormalSuspension13 = "Regular Suspension",
+
+    ItemName_Base.NormalTire13 = "Regular Tire",
+
+    ItemName_Base.NormalTrunk13 = "Standard Trunk",
+
+    ItemName_Base.OldBrake13 = "Old Brake",
+
+    ItemName_Base.OldCarMuffler13 = "Old Muffler",
+
+    ItemName_Base.OldTire13 = "Valu-Tire",
+   
+  
+
+
+
+
+    ItemName_Base.RearCarDoor13 = "Rear Door",
+
+    ItemName_Base.RearCarDoorDouble13 = "Double Rear Door",
+
+    ItemName_Base.RearWindow13 = "Rear Window",
+
+    ItemName_Base.RearWindshield13 = "Rear Windshield",
+   
+    
+
+
+
+
+    ItemName_Base.SmallGasTank13 = "Small Gas Tank",
+
+    ItemName_Base.SmallTrunk13 = "Small Trunk",
+
+    ItemName_Base.SportCarSeat13 = "Sports Seat",
+
+
+    ItemName_Base.TrailerTrunk13 = "Trailer Trunk",
+
+
+    ItemName_Base.TrunkDoor13 = "Trunk Lid",
+
+    ItemName_Base.Windshield13 = "Windshield",
+}

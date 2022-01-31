@@ -1,0 +1,68 @@
+module TMC
+{
+	imports {Base}
+	
+	item TrolleyContainer
+    {
+		Weight 					= 1,
+		Type					= Container,
+		Capacity				= 49,
+		WeightReduction			= 100,
+		DisplayName				= Trolley,
+		Icon					= Trolley,
+		SurvivalGear			= TRUE,
+		EquippedNoSprint 		= FALSE,
+		RequiresEquippedBothHands = TRUE,
+		StaticModel         	= TrolleyModel,
+		WorldStaticModel 		= TrolleyModel,
+		ReplaceInPrimaryHand 	= Bag_TrolleyModel_RHand holdingtrolleyright,
+    }
+	
+	item TrolleyContainer2
+    {
+		Weight 					= 1,
+		Type					= Container,
+		Capacity				= 49,
+		WeightReduction			= 100,
+		DisplayName				= Trolley,
+		Icon 					= Trolley2,
+		SurvivalGear        	= TRUE,
+		EquippedNoSprint 		= FALSE,
+		RequiresEquippedBothHands = TRUE,
+		StaticModel         	= TrolleyModelFull,
+		WorldStaticModel 		= TrolleyModelFull,
+		ReplaceInPrimaryHand 	= Bag_TrolleyModelFull_RHand holdingtrolleyright,
+    }
+	
+	item CartContainer
+    {
+		Weight 					= 1,
+		Type					= Container,
+		Capacity				= 49,
+		WeightReduction			= 100,
+		DisplayName				= Cart,
+		Icon 					= TMCart,
+		SurvivalGear        	= TRUE,
+		EquippedNoSprint 		= FALSE,
+		RequiresEquippedBothHands = TRUE,
+		StaticModel         	= CartModel,
+		WorldStaticModel 		= CartModel,
+		ReplaceInPrimaryHand 	= Bag_CartModel_RHand holdingtrolleyright,
+    }
+	
+	item CartContainer2
+    {
+		Weight 					= 1,
+		Type					= Container,
+		Capacity				= 49,
+		WeightReduction			= 100,
+		DisplayName				= Cart,
+		Icon 					= TMCart2,
+		SurvivalGear        	= TRUE,
+		EquippedNoSprint 		= FALSE,
+		RequiresEquippedBothHands = TRUE,
+		StaticModel         	= CartModelFull,
+		WorldStaticModel 		= CartModelFull,
+		ReplaceInPrimaryHand 	= Bag_CartModelFull_RHand holdingtrolleyright,
+    }
+}

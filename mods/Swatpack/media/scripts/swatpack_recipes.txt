@@ -1,0 +1,22 @@
+module Base
+{
+    recipe Open Box of RubberShells
+    {
+        RubberShellsBox,
+
+        Result:RubberShells=4,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+
+
+    recipe Place RubberShells in Box
+    {
+        RubberShells=24,
+
+        Result:RubberShellsBox,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+}

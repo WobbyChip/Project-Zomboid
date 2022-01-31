@@ -1,0 +1,3 @@
+IG_UI_ES = {
+	IGUI_PlayerText_NoSkateOnHouse = "No puedo patinar dentro de una casa"
+}

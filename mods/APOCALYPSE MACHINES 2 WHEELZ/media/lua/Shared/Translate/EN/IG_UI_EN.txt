@@ -1,0 +1,43 @@
+IGUI_EN = {
+
+   
+
+    IGUI_VehicleNameAM2_SkullKing = "Skull King",
+    IGUI_VehicleNameAM2_Warhorse = "Warhorse",
+    IGUI_VehicleNameAM2_Warhorse2 = "Warhorse KLN",
+    IGUI_VehicleNameAM2_Warhorse3 = "Warhorse KLN Commando",
+    IGUI_VehicleNameAM2_Steelhorse = "Steelhorse",
+    IGUI_VehicleNameAM2_Steelhorse2 = "Steelhorse",
+    IGUI_VehicleNameAM2_DirtDemon = "Dirt Demon",
+    IGUI_VehicleNameAM2_Fireball = "Fireball",
+    IGUI_VehicleNameAM2_Chieftan = "Chieftan",
+    IGUI_VehicleNameAM2_Nomad = "Nomad",
+    IGUI_VehicleNameAM2_Courier = "Courier",
+    IGUI_VehicleNameAM2_Balrog = "Balrog",
+    IGUI_VehicleNameAM2_Balrog_Sidecar = "Balrog Nightwing",
+    IGUI_VehicleNameAM2_Dragon = "Tiamat",
+    IGUI_VehicleNameAM2_Vesper = "Vesper Gnome",
+    IGUI_VehicleNameAM2_Vesper2 = "Vesper Goblin",
+    IGUI_VehicleNameAM2_Vesper3 = "Vesper Brownie",
+    IGUI_VehicleNameAM2_Commodore = "Commodore",
+    IGUI_VehicleNameAM2_Camel = "Camel",
+    IGUI_VehicleNameAM2_Camel2 = "Camel",
+    IGUI_VehicleNameAME_Eagle = "Eagle",
+    IGUI_VehicleNameAME_Patriot = "Patriot",
+    IGUI_VehicleNameAM2_Yeti = "Yeti",
+    IGUI_VehicleNameAM2_Wendigo = "Wendigo",
+    IGUI_VehicleNameAM2_Kaiju = "Kaiju",
+
+
+
+	IGUI_VehicleType_5 = "Motorcycle",
+
+
+
+    IGUI_ContainerTitle_TruckBed1 = "Bag",
+    IGUI_ContainerTitle_TruckBed2 = "Bag",
+
+	IGUI_VehiclePartTruckBed1 = "Bag",
+	IGUI_VehiclePartTruckBed2 = "Bag",
+
+}

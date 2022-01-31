@@ -1,0 +1,499 @@
+module Base
+{
+	model AM2_Balrog
+	{
+		mesh = vehicles/AM2_Balrog,
+		shader = vehicle_norandom_multiuv,
+		static = TRUE,
+		invertX = FALSE,
+		scale = 0.01,
+	}
+	model AM2_Balrog_Stripped
+	{
+		mesh = vehicles/AM2_Balrog_Stripped,
+		shader = vehicle_norandom_multiuv,
+		static = TRUE,
+		invertX = FALSE,
+		scale = 0.01,
+	}
+	model AM2_Balrog_wheel_front
+	{
+		mesh = vehicles/AM2_DirtDemon_wheel,
+		texture = vehicles/AM2_DirtDemon,
+		shader = vehiclewheel,
+		scale = 0.9,
+	}
+	model AM2_Balrog_wheel_rear
+	{
+		mesh = vehicles/AM2_DirtDemon_wheel,
+		texture = vehicles/AM2_DirtDemon,
+		shader = vehiclewheel,
+		scale = 0.9,
+	}
+	
+	
+	
+	model AM2_Balrog_Muffler
+	{
+		mesh = vehicles/AM2_Balrog_Muffler,
+		texture = vehicles/AM2_Balrog,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+	model AM2_Balrog_GasTank
+	{
+		mesh = vehicles/AM2_Balrog_GasTank,
+		texture = vehicles/AM2_Balrog,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+	model AM2_Balrog_RearSuspension
+	{
+		mesh = vehicles/AM2_Balrog_RearSuspension,
+		texture = vehicles/AM2_Balrog,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+	model AM2_Balrog_FrontSuspension
+	{
+		mesh = vehicles/AM2_Balrog_FrontSuspension,
+		texture = vehicles/AM2_Balrog,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+	model AM2_Balrog_RearBrake
+	{
+		mesh = vehicles/AM2_Balrog_RearBrake,
+		texture = vehicles/AM2_Balrog,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+	model AM2_Balrog_FrontBrake
+	{
+		mesh = vehicles/AM2_Balrog_FrontBrake,
+		texture = vehicles/AM2_Balrog,
+		shader = vehiclewheel,
+		scale = 0.01,
+	}
+	
+	
+	
+	vehicle AM2_Balrog
+	{
+		mechanicType = 5,
+		engineRepairLevel = 5,
+		playerDamageProtection = 1,
+		offRoadEfficiency = 5.0,
+
+		model
+		{
+			file = AM2_Balrog_Stripped,
+			scale = 1.0000,
+			offset = 0.0000 0.0300 0.0000,
+			rotate = 0 0 0,
+		}
+
+		skin
+		{
+			texture = Vehicles/AM2_Balrog,
+		}
+
+		textureMask = Vehicles/Blank,
+		textureLights = Vehicles/Blank,
+		textureDamage1Overlay = Vehicles/Blank,
+		textureDamage2Overlay = Vehicles/Blank,
+		textureDamage1Shell = Vehicles/Blank,
+		textureDamage2Shell = Vehicles/Blank,
+		textureRust = Vehicles/Blank,
+
+		sound
+		{
+			engine = VehicleEngineSportsCar,
+			engineStart = VehicleEngineSportsCar,
+			engineTurnOff = VehicleEngineSportsCar,
+			horn = VehicleHornSportsCar,
+			ignitionFail = VehicleIgnitionFailSportsCar,
+		}
+
+		extents = 0.2400 0.8000 1.8200,
+		mass = 250,
+		physicsChassisShape = 0.2400 0.8000 1.8200,
+		centerOfMassOffset = 0.0000 0.4000 -0.0200,
+		shadowExtents = 0.2400 1.8200,
+		shadowOffset = 0.0000 -0.0200,
+		engineForce = 8000,
+		engineQuality = 70,
+		engineLoudness = 110,
+		maxSpeed = 120f,
+		gearRatioCount = 5,
+		gearRatioR = 3.5,
+		gearRatio1 = 4.11,
+		gearRatio2 = 2.50,
+		gearRatio3 = 1.65,
+		gearRatio4 = 1.25,
+		gearRatio5 = 0.80,
+		stoppingMovementForce = 0.25f,
+		rollInfluence = 0.7f,
+		steeringIncrement = 0.04,
+		steeringClamp = 0.3,
+		suspensionStiffness = 50,
+		suspensionCompression = 4.1,
+		suspensionDamping = 3.4,
+		maxSuspensionTravelCm = 20,
+		suspensionRestLength = 0.2f,
+		wheelFriction = 1.8f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 2,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.0000 -0.0100 0.6400,
+			radius = 0.115f,
+			width = 0.575f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.0000 0.0100 -0.6100,
+			radius = 0.144f,
+			width = 0.575f,
+		}
+
+		template = PassengerSeat2,
+
+		passenger FrontLeft
+		{
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.5200 -0.1700,
+				rotate = -30.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.4400 -0.2300 0.2100,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		passenger FrontRight
+		{
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.5500 -0.3500,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.5500 -0.3000 -0.1400,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontRight,
+			}
+		}
+
+		area Engine
+		{
+			xywh = 0.0100 1.1700 1.6000 1.2000,
+		}
+
+		
+		area SeatFrontLeft
+		{
+			xywh = 0.5100 -0.3000 0.6000 0.8000,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.0100 -1.3300 1.5000 0.8000,
+		}
+
+		area GasTank
+		{
+			xywh = 0.0100 0.1500 1.6000 0.9000,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.0000 0.7900 1.7200 0.4600,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.0000 -0.7800 1.7200 0.4600,
+		}
+
+		template = Seat/part/SeatFrontLeft,
+		template = Seat/part/SeatFrontRight,
+
+		part Seat*
+		{
+			category = nodisplay,
+			specificItem = false,
+			itemType = filcher.CycleSeatNoStorage,
+
+			table install
+			{
+				skills = Mechanics:11,
+				recipes =Impossible,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:11,
+				recipes = Impossible,
+			}
+
+			
+		}
+
+		template = GasTank,
+
+		part GasTank
+		{
+			model default
+			{
+				file = AM2_Balrog_GasTank,
+				offset = 0.0000 0.0000 0.0000,
+			}
+			specificItem = false,
+			itemType = filcher.SmallCycleGasTank;filcher.CycleGasTank,
+
+			install
+			{
+				skills = Mechanics:5,
+				recipes = Motorcycle Mechanics,
+			}
+
+			uninstall
+			{
+				skills = Mechanics:5,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = Battery,
+
+		part Battery
+		{
+			specificItem = false,
+			itemType = filcher.CycleBattery,
+		}
+
+		template = Engine,
+		template = Muffler,
+
+		part Muffler
+		{
+			model default
+			{
+				file = AM2_Balrog_Muffler,
+				offset = 0.0000 0.0000 0.0000,
+			}
+			specificItem = false,
+			itemType = filcher.OldCycleMuffler;filcher.NormalCycleMuffler;filcher.ModernCycleMuffler,
+
+			table install
+			{
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+
+		part Wind*
+		{
+			category = nodisplay,
+			itemType= Base.nil,
+
+			table install
+			{
+				recipes = Impossible,
+			}
+
+			table uninstall
+			{
+				recipes = Impossible,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+
+		part Door*
+		{
+			category = nodisplay,
+			itemType= Base.nil,
+
+			table install
+			{
+				sound = VehicleDoorOpenSportsCar,
+			}
+
+			anim Close
+			{
+				sound = VehicleDoorCloseSportsCar,
+			}
+
+			anim Lock
+			{
+				sound = LockVehicleDoorSportsCar,
+			}
+
+			anim Unlock
+			{
+				sound = UnlockVehicleDoorSportsCar,
+			}
+
+			anim IsLocked
+			{
+				sound = VehicleDoorIsLockedSportsCar,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template = Tire/part/TireFrontLeft,
+		template = Tire/part/TireRearLeft,
+
+		part TireFrontLeft
+		{
+			specificItem = false,
+			itemType = filcher.OldCycleTire;filcher.NormalCycleTire;filcher.ModernCycleTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = AM2_Balrog_wheel_front,
+			}
+		}
+
+		part TireRearLeft
+		{
+			specificItem = false,
+			itemType = filcher.OldCycleTire;filcher.NormalCycleTire;filcher.ModernCycleTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = AM2_Balrog_wheel_rear,
+			}
+		}
+
+		template = Brake/part/BrakeFrontLeft,
+		template = Brake/part/BrakeRearLeft,
+
+		part BrakeFrontLeft
+		{
+			model default
+			{
+				file = AM2_Balrog_FrontBrake,
+				offset = 0.0000 0.0000 0.0000,
+			}
+		
+		}
+
+		part BrakeRearLeft
+		{
+			model default
+			{
+				file = AM2_Balrog_RearBrake,
+				offset = 0.0000 0.0000 0.0000,
+			}
+		
+		}
+
+		part Brake*
+		{
+			specificItem = false,
+			itemType = filcher.OldCycleBrake;filcher.NormalCycleBrake;filcher.ModernCycleBrake,
+
+			table install
+			{
+				skills = Mechanics:5,
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:5,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = Suspension/part/SuspensionFrontLeft,
+		template = Suspension/part/SuspensionRearLeft,
+		part SuspensionFrontLeft
+		{
+			model default
+			{
+				file = AM2_Balrog_FrontSuspension,
+				offset = 0.0000 0.0000 0.0000,
+			}
+		
+		
+		}
+
+		part SuspensionRearLeft
+		{
+			model default
+			{
+				file = AM2_Balrog_RearSuspension,
+				offset = 0.0000 0.0000 0.0000,
+			}
+		
+		
+		}
+		part Suspension*
+		{
+			specificItem = false,
+			itemType = filcher.NormalCycleSuspension;filcher.ModernCycleSuspension,
+
+			table install
+			{
+				skills = Mechanics:5,
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:5,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+
+	}
+}

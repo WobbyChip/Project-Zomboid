@@ -1,0 +1,3 @@
+ItemName_CN = {
+	ItemName_Dislaik.Skateboard = "滑板",
+}

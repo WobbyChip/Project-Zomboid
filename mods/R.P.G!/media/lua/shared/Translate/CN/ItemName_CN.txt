@@ -1,0 +1,4 @@
+ItemName_CN = {
+    ItemName_Base.modRPG7 = "RPG-7火箭筒",
+    ItemName_Base.modRPG7Rocket = "RPG-7导弹头",
+}

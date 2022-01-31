@@ -1,0 +1,3 @@
+ItemName_CH = {
+	ItemName_Dislaik.Skateboard = "·ÆªO"
+}

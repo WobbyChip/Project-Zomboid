@@ -1,0 +1,311 @@
+module filcher
+{
+	imports
+	{
+		Base
+	}
+
+
+  item SmallTrunk
+    {
+        Weight	=	20.0,
+        Type	=	Normal,
+        DisplayName	=	Small Motorcyle Trunk,
+        Icon	=	CarTrunk,
+        VehicleType =   5,
+        MaxCapacity = 30,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+        MechanicsItem = TRUE,
+    }
+
+
+/************************Motorcycle Parts*********************/
+
+    item OldCycleTire
+    {
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	Motorcycle Valu-Tire,
+        Icon	=	CarTire,
+        MaxCapacity = 30,
+        ChanceToSpawnDamaged = 70,
+        ConditionLowerStandard = 0.04,
+        ConditionLowerOffroad = 0.08,
+        WheelFriction = 1.6,
+        ConditionMax = 100,
+        WorldStaticModel = Wheel,
+        MechanicsItem = TRUE,
+    }
+
+    item NormalCycleTire
+    {
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	Regular Motorcycle Tire,
+        Icon	=	CarTire,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 50,
+        ConditionLowerStandard = 0.03,
+        ConditionLowerOffroad = 0.06,
+        WheelFriction = 1.8,
+        ConditionMax = 100,
+        WorldStaticModel = Wheel,
+        MechanicsItem = TRUE,
+    }
+
+    item ModernCycleTire
+    {
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	Performance Motorcycle Tire,
+        Icon	=	CarTire,
+        MaxCapacity = 40,
+        ChanceToSpawnDamaged = 30,
+        WheelFriction = 2.0,
+        ConditionLowerStandard = 0.02,
+        ConditionLowerOffroad = 0.04,
+        ConditionMax = 100,
+        WorldStaticModel = Wheel,
+        MechanicsItem = TRUE,
+    }
+
+    item OldCycleBrake
+    {
+        Weight	=	3.0,
+        Type	=	Normal,
+        DisplayName	=	Old Motorcycle Brake,
+        Icon	=	CarBrakes,
+        VehicleType =   4,
+        MaxCapacity = 30,
+        ConditionMax = 100,
+        brakeForce = 10,
+        ChanceToSpawnDamaged = 70,
+        WorldStaticModel = BrakeDisk,
+        MechanicsItem = TRUE,
+        VehicleType =   5,
+    }
+
+    item NormalCycleBrake
+    {
+        Weight	=	3.0,
+        Type	=	Normal,
+        DisplayName	=	Regular Motorcycle Brake,
+        Icon	=	CarBrakes,
+        VehicleType =   4,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        brakeForce = 14,
+        ChanceToSpawnDamaged = 50,
+        WorldStaticModel = BrakeDisk,
+        MechanicsItem = TRUE,
+        VehicleType =   5,
+    }
+
+    item ModernCycleBrake
+    {
+        Weight	=	3.0,
+        Type	=	Normal,
+        DisplayName	=	Performance Motorcycle Brake,
+        Icon	=	CarBrakes,
+        VehicleType =   4,
+        MaxCapacity = 40,
+        ConditionMax = 100,
+        brakeForce = 17,
+        ChanceToSpawnDamaged = 30,
+        WorldStaticModel = BrakeDisk,
+        MechanicsItem = TRUE,
+        VehicleType =   5,
+    }
+
+    item NormalCycleSuspension
+    {
+        Weight	=	2.0,
+        Type	=	Normal,
+        DisplayName	=	Regular Motorcycle Suspension,
+        Icon	=	CarSuspension,
+        ChanceToSpawnDamaged = 30,
+        SuspensionDamping = 2.88,
+        SuspensionCompression = 3.83,
+        ConditionLowerStandard = 0.03,
+        ConditionLowerOffroad = 0.4,
+        ConditionMax = 100,
+        WorldStaticModel = Suspension,
+        MechanicsItem = TRUE,
+    }
+
+    item ModernCycleSuspension
+    {
+        Weight	=	3.0,
+        Type	=	Normal,
+        DisplayName	=	Performance Motorcycle Suspension,
+        Icon	=	CarSuspension,
+        ChanceToSpawnDamaged = 20,
+        SuspensionDamping = 2.88,
+        SuspensionCompression = 3.83,
+        ConditionLowerStandard = 0.02,
+        ConditionLowerOffroad = 0.3,
+        ConditionMax = 100,
+        WorldStaticModel = Suspension,
+        MechanicsItem = TRUE,
+    }
+
+    item SmallCycleGasTank
+    {
+        Weight	=	6.0,
+        Type	=	Normal,
+        DisplayName	=	Small Motorcycle Gas Tank,
+        Icon	=	CarGastank,
+        VehicleType =   4,
+        MaxCapacity = 29,
+        ConditionAffectsCapacity = true,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        WorldStaticModel = SmallGasTank,
+        MechanicsItem = TRUE,
+        VehicleType =   5,
+    }
+
+    item CycleGasTank
+    {
+        Weight	=	8.0,
+        Type	=	Normal,
+        DisplayName	=	Motorcycle Gas Tank,
+        Icon	=	CarGastank,
+        VehicleType =   4,
+        MaxCapacity = 39,
+        ConditionAffectsCapacity = true,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        WorldStaticModel = SmallGasTank,
+        MechanicsItem = TRUE,
+        VehicleType =   5,
+    }
+
+    item CycleBattery
+    {
+        Weight	=	2,
+        Type	=	Drainable,
+        UseDelta	=	0.00001,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	Motorcycle Battery,
+        Icon	=	CarBattery,
+        MetalValue = 1,
+        cantBeConsolided = TRUE,
+        ChanceToSpawnDamaged = 30,
+        ConditionMax = 100,
+        WorldStaticModel = CarBattery,
+        MechanicsItem = TRUE,
+    }
+
+
+  item CycleHood
+    {
+        Weight	=	3.0,
+        Type	=	Normal,
+        DisplayName	=	Motorcycle Engine Cover,
+        Icon	=	EngineDoor,
+        VehicleType =   3,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        MechanicsItem = TRUE,
+    }
+
+
+     item CycleSeat
+     {
+         Weight	=	8.0,
+         Type	=	Normal,
+         DisplayName	=	Motorcycle Seat,
+         Icon	=	CarSeat,
+         MaxCapacity = 10,
+         ChanceToSpawnDamaged = 50,
+        ConditionMax = 100,
+          WorldStaticModel = CarSeat,
+        MechanicsItem = TRUE,
+     }
+   /*  item CycleSeatNoStorage
+     {
+         Weight	=	8.0,
+         Type	=	Normal,
+         DisplayName	=	Motorcycle Seat,
+         Icon	=	CarSeat,
+         MaxCapacity = 0,
+         ChanceToSpawnDamaged = 1,
+        ConditionMax = 100,
+          WorldStaticModel = CarSeat,
+        MechanicsItem = TRUE,
+     }
+     item CycleSeatSidecar
+     {
+         Weight	=	8.0,
+         Type	=	Normal,
+         DisplayName	=	Motorcycle Seat,
+         Icon	=	CarSeat,
+         MaxCapacity = 30,
+         ChanceToSpawnDamaged = 1,
+        ConditionMax = 100,
+          WorldStaticModel = CarSeat,
+        MechanicsItem = TRUE,
+     }*/
+
+      item OldCycleMuffler
+      {
+          Weight	=	10.0,
+          Type	=	Normal,
+          DisplayName	=	Old Motorcycle Muffler,
+          Icon	=	CarMuffler,
+          EngineLoudness = 80,
+          ConditionLowerStandard = 0.02,
+          ConditionLowerOffroad = 0.4,
+        ConditionMax = 100,
+          WorldStaticModel = Muffler,
+        MechanicsItem = TRUE,
+      }
+
+      item NormalCycleMuffler
+      {
+          Weight	=	10.0,
+          Type	=	Normal,
+          DisplayName	=	Average Motorcycle Muffler,
+          Icon	=	CarMuffler,
+          EngineLoudness = 100,
+          ConditionLowerStandard = 0.015,
+          ConditionLowerOffroad = 0.3,
+        ConditionMax = 100,
+          WorldStaticModel = Muffler,
+        MechanicsItem = TRUE,
+      }
+
+      item ModernCycleMuffler
+      {
+          Weight	=	10.0,
+          Type	=	Normal,
+          DisplayName	=	Performance Motorcycle Muffler,
+          Icon	=	CarMuffler,
+          EngineLoudness = 120,
+          ConditionLowerStandard = 0.01,
+          ConditionLowerOffroad = 0.25,
+        ConditionMax = 100,
+          WorldStaticModel = Muffler,
+        MechanicsItem = TRUE,
+      }
+
+/************************Literature************************/
+
+    item SFMechanicMag4
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Laines Auto Manual - Motorcycle Models,
+        Icon	=	SFCarMag,
+        TeachedRecipes  =   Motorcycle Mechanics,
+        ReplaceOnUse    =   SFMechanicMag4,
+        Tooltip = Tooltip_item_MechanicMag4,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineGround,
+    }
+
+}

@@ -1,0 +1,159 @@
+module Base
+{
+		imports
+		{
+			Base
+		}
+		
+    item modRPG7
+		{
+        DisplayCategory = Weapon,
+        ImpactSound	=	null,
+        MinRange	=	0.95,
+        MaxRange	=	50,
+        Icon	=	modRPG7,
+        WeaponSprite	=	modRPG7,
+        SoundVolume	=	30,
+        MinAngle	=	0.95,
+        Type	=	Weapon,
+        MinimumSwingTime	=	0.5,
+        ToHitModifier	=	1.5,
+        NPCSoundBoost	=	1.5,
+        KnockBackOnNoDeath	=	FALSE,
+        Ranged	=	TRUE,
+        SwingAmountBeforeImpact	=	0,
+        ProjectileCount	=	1,
+        ConditionLowerChanceOneIn	=	60,
+        Weight	=	5,
+        SplatNumber	=	1,
+        PushBackMod	=	0.1,
+        SubCategory	=	Firearm,
+        ConditionMax	=	10,
+        ShareDamage	=	FALSE,
+        MaxHitCount	=	1,
+        IsAimedFirearm	=	TRUE,
+        DoorDamage	=	10,
+        UseEndurance	=	TRUE,
+        SwingAnim	=	Rifle,
+        DisplayName	=	RPG-7,
+        SwingTime	=	0.5,
+        MultipleHitConditionAffected	=	FALSE,
+        SoundRadius	=	300,
+        MinDamage	=	100,
+        MaxDamage	=	100,
+        SplatSize	=	1,
+        KnockdownMod	=	0,
+        SplatBloodOnNoDeath	=	TRUE,
+        RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        CriticalChance = 1,
+        CritDmgMultiplier = 1,
+        AimingPerkCritModifier = 1,
+        HitChance = 200,
+        AimingPerkHitChanceModifier = 100,
+        AimingPerkMinAngleModifier = 0.01,
+        AimingPerkRangeModifier = 1,
+        RecoilDelay = 0,
+        SoundGain = 2,
+        ReloadTime = 100,
+        AimingTime = 5,
+        
+				BringToBearSound = JS2000ShotgunBringToBear,
+				SwingSound	=	modRPG7ShootingSound,
+        HitSound = BulletHitBody,
+				ClickSound = JS2000ShotgunJam,
+				EquipSound = JS2000ShotgunEquip,
+				UnequipSound = JS2000ShotgunUnEquip,
+        BreakSound = JS2000ShotgunBreak,
+
+				InsertAmmoStartSound = JS2000ShotgunInsertAmmoStart,
+        InsertAmmoSound = JS2000ShotgunInsertAmmo,
+				InsertAmmoStopSound = JS2000ShotgunInsertAmmoStop,
+				EjectAmmoStartSound = JS2000ShotgunEjectAmmoStart,
+        EjectAmmoSound = JS2000ShotgunEjectAmmo,
+				EjectAmmoStopSound = JS2000ShotgunEjectAmmoStop,
+        RackSound = JS2000ShotgunEjectAmmo,
+        
+        RequiresEquippedBothHands = TRUE,
+        TwoHandWeapon = TRUE,
+        MetalValue = 45,
+        AmmoType = Base.modRPG7Rocket,
+        WeaponReloadType = shotgun,
+        JamGunChance = 0,
+        AttachmentType = Rifle,
+        FireMode = Single,
+        MaxAmmo = 1,
+        StopPower = 2,
+  	}
+  	
+    item modRPG7Rocket
+    {
+        DisplayCategory = Ammo,
+        Count	=	1,
+        Weight	=	0.5,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	RPG-7 Rocket,
+        Icon	=	modRPG7Rocket,
+        MetalValue = 1,
+        WorldStaticModel = modRPG7Rocket,
+    }
+    
+		sound modRPG7ShootingSound
+    {
+        category = Object,
+        clip
+        {
+            file = media/sound/modRPG7Shooting.ogg,
+            distanceMin = 0,
+						distanceMax = 100,
+            volume = 0.7,
+            
+        }
+    }
+    
+    sound modRPG7ExplosionSound
+		{
+			category = Object,
+			clip
+			{
+				file = media/sound/modRPG7Explosion.ogg,
+				distanceMin = 0,
+				distanceMax = 100,
+				volume = 0.5,
+			}
+		}
+    
+		model modRPG7
+	{
+		mesh = weapons/Firearm/modRPG7,
+		texture = weapons/firearm/MAT_RPG7_01,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1800 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	
+		model modRPG7Rocket
+	{
+		mesh = weapons/Firearm/modRPG7Rocket,
+		texture = weapons/firearm/MAT_RPG7,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1800 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+
+		item modFX_RPG7
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	modFX_RPG7,
+        Icon	=	explosionSFX0,
+    }
+}

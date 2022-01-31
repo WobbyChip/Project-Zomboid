@@ -1,0 +1,26 @@
+module Base
+{
+    /****************************** ITEM_AMMOS ******************************/
+
+	item RubberShells
+	{
+		Count	=	6,
+		Weight	=	0.1,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Normal,
+		DisplayCategory = Ammo,
+		DisplayName	=	Rubber Shells,
+		Icon	=	RubberShells,
+		MetalValue = 1,
+	}
+
+    item RubberShellsBox
+    {
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=	Box of Rubber Shells,
+        DisplayCategory = Ammo,
+        Icon	=	RubberShellsBox,
+        MetalValue = 24,
+    }
+}

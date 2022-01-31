@@ -1,0 +1,7 @@
+ContextMenu_EN = {
+
+    ContextMenu_CloseHelmet = "Close Helmet",
+    ContextMenu_OpenHelmet = "Open Helmet",
+	ContextMenu_WearIt = "Wear",
+	
+}

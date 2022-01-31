@@ -1,0 +1,54 @@
+module Base
+{
+	model AM2_SB_1
+	{
+		mesh = vehicles/AM2_SB_1,
+		texture = vehicles/AM2_SB_1b,
+		shader = vehiclewheel,
+		static = TRUE,
+		invertX = FALSE,
+		scale = 1.0,
+		offset = 0 0 0,
+		rotate = 0 0 0,
+
+	}
+	model AM2_SB_2
+	{
+		mesh = vehicles/AM2_SB_2,
+		texture = vehicles/AM2_SB_2,
+		static = TRUE,
+		invertX = FALSE,
+		scale = 1.0,
+		offset = 0 0 0,
+		rotate = 0 0 0,
+
+	}
+	model AM2_SB_3
+	{
+		mesh = vehicles/AM2_SB_3,
+		texture = vehicles/AM2_SB_3,
+		static = TRUE,
+		invertX = FALSE,
+		scale = 1.0,
+		offset = 0 0 0,
+		rotate = 0 0 0,
+
+	}
+
+
+	model AM2_Radio_1
+	{
+		mesh = vehicles/AM2_Radio_1b,
+		texture = vehicles/AM2_Radio_1,
+		shader = vehiclewheel,
+		static = TRUE,
+		invertX = FALSE,
+		scale = 1.0,
+		offset = 0 0 0,
+		rotate = 0 0 0,
+
+	}
+
+
+
+}

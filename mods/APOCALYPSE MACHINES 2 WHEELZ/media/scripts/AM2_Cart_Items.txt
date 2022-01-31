@@ -1,0 +1,190 @@
+
+
+module Base
+{
+ 
+    item CartWindshield
+    {
+        Weight	=	8.0,
+        Type	=	Normal,
+        DisplayName	=	Cart Windshield,
+        Icon	=	CarWindshield,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = CarWindshield,
+    }
+
+    item OldCartTire
+    {
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	Cart Valu-Tire,
+        Icon	=	CarTire,
+        MaxCapacity = 30,
+        ChanceToSpawnDamaged = 70,
+        ConditionLowerStandard = 0.04,
+        ConditionLowerOffroad = 0.08,
+        WheelFriction = 1.6,
+        ConditionMax = 100,
+        WorldStaticModel = Wheel,
+        MechanicsItem = TRUE,
+    }
+
+
+  item NormalCartTire
+    {
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	Regular Cart Tire,
+        Icon	=	CarTire,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 50,
+        ConditionLowerStandard = 0.03,
+        ConditionLowerOffroad = 0.06,
+        WheelFriction = 1.8,
+        ConditionMax = 100,
+        WorldStaticModel = Wheel,
+        MechanicsItem = TRUE,
+    }
+
+    item ModernCartTire
+    {
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	Performance Cart Tire,
+        Icon	=	CarTire,
+        MaxCapacity = 40,
+        ChanceToSpawnDamaged = 30,
+        WheelFriction = 2.0,
+        ConditionLowerStandard = 0.02,
+        ConditionLowerOffroad = 0.04,
+        ConditionMax = 100,
+        WorldStaticModel = Wheel,
+        MechanicsItem = TRUE,
+    }
+
+    item OldCartBrake
+    {
+        Weight	=	3.0,
+        Type	=	Normal,
+        DisplayName	=	Old Cart Brake,
+        Icon	=	CarBrakes,
+        VehicleType =   4,
+        MaxCapacity = 30,
+        ConditionMax = 100,
+        brakeForce = 10,
+        ChanceToSpawnDamaged = 70,
+        WorldStaticModel = BrakeDisk,
+        MechanicsItem = TRUE,
+        VehicleType =   5,
+    }
+
+    item NormalCartBrake
+    {
+        Weight	=	3.0,
+        Type	=	Normal,
+        DisplayName	=	Regular Cart Brake,
+        Icon	=	CarBrakes,
+        VehicleType =   4,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        brakeForce = 14,
+        ChanceToSpawnDamaged = 50,
+        WorldStaticModel = BrakeDisk,
+        MechanicsItem = TRUE,
+        VehicleType =   5,
+    }
+
+    item ModernCartBrake
+    {
+        Weight	=	3.0,
+        Type	=	Normal,
+        DisplayName	=	Performance Cart Brake,
+        Icon	=	CarBrakes,
+        VehicleType =   4,
+        MaxCapacity = 40,
+        ConditionMax = 100,
+        brakeForce = 17,
+        ChanceToSpawnDamaged = 30,
+        WorldStaticModel = BrakeDisk,
+        MechanicsItem = TRUE,
+        VehicleType =   5,
+    }
+
+    item NormalCartSuspension
+    {
+        Weight	=	2.0,
+        Type	=	Normal,
+        DisplayName	=	Regular Cart Suspension,
+        Icon	=	CarSuspension,
+        ChanceToSpawnDamaged = 30,
+        SuspensionDamping = 2.88,
+        SuspensionCompression = 3.83,
+        ConditionLowerStandard = 0.03,
+        ConditionLowerOffroad = 0.4,
+        ConditionMax = 100,
+        WorldStaticModel = Suspension,
+        MechanicsItem = TRUE,
+    }
+
+    item ModernCartSuspension
+    {
+        Weight	=	3.0,
+        Type	=	Normal,
+        DisplayName	=	Performance Cart Suspension,
+        Icon	=	CarSuspension,
+        ChanceToSpawnDamaged = 20,
+        SuspensionDamping = 2.88,
+        SuspensionCompression = 3.83,
+        ConditionLowerStandard = 0.02,
+        ConditionLowerOffroad = 0.3,
+        ConditionMax = 100,
+        WorldStaticModel = Suspension,
+        MechanicsItem = TRUE,
+    }	
+
+      item OldCartMuffler
+      {
+          Weight	=	10.0,
+          Type	=	Normal,
+          DisplayName	=	Old Cart Muffler,
+          Icon	=	CarMuffler,
+          EngineLoudness = 80,
+          ConditionLowerStandard = 0.02,
+          ConditionLowerOffroad = 0.4,
+        ConditionMax = 100,
+          WorldStaticModel = Muffler,
+        MechanicsItem = TRUE,
+      }
+
+      item NormalCartMuffler
+      {
+          Weight	=	10.0,
+          Type	=	Normal,
+          DisplayName	=	Average Cart Muffler,
+          Icon	=	CarMuffler,
+          EngineLoudness = 100,
+          ConditionLowerStandard = 0.015,
+          ConditionLowerOffroad = 0.3,
+        ConditionMax = 100,
+          WorldStaticModel = Muffler,
+        MechanicsItem = TRUE,
+      }
+
+      item ModernCartMuffler
+      {
+          Weight	=	10.0,
+          Type	=	Normal,
+          DisplayName	=	Performance Cart Muffler,
+          Icon	=	CarMuffler,
+          EngineLoudness = 120,
+          ConditionLowerStandard = 0.01,
+          ConditionLowerOffroad = 0.25,
+        ConditionMax = 100,
+          WorldStaticModel = Muffler,
+        MechanicsItem = TRUE,
+      }
+
+}

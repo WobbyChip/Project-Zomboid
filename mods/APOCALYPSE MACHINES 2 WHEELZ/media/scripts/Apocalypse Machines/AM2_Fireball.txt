@@ -1,0 +1,424 @@
+module Base
+{
+	model AM2_Fireball
+	{
+		mesh = vehicles/AM2_Fireball,
+		shader = vehicle_norandom_multiuv,
+		static = TRUE,
+		invertX = FALSE,
+		scale = 1.0,
+	}
+
+	model AM2_BMW_wheel_Fireball
+	{
+		mesh = vehicles/AM2_BMW_wheel,
+			texture = Vehicles/AM2_BMW,
+		shader = vehiclewheel,
+		scale = 0.85,
+	}
+	vehicle AM2_Fireball
+	{
+		mechanicType = 5,
+		engineRepairLevel = 5,
+		playerDamageProtection = 1,
+		offRoadEfficiency = 5.0,
+
+		model
+		{
+			file = AM2_Fireball,
+			scale = 1.0000,
+			offset = 0.0000 0.0400 0.0000,
+			rotate = 0 0 0,
+		}
+
+
+		textureMask = Vehicles/AM2_Fireball_mask,
+		textureLights = Vehicles/AM2_Fireball_lights,
+		textureDamage1Overlay = Vehicles/Blank,
+		textureDamage2Overlay = Vehicles/Blank,
+		textureDamage1Shell = Vehicles/Blank,
+		textureDamage2Shell = Vehicles/Blank,
+		textureRust = Vehicles/Blank,
+
+		skin
+		{
+			texture = Vehicles/AM2_Fireball,
+		}
+
+		skin
+		{
+			texture = Vehicles/AM2_Fireball_Blue,
+		}
+
+		skin
+		{
+			texture = Vehicles/AM2_Fireball_Green,
+		}
+
+		skin
+		{
+			texture = Vehicles/AM2_Fireball_Brown,
+		}
+
+		skin
+		{
+			texture = Vehicles/AM2_Fireball_Orange,
+		}
+
+		skin
+		{
+			texture = Vehicles/AM2_Fireball_Yellow,
+		}
+
+		sound
+		{
+			engine = VehicleEngineSportsCar,
+			engineStart = VehicleEngineSportsCar,
+			engineTurnOff = VehicleEngineSportsCar,
+			horn = VehicleHornSportsCar,
+			ignitionFail = VehicleIgnitionFailSportsCar,
+		}
+
+		extents = 0.3600 0.8000 1.9400,
+		mass = 200,
+		physicsChassisShape = 0.3600 0.8000 1.9400,
+		centerOfMassOffset = 0.0000 0.3900 -0.0200,
+		shadowExtents = 0.2700 1.9400,
+		shadowOffset = 0.0000 -0.0200,
+		engineForce = 6000,
+		engineQuality = 80,
+		engineLoudness = 110,
+		maxSpeed = 120f,
+		gearRatioCount = 5,
+		gearRatioR = 3.5,
+		gearRatio1 = 4.11,
+		gearRatio2 = 2.50,
+		gearRatio3 = 1.65,
+		gearRatio4 = 1.25,
+		gearRatio5 = 0.80,
+		gearRatio5 = 0.60,
+		stoppingMovementForce = 0.25f,
+		rollInfluence = 0.7f,
+		steeringIncrement = 0.04,
+		steeringClamp = 0.3,
+		suspensionStiffness = 50,
+		suspensionCompression = 4.1,
+		suspensionDamping = 3.4,
+		maxSuspensionTravelCm = 20,
+		suspensionRestLength = 0.2f,
+		wheelFriction = 1.8f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 2,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.0000 -0.0100 0.6800,
+			radius = 0.144f,
+			width = 0.575f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.0000 -0.0100 -0.7200,
+			radius = 0.144f,
+			width = 0.575f,
+		}
+
+		template = PassengerSeat2,
+
+		passenger FrontLeft
+		{
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.4900 -0.3600,
+				rotate = -30.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.4400 -0.2300 0.2100,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		passenger FrontRight
+		{
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.5800 -0.6900,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.5500 -0.3000 -0.1400,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontRight,
+			}
+		}
+
+		area Engine
+		{
+			xywh = 0.0100 1.5800 1.6000 1.2000,
+		}
+
+		
+		area SeatFrontLeft
+		{
+			xywh = 0.5100 -0.3000 0.6000 0.8000,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.0100 -1.5100 1.6000 1.0000,
+		}
+
+		area GasTank
+		{
+			xywh = 0.0100 0.1500 1.6000 0.9000,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.0000 0.7900 1.7200 0.4600,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.0000 -0.7800 1.7200 0.4600,
+		}
+
+		template = Seat/part/SeatFrontLeft,
+		template = Seat/part/SeatFrontRight,
+
+		part Seat*
+		{
+			category = nodisplay,
+			specificItem = false,
+			itemType = filcher.CycleSeatNoStorage,
+
+			table install
+			{
+				skills = Mechanics:2,
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:2,
+				recipes = Motorcycle Mechanics,
+			}
+
+			
+		}
+
+		template = GasTank,
+
+		part GasTank
+		{
+			specificItem = false,
+			itemType = filcher.SmallCycleGasTank;filcher.CycleGasTank,
+
+			install
+			{
+				skills = Mechanics:5,
+				recipes = Motorcycle Mechanics,
+			}
+
+			uninstall
+			{
+				skills = Mechanics:5,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = Battery,
+
+		part Battery
+		{
+			specificItem = false,
+			itemType = filcher.CycleBattery,
+		}
+
+		template = Engine,
+		template = Muffler,
+
+		part Muffler
+		{
+			specificItem = false,
+			itemType = filcher.OldCycleMuffler;filcher.NormalCycleMuffler;filcher.ModernCycleMuffler,
+
+			table install
+			{
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+
+		part Wind*
+		{
+			category = nodisplay,
+			itemType= Base.nil,
+
+			table install
+			{
+				recipes = Impossible,
+			}
+
+			table uninstall
+			{
+				recipes = Impossible,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+
+		part Door*
+		{
+			category = nodisplay,
+			itemType= Base.nil,
+
+			table install
+			{
+				sound = VehicleDoorOpenSportsCar,
+			}
+
+			anim Close
+			{
+				sound = VehicleDoorCloseSportsCar,
+			}
+
+			anim Lock
+			{
+				sound = LockVehicleDoorSportsCar,
+			}
+
+			anim Unlock
+			{
+				sound = UnlockVehicleDoorSportsCar,
+			}
+
+			anim IsLocked
+			{
+				sound = VehicleDoorIsLockedSportsCar,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template = Tire/part/TireFrontLeft,
+		template = Tire/part/TireRearLeft,
+
+		part TireFrontLeft
+		{
+			specificItem = false,
+			itemType = filcher.OldCycleTire;filcher.NormalCycleTire;filcher.ModernCycleTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = AM2_BMW_wheel_Fireball,
+			}
+		}
+
+		part TireRearLeft
+		{
+			specificItem = false,
+			itemType = filcher.OldCycleTire;filcher.NormalCycleTire;filcher.ModernCycleTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = AM2_BMW_wheel_Fireball,
+			}
+		}
+
+		template = Brake/part/BrakeFrontLeft,
+		template = Brake/part/BrakeRearLeft,
+
+		part Brake*
+		{
+			specificItem = false,
+			itemType = filcher.OldCycleBrake;filcher.NormalCycleBrake;filcher.ModernCycleBrake,
+
+			table install
+			{
+				skills = Mechanics:5,
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:5,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = Suspension/part/SuspensionFrontLeft,
+		template = Suspension/part/SuspensionRearLeft,
+
+		part Suspension*
+		{
+			specificItem = false,
+			itemType = filcher.NormalCycleSuspension;filcher.ModernCycleSuspension,
+
+			table install
+			{
+				skills = Mechanics:5,
+				recipes = Motorcycle Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:5,
+				recipes = Motorcycle Mechanics,
+			}
+		}
+
+		template = Headlight/part/HeadlightLeft,
+		template = Headlight/part/HeadlightRearLeft,
+		/*template = Headlight/part/HeadlightRearRight,*/
+
+
+		attachment trailer
+		{
+			offset = 0.0000 0.4600 -1.0400,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = -1.0000,
+		}
+	}
+}

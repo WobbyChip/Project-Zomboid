@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\M_SpiffoSuitboot</m_MaleModel>
+	<m_FemaleModel>static\clothes\F_SpiffoSuitboot</m_FemaleModel>
+	<m_GUID>3ee37805-79fb-4c47-8d9b-3979fe7c7d73</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\shoes_socks_textres\RiotBoots</textureChoices>
+</clothingItem>

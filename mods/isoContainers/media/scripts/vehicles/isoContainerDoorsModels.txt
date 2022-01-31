@@ -1,0 +1,16 @@
+module Base
+{
+	model ContainerDoor
+	{
+		mesh    = WorldItems/ContainerDoor,
+		texture = WorldItems/ContainerDoor,
+		scale   = 0.6200,
+	}
+	model TankerDoor
+	{
+		mesh    = WorldItems/TankerDoor,
+		texture = WorldItems/TankerDoor,
+		scale   = 0.6200,
+	}
+
+}

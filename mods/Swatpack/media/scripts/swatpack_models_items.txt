@@ -1,0 +1,58 @@
+module Base
+{
+	model MaleBody
+	{
+		mesh = Skinned/MaleBody,
+
+	attachment ShieldLelftHand
+	    {
+	    offset = 0.0000 -0.0000 -0.0000,
+	    rotate = -140.0000 0.0000 0.0000,
+	    bone = Bip01_L_Hand,
+	    }
+
+    	}
+
+	model RiotShotgun
+    {
+        mesh = Weapons/firearm/RiotShotgun,
+    }	
+
+
+	model Co2ShortRiotShotgun
+    {
+        mesh = Weapons/firearm/Co2ShortRiotShotgun,
+    }	
+
+	model SwatMP5
+    {
+        mesh = Weapons/firearm/SwatMP5,
+    }	
+
+
+	model SwatStunGrenade
+	{
+		mesh = weapons/1handed/SwatStungrenade,
+		texture = Weapons/1handed/Swatstungrenade,
+
+	}
+
+
+
+	model SwatFragGrenade
+	{
+		mesh = weapons/1handed/SwatFraggrenade,
+		texture = Weapons/1handed/SwatFraggrenade,
+
+	}
+
+	model SwatSmokeGrenade
+	{
+		mesh = weapons/1handed/SwatSmokegrenade,
+		texture = Weapons/1handed/SwatSmokegrenade,
+
+	}
+
+}
+
+

@@ -1,0 +1,3 @@
+IG_UI_EN = {
+	IGUI_VehicleNameisoContainer2 = "ISO Container",
+	IGUI_VehicleNameisoContainer3tanker = "ISO Container Tank",

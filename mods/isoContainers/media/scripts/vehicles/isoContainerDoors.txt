@@ -1,0 +1,32 @@
+module Base
+{
+
+	/************************ Trunk Door ************************/
+
+	item IsoContainerTrunkDoor2
+    {
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Container Door,
+        Icon	=	containerDoor,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = ContainerDoor,
+    }
+
+	item IsoContainerTankerTrunkDoor2
+    {
+        Weight	=	5.0,
+        Type	=	Normal,
+        DisplayName	=	Tank Door,
+        Icon	=	tankerDoor,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = TankerDoor,
+    }
+
+}

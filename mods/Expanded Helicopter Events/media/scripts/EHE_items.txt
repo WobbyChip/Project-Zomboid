@@ -1,0 +1,91 @@
+module EHE
+{
+
+		item SignalFlare
+	{
+		DisplayCategory = Tool,
+		Weight = 0.3,
+		Type = Normal,
+		WorldStaticModel = SignalFlare,
+		DisplayName = Signal Flare,
+		Tooltip = Tooltip_SignalFlare,
+		Icon = SignalFlare,
+	}
+
+		item SignalFlareSpent
+	{
+		DisplayCategory = Junk,
+		Weight = 0.3,
+		Type = Normal,
+		WorldStaticModel = SignalFlare,
+		DisplayName = Signal Flare (Spent),
+		Tooltip = Tooltip_SignalFlareSpent,
+		Icon = SignalFlare,
+	}
+	
+	    item EHE_Parachute
+	{
+		DisplayCategory = Junk,
+		Weight = 10,
+		Type = Normal,
+		WorldStaticModel = Parachute,
+		DisplayName = Dropped Parachute,
+		Tooltip = Tooltip_Parachute,
+		Icon = Parachute,
+	}
+
+		item Bell206RotorBlade
+	{
+		DisplayCategory = Junk,
+		Weight = 15,
+		Type = Normal,
+		WorldStaticModel = Bell206RotorBlade,
+		DisplayName = Detatched Main Rotor Blade,
+		Tooltip = Tooltip_dismantle_helicopterpart,
+		Icon = 206rotorblade,
+	}
+		item Bell206TailBlade
+	{
+		DisplayCategory = Junk,
+		Weight = 10,
+		Type = Normal,
+		WorldStaticModel = Bell206TailBlade,
+		DisplayName = Detatched Tail Rotor Blade,
+		Tooltip = Tooltip_dismantle_helicopterpart,
+		Icon = 206tailblade,
+	}
+
+		item Bell206HalfSkirt
+	{
+		DisplayCategory = Junk,
+		Weight = 10,
+		Type = Normal,
+		WorldStaticModel = Bell206HalfSkirt,
+		DisplayName = Mangled Helicopter Skirt,
+		Tooltip = Tooltip_dismantle_helicopterpart,
+		Icon = 206halfskirt,
+	}
+
+		item UH1HRotorBlade
+	{
+		DisplayCategory = Junk,
+		Weight = 15,
+		Type = Normal,
+		WorldStaticModel = UH1HRotorBlade,
+		DisplayName = Detached Main Rotor Blade,
+		Tooltip = Tooltip_dismantle_helicopterpart,
+		Icon = 206rotorblade,
+	}
+
+		item UH1HHalfSkirt
+	{
+		DisplayCategory = Junk,
+		Weight = 10,
+		Type = Normal,
+		WorldStaticModel = UH1HHalfSkirt,
+		DisplayName = Mangled Helicopter Skirt,
+		Tooltip = Tooltip_dismantle_helicopterpart,
+		Icon = 206halfskirt,
+	}
+
+}

@@ -1,0 +1,4 @@
+ContextMenu_EN = {
+	ContextMenu_TurnMoveBike = "Turn Upright or Move",
+	ContextMenu_PullDevice = "Pull Mobility Device",
+}

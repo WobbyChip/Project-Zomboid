@@ -1,0 +1,5 @@
+UI_ES = {
+
+UI_ClothingType_Belt421 = "Misc",
+
+}

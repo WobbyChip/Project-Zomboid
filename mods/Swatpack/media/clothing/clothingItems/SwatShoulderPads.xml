@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_weddingdress</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\bob_weddingdress</m_FemaleModel>
+	<m_GUID>a54924ae-6660-4fda-b404-6a39432f581d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+
+	<m_MasksFolder>media\textures\Body\Masks</m_MasksFolder>
+	<textureChoices>clothes\Armor\SwatElbowPads</textureChoices>
+</clothingItem>

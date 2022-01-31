@@ -1,0 +1,6 @@
+ItemName_RU = {
+	ItemName_TMC.TrolleyContainer = "Тележка",
+	ItemName_TMC.TrolleyContainer2 = "Тележка",
+	ItemName_TMC.CartContainer = "Тележка из супермаркета",
+	ItemName_TMC.CartContainer2 = "Тележка из супермаркета",
+}

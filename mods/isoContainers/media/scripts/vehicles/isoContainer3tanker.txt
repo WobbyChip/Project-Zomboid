@@ -1,0 +1,202 @@
+module Base
+{
+	model isoContainer3tankerBase
+	{
+		mesh = vehicles/Containers_ISO_ani_tank_body|Containers_ISO_tanker,
+		shader = vehicle_norandom_multiuv,
+		static = TRUE,
+		scale = 0.1,
+	}
+	model isoContainer3tanker_Trunkdoor
+	{
+		mesh = vehicles/Containers_ISO_ani_tank_body|SmallTrunk_mesh,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.1,
+	}
+	vehicle isoContainer3tanker
+	{
+		mechanicType = 2,
+
+		model
+		{
+			file = isoContainer3tankerBase,
+			scale = 0.9000,
+			offset = 0.0000 1.2556 0.0000,
+		}
+
+		spawnOffsetY = 0,
+
+		skin
+		{
+			texture = Vehicles/Containers_ISO3_Shell,
+		}
+
+		skin
+		{
+			texture = Vehicles/Containers_ISO3_Shell_army,
+		}
+
+		skin
+		{
+			texture = Vehicles/Containers_ISO3_Shell_blue,
+		}
+
+		skin
+		{
+			texture = Vehicles/Containers_ISO3_Shell_camo,
+		}
+
+		skin
+		{
+			texture = Vehicles/Containers_ISO3_Shell_gray,
+		}
+
+		skin
+		{
+			texture = Vehicles/Containers_ISO3_Shell_red,
+		}
+
+		skin
+		{
+			texture = Vehicles/Containers_ISO3_Shell_bee,
+		}
+
+		textureRust = Vehicles/Containers_ISO3_rust,
+		textureMask = Vehicles/Containers_ISO2_mask,
+		textureDamage1Overlay = Vehicles/Containers_ISO2_damage1,
+		textureDamage1Shell = Vehicles/Containers_ISO2_damage2,
+		textureDamage2Overlay = Vehicles/Containers_ISO2_blood,
+		textureDamage2Shell = Vehicles/Containers_ISO2_blood,
+		extents = 2.5111 2.6222 6.0889,
+		mass = 650,
+		physicsChassisShape = 2.5111 2.6222 6.0889,
+		centerOfMassOffset = 0.0000 1.2556 0.0778,
+		shadowExtents = 2.5334 6.9000,
+		shadowOffset = 0.0000 -0.0000,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.0000 -1.1000 0.0000,
+			radius = 0.50f,
+			width = 0.50f,
+		}
+
+		template = Tire/part/TireFrontLeft,
+
+		part TireFrontLeft
+		{
+			category = nodisplay,
+		}
+
+		area TruckBed
+		{
+			xywh = -1.7556 0.0000 1.0000 1.6889,
+		}
+
+		template = Trunk/part/TruckBed,
+
+		part TruckBed
+		{
+			container
+			{
+				conditionAffectsCapacity = false,
+				capacity = 40,
+			}
+		}
+
+		template = ContainerTankerDoor,
+
+		part TrunkDoor
+		{
+			table install
+			{
+				recipes = Basic Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Basic Mechanics,
+			}
+
+			model IsoDoor2
+			{
+				file = isoContainer3tanker_Trunkdoor,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			anim Close
+			{
+				anim = Trunk_closing,
+				rate = 1.5,
+			}
+
+			anim Open
+			{
+				anim = Trunk_closing,
+				reverse = TRUE,
+				rate = 0.4,
+			}
+
+			anim Closed
+			{
+				anim = Trunk_closing,
+				reverse = TRUE,
+				animate = FALSE,
+			}
+
+			anim Opened
+			{
+				anim = Trunk_closing,
+				animate = FALSE,
+			}
+
+			anim ActorOpen
+			{
+				anim = WindowOpenSuccess,
+				rate = 0.15,
+				angle = 0.0 90.0 0.0,
+			}
+
+			anim ActorClose
+			{
+				anim = Attack_Shove,
+				rate = 0.3,
+				angle = 0.0 90.0 0.0,
+			}
+		}
+
+		area GasTank
+		{
+			xywh = 0.0000 -3.7556 1.4889 1.4889,
+		}
+
+		template = TruckTank/part/1000FuelTank,
+
+		part 1000FuelTank
+		{
+			container
+			{
+				conditionAffectsCapacity = false,
+				capacity = 1000,
+			}
+		}
+
+		attachment trailer
+		{
+			offset = 0.0000 -1.0000 -3.5444,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = -1.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -1.0000 3.5444,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = 1.0000,
+		}
+	}
+}

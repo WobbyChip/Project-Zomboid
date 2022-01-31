@@ -1,0 +1,31 @@
+IG_UI_EN = {
+    IGUI_VehicleNameUH1H = "Military Helicopter",
+    IGUI_VehicleNameUH1HFuselage = "Military Helicopter (Fuselage)",
+    IGUI_VehicleNameUH1HTail = "Military Helicopter (Tail)",
+
+    IGUI_VehicleNameUH1HMedevac = "Medevac Helicopter",
+    IGUI_VehicleNameUH1HMedevacFuselage = "Medevac Helicopter (Fuselage)",
+    IGUI_VehicleNameUH1HMedevacTail = Medevac Helicopter (Tail)",
+
+    IGUI_VehicleNameUH1HRaider = "Raider Helicopter",
+    IGUI_VehicleNameUH1HRaiderFuselage = "Raider Helicopter (Tail)",
+    IGUI_VehicleNameUH1HRaiderTail = "Raider Helicopter (Tail)",
+
+    IGUI_VehicleNameBell206LBMW = "News Helicopter",    
+    IGUI_VehicleNameBell206LBMWFuselage = "News Helicopter (Fuselage)",
+    IGUI_VehicleNameBell206LBMWTail = "News Helicopter (Tail)",
+
+    IGUI_VehicleNameBell206Police = "Police Helicopter",
+    IGUI_VehicleNameBell206PoliceFuselage = "Police Helicopter (Fuselage)",
+    IGUI_VehicleNameBell206PoliceTail = "Police Helicopter (Tail)",
+
+    IGUI_VehicleNameBell206Survivalist = "Civilian Helicopter",
+    
+    IGUI_VehicleNameBell206Black = "Mysterious Helicopter",
+    IGUI_VehicleNameBell206BlackFuselage = "Mysterious Helicopter (Fuselage)",
+    IGUI_VehicleNameBell206BlackFuselage = "Mysterious Helicopter (Tail)",
+    
+    IGUI_VehicleNameFEMASupplyDrop = "Emergency Supply Drop",
+    IGUI_VehicleNameSurvivorSupplyDrop = "Samaritan Supply Drop",
+
+}
