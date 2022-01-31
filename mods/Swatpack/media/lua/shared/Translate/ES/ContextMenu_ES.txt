@@ -1,7 +1,0 @@
-ContextMenu_ES = {
-
-    ContextMenu_CloseHelmet = "Cerrar Casco",
-    ContextMenu_OpenHelmet = "Abrir Casco",
-	ContextMenu_WearIt = "Equipar",
-	
-}

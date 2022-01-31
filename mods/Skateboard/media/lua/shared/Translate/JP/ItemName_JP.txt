@@ -1,3 +1,0 @@
-ItemName_JP = {
-    ItemName_Dislaik.Skateboard = "スケートボード",
-}

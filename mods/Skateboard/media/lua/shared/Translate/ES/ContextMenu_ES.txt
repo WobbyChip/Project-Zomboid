@@ -1,3 +1,0 @@
-ContextMenu_ES = {
-    ContextMenu_Grab_Skateboard = "Recoger patineta"
-}

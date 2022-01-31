@@ -1,6 +1,0 @@
-ItemName_EN = {
-    ItemName_TMC.TrolleyContainer = "Trolley",
-	ItemName_TMC.TrolleyContainer2 = "Trolley",
-	ItemName_TMC.CartContainer = "Supermarket cart",
-	ItemName_TMC.CartContainer2 = "Supermarket cart",
-}

@@ -1,3 +1,0 @@
-ContextMenu_JP = {
-    ContextMenu_Grab_Skateboard = "スケートボードを拾う",
-}

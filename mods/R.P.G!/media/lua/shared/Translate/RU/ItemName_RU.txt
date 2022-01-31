@@ -1,4 +1,0 @@
-ItemName_RU= {
-		ItemName_Base.modRPG7 = "РПГ-7",
-		ItemName_Base.modRPG7Rocket = "Боеголовка РПГ-7",
-}

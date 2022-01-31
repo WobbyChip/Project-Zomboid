@@ -1,3 +1,0 @@
-ContextMenu_EN = {
-    ContextMenu_Grab_Skateboard = "Pick up Skateboard"
-}
